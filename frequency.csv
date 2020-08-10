@@ -2165,7 +2165,7 @@ count,spanish,pos,flags,usage
 11950,anteriormente,adv,CLEAR,11950:anteriormente
 11949,ordenador,noun,CLEAR,9604:ordenador|2345:ordenadores
 11948,vigilancia,noun,CLEAR,11948:vigilancia
-11938,chuck,none,NOUSAGE; NODEF; NOSENT,11938:chuck
+11938,chuck,none,NOUSAGE; NODEF; LITERAL,11938:chuck
 11936,ejercicio,noun,CLEAR,8504:ejercicio|3432:ejercicios
 11929,comparar,verb,CLEAR,3442:comparado|2394:comparar|1076:compara|794:comparada|713:comparando|391:comparamos|365:comparé|364:comparados|333:compararlo|302:compares|301:compare|300:comparas|242:comparan|196:comparó|192:comparo|187:comparadas|337:compararse
 11910,consecuencia,noun,CLEAR,8992:consecuencias|2918:consecuencia
@@ -8326,7 +8326,7 @@ count,spanish,pos,flags,usage
 1525,antro,noun,NOSENT,1326:antro|199:antros
 1524,predicar,verb,CLEAR,780:predicar|390:predicando|354:predica
 1524,panadería,noun,CLEAR,1524:panadería
-1524,bromista,adj,NOSENT,1265:bromista|259:bromistas
+1524,bromista,adj,CLEAR,1265:bromista|259:bromistas
 1524,andrómeda,none,NOUSAGE; NODEF; NOSENT,1524:andrómeda
 1523,sable,noun,CLEAR,1221:sable|302:sables
 1523,kirby,none,NOUSAGE; NODEF; NOSENT,1523:kirby
@@ -9410,7 +9410,7 @@ count,spanish,pos,flags,usage
 1222,jeeves,none,NOUSAGE; NODEF; NOSENT,1222:jeeves
 1222,alza,noun,CLEAR,1222:alza
 1221,sumir,verb,CLEAR,740:sumas|244:sumida|237:sumido
-1221,remotamente,adv,NOSENT,1221:remotamente
+1221,remotamente,adv,CLEAR,1221:remotamente
 1221,liviano,adj,CLEAR,786:liviano|435:liviana
 1221,gilmore,none,NOUSAGE; NODEF; NOSENT,1221:gilmore
 1221,corromper,verb,CLEAR,548:corrompido|382:corromper|291:corrompe
@@ -14861,7 +14861,7 @@ count,spanish,pos,flags,usage
 536,lavinia,none,NOUSAGE; NODEF; NOSENT,536:lavinia
 536,kenji,none,NOUSAGE; NODEF; NOSENT,536:kenji
 536,keiko,none,NOUSAGE; NODEF; NOSENT,536:keiko
-536,hijo de puta,noun,CLEAR,536:hijoputa
+536,hijo de puta,noun,NOSENT,536:hijoputa
 536,hayward,none,NOUSAGE; NODEF; NOSENT,536:hayward
 536,gaulle,none,NOUSAGE; NODEF; NOSENT,536:gaulle
 536,crowder,none,NOUSAGE; NODEF; NOSENT,536:crowder
@@ -15871,7 +15871,7 @@ count,spanish,pos,flags,usage
 468,diablillo,noun,NOSENT,468:diablillo
 468,churro,noun,NOSENT,255:churros|213:churro
 468,autismo,noun,CLEAR,468:autismo
-468,aserradero,noun,NOSENT,468:aserradero
+468,aserradero,noun,CLEAR,468:aserradero
 468,anselmo,none,NOUSAGE; NODEF; NOSENT,468:anselmo
 467,suponia,none,NOUSAGE; NODEF; NOSENT,467:suponia
 467,stackhouse,none,NOUSAGE; NODEF; NOSENT,467:stackhouse
@@ -17335,7 +17335,7 @@ count,spanish,pos,flags,usage
 394,heathcliff,none,NOUSAGE; NODEF; NOSENT,394:heathcliff
 394,gonzo,none,NOUSAGE; NODEF; NOSENT,394:gonzo
 394,geller,none,NOUSAGE; NODEF; NOSENT,394:geller
-394,gallito,noun,CLEAR,394:gallito
+394,gallito,noun,NOSENT,394:gallito
 394,fellini,none,NOUSAGE; NODEF; NOSENT,394:fellini
 394,exclusión,noun,NOSENT,394:exclusión
 394,escarcha,noun,CLEAR,394:escarcha
@@ -21613,7 +21613,7 @@ count,spanish,pos,flags,usage
 253,planeador,noun,NOSENT,253:planeador
 253,palin,none,NOUSAGE; NODEF; NOSENT,253:palin
 253,mitigar,verb,CLEAR,253:mitigar
-253,medio ambiente,noun,CLEAR,253:medioambiente
+253,medio ambiente,noun,NOSENT,253:medioambiente
 253,manticore,none,NOUSAGE; NODEF; NOSENT,253:manticore
 253,magníficamente,adv,NOSENT,253:magníficamente
 253,loving,none,NOUSAGE; NODEF; NOSENT,253:loving
