@@ -4,12 +4,13 @@ This data is primarily used to build my [6001 Spanish Vocab](https://github.com/
 
 ### Interesting files:
 * es-en.txt - Spanish to English dictionary, with metadata for verb conjugation and noun lemmatization
-* frequency.csv - a list of the most frequently used Spanish words with part of speech, with all word variations combined into common lemma
+* frequency.csv - a list of the most frequently used Spanish lemmas with part of speech and all word variations combined into lemma
 * sentences.tsv - English/Spanish sentence pairs from tatoeba.org with users self-reported proficiency, part of speech tags, and lemmas
 
 ### Credits:
-* eng-spa.tsv (CC-BY 2.0 FR Attribution: tatoeba.org, see CREDITS file for individual contributor credits)
 * es-en.txt (CC-BY-SA Attribution: wiktionary.org)
+* frequency.csv (CC-BY-SA 3.0 github.com/hermitdave/FrequencyWords)
+* sentences.tsv (CC-BY 2.0 FR Attribution: tatoeba.org)
 * Many thanks to Matthias Buchmeier for the original [trans-en-es.awk](https://en.wiktionary.org/wiki/User:Matthias_Buchmeier/trans-en-es.awk) script (GPL2)
 * tatoeba user [CK](https://tatoeba.org/eng/user/profile/CK) for the list of [reviewed English sentences](https://tatoeba.org/eng/sentences_lists/show/907)
 * [FreeLing](http://nlp.lsi.upc.edu/freeling) for the part of speech tagging
