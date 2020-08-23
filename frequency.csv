@@ -4078,7 +4078,6 @@ count,spanish,pos,flags,usage
 4762,ingenuo,adj,CLEAR,2453:ingenuo|1843:ingenua|466:ingenuos
 4762,coca,noun,CLEAR,4762:coca
 4760,lotería,noun,CLEAR,4760:lotería
-4757,sobreviviente,noun,CLEAR,2941:sobrevivientes|1816:sobreviviente
 4756,bondad,noun,CLEAR,4756:bondad
 4756,aca,none,NOUSAGE; NODEF; NOSENT,4756:aca
 4754,pantano,noun,CLEAR,3731:pantano|1023:pantanos
@@ -5598,6 +5597,7 @@ count,spanish,pos,flags,usage
 2943,cultivar,verb,CLEAR,1562:cultivar|400:cultiva|373:cultivando|317:cultivado|291:cultivan
 2942,demora,noun,CLEAR,2539:demora|403:demoras
 2941,vómito,noun,CLEAR,2194:vómito|747:vómitos
+2941,sobreviviente,adj,CLEAR,2941:sobrevivientes
 2941,aspirina,noun,CLEAR,1907:aspirina|1034:aspirinas
 2940,éso,none,NOUSAGE; NODEF; NOSENT,2940:éso
 2938,rebotar,verb,CLEAR,925:rebote|535:rebotar|472:rebota|405:rebotando|379:rebotó|222:rebotan
@@ -5748,7 +5748,6 @@ count,spanish,pos,flags,usage
 2816,atormentar,verb,CLEAR,732:atormentado|632:atormenta|361:atormentada|244:atormentar|224:atormentando|219:atormentarme|211:atormentan|193:atormentes
 2816,ajo,noun,CLEAR,2597:ajo|219:ajos
 2815,respectar,verb,CLEAR,2815:respecta
-2815,contable,noun,CLEAR,2373:contable|442:contables
 2815,baxter,none,NOUSAGE; NODEF; NOSENT,2815:baxter
 2814,iván,none,NOUSAGE; NODEF; NOSENT,2814:iván
 2813,doris,none,NOUSAGE; NODEF; NOSENT,2813:doris
@@ -6417,6 +6416,7 @@ count,spanish,pos,flags,usage
 2374,google,none,NOUSAGE; NODEF; LITERAL,2374:google
 2374,barca,noun,CLEAR,2024:barca|350:barcas
 2374,angelo,none,NOUSAGE; NODEF; NOSENT,2374:angelo
+2373,contable,noun,CLEAR,2373:contable
 2373,calzón,noun,NOSENT,2085:calzones|288:calzón
 2372,entrometerse,verb,NOSENT,976:entrometerme|377:entrometerse|298:entrometerte|267:entrometas|263:entrometa|191:entrometiendo
 2372,bi,adj,NOSENT,1939:bi|433:bis
@@ -7512,6 +7512,7 @@ count,spanish,pos,flags,usage
 1818,elfo,noun,CLEAR,926:elfo|892:elfos
 1817,gretchen,none,NOUSAGE; NODEF; NOSENT,1817:gretchen
 1817,decisivo,adj,CLEAR,1250:decisivo|567:decisiva
+1816,sobreviviente,noun,DUPLICATE-ADJ-NOUN,1816:sobreviviente
 1816,florrick,none,NOUSAGE; NODEF; NOSENT,1816:florrick
 1815,toxina,noun,NOSENT,969:toxinas|846:toxina
 1815,quentin,none,NOUSAGE; NODEF; NOSENT,1815:quentin
@@ -7706,7 +7707,7 @@ count,spanish,pos,flags,usage
 1741,jeannie,none,NOUSAGE; NODEF; NOSENT,1741:jeannie
 1741,contraer,verb,CLEAR,665:contraer|411:contrajo|347:contrae|318:contraído
 1741,carcel,none,NOUSAGE; NODEF; LITERAL,1741:carcel
-1739,etcétera,adv,LITERAL; CLEAR,1739:etcétera
+1739,etcétera,adv,NOSENT,1739:etcétera
 1738,carril,noun,CLEAR,1338:carril|400:carriles
 1737,jed,none,NOUSAGE; NODEF; NOSENT,1737:jed
 1737,grady,none,NOUSAGE; NODEF; NOSENT,1737:grady
@@ -10681,7 +10682,7 @@ count,spanish,pos,flags,usage
 974,water,none,NOUSAGE; NODEF; NOSENT,974:water
 974,trompa,noun,CLEAR,665:trompa|309:trompas
 974,pícaro,adj,NOSENT,669:pícaro|305:pícara
-974,guantera,noun,CLEAR,974:guantera
+974,guantero,noun,CLEAR,974:guantera
 973,tropecé,none,NOUSAGE; NODEF; LITERAL,973:tropecé
 973,thatcher,none,NOUSAGE; NODEF; NOSENT,973:thatcher
 973,shield,none,NOUSAGE; NODEF; NOSENT,973:shield
@@ -11016,6 +11017,7 @@ count,spanish,pos,flags,usage
 920,resbaladizo,adj,CLEAR,597:resbaladizo|323:resbaladiza
 920,páramo,noun,CLEAR,550:páramo|370:páramos
 920,muriel,none,NOUSAGE; NODEF; NOSENT,920:muriel
+920,ladera,noun,CLEAR,649:ladera|271:laderas
 920,hocico,noun,CLEAR,920:hocico
 920,daleks,none,NOUSAGE; NODEF; NOSENT,920:daleks
 920,bebedor,noun,CLEAR,622:bebedor|298:bebedores
@@ -13454,7 +13456,7 @@ count,spanish,pos,flags,usage
 652,cisterna,noun,CLEAR,652:cisterna
 652,bertram,none,NOUSAGE; NODEF; NOSENT,652:bertram
 652,artesanía,noun,CLEAR,447:artesanía|205:artesanías
-651,semifinal,adj,NOSENT,382:semifinales|269:semifinal
+651,semifinal,noun,CLEAR,382:semifinales|269:semifinal
 651,sato,noun,NOSENT,651:sato
 651,mundialmente,adv,NOSENT,651:mundialmente
 651,luisiano,adj,NOSENT,651:luisiana
@@ -13489,7 +13491,6 @@ count,spanish,pos,flags,usage
 649,oslo,none,NOUSAGE; NODEF; LITERAL,649:oslo
 649,metabolismo,noun,NOSENT,649:metabolismo
 649,llaga,noun,CLEAR,346:llagas|303:llaga
-649,ladera,noun,NOSENT,649:ladera
 649,jota,noun,NOSENT,423:jota|226:jotas
 649,heaven,none,NOUSAGE; NODEF; NOSENT,649:heaven
 649,guthrie,none,NOUSAGE; NODEF; NOSENT,649:guthrie
@@ -13579,6 +13580,7 @@ count,spanish,pos,flags,usage
 642,key,none,NOUSAGE; NODEF; NOSENT,642:key
 642,jehová,none,NOUSAGE; NODEF; NOSENT,642:jehová
 642,guatemala,none,NOUSAGE; NODEF; NOSENT,642:guatemala
+642,erguido,adj,CLEAR,372:erguido|270:erguida
 642,delphine,none,NOUSAGE; NODEF; NOSENT,642:delphine
 642,convivir,verb,CLEAR,642:convivir
 642,codorniz,noun,NOSENT,421:codorniz|221:codornices
@@ -16348,6 +16350,7 @@ count,spanish,pos,flags,usage
 442,dispersión,noun,NOSENT,442:dispersión
 442,cuclilla,noun,CLEAR,442:cuclillas
 442,corbin,none,NOUSAGE; NODEF; NOSENT,442:corbin
+442,contable,adj,LESSUSED-noun-adj,442:contables
 442,cardio,noun,CLEAR,442:cardio
 442,barbudo,adj,NOSENT,442:barbudo
 442,arraigar,verb,NOSENT,248:arraigado|194:arraigada
@@ -17847,7 +17850,6 @@ count,spanish,pos,flags,usage
 372,horowitz,none,NOUSAGE; NODEF; NOSENT,372:horowitz
 372,heladería,noun,CLEAR,372:heladería
 372,grinch,none,NOUSAGE; NODEF; NOSENT,372:grinch
-372,erguido,none,NOUSAGE; NODEF; LITERAL,372:erguido
 372,calígula,none,NOUSAGE; NODEF; NOSENT,372:calígula
 372,bife,noun,CLEAR,372:bife
 371,yno,none,NOUSAGE; NODEF; NOSENT,371:yno
@@ -19849,7 +19851,7 @@ count,spanish,pos,flags,usage
 300,princess,none,NOUSAGE; NODEF; NOSENT,300:princess
 300,perchero,noun,CLEAR,300:perchero
 300,pemberton,none,NOUSAGE; NODEF; NOSENT,300:pemberton
-300,paper,none,NOUSAGE; NODEF; NOSENT,300:paper
+300,paper,noun,NOSENT,300:paper
 300,palme,adj,NODEF; NOSENT,300:palme
 300,ontario,none,NOUSAGE; NODEF; NOSENT,300:ontario
 300,oli,none,NOUSAGE; NODEF; NOSENT,300:oli
@@ -20358,7 +20360,7 @@ count,spanish,pos,flags,usage
 285,enterprises,none,NOUSAGE; NODEF; NOSENT,285:enterprises
 285,dunder,none,NOUSAGE; NODEF; NOSENT,285:dunder
 285,dukat,none,NOUSAGE; NODEF; NOSENT,285:dukat
-285,dingo,none,NOUSAGE; NODEF; NOSENT,285:dingo
+285,dingo,noun,NOSENT,285:dingo
 285,desvestir,verb,CLEAR,285:desvístete
 285,conversador,adj,CLEAR,285:conversador
 285,catapulta,noun,CLEAR,285:catapulta
@@ -20864,7 +20866,6 @@ count,spanish,pos,flags,usage
 271,munro,none,NOUSAGE; NODEF; NOSENT,271:munro
 271,mos,none,NOUSAGE; NODEF; NOSENT,271:mos
 271,lydecker,none,NOUSAGE; NODEF; NOSENT,271:lydecker
-271,ladero,adj,NOSENT,271:laderas
 271,japon,none,NOUSAGE; NODEF; NOSENT,271:japon
 271,jaden,none,NOUSAGE; NODEF; NOSENT,271:jaden
 271,irrazonable,adj,CLEAR,271:irrazonable
@@ -20909,7 +20910,6 @@ count,spanish,pos,flags,usage
 270,fecal,adj,NOSENT,270:fecal
 270,exasperante,adj,NOSENT,270:exasperante
 270,everwood,none,NOUSAGE; NODEF; NOSENT,270:everwood
-270,erguida,none,NOUSAGE; NODEF; LITERAL,270:erguida
 270,django,none,NOUSAGE; NODEF; NOSENT,270:django
 270,catalán,noun,CLEAR,270:catalán
 270,bochorno,noun,CLEAR,270:bochorno
