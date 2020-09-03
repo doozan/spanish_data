@@ -3802,6 +3802,7 @@ count,spanish,pos,flags,usage
 5404,agachar,verb,CLEAR,2768:agáchate|815:agáchense|361:agacha|359:agachada|347:agáchese|296:agachaos|232:agachados|226:agachate
 5403,na,none,NOUSAGE; NODEF; NOSENT,5403:na
 5397,jodidamente,adv,CLEAR,5397:jodidamente
+5395,bloque,noun,CLEAR,3646:bloque|1749:bloques
 5390,húmedo,adj,CLEAR,2491:húmedo|1749:húmeda|579:húmedos|571:húmedas
 5388,euro,noun,CLEAR,4954:euros|434:euro
 5387,cerradura,noun,CLEAR,3852:cerradura|1535:cerraduras
@@ -4871,7 +4872,6 @@ count,spanish,pos,flags,usage
 3647,li,none,NOUSAGE; NODEF; NOSENT,3647:li
 3647,constar,verb,CLEAR,2834:conste|813:consta
 3646,romano,noun,DUPLICATE-ADJ-NOUN,3646:romanos
-3646,bloque,noun,CLEAR,3646:bloque
 3645,tubería,noun,CLEAR,1906:tubería|1739:tuberías
 3645,buenísimo,adj,CLEAR,2069:buenísimo|1078:buenísima|264:buenísimos|234:buenísimas
 3641,elvis,none,NOUSAGE; NODEF; NOSENT,3641:elvis
@@ -6990,7 +6990,6 @@ count,spanish,pos,flags,usage
 2058,honorario,noun,CLEAR,1590:honorarios|468:honorario
 2058,eficaz,adj,CLEAR,1742:eficaz|316:eficaces
 2057,compadre,noun,NOSENT,1791:compadre|266:compadres
-2057,bloc,noun,CLEAR,1749:bloques|308:bloc
 2056,noroeste,noun,NOSENT,2056:noroeste
 2056,fuertemente,adv,CLEAR,2056:fuertemente
 2056,escandaloso,adj,CLEAR,1144:escandaloso|504:escandalosa|221:escandalosas|187:escandalosos
@@ -9096,7 +9095,7 @@ count,spanish,pos,flags,usage
 1306,hai,none,NOUSAGE; NODEF; NOSENT,1306:hai
 1306,cónsul,noun,NOSENT,1306:cónsul
 1306,cenicero,noun,CLEAR,1065:cenicero|241:ceniceros
-1305,his,none,NOUSAGE; NODEF; NOSENT,1305:his
+1305,his,none,NOUSAGE; NODEF; LITERAL,1305:his
 1305,festín,noun,NOSENT,1305:festín
 1305,dunn,none,NOUSAGE; NODEF; NOSENT,1305:dunn
 1305,atravesado,adj,CLEAR,1305:atravesado
@@ -16112,7 +16111,7 @@ count,spanish,pos,flags,usage
 454,recibidor,noun,CLEAR,454:recibidor
 454,pompeya,none,NOUSAGE; NODEF; NOSENT,454:pompeya
 454,ordeñar,verb,CLEAR,454:ordeñar
-454,náufrago,noun,NOSENT,256:náufragos|198:náufrago
+454,náufrago,noun,CLEAR,256:náufragos|198:náufrago
 454,muérdago,noun,NOSENT,454:muérdago
 454,minbari,none,NOUSAGE; NODEF; NOSENT,454:minbari
 454,kyoko,none,NOUSAGE; NODEF; NOSENT,454:kyoko
@@ -16472,6 +16471,7 @@ count,spanish,pos,flags,usage
 436,grabador,noun,LITERAL; CLEAR,436:grabador
 436,escrutinio,noun,NOSENT,436:escrutinio
 436,enjuagar,verb,CLEAR,436:enjuague
+436,enchufar,verb,NOSENT,225:enchufado|211:enchufar
 436,deepak,none,NOUSAGE; NODEF; NOSENT,436:deepak
 436,clouseau,none,NOUSAGE; NODEF; NOSENT,436:clouseau
 436,casaca,noun,NOSENT,220:casacas|216:casaca
@@ -17277,7 +17277,7 @@ count,spanish,pos,flags,usage
 397,naciente,adj,NOSENT,397:naciente
 397,lechuza,noun,CLEAR,397:lechuza
 397,karsten,none,NOUSAGE; NODEF; NOSENT,397:karsten
-397,juanito,none,NOUSAGE; NODEF; NOSENT,397:juanito
+397,juanito,noun,NOSENT,397:juanito
 397,jeju,none,NOUSAGE; NODEF; NOSENT,397:jeju
 397,increibles,none,NOUSAGE; NODEF; NOSENT,397:increibles
 397,hotchner,none,NOUSAGE; NODEF; NOSENT,397:hotchner
@@ -19584,6 +19584,7 @@ count,spanish,pos,flags,usage
 308,clemens,none,NOUSAGE; NODEF; NOSENT,308:clemens
 308,choo,none,NOUSAGE; NODEF; NOSENT,308:choo
 308,brebaje,noun,NOSENT,308:brebaje
+308,bloc,noun,CLEAR,308:bloc
 308,biliar,adj,NOSENT,308:biliar
 308,andersson,none,NOUSAGE; NODEF; NOSENT,308:andersson
 308,anand,none,NOUSAGE; NODEF; NOSENT,308:anand
@@ -22991,7 +22992,6 @@ count,spanish,pos,flags,usage
 225,fibrosis,noun,NOSENT,225:fibrosis
 225,farber,none,NOUSAGE; NODEF; NOSENT,225:farber
 225,escalante,adj,NOSENT,225:escalante
-225,enchufado,noun,NOSENT,225:enchufado
 225,ellington,none,NOUSAGE; NODEF; NOSENT,225:ellington
 225,dispensar,verb,CLEAR,225:dispensa
 225,desagrado,noun,CLEAR,225:desagrado
@@ -23766,7 +23766,7 @@ count,spanish,pos,flags,usage
 211,morello,none,NOUSAGE; NODEF; NOSENT,211:morello
 211,miyuki,none,NOUSAGE; NODEF; NOSENT,211:miyuki
 211,manitowoc,none,NOUSAGE; NODEF; NOSENT,211:manitowoc
-211,makes,none,NOUSAGE; NODEF; NOSENT,211:makes
+211,makes,none,NOUSAGE; NODEF; LITERAL,211:makes
 211,magica,none,NOUSAGE; NODEF; NOSENT,211:magica
 211,magenta,noun,CLEAR,211:magenta
 211,m2,none,NOUSAGE; NODEF; NOSENT,211:m2
@@ -23791,7 +23791,6 @@ count,spanish,pos,flags,usage
 211,evangelista,noun,NOSENT,211:evangelista
 211,estocada,noun,NOSENT,211:estocada
 211,erlich,none,NOUSAGE; NODEF; NOSENT,211:erlich
-211,enchufar,verb,NOSENT,211:enchufar
 211,dumas,none,NOUSAGE; NODEF; NOSENT,211:dumas
 211,divisa,noun,CLEAR,211:divisas
 211,desnutrición,noun,NOSENT,211:desnutrición
@@ -24625,7 +24624,7 @@ count,spanish,pos,flags,usage
 198,esterilizar,verb,NOSENT,198:esterilizar
 198,enmarcar,verb,CLEAR,198:enmarcar
 198,encorvar,verb,NOSENT,198:encorvado
-198,enchilado,adj,NOSENT,198:enchiladas
+198,enchilada,noun,CLEAR,198:enchiladas
 198,duquesne,none,NOUSAGE; NODEF; NOSENT,198:duquesne
 198,duo,none,NOUSAGE; NODEF; NOSENT,198:duo
 198,dije-,none,NOUSAGE; NODEF; NOSENT,198:dije-
@@ -24793,7 +24792,7 @@ count,spanish,pos,flags,usage
 196,airwolf,none,NOUSAGE; NODEF; NOSENT,196:airwolf
 196,abucheo,noun,NOSENT,196:abucheos
 195,árido,adj,NOSENT,195:árido
-195,victimología,none,NOUSAGE; NODEF; NOSENT,195:victimología
+195,victimología,noun,NOSENT,195:victimología
 195,vasili,none,NOUSAGE; NODEF; NOSENT,195:vasili
 195,valda,none,NOUSAGE; NODEF; NOSENT,195:valda
 195,ugly,none,NOUSAGE; NODEF; NOSENT,195:ugly
