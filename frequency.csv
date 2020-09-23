@@ -412,13 +412,13 @@ count,spanish,pos,flags,usage
 93048,libro,noun,CLEAR,64445:libro|28603:libros
 92965,cuidar,verb,CLEAR,20066:cuidar|11269:cuida|9376:cuídate|5496:cuidando|4125:cuide|3408:cuidaré|3067:cuidados|2309:cuidarte|2290:cuido|2139:cuidarme|1819:cuidará|1456:cuidas|1435:cuiden|1435:cuídese|1333:cuidaba|1322:cuidarla|1306:cuidarlo|1256:cuides|1171:cuídense|1143:cuidaremos|1090:cuidó|1071:cuidad|1059:cuidan|1032:cuidara|975:cuidate|904:cuidamos|893:cuidaría|678:cuidé|670:cuidarnos|634:cuidarás|575:cuídala|553:cuídalo|499:cuidarlos|494:cuidarán|407:cuidada|384:cuidaste|341:cuidaras|260:cuidarle|251:cuidaos|245:cuidándote|220:cuidándome|214:cuidarías|208:cuidaron|195:cuidare|186:cuidándolo|185:cuidemos|1521:cuidarse
 92877,lista,noun,CLEAR,86033:lista|6844:listas
-92832,confiar,verb,CLEAR,29427:confiar|18059:confía|13534:confío|5767:confías|2948:confíe|2625:confiaba|2130:confié|2062:confíes|1760:confió|1702:confían|1690:confiamos|956:confíen|924:confiando|914:confia|851:confiaría|760:confio|740:confiada|526:confiara|504:confiaste|460:confiaré|371:confiados|351:confias|330:confiemos|302:confiabas|296:confiad|283:confiaron|248:confie|245:confiaban|238:confiarle|233:confiaras|223:confiará|191:confies|189:confiarte|993:confiese
 92761,medio,noun,CLEAR,80278:medio|12483:medios
 92570,aceptar,verb,CLEAR,19883:aceptar|10322:acepto|8092:acepta|6736:aceptado|4608:aceptarlo|3952:aceptó|3788:aceptas|3527:acepte|2843:acepté|2791:aceptaré|2528:aceptamos|2345:aceptan|2006:aceptará|1912:aceptaría|1692:aceptada|1467:aceptaron|1374:aceptaste|1331:aceptes|1298:acéptalo|1174:aceptando|986:acepten|928:aceptara|806:aceptarla|782:aceptarán|645:aceptaba|527:aceptarás|499:aceptarías|473:aceptadas|467:aceptaremos|388:aceptarme|327:aceptados|315:aceptaras|308:aceptemos|307:aceptarían|282:aceptaran|268:aceptarte|200:aceptáis|199:aceptémoslo|194:acéptelo
 92471,vender,verb,CLEAR,22769:vender|8167:vende|7698:vendido|7190:vendiendo|5860:vendió|4571:venden|3307:vendí|2416:venderlo|2263:vendemos|2152:vendiste|2083:vendas|1909:vendía|1628:venderla|1426:vendieron|1342:venderé|1120:venderle|1114:vendida|1049:vendería|988:venderá|980:venderme|859:vendimos|844:vendidos|765:venderlos|739:venderemos|623:venderlas|605:venderte|586:vendían|540:vendiera|460:vendidas|421:venderán|352:venderles|328:venderás|311:vendernos|207:venderías|206:vendías|198:véndelo|3768:vendo|373:venderse|254:vendérselo
 92398,ok,none,NOUSAGE; NODEF; LITERAL,92398:ok
 92237,duro,adj,CLEAR,63800:duro|18977:dura|5823:duros|3637:duras
 92180,enseñar,verb,CLEAR,10370:enseñó|9752:enseñar|6576:enseñaré|5834:enseñarte|5618:enseñado|5052:enseñarle|4721:enseña|4145:enseño|3564:enseñarme|3267:enseñando|3214:enséñame|3196:enseñé|3110:enseñe|2644:enseñaron|2544:enseñaste|2279:enseñan|2205:enseñarles|1595:enseñará|1305:enséñale|1035:enseñaba|885:enseñamos|827:enseñarnos|766:enseñes|670:enseñaremos|663:enséñeme|652:enseñara|624:enséñamelo|518:enséñanos|490:enseñaría|481:enseñarás|478:enséñales|435:enseñare|408:enseñaros|400:enseñárselo|340:enseñen|335:enseñándole|276:enséñaselo|270:enseñártelo|249:enseñame|195:enseñarán|192:enseñaras
+92092,confiar,verb,CLEAR,29427:confiar|18059:confía|13534:confío|5767:confías|2948:confíe|2625:confiaba|2130:confié|2062:confíes|1760:confió|1702:confían|1690:confiamos|956:confíen|924:confiando|914:confia|851:confiaría|760:confio|526:confiara|504:confiaste|460:confiaré|371:confiados|351:confias|330:confiemos|302:confiabas|296:confiad|283:confiaron|248:confie|245:confiaban|238:confiarle|233:confiaras|223:confiará|191:confies|189:confiarte|993:confiese
 91879,comida,noun,CLEAR,87661:comida|4218:comidas
 91598,exactamente,adv,CLEAR,91598:exactamente
 91535,cielo,noun,CLEAR,62981:cielo|28554:cielos
@@ -2129,7 +2129,6 @@ count,spanish,pos,flags,usage
 12329,marina,noun,CLEAR,12329:marina
 12321,ser,noun,LESSUSED-verb-noun,12321:seres
 12318,análisis,noun,CLEAR,12318:análisis
-12315,español,adj,CLEAR,9551:español|2373:española|391:españolas
 12305,aéreo,adj,CLEAR,5479:aérea|4440:aéreo|1626:aéreas|760:aéreos
 12304,azúcar,noun,CLEAR,12304:azúcar
 12300,tim,none,NOUSAGE; NODEF; NOSENT,12300:tim
@@ -2185,6 +2184,7 @@ count,spanish,pos,flags,usage
 11765,eléctrico,adj,CLEAR,5676:eléctrica|3423:eléctrico|1374:eléctricos|1292:eléctricas
 11758,escritorio,noun,CLEAR,11336:escritorio|422:escritorios
 11756,frase,noun,CLEAR,8920:frase|2836:frases
+11754,español,noun,CLEAR,9551:español|2203:españoles
 11738,aterrizar,verb,CLEAR,4756:aterrizar|1393:aterrizó|1119:aterrizado|800:aterriza|641:aterrice|579:aterrizamos|530:aterrizando|368:aterricemos|367:aterrizaremos|320:aterrizaron|306:aterricé|292:aterricen|267:aterrizará
 11725,terreno,noun,CLEAR,10312:terreno|1413:terrenos
 11715,teta,noun,CLEAR,10395:tetas|1320:teta
@@ -4234,7 +4234,7 @@ count,spanish,pos,flags,usage
 4499,guy,none,NOUSAGE; NODEF; NOSENT,4499:guy
 4498,portátil,adj,CLEAR,4011:portátil|487:portátiles
 4495,choque,noun,CLEAR,4495:choque
-4494,vestuario,noun,NOSENT,3973:vestuario|521:vestuarios
+4494,vestuario,noun,CLEAR,3973:vestuario|521:vestuarios
 4494,d.,none,NOUSAGE; NODEF; LITERAL,4494:d.
 4493,rebelde,noun,DUPLICATE-ADJ-NOUN,4493:rebeldes
 4492,pis,noun,CLEAR,4122:pis|370:pises
@@ -4633,6 +4633,7 @@ count,spanish,pos,flags,usage
 3955,baloncesto,noun,CLEAR,3955:baloncesto
 3950,vientre,noun,NOSENT,3950:vientre
 3949,jessie,none,NOUSAGE; NODEF; NOSENT,3949:jessie
+3949,confiado,adj,CLEAR,3209:confiado|740:confiada
 3948,yang,none,NOUSAGE; NODEF; NOSENT,3948:yang
 3945,suspender,verb,CLEAR,1340:suspender|668:suspende|515:suspendieron|459:suspendió|270:suspenda|239:suspenden|235:suspendan|219:suspendí
 3942,roll,none,NOUSAGE; NODEF; LITERAL,3942:roll
@@ -5290,7 +5291,6 @@ count,spanish,pos,flags,usage
 3210,canadiense,adj,CLEAR,2172:canadiense|1038:canadienses
 3209,relajado,adj,CLEAR,2119:relajado|1090:relajada
 3209,fu,interj,NOSENT,3209:fu
-3209,confiado,adj,CLEAR,3209:confiado
 3209,braga,noun,CLEAR,2754:bragas|455:braga
 3205,retorcido,adj,CLEAR,1630:retorcido|1086:retorcida|277:retorcidos|212:retorcidas
 3205,género,noun,CLEAR,2878:género|327:géneros
@@ -5830,6 +5830,7 @@ count,spanish,pos,flags,usage
 2765,baba,noun,NOSENT,2574:baba|191:babas
 2765,anhelar,verb,CLEAR,1262:anhelo|513:anhela|304:anhelaba|258:anhelando|215:anhelan|213:anhelado
 2764,válvula,noun,CLEAR,1977:válvula|787:válvulas
+2764,español,adj,LESSUSED-noun-adj,2373:española|391:españolas
 2763,catorce,num,CLEAR,2763:catorce
 2762,salmón,noun,CLEAR,2450:salmón|312:salmones
 2761,liderazgo,noun,CLEAR,2761:liderazgo
@@ -5904,6 +5905,7 @@ count,spanish,pos,flags,usage
 2711,desplegar,verb,CLEAR,1116:despliegue|493:desplegar|415:desplegado|308:despliega|192:desplegados|187:desplegando
 2710,sátur,none,NOUSAGE; NODEF; NOSENT,2710:sátur
 2710,oz,none,NOUSAGE; NODEF; NOSENT,2710:oz
+2710,farmacéutico,adj,CLEAR,938:farmacéutico|930:farmacéutica|459:farmacéuticas|383:farmacéuticos
 2709,ángela,none,NOUSAGE; NODEF; NOSENT,2709:ángela
 2709,resaca,noun,CLEAR,2709:resaca
 2707,santidad,noun,NOSENT,2707:santidad
@@ -6702,7 +6704,6 @@ count,spanish,pos,flags,usage
 2206,frontal,adj,CLEAR,1944:frontal|262:frontales
 2204,anzuelo,noun,CLEAR,1970:anzuelo|234:anzuelos
 2203,esponja,noun,CLEAR,1834:esponja|369:esponjas
-2203,español,noun,LESSUSED-adj-noun,2203:españoles
 2202,reconsiderar,verb,CLEAR,957:reconsiderar|425:reconsiderarlo|414:reconsidere|213:reconsiderado|193:reconsideres
 2202,dardo,noun,CLEAR,1281:dardos|921:dardo
 2201,entrante,adj,CLEAR,1747:entrante|454:entrantes
@@ -7214,7 +7215,6 @@ count,spanish,pos,flags,usage
 1943,darryl,none,NOUSAGE; NODEF; NOSENT,1943:darryl
 1943,apasionado,adj,CLEAR,1943:apasionado
 1942,coste,noun,CLEAR,1345:coste|597:costes
-1941,limpiador,adj,NOSENT,1129:limpiador|406:limpiadores|406:limpiadora
 1941,floyd,none,NOUSAGE; NODEF; NOSENT,1941:floyd
 1941,escombro,noun,CLEAR,1941:escombros
 1940,silbar,verb,CLEAR,708:silbar|706:silba|526:silbando
@@ -7616,7 +7616,6 @@ count,spanish,pos,flags,usage
 1782,agricultura,noun,CLEAR,1782:agricultura
 1780,mozart,none,NOUSAGE; NODEF; LITERAL,1780:mozart
 1780,mordisco,noun,CLEAR,1347:mordisco|433:mordiscos
-1780,farmacéutico,adj,NOSENT,938:farmacéutico|459:farmacéuticas|383:farmacéuticos
 1779,reich,none,NOUSAGE; NODEF; NOSENT,1779:reich
 1779,parroquia,noun,NOSENT,1779:parroquia
 1779,clic,noun,CLEAR,1508:clic|271:clics
@@ -8289,6 +8288,7 @@ count,spanish,pos,flags,usage
 1536,elijah,none,NOUSAGE; NODEF; NOSENT,1536:elijah
 1536,capataz,noun,CLEAR,1536:capataz
 1535,srita,none,NOUSAGE; NODEF; NOSENT,1535:srita
+1535,limpiador,adj,NOSENT,1129:limpiador|406:limpiadores
 1535,hammer,none,NOUSAGE; NODEF; NOSENT,1535:hammer
 1534,informático,adj,CLEAR,1040:informático|494:informáticos
 1534,dillon,none,NOUSAGE; NODEF; NOSENT,1534:dillon
@@ -10951,7 +10951,6 @@ count,spanish,pos,flags,usage
 930,incertidumbre,noun,CLEAR,930:incertidumbre
 930,huevón,noun,NOSENT,555:hueón|375:huevón
 930,henrik,none,NOUSAGE; NODEF; NOSENT,930:henrik
-930,farmacéutico,noun,NOSENT,930:farmacéutica
 930,espasmo,noun,NOSENT,537:espasmos|393:espasmo
 930,consola,noun,CLEAR,930:consola
 930,asombro,noun,CLEAR,930:asombro
@@ -13419,7 +13418,7 @@ count,spanish,pos,flags,usage
 655,alijo,noun,NOSENT,655:alijo
 654,tyrone,none,NOUSAGE; NODEF; NOSENT,654:tyrone
 654,starr,none,NOUSAGE; NODEF; NOSENT,654:starr
-654,soldadito,noun,NOSENT,448:soldadito|206:soldaditos
+654,soldadito,noun,CLEAR,448:soldadito|206:soldaditos
 654,schiller,none,NOUSAGE; NODEF; NOSENT,654:schiller
 654,remitente,noun,NOSENT,654:remitente
 654,pj,none,NOUSAGE; NODEF; NOSENT,654:pj
@@ -13584,7 +13583,7 @@ count,spanish,pos,flags,usage
 642,convivir,verb,CLEAR,642:convivir
 642,codorniz,noun,NOSENT,421:codorniz|221:codornices
 642,chalet,noun,NOSENT,642:chalet
-642,beneficiario,noun,CLEAR,428:beneficiario|214:beneficiaria
+642,beneficiario,adj,NOSENT,428:beneficiario|214:beneficiaria
 642,bebito,noun,CLEAR,365:bebita|277:bebito
 642,andi,none,NOUSAGE; NODEF; NOSENT,642:andi
 641,wee,none,NOUSAGE; NODEF; NOSENT,641:wee
@@ -14803,7 +14802,7 @@ count,spanish,pos,flags,usage
 541,moo,none,NOUSAGE; NODEF; NOSENT,541:moo
 541,integrante,noun,CLEAR,286:integrantes|255:integrante
 541,inflexible,adj,NOSENT,541:inflexible
-541,fantasear,verb,NOSENT,345:fantasear|196:fantaseando
+541,fantasear,verb,CLEAR,345:fantasear|196:fantaseando
 541,escalpelo,noun,NOSENT,541:escalpelo
 541,buick,none,NOUSAGE; NODEF; NOSENT,541:buick
 541,babuino,noun,NOSENT,316:babuino|225:babuinos
@@ -15376,7 +15375,7 @@ count,spanish,pos,flags,usage
 501,simplicidad,noun,CLEAR,501:simplicidad
 501,shun,none,NOUSAGE; NODEF; NOSENT,501:shun
 501,rhys,none,NOUSAGE; NODEF; NOSENT,501:rhys
-501,precoz,adj,NOSENT,501:precoz
+501,precoz,adj,CLEAR,501:precoz
 501,peligrar,verb,CLEAR,307:peligra|194:peligrar
 501,minneapolis,none,NOUSAGE; NODEF; NOSENT,501:minneapolis
 501,mckenna,none,NOUSAGE; NODEF; NOSENT,501:mckenna
@@ -17072,6 +17071,7 @@ count,spanish,pos,flags,usage
 406,sarcófago,noun,CLEAR,406:sarcófago
 406,rock,noun,CLEAR,406:rocks
 406,percival,none,NOUSAGE; NODEF; NOSENT,406:percival
+406,limpiador,noun,NOSENT,406:limpiadora
 406,kajal,none,NOUSAGE; NODEF; NOSENT,406:kajal
 406,ipor,none,NOUSAGE; NODEF; NOSENT,406:ipor
 406,horst,none,NOUSAGE; NODEF; NOSENT,406:horst
@@ -19593,7 +19593,7 @@ count,spanish,pos,flags,usage
 307,vulgaridad,noun,NOSENT,307:vulgaridad
 307,veintiséis,num,CLEAR,307:veintiséis
 307,trager,none,NOUSAGE; NODEF; NOSENT,307:trager
-307,síntesis,noun,NOSENT,307:síntesis
+307,síntesis,noun,CLEAR,307:síntesis
 307,sussex,none,NOUSAGE; NODEF; NOSENT,307:sussex
 307,singleton,none,NOUSAGE; NODEF; NOSENT,307:singleton
 307,sheikh,none,NOUSAGE; NODEF; NOSENT,307:sheikh
@@ -21242,7 +21242,6 @@ count,spanish,pos,flags,usage
 261,women,none,NOUSAGE; NODEF; NOSENT,261:women
 261,talon,none,NOUSAGE; NODEF; NOSENT,261:talon
 261,sto,none,NOUSAGE; NODEF; NOSENT,261:sto
-261,sprint,noun,NOSENT,261:sprint
 261,spinning,noun,NOSENT,261:spinning
 261,sincronía,noun,NOSENT,261:sincronía
 261,separatista,adj,CLEAR,261:separatista
@@ -21273,6 +21272,7 @@ count,spanish,pos,flags,usage
 261,genaro,none,NOUSAGE; NODEF; NOSENT,261:genaro
 261,fsb,none,NOUSAGE; NODEF; NOSENT,261:fsb
 261,ex-convicto,none,NOUSAGE; NODEF; NOSENT,261:ex-convicto
+261,esprint,noun,NOSENT,261:sprint
 261,ennis,none,NOUSAGE; NODEF; NOSENT,261:ennis
 261,digby,none,NOUSAGE; NODEF; NOSENT,261:digby
 261,desaprobación,noun,NOSENT,261:desaprobación
@@ -22782,7 +22782,7 @@ count,spanish,pos,flags,usage
 229,gem,none,NOUSAGE; NODEF; NOSENT,229:gem
 229,foxy,none,NOUSAGE; NODEF; NOSENT,229:foxy
 229,excursionista,noun,CLEAR,229:excursionistas
-229,encarnar,verb,NOSENT,229:encarna
+229,encarnar,verb,CLEAR,229:encarna
 229,dust,none,NOUSAGE; NODEF; NOSENT,229:dust
 229,destruída,none,NOUSAGE; NODEF; LITERAL,229:destruída
 229,daph,none,NOUSAGE; NODEF; NOSENT,229:daph
