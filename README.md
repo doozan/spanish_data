@@ -20,7 +20,7 @@ This data is primarily used to build my [6001 Spanish Vocab](https://github.com/
 ## Install required tools
 ```bash
 sudo apt install curl bzip2 gawk pv unzip
-pip3 install ijson
+pip3 install ijson pywikibot mwparserfromhell
 ```
 
 ## Install FreeLing on Debian (for other distros, check the [FreeLing instructions](https://freeling-user-manual.readthedocs.io/en/latest/installation/installation-packages/))
