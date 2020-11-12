@@ -3,7 +3,7 @@ This data is built from [Wiktionary](https://en.wiktionary.org) and [Tatoeba](ta
 This data is primarily used to build my [6001 Spanish Vocab](https://github.com/doozan/6001_Spanish) anki deck, but it's provided here in case it may be useful for other purposes.
 
 ### Interesting files:
-* es-en.txt - Spanish to English dictionary, with metadata for verb conjugation and noun lemmatization
+* es-en.txt - Spanish to English wordlist
 * frequency.csv - a list of the most frequently used Spanish lemmas with part of speech and all word variations combined into lemma
 * sentences.tsv - English/Spanish sentence pairs from tatoeba.org with users self-reported proficiency, part of speech tags, and lemmas
 
@@ -41,8 +41,8 @@ mkdir spanish_data
     wget -N -nv 'https://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-articles.xml.bz2'
     [ es-en.raw.txt -nt enwiktionary-latest-pages-articles.xml.bz2 ] || enwiktionary_wordlist/make_wordlist.py \
 	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang-id es | pv > es-en.raw.txt || return 1
-    sort -s -d -k 1,1 -t"{" es-en.raw.txt > es-en.txt
-    grep -v "\-forms}" es-en.txt > spanish_data/es-en.txt
+    sort -s -d -k 1,1 -t"{" es-en.raw.txt > es-en.withforms.txt
+    grep -v "\-forms}" es-en.withforms.txt > spanish_data/es-en.txt
 ```
 ### Build the sentences
 ```bash
@@ -91,12 +91,12 @@ EOF
     # sort by number of spaces in the spanish sentence
     cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
 
-    spanish_tools/build_sentences.py --dictionary es-en.txt eng-spa.tsv > spa-only.txt || return 1
+    spanish_tools/build_sentences.py --dictionary es-en.withforms.txt eng-spa.tsv > spa-only.txt || return 1
     [ spa-only.txt.json -nt eng-spa_links.tsv.bz2 ] || spanish_tools/build_tags.sh spa-only.txt || return 1
-    spanish_tools/build_sentences.py --dictionary es-en.txt eng-spa.tsv --tags spa-only.txt.json | pv > spanish_data/sentences.tsv || return 1
+    spanish_tools/build_sentences.py --dictionary es-en.withforms.txt eng-spa.tsv --tags spa-only.txt.json | pv > spanish_data/sentences.tsv || return 1
 ```
 ### Build the frequency list
 ```bash
     wget -N -nv https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_50k.txt
-    spanish_tools/freq.py --dictionary es-en.txt es_50k.txt --ignore spanish_custom/ignore.txt > spanish_data/frequency.csv
+    spanish_tools/freq.py --dictionary es-en.withforms.txt es_50k.txt --ignore spanish_custom/ignore.txt > spanish_data/frequency.csv
 ```
