@@ -4307,6 +4307,7 @@ count,spanish,pos,flags,usage
 4354,veredicto,noun,CLEAR,4354:veredicto
 4353,revisión,noun,CLEAR,3964:revisión|389:revisiones
 4353,previsto,adj,CLEAR,3771:previsto|582:prevista
+4350,pésimo,adj,CLEAR,2535:pésimo|1326:pésima|279:pésimos|210:pésimas
 4350,egipto,none,NOUSAGE; NODEF; NOSENT,4350:egipto
 4347,zack,none,NOUSAGE; NODEF; NOSENT,4347:zack
 4347,millonario,adj,CLEAR,2941:millonario|989:millonarios|417:millonaria
@@ -4847,6 +4848,7 @@ count,spanish,pos,flags,usage
 3647,constar,verb,CLEAR,2834:conste|813:consta
 3646,romano,noun,DUPLICATE,3646:romanos
 3645,tubería,noun,CLEAR,1906:tubería|1739:tuberías
+3645,buenísimo,adj,CLEAR,2069:buenísimo|1078:buenísima|264:buenísimos|234:buenísimas
 3641,elvis,none,NOUSAGE; NODEF; NOSENT,3641:elvis
 3639,desperdicio,noun,CLEAR,3122:desperdicio|517:desperdicios
 3639,derramar,verb,CLEAR,1257:derramar|863:derramó|572:derrama|414:derramé|340:derramando|193:derraman
@@ -6121,7 +6123,6 @@ count,spanish,pos,flags,usage
 2538,anita,none,NOUSAGE; NODEF; NOSENT,2538:anita
 2538,adelanto,noun,CLEAR,2272:adelanto|266:adelantos
 2538,abdominal,adj,CLEAR,1404:abdominales|1134:abdominal
-2535,pésimo,adj,CLEAR,2535:pésimo
 2535,cross,none,NOUSAGE; NODEF; NOSENT,2535:cross
 2535,aspirar,verb,CLEAR,1084:aspirar|715:aspira|272:aspirando|238:aspiro|226:aspirado
 2535,acertar,verb,CLEAR,603:acertar|505:acertó|451:acierta|434:acertaste|343:acerté|199:aciertas
@@ -6946,7 +6947,6 @@ count,spanish,pos,flags,usage
 2069,ire,none,NOUSAGE; NODEF; NOSENT,2069:ire
 2069,etc.,adv,NOSENT,2069:etc.
 2069,clare,none,NOUSAGE; NODEF; NOSENT,2069:clare
-2069,buenísimo,adj,NOSENT,2069:buenísimo
 2069,acertado,adj,CLEAR,1474:acertado|595:acertada
 2068,simio,noun,NOSENT,1040:simio|1028:simios
 2067,inmune,adj,CLEAR,1595:inmune|472:inmunes
@@ -7209,6 +7209,7 @@ count,spanish,pos,flags,usage
 1938,dígamelo,none,NOUSAGE; NODEF; NOSENT,1938:dígamelo
 1937,pagano,noun,CLEAR,922:paganos|716:pagano|299:pagana
 1937,místico,adj,CLEAR,852:místico|772:mística|313:místicos
+1937,mismísimo,adj,CLEAR,1564:mismísimo|373:mismísima
 1937,capucha,noun,CLEAR,1711:capucha|226:capuchas
 1936,castaño,adj,CLEAR,1390:castaño|283:castaña|263:castaños
 1935,tributo,noun,CLEAR,1693:tributo|242:tributos
@@ -7953,6 +7954,7 @@ count,spanish,pos,flags,usage
 1647,dog,none,NOUSAGE; NODEF; NOSENT,1647:dog
 1646,modus,none,NOUSAGE; NODEF; NOSENT,1646:modus
 1646,llévenselo,none,NOUSAGE; NODEF; NOSENT,1646:llévenselo
+1646,guapísimo,adj,NOSENT,996:guapísima|650:guapísimo
 1646,ceniciento,adj,CLEAR,1646:cenicienta
 1645,transportador,adj,NOSENT,1375:transportador|270:transportadores
 1645,sexualidad,noun,CLEAR,1645:sexualidad
@@ -8196,7 +8198,6 @@ count,spanish,pos,flags,usage
 1565,canelo,adj,NOSENT,1565:canela
 1565,caldo,noun,CLEAR,1565:caldo
 1564,táctico,adj,NOSENT,1242:táctico|322:tácticos
-1564,mismísimo,adj,CLEAR,1564:mismísimo
 1564,iv,none,NOUSAGE; NODEF; NOSENT,1564:iv
 1564,csi,none,NOUSAGE; NODEF; NOSENT,1564:csi
 1563,rural,adj,CLEAR,1146:rural|417:rurales
@@ -9006,7 +9007,6 @@ count,spanish,pos,flags,usage
 1327,pulmonar,adj,CLEAR,1327:pulmonar
 1327,enemigo,adj,DUPLICATE,1327:enemigas
 1326,uranio,noun,CLEAR,1326:uranio
-1326,pésima,none,NOUSAGE; NODEF; LITERAL,1326:pésima
 1326,minnie,none,NOUSAGE; NODEF; NOSENT,1326:minnie
 1325,úlcera,noun,CLEAR,958:úlcera|367:úlceras
 1325,where,none,NOUSAGE; NODEF; NOSENT,1325:where
@@ -9071,6 +9071,7 @@ count,spanish,pos,flags,usage
 1313,abbott,none,NOUSAGE; NODEF; NOSENT,1313:abbott
 1312,nominación,noun,NOSENT,760:nominación|552:nominaciones
 1312,miniatura,noun,NOSENT,1108:miniatura|204:miniaturas
+1312,bellísimo,adj,CLEAR,805:bellísima|507:bellísimo
 1312,atadura,noun,CLEAR,1124:ataduras|188:atadura
 1311,jillian,none,NOUSAGE; NODEF; NOSENT,1311:jillian
 1311,denegado,adj,CLEAR,1311:denegada
@@ -10109,7 +10110,6 @@ count,spanish,pos,flags,usage
 1078,saddam,none,NOUSAGE; NODEF; NOSENT,1078:saddam
 1078,mimar,verb,CLEAR,609:mimado|469:mimada
 1078,glándula,noun,CLEAR,595:glándulas|483:glándula
-1078,buenísima,none,NOUSAGE; NODEF; LITERAL,1078:buenísima
 1078,braun,none,NOUSAGE; NODEF; NOSENT,1078:braun
 1078,barker,none,NOUSAGE; NODEF; NOSENT,1078:barker
 1078,balancear,verb,CLEAR,389:balancea|381:balanceo|308:balancear
@@ -10299,6 +10299,7 @@ count,spanish,pos,flags,usage
 1043,full,none,NOUSAGE; NODEF; NOSENT,1043:full
 1043,cacto,noun,CLEAR,1043:cactus
 1043,agatha,none,NOUSAGE; NODEF; NOSENT,1043:agatha
+1042,malísimo,adj,CLEAR,656:malísimo|386:malísima
 1042,jardinería,noun,CLEAR,1042:jardinería
 1042,habian,none,NOUSAGE; NODEF; NOSENT,1042:habian
 1041,xiao,none,NOUSAGE; NODEF; NOSENT,1041:xiao
@@ -10571,7 +10572,6 @@ count,spanish,pos,flags,usage
 996,mexico,none,NOUSAGE; NODEF; NOSENT,996:mexico
 996,magnum,none,NOUSAGE; NODEF; NOSENT,996:magnum
 996,hepatitis,noun,CLEAR,996:hepatitis
-996,guapísima,none,NOUSAGE; NODEF; NOSENT,996:guapísima
 996,fields,none,NOUSAGE; NODEF; NOSENT,996:fields
 996,estimación,noun,CLEAR,749:estimación|247:estimaciones
 996,dorian,none,NOUSAGE; NODEF; NOSENT,996:dorian
@@ -11933,7 +11933,6 @@ count,spanish,pos,flags,usage
 805,maniático,adj,CLEAR,805:maniático
 805,lancelot,none,NOUSAGE; NODEF; NOSENT,805:lancelot
 805,duna,noun,CLEAR,586:dunas|219:duna
-805,bellísima,none,NOUSAGE; NODEF; LITERAL,805:bellísima
 804,tech,none,NOUSAGE; NODEF; NOSENT,804:tech
 804,soon,none,NOUSAGE; NODEF; NOSENT,804:soon
 804,prof.,none,NOUSAGE; NODEF; NOSENT,804:prof.
@@ -12978,6 +12977,7 @@ count,spanish,pos,flags,usage
 696,sgto,none,NOUSAGE; NODEF; NOSENT,696:sgto
 696,mm.,none,NOUSAGE; NODEF; NOSENT,696:mm.
 696,maw,none,NOUSAGE; NODEF; NOSENT,696:maw
+696,grandísimo,adj,CLEAR,505:grandísimo|191:grandísima
 696,espartaco,none,NOUSAGE; NODEF; NOSENT,696:espartaco
 696,atontar,verb,NOSENT,497:atontado|199:atontada
 696,argh,none,NOUSAGE; NODEF; NOSENT,696:argh
@@ -13431,7 +13431,6 @@ count,spanish,pos,flags,usage
 656,silenciar,verb,CLEAR,431:silenciar|225:silenciado
 656,recesión,noun,CLEAR,656:recesión
 656,rally,noun,NOSENT,656:rally
-656,malísimo,adj,LITERAL; CLEAR,656:malísimo
 656,jacobo,none,NOUSAGE; NODEF; NOSENT,656:jacobo
 656,glamoroso,adj,CLEAR,344:glamoroso|312:glamorosa
 656,eufemismo,noun,CLEAR,656:eufemismo
@@ -13518,7 +13517,6 @@ count,spanish,pos,flags,usage
 650,janeiro,none,NOUSAGE; NODEF; NOSENT,650:janeiro
 650,interestatal,adj,CLEAR,650:interestatal
 650,inmueble,noun,NOSENT,443:inmuebles|207:inmueble
-650,guapísimo,adj,NOSENT,650:guapísimo
 650,cuatrocientos,num,CLEAR,650:cuatrocientos
 650,cuadrilátero,adj,NOSENT,650:cuadrilátero
 649,snyder,none,NOUSAGE; NODEF; NOSENT,649:snyder
@@ -13644,6 +13642,7 @@ count,spanish,pos,flags,usage
 639,vilma,none,NOUSAGE; NODEF; NOSENT,639:vilma
 639,silenciador,noun,NOSENT,639:silenciador
 639,riverside,none,NOUSAGE; NODEF; NOSENT,639:riverside
+639,queridísimo,adj,NOSENT,344:queridísima|295:queridísimo
 639,punzante,adj,CLEAR,388:punzante|251:punzantes
 639,pepita,noun,CLEAR,323:pepitas|316:pepita
 639,myka,none,NOUSAGE; NODEF; NOSENT,639:myka
@@ -13892,7 +13891,7 @@ count,spanish,pos,flags,usage
 617,myeong,none,NOUSAGE; NODEF; NOSENT,617:myeong
 617,filosófico,adj,NOSENT,312:filosófica|305:filosófico
 617,elocuente,adj,CLEAR,617:elocuente
-617,divertidísimo,adj,NOSENT,617:divertidísimo
+617,divertidísimo,adj,CLEAR,617:divertidísimo
 617,coney,none,NOUSAGE; NODEF; NOSENT,617:coney
 617,bluebell,none,NOUSAGE; NODEF; NOSENT,617:bluebell
 616,yamamoto,none,NOUSAGE; NODEF; NOSENT,616:yamamoto
@@ -13907,6 +13906,7 @@ count,spanish,pos,flags,usage
 616,c-4,none,NOUSAGE; NODEF; NOSENT,616:c-4
 615,xvi,none,NOUSAGE; NODEF; NOSENT,615:xvi
 615,saqueador,noun,NOSENT,371:saqueadores|244:saqueador
+615,riquísimo,adj,CLEAR,420:riquísimo|195:riquísima
 615,qúe,none,NOUSAGE; NODEF; NOSENT,615:qúe
 615,piratear,verb,NOSENT,381:piratear|234:pirateado
 615,desviación,noun,CLEAR,615:desviación
@@ -15077,7 +15077,7 @@ count,spanish,pos,flags,usage
 525,volkswagen,none,NOUSAGE; NODEF; NOSENT,525:volkswagen
 525,voleibol,noun,CLEAR,525:voleibol
 525,shop,none,NOUSAGE; NODEF; NOSENT,525:shop
-525,santísima,none,NOUSAGE; NODEF; NOSENT,525:santísima
+525,santísimo,adj,NOSENT,525:santísima
 525,ramita,noun,CLEAR,320:ramita|205:ramitas
 525,narciso,noun,NOSENT,331:narciso|194:narcisos
 525,mongolia,none,NOUSAGE; NODEF; NOSENT,525:mongolia
@@ -15372,7 +15372,6 @@ count,spanish,pos,flags,usage
 507,enemistad,noun,NOSENT,507:enemistad
 507,desenfrenado,adj,NOSENT,262:desenfrenado|245:desenfrenada
 507,bidón,noun,CLEAR,298:bidón|209:bidones
-507,bellísimo,adj,NOSENT,507:bellísimo
 507,alfil,noun,CLEAR,507:alfil
 507,abrigar,verb,CLEAR,278:abrigado|229:abrigada
 506,ón,none,NOUSAGE; NODEF; NOSENT,506:ón
@@ -15403,7 +15402,6 @@ count,spanish,pos,flags,usage
 505,macao,none,NOUSAGE; NODEF; NOSENT,505:macao
 505,intuitivo,adj,NOSENT,288:intuitivo|217:intuitiva
 505,hansel,none,NOUSAGE; NODEF; NOSENT,505:hansel
-505,grandísimo,adj,NOSENT,505:grandísimo
 505,eliminatorio,adj,NOSENT,315:eliminatorias|190:eliminatoria
 505,cosilla,noun,NOSENT,266:cosillas|239:cosilla
 505,bonus,noun,NOSENT,505:bonus
@@ -16871,7 +16869,6 @@ count,spanish,pos,flags,usage
 420,sionista,noun,NOSENT,224:sionista|196:sionistas
 420,siii,none,NOUSAGE; NODEF; NOSENT,420:siii
 420,serrano,adj,NOSENT,420:serrano
-420,riquísimo,adj,CLEAR,420:riquísimo
 420,pitón,noun,NOSENT,420:pitón
 420,pasamontañas,noun,NOSENT,420:pasamontañas
 420,pacer,verb,NOSENT,420:pace
@@ -17607,7 +17604,6 @@ count,spanish,pos,flags,usage
 386,michiko,none,NOUSAGE; NODEF; NOSENT,386:michiko
 386,messer,none,NOUSAGE; NODEF; NOSENT,386:messer
 386,melaza,noun,NOSENT,386:melaza
-386,malísima,none,NOUSAGE; NODEF; LITERAL,386:malísima
 386,macedonio,adj,NOSENT,386:macedonia
 386,l.a,none,NOUSAGE; NODEF; NOSENT,386:l.a
 386,hardman,none,NOUSAGE; NODEF; NOSENT,386:hardman
@@ -17923,7 +17919,6 @@ count,spanish,pos,flags,usage
 373,osiris,none,NOUSAGE; NODEF; NOSENT,373:osiris
 373,nola,none,NOUSAGE; NODEF; NOSENT,373:nola
 373,neuro,none,NOUSAGE; NODEF; NOSENT,373:neuro
-373,mismísima,none,NOUSAGE; NODEF; LITERAL,373:mismísima
 373,manfred,none,NOUSAGE; NODEF; NOSENT,373:manfred
 373,lacy,none,NOUSAGE; NODEF; NOSENT,373:lacy
 373,kardashian,none,NOUSAGE; NODEF; NOSENT,373:kardashian
@@ -18628,7 +18623,6 @@ count,spanish,pos,flags,usage
 344,selby,none,NOUSAGE; NODEF; NOSENT,344:selby
 344,samar,none,NOUSAGE; NODEF; NOSENT,344:samar
 344,sachin,none,NOUSAGE; NODEF; NOSENT,344:sachin
-344,queridísima,none,NOUSAGE; NODEF; NOSENT,344:queridísima
 344,piers,none,NOUSAGE; NODEF; NOSENT,344:piers
 344,libido,noun,NOSENT,344:libido
 344,karel,none,NOUSAGE; NODEF; NOSENT,344:karel
@@ -20161,7 +20155,6 @@ count,spanish,pos,flags,usage
 295,understand,none,NOUSAGE; NODEF; NOSENT,295:understand
 295,tum,none,NOUSAGE; NODEF; NOSENT,295:tum
 295,remojo,noun,NOSENT,295:remojo
-295,queridísimo,adj,NOSENT,295:queridísimo
 295,pontiac,none,NOUSAGE; NODEF; NOSENT,295:pontiac
 295,polaridad,noun,NOSENT,295:polaridad
 295,patrik,none,NOUSAGE; NODEF; NOSENT,295:patrik
@@ -20709,7 +20702,6 @@ count,spanish,pos,flags,usage
 279,rino,none,NOUSAGE; NODEF; NOSENT,279:rino
 279,rapunzel,none,NOUSAGE; NODEF; NOSENT,279:rapunzel
 279,ramificación,noun,NOSENT,279:ramificaciones
-279,pésimos,none,NOUSAGE; NODEF; NOSENT,279:pésimos
 279,portman,none,NOUSAGE; NODEF; NOSENT,279:portman
 279,pilatos,none,NOUSAGE; NODEF; NOSENT,279:pilatos
 279,nyborg,none,NOUSAGE; NODEF; NOSENT,279:nyborg
@@ -21314,7 +21306,6 @@ count,spanish,pos,flags,usage
 264,calvicie,noun,CLEAR,264:calvicie
 264,buren,none,NOUSAGE; NODEF; NOSENT,264:buren
 264,bulma,none,NOUSAGE; NODEF; NOSENT,264:bulma
-264,buenísimos,none,NOUSAGE; NODEF; NOSENT,264:buenísimos
 264,benévolo,adj,NOSENT,264:benévolo
 264,baskerville,none,NOUSAGE; NODEF; NOSENT,264:baskerville
 264,av,noun,NOSENT,264:av
@@ -22157,7 +22148,7 @@ count,spanish,pos,flags,usage
 246,kunal,none,NOUSAGE; NODEF; NOSENT,246:kunal
 246,jammer,none,NOUSAGE; NODEF; NOSENT,246:jammer
 246,irresponsabilidad,noun,CLEAR,246:irresponsabilidad
-246,ilustrísima,none,NOUSAGE; NODEF; NOSENT,246:ilustrísima
+246,ilustrísimo,adj,NOSENT,246:ilustrísima
 246,hyo,none,NOUSAGE; NODEF; NOSENT,246:hyo
 246,hurt,none,NOUSAGE; NODEF; NOSENT,246:hurt
 246,herzog,none,NOUSAGE; NODEF; NOSENT,246:herzog
@@ -22764,7 +22755,6 @@ count,spanish,pos,flags,usage
 234,danke,none,NOUSAGE; NODEF; NOSENT,234:danke
 234,concorde,adj,CLEAR,234:concorde
 234,comic-con,none,NOUSAGE; NODEF; NOSENT,234:comic-con
-234,buenísimas,none,NOUSAGE; NODEF; NOSENT,234:buenísimas
 234,berna,none,NOUSAGE; NODEF; NOSENT,234:berna
 234,aórtico,adj,NOSENT,234:aórtica
 234,anagrama,noun,CLEAR,234:anagrama
@@ -24035,7 +24025,6 @@ count,spanish,pos,flags,usage
 210,serotonina,noun,NOSENT,210:serotonina
 210,sarna,noun,NOSENT,210:sarna
 210,resbalón,noun,NOSENT,210:resbalón
-210,pésimas,none,NOUSAGE; NODEF; LITERAL,210:pésimas
 210,pushkin,none,NOUSAGE; NODEF; NOSENT,210:pushkin
 210,push,none,NOUSAGE; NODEF; NOSENT,210:push
 210,pour,none,NOUSAGE; NODEF; NOSENT,210:pour
@@ -25037,7 +25026,6 @@ count,spanish,pos,flags,usage
 195,sashimi,none,NOUSAGE; NODEF; LITERAL,195:sashimi
 195,salmuera,noun,NOSENT,195:salmuera
 195,rushmore,none,NOUSAGE; NODEF; NOSENT,195:rushmore
-195,riquísima,none,NOUSAGE; NODEF; LITERAL,195:riquísima
 195,rimar,verb,NOSENT,195:rimar
 195,rhino,none,NOUSAGE; NODEF; NOSENT,195:rhino
 195,retratar,verb,CLEAR,195:retratar
@@ -25336,7 +25324,7 @@ count,spanish,pos,flags,usage
 191,reincidente,adj,NOSENT,191:reincidente
 191,raton,none,NOUSAGE; NODEF; NOSENT,191:raton
 191,rackham,none,NOUSAGE; NODEF; NOSENT,191:rackham
-191,purísima,none,NOUSAGE; NODEF; NOSENT,191:purísima
+191,purísimo,adj,NOSENT,191:purísima
 191,psico,none,NOUSAGE; NODEF; NOSENT,191:psico
 191,provinciano,adj,NOSENT,191:provinciano
 191,prepa,noun,LITERAL; CLEAR,191:prepa
@@ -25363,7 +25351,6 @@ count,spanish,pos,flags,usage
 191,hyung-nim,none,NOUSAGE; NODEF; NOSENT,191:hyung-nim
 191,hur,none,NOUSAGE; NODEF; NOSENT,191:hur
 191,grass,none,NOUSAGE; NODEF; NOSENT,191:grass
-191,grandísima,none,NOUSAGE; NODEF; NOSENT,191:grandísima
 191,ginecología,noun,NOSENT,191:ginecología
 191,gault,none,NOUSAGE; NODEF; NOSENT,191:gault
 191,garnett,none,NOUSAGE; NODEF; NOSENT,191:garnett
