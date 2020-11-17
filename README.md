@@ -39,9 +39,9 @@ mkdir spanish_data
 ### Build the wordlist
 ```bash
     wget -N -nv 'https://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-articles.xml.bz2'
-    [ es-en.raw.txt -nt enwiktionary-latest-pages-articles.xml.bz2 ] || enwiktionary_wordlist/make_wordlist.py \
-	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang-id es | pv > es-en.raw.txt || return 1
-    sort -s -d -k 1,1 -t"{" es-en.raw.txt > es-en.withforms.txt
+    [ es-en.unsorted.txt -nt enwiktionary-latest-pages-articles.xml.bz2 ] || enwiktionary_wordlist/make_wordlist.py \
+	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang-id es | pv > es-en.unsorted.txt || return 1
+    sort -s -k 1,1 -t"{" -o es-en.withforms.txt es-en.unsorted.txt
     grep -v "\-forms}" es-en.withforms.txt > spanish_data/es-en.txt
 ```
 ### Build the sentences
