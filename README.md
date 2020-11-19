@@ -19,7 +19,7 @@ This data is primarily used to build my [6001 Spanish Vocab](https://github.com/
 
 ## Install required tools
 ```bash
-sudo apt install curl bzip2 gawk pv unzip pkg-config
+sudo apt install curl bzip2 gawk pv unzip zip pkg-config
 pip3 install ijson pywikibot mwparserfromhell pyglossary PyICU
 ```
 

@@ -338,13 +338,13 @@ count,spanish,pos,flags,usage
 115557,salvar,verb,CLEAR,33301:salvar|10122:salvó|9439:salvado|5356:salve|5331:salvaste|4951:salva|4505:salvarte|3892:salvarme|3301:salvé|3254:salvarla|3228:salvarlo|2381:salvando|2154:salvará|1942:salvarnos|1928:salvarle|1661:sálvame|1609:salvamos|1410:salvarlos|1379:salvarse|1343:salvaron|1066:salvados|1059:salvas|1008:salvaré|1005:salven|996:salvada|639:salvaría|591:salvara|579:salvaremos|559:sálvate|487:salvarás|447:salvemos|435:salvan|417:sálvanos|383:salvarán|377:salves|363:sálvese|273:salvarles|251:sálvalo|244:sálveme|238:sálvala|233:salvad|229:salvaros|219:salvaras|210:salvadas|194:salvarías|193:sálvenme|188:salvarlas|187:salvaba
 115394,fin,noun,CLEAR,109402:fin|5992:fines
 115197,recibir,verb,CLEAR,19460:recibir|18139:recibido|12152:recibí|11430:recibió|8244:recibe|6505:recibiendo|5421:recibimos|4117:recibiste|3961:recibirá|3027:reciben|2879:recibes|2681:reciba|2075:recibieron|1846:recibirás|1534:recibirán|1127:recibía|1021:recibirme|935:recibiré|928:recibas|871:reciban|784:recibirlo|724:recibida|607:recibiría|571:recibiremos|566:recibamos|534:recibirnos|534:recibiera|505:recibidos|490:recibirla|356:recibirlos|333:recibidas|302:recibirte|284:recibirle|254:recibían
+115070,correr,verb,CLEAR,29570:corre|26352:correr|22534:corriendo|5574:corran|3472:corrió|3059:corrí|2994:corren|2496:corra|2317:corres|2248:corría|2071:corro|1936:corras|1580:corred|1359:corremos|941:correré|811:corriste|805:correrá|699:corrieron|641:corramos|630:corrimos|543:corrían|378:correrán|377:correremos|366:corriera|365:córrete|317:corrías|247:correrás|199:corríamos|189:correrse
 114960,mostrar,verb,CLEAR,23509:muestra|13997:mostrar|7884:mostraré|6703:mostrarte|6046:muéstrame|5547:mostró|5287:mostrarle|5113:muestran|3236:mostrado|3205:mostrando|2924:muestre|2740:mostrarles|2735:mostrarme|1850:muestro|1775:muéstrale|1675:mostrará|1672:mostré|1287:mostraron|1208:mostraba|1189:mostraste|1114:muéstranos|1083:muéstreme|1075:mostrarnos|1043:mostramos|1009:muestres|993:muestren|913:mostraremos|853:muéstrate|836:muéstrales|633:mostrara|558:mostrare|555:mostrarlo|540:mostrarse|522:mostraría|456:mostrárselo|423:muéstrenme|416:mostraban|351:mostrarán|299:mostrártelo|286:mostrarás|276:muéstrenos|273:muéstrele|259:mostremos|213:mostraras|201:mostrándole|198:mostraros
 114883,sentar,verb,CLEAR,40993:siéntate|15537:siéntese|9058:sentarse|7881:sentarme|6890:sentarte|5237:siéntense|4390:sentar|3640:sentarnos|2797:sentamos|2703:sentó|2093:senté|1906:sentaos|1714:sentaba|1688:sentaré|1448:sentará|1206:sentémonos|728:sentaremos|688:sentaría|571:sentaste|549:sentara|518:sentaros|506:sentaron|446:sentando|379:sentarás|329:sentábamos|290:sentemos|246:sentaras|245:sentaban|207:sentarán
 114756,caballero,noun,CLEAR,46158:caballeros|23894:damas|22412:caballero|22292:dama
 114635,disparar,verb,CLEAR,16583:disparar|14228:disparó|10459:dispara|9281:dispararon|8778:disparado|6444:disparen|4564:disparando|4486:dispararle|4028:dispare|3677:disparé|3085:disparaste|2878:disparan|2831:dispares|2266:dispárale|2227:dispararé|2112:dispararme|1870:disparas|1267:dispararte|1144:disparamos|1129:dispárame|896:disparada|895:disparará|771:dispararles|761:dispararan|753:dispararán|710:disparara|679:dispararía|619:disparad|578:disparaba|552:disparéis|535:disparaban|506:dispararemos|478:dispararnos|422:dispárenle|399:disparados|353:disparándole|340:dispararás|334:dispararse|278:disparadas|247:dispárales|192:dispárele
 114461,cuerpo,noun,CLEAR,98410:cuerpo|16051:cuerpos
 113192,adelante,adv,CLEAR,113192:adelante
-112999,correr,verb,CLEAR,29570:corre|26352:correr|22534:corriendo|5574:corran|3472:corrió|3059:corrí|2994:corren|2496:corra|2317:corres|2248:corría|1936:corras|1580:corred|1359:corremos|941:correré|811:corriste|805:correrá|699:corrieron|641:corramos|630:corrimos|543:corrían|378:correrán|377:correremos|366:corriera|365:córrete|317:corrías|247:correrás|199:corríamos|189:correrse
 112960,igual,adj,CLEAR,101272:igual|11688:iguales
 112937,escribir,verb,CLEAR,30111:escribir|15839:escribió|10984:escribe|9599:escribí|8620:escribiendo|5234:escribo|4287:escribiste|3543:escribes|3485:escriba|3042:escribiré|2131:escribía|1555:escriben|1308:escribirlo|1271:escribimos|1271:escribieron|1212:escribirle|1202:escribas|847:escribiera|802:escriban|659:escribirá|616:escribirte|616:escribirás|610:escribiría|608:escríbelo|582:escríbeme|574:escribirme|502:escribirla|410:escribiremos|277:escribías|272:escríbele|229:escribamos|218:escribieras|212:escribían|209:escribirán
 112755,tierra,noun,CLEAR,102197:tierra|10558:tierras
@@ -906,6 +906,7 @@ count,spanish,pos,flags,usage
 36348,base,noun,CLEAR,32757:base|3591:bases
 36332,enamorado,adj,CLEAR,19418:enamorado|11777:enamorada|4601:enamorados|536:enamoradas
 36321,causa,noun,CLEAR,33279:causa|3042:causas
+36304,mencionar,verb,CLEAR,7832:mencionar|7825:mencionó|4373:mencionado|2559:mencioné|2460:menciona|2108:mencionaste|2076:menciones|1272:mencionarlo|1171:mencionas|1047:mencione|830:menciono|599:mencionaron|542:mencionan|343:mencionaba|323:mencionaré|307:mencionara|227:mencionamos|210:mencionada|200:mencionando
 36277,falso,adj,CLEAR,14892:falso|11108:falsa|5281:falsas|4996:falsos
 36264,nene,noun,CLEAR,29309:nena|5691:nene|1000:nenas|264:nenes
 36167,mayoría,noun,CLEAR,36167:mayoría
@@ -937,6 +938,7 @@ count,spanish,pos,flags,usage
 35333,entero,adj,CLEAR,16547:entero|15096:entera|2308:enteras|1382:enteros
 35331,enseguida,adv,CLEAR,35331:enseguida
 35320,planeta,noun,CLEAR,30672:planeta|4648:planetas
+35283,despedir,verb,CLEAR,4751:despedirme|4253:despedir|2970:despidieron|2571:despido|2311:despidió|2267:despedirte|1786:despedirse|1127:despídete|1117:despidan|1085:despedí|1042:despedirnos|998:despide|911:despidiendo|886:despedimos|810:despiden|762:despida|677:despedirlo|659:despediste|587:despediré|560:despidieran|530:despedirla|501:despedirán|428:despides|352:despedirá|300:despediría|294:despidas|279:despidiera|238:despedirle|231:despídeme
 35254,especie,noun,CLEAR,31439:especie|3815:especies
 35189,tarjeta,noun,CLEAR,26408:tarjeta|8781:tarjetas
 35178,pesar,verb,CLEAR,24982:pesar|4713:pesa|1671:pese|1275:pésame|883:pesan|877:pesaba|335:pesando|224:pesará|218:pesares
@@ -962,7 +964,6 @@ count,spanish,pos,flags,usage
 34281,hogar,noun,CLEAR,31190:hogar|3091:hogares
 34263,posibilidad,noun,CLEAR,22104:posibilidad|12159:posibilidades
 34261,banda,noun,CLEAR,28768:banda|5493:bandas
-34228,mencionar,verb,CLEAR,7832:mencionar|7825:mencionó|4373:mencionado|2559:mencioné|2460:menciona|2108:mencionaste|1272:mencionarlo|1171:mencionas|1047:mencione|830:menciono|599:mencionaron|542:mencionan|343:mencionaba|323:mencionaré|307:mencionara|227:mencionamos|210:mencionada|200:mencionando
 34183,estación,noun,CLEAR,30100:estación|4083:estaciones
 34126,sentimiento,noun,CLEAR,24182:sentimientos|9944:sentimiento
 34080,arte,noun,CLEAR,29011:arte|5069:artes
@@ -1005,7 +1006,6 @@ count,spanish,pos,flags,usage
 32783,asesinado,adj,CLEAR,18877:asesinado|8051:asesinada|4642:asesinados|1213:asesinadas
 32732,principal,adj,CLEAR,27776:principal|4956:principales
 32731,exacto,adj,CLEAR,26087:exacto|3964:exacta|1521:exactos|1159:exactas
-32712,despedir,verb,CLEAR,4751:despedirme|4253:despedir|2970:despidieron|2311:despidió|2267:despedirte|1786:despedirse|1127:despídete|1117:despidan|1085:despedí|1042:despedirnos|998:despide|911:despidiendo|886:despedimos|810:despiden|762:despida|677:despedirlo|659:despediste|587:despediré|560:despidieran|530:despedirla|501:despedirán|428:despides|352:despedirá|300:despediría|294:despidas|279:despidiera|238:despedirle|231:despídeme
 32705,inocente,adj,CLEAR,24983:inocente|7722:inocentes
 32631,apuesto,adj,CLEAR,32213:apuesto|418:apuestos
 32609,salida,noun,CLEAR,29479:salida|3130:salidas
@@ -1068,6 +1068,7 @@ count,spanish,pos,flags,usage
 29699,planear,verb,CLEAR,7495:planeando|3295:planea|2856:planear|2523:planeas|2176:planeo|1961:planeamos|1734:planeaba|1640:planeó|1476:planean|1143:planeé|829:planeaste|653:planearon|430:planeabas|376:planeaban|341:planee|333:planearlo|235:planeadas|203:planeábamos
 29697,espíritu,noun,CLEAR,23706:espíritu|5991:espíritus
 29688,vuelo,noun,CLEAR,27150:vuelo|2538:vuelos
+29684,girar,verb,CLEAR,14319:gira|4611:girar|2551:girando|2047:gire|1233:giras|889:giran|776:giró|611:giren|461:girado|427:gírate|426:giraba|423:giré|374:giramos|273:gíralo|263:gires
 29660,unidad,noun,CLEAR,21181:unidad|8479:unidades
 29658,empresa,noun,CLEAR,23858:empresa|5800:empresas
 29590,fallar,verb,CLEAR,6992:falla|4837:fallado|3453:fallar|3178:falló|2099:fallé|1479:fallaste|1471:fallando|951:fallan|912:fallaron|906:fallamos|816:falle|613:falles|470:fallaré|442:fallará|260:fallara|260:fallen|251:fallaba|200:fallarle
@@ -1766,7 +1767,6 @@ count,spanish,pos,flags,usage
 15406,descubierto,adj,CLEAR,13099:descubierto|1189:descubierta|802:descubiertos|316:descubiertas
 15377,tercer,none,NOUSAGE; NODEF; LITERAL,15377:tercer
 15366,centavo,noun,CLEAR,9116:centavos|6250:centavo
-15365,girar,verb,CLEAR,4611:girar|2551:girando|2047:gire|1233:giras|889:giran|776:giró|611:giren|461:girado|427:gírate|426:giraba|423:giré|374:giramos|273:gíralo|263:gires
 15361,esclavo,noun,CLEAR,6874:esclavos|5274:esclavo|2687:esclava|526:esclavas
 15346,conde,noun,CLEAR,10512:conde|4647:condesa|187:condes
 15340,recién,adv,CLEAR,15340:recién
@@ -1867,7 +1867,6 @@ count,spanish,pos,flags,usage
 14340,presencia,noun,CLEAR,14340:presencia
 14324,cazar,verb,CLEAR,6622:cazar|2448:cazando|1316:cazas|984:cazado|693:cazan|491:cazo|402:cazamos|269:cazados|246:cazarlo|236:cazó|228:cazaba|196:cazarlos|193:cazaré
 14322,cable,noun,CLEAR,9619:cable|4703:cables
-14319,gira,noun,CLEAR,14319:gira
 14309,annie,none,NOUSAGE; NODEF; NOSENT,14309:annie
 14302,chaqueta,noun,CLEAR,13332:chaqueta|970:chaquetas
 14301,alan,none,NOUSAGE; NODEF; NOSENT,14301:alan
@@ -3148,7 +3147,6 @@ count,spanish,pos,flags,usage
 6876,ruth,none,NOUSAGE; NODEF; NOSENT,6876:ruth
 6874,academia,noun,CLEAR,6874:academia
 6866,sobra,noun,CLEAR,4916:sobra|1950:sobras
-6861,morar,verb,CLEAR,1889:morada|1628:more|1320:moran|785:mora|653:moras|325:morados|261:moradas
 6860,barón,noun,NOSENT,5070:barón|1459:baronesa|331:barones
 6859,apresurar,verb,CLEAR,2281:apresúrate|643:apresurarnos|588:apresúrense|542:apresures|421:apresurarse|364:apresúrese|363:apresurar|327:apresure|261:apresurarte|244:apresurarme|231:apresura|207:apresurando|197:apresuré|190:apresuramos
 6855,malcolm,none,NOUSAGE; NODEF; NOSENT,6855:malcolm
@@ -3759,7 +3757,6 @@ count,spanish,pos,flags,usage
 5379,susto,noun,CLEAR,5104:susto|275:sustos
 5379,garantía,noun,CLEAR,3999:garantía|1380:garantías
 5376,megan,none,NOUSAGE; NODEF; NOSENT,5376:megan
-5375,tarar,verb,CLEAR,4973:tara|402:taro
 5372,barney,none,NOUSAGE; NODEF; NOSENT,5372:barney
 5371,tobillo,noun,CLEAR,3652:tobillo|1719:tobillos
 5369,circular,verb,CLEAR,1848:circular|1060:circulo|721:circulando|507:circula|369:circulen|299:circulan|292:circule|273:circulares
@@ -3897,6 +3894,7 @@ count,spanish,pos,flags,usage
 5030,allen,none,NOUSAGE; NODEF; NOSENT,5030:allen
 5028,teresa,none,NOUSAGE; NODEF; LITERAL,5028:teresa
 5028,justificar,verb,CLEAR,1865:justificar|1423:justifica|696:justificado|415:justificada|244:justifique|196:justificarme|189:justifican
+5025,atropellar,verb,CLEAR,1663:atropellado|1505:atropelló|539:atropellar|383:atropella|339:atropellé|335:atropellaron|261:atropellaste
 5017,mansión,noun,CLEAR,4636:mansión|381:mansiones
 5015,uu,none,NOUSAGE; NODEF; LITERAL,5015:uu
 5015,salvador,noun,CLEAR,4115:salvador|595:salvadora|305:salvadores
@@ -3920,6 +3918,7 @@ count,spanish,pos,flags,usage
 4976,deberia,none,NOUSAGE; NODEF; NOSENT,4976:deberia
 4976,danza,noun,CLEAR,4608:danza|368:danzas
 4974,desafiar,verb,CLEAR,1426:desafiar|832:desafía|683:desafiando|587:desafió|502:desafiado|382:desafiarme|330:desafían|232:desafías
+4973,tara,noun,NOSENT,4973:tara
 4973,christopher,none,NOUSAGE; NODEF; NOSENT,4973:christopher
 4972,vicepresidente,noun,CLEAR,4001:vicepresidente|971:vicepresidenta
 4968,confidencial,adj,CLEAR,4172:confidencial|796:confidenciales
@@ -4261,6 +4260,7 @@ count,spanish,pos,flags,usage
 4397,furia,noun,CLEAR,4126:furia|271:furias
 4397,ayuntamiento,noun,CLEAR,4397:ayuntamiento
 4390,definir,verb,CLEAR,1875:define|1237:definir|398:definida|346:definen|325:defina|209:definidos
+4386,morar,verb,CLEAR,1628:more|1320:moran|785:mora|653:moras
 4386,eve,none,NOUSAGE; NODEF; NOSENT,4386:eve
 4383,virtud,noun,CLEAR,3018:virtud|1365:virtudes
 4382,frágil,adj,CLEAR,3554:frágil|828:frágiles
@@ -4504,6 +4504,7 @@ count,spanish,pos,flags,usage
 4046,recto,adj,CLEAR,3635:recto|411:rectos
 4046,ejercitar,verb,CLEAR,3462:ejercito|389:ejercitar|195:ejercitando
 4044,establo,noun,CLEAR,2905:establo|1139:establos
+4043,morado,adj,CLEAR,1889:morada|1568:morado|325:morados|261:moradas
 4043,dr,none,NOUSAGE; NODEF; LITERAL,4043:dr
 4042,físicamente,adv,CLEAR,4042:físicamente
 4041,honrar,verb,CLEAR,2008:honrar|840:honrados|317:honramos|224:honrarlo|222:honran|217:honro|213:honrando
@@ -5076,7 +5077,6 @@ count,spanish,pos,flags,usage
 3370,reconstruir,verb,CLEAR,2434:reconstruir|369:reconstruido|322:reconstruyendo|245:reconstruirlo
 3369,poirot,none,NOUSAGE; NODEF; NOSENT,3369:poirot
 3368,amelia,none,NOUSAGE; NODEF; NOSENT,3368:amelia
-3366,mención,noun,CLEAR,2076:menciones|1290:mención
 3366,matty,none,NOUSAGE; NODEF; NOSENT,3366:matty
 3365,olla,noun,CLEAR,2759:olla|606:ollas
 3364,niles,none,NOUSAGE; NODEF; NOSENT,3364:niles
@@ -5084,7 +5084,6 @@ count,spanish,pos,flags,usage
 3364,cliff,none,NOUSAGE; NODEF; NOSENT,3364:cliff
 3364,by,none,NOUSAGE; NODEF; NOSENT,3364:by
 3363,hara,none,NOUSAGE; NODEF; NOSENT,3363:hara
-3362,atropellar,verb,CLEAR,1505:atropelló|539:atropellar|383:atropella|339:atropellé|335:atropellaron|261:atropellaste
 3361,polly,none,NOUSAGE; NODEF; NOSENT,3361:polly
 3361,intervención,noun,CLEAR,3037:intervención|324:intervenciones
 3360,violador,adj,NOSENT,2526:violador|834:violadores
@@ -5442,7 +5441,6 @@ count,spanish,pos,flags,usage
 3034,punk,noun,CLEAR,2634:punk|400:punks
 3034,east,none,NOUSAGE; NODEF; NOSENT,3034:east
 3034,aperitivo,noun,CLEAR,1596:aperitivo|1438:aperitivos
-3033,despido,noun,CLEAR,2571:despido|462:despidos
 3033,capilla,noun,CLEAR,3033:capilla
 3032,lucky,none,NOUSAGE; NODEF; NOSENT,3032:lucky
 3030,suavemente,adv,CLEAR,3030:suavemente
@@ -6909,10 +6907,9 @@ count,spanish,pos,flags,usage
 2075,dieciséis,num,CLEAR,2075:dieciséis
 2075,catar,verb,CLEAR,1147:cate|369:cata|301:cates|258:cato
 2074,ideal,noun,DUPLICATE,2074:ideales
-2074,eje,noun,CLEAR,1793:eje|281:ejes
+2074,eje,noun,LITERAL; CLEAR,1793:eje|281:ejes
 2073,batear,verb,CLEAR,773:batear|624:bateo|455:batea|221:bateando
 2071,puntuación,noun,CLEAR,1786:puntuación|285:puntuaciones
-2071,corro,noun,CLEAR,2071:corro
 2071,canciller,noun,CLEAR,2071:canciller
 2070,felicity,none,NOUSAGE; NODEF; NOSENT,2070:felicity
 2070,consolar,verb,CLEAR,716:consuela|457:consolar|356:consolarme|285:consolarte|256:consolarla
@@ -6927,7 +6924,6 @@ count,spanish,pos,flags,usage
 2067,inmune,adj,CLEAR,1595:inmune|472:inmunes
 2066,noventa,num,CLEAR,2066:noventa
 2066,nash,none,NOUSAGE; NODEF; NOSENT,2066:nash
-2066,atropellado,adj,CLEAR,1663:atropellado|403:atropellada
 2065,pellejo,noun,CLEAR,2065:pellejo
 2064,participante,noun,CLEAR,1315:participantes|749:participante
 2064,ike,none,NOUSAGE; NODEF; NOSENT,2064:ike
@@ -8164,7 +8160,6 @@ count,spanish,pos,flags,usage
 1569,bloom,none,NOUSAGE; NODEF; NOSENT,1569:bloom
 1569,admiración,noun,CLEAR,1569:admiración
 1568,multimillonario,adj,CLEAR,1035:multimillonario|289:multimillonaria|244:multimillonarios
-1568,morado,adj,CLEAR,1568:morado
 1568,calmate,none,NOUSAGE; NODEF; NOSENT,1568:calmate
 1567,calamar,noun,CLEAR,996:calamar|571:calamares
 1566,ratito,noun,CLEAR,1566:ratito
@@ -9074,7 +9069,7 @@ count,spanish,pos,flags,usage
 1306,hai,none,NOUSAGE; NODEF; NOSENT,1306:hai
 1306,cónsul,noun,NOSENT,1306:cónsul
 1306,cenicero,noun,CLEAR,1065:cenicero|241:ceniceros
-1305,his,none,NOUSAGE; NODEF; LITERAL,1305:his
+1305,his,none,NOUSAGE; NODEF; NOSENT,1305:his
 1305,festín,noun,CLEAR,1305:festín
 1305,dunn,none,NOUSAGE; NODEF; NOSENT,1305:dunn
 1305,atravesado,adj,CLEAR,1305:atravesado
@@ -9134,6 +9129,7 @@ count,spanish,pos,flags,usage
 1290,temible,adj,NOSENT,1020:temible|270:temibles
 1290,subida,noun,CLEAR,1290:subida
 1290,parálisis,noun,CLEAR,1290:parálisis
+1290,mención,noun,NOSENT,1290:mención
 1290,marisa,none,NOUSAGE; NODEF; NOSENT,1290:marisa
 1290,fowler,none,NOUSAGE; NODEF; NOSENT,1290:fowler
 1290,distinción,noun,CLEAR,1055:distinción|235:distinciones
@@ -10091,7 +10087,7 @@ count,spanish,pos,flags,usage
 1077,gasa,noun,NOSENT,667:gasa|410:gasas
 1076,roedor,adj,NOSENT,539:roedor|537:roedores
 1076,rayna,none,NOUSAGE; NODEF; NOSENT,1076:rayna
-1076,fa,interj,CLEAR,1076:fa
+1076,fa,interj,NOSENT,1076:fa
 1076,extinguir,verb,CLEAR,401:extinguido|238:extinguir|223:extinguieron|214:extingue
 1076,email,noun,CLEAR,1076:emails
 1076,caldwell,none,NOUSAGE; NODEF; NOSENT,1076:caldwell
@@ -16007,6 +16003,7 @@ count,spanish,pos,flags,usage
 462,emm,none,NOUSAGE; NODEF; NOSENT,462:emm
 462,donativo,noun,NOSENT,268:donativo|194:donativos
 462,dolls,none,NOUSAGE; NODEF; NOSENT,462:dolls
+462,despido,noun,LITERAL; CLEAR,462:despidos
 462,coje,none,NOUSAGE; NODEF; NOSENT,462:coje
 462,cheney,none,NOUSAGE; NODEF; NOSENT,462:cheney
 462,buford,none,NOUSAGE; NODEF; NOSENT,462:buford
@@ -17204,8 +17201,10 @@ count,spanish,pos,flags,usage
 403,dink,none,NOUSAGE; NODEF; NOSENT,403:dink
 403,descalificar,verb,NOSENT,403:descalificado
 403,camada,noun,NOSENT,403:camada
+403,atropellado,adj,CLEAR,403:atropellada
 403,ardid,noun,CLEAR,403:ardid
 403,arch,none,NOUSAGE; NODEF; NOSENT,403:arch
+402,tarar,verb,NOSENT,402:taro
 402,sylar,none,NOUSAGE; NODEF; NOSENT,402:sylar
 402,sanguinario,adj,CLEAR,402:sanguinario
 402,sangría,noun,NOSENT,402:sangría
@@ -20183,7 +20182,7 @@ count,spanish,pos,flags,usage
 294,babette,none,NOUSAGE; NODEF; NOSENT,294:babette
 294,artificialmente,adv,NOSENT,294:artificialmente
 294,aparecio,none,NOUSAGE; NODEF; NOSENT,294:aparecio
-294,amarar,verb,CLEAR,294:amaro
+294,amarar,verb,NOSENT,294:amaro
 293,thomson,none,NOUSAGE; NODEF; NOSENT,293:thomson
 293,tapioca,noun,CLEAR,293:tapioca
 293,stroh,none,NOUSAGE; NODEF; NOSENT,293:stroh
@@ -23940,7 +23939,7 @@ count,spanish,pos,flags,usage
 211,miyuki,none,NOUSAGE; NODEF; NOSENT,211:miyuki
 211,mantenganse,none,NOUSAGE; NODEF; NOSENT,211:mantenganse
 211,manitowoc,none,NOUSAGE; NODEF; NOSENT,211:manitowoc
-211,makes,none,NOUSAGE; NODEF; LITERAL,211:makes
+211,makes,none,NOUSAGE; NODEF; NOSENT,211:makes
 211,magica,none,NOUSAGE; NODEF; NOSENT,211:magica
 211,magenta,noun,CLEAR,211:magenta
 211,m2,none,NOUSAGE; NODEF; NOSENT,211:m2
@@ -24799,7 +24798,7 @@ count,spanish,pos,flags,usage
 198,isaacs,none,NOUSAGE; NODEF; NOSENT,198:isaacs
 198,irradiar,verb,CLEAR,198:irradia
 198,instar,verb,CLEAR,198:insto
-198,hinchable,adj,CLEAR,198:hinchable
+198,hinchable,adj,NOSENT,198:hinchable
 198,hannigan,none,NOUSAGE; NODEF; NOSENT,198:hannigan
 198,hanako,none,NOUSAGE; NODEF; NOSENT,198:hanako
 198,grievous,none,NOUSAGE; NODEF; NOSENT,198:grievous
