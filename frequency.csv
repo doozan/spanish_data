@@ -625,6 +625,7 @@ count,spanish,pos,flags,usage
 54866,rato,noun,CLEAR,37101:rato|9184:rata|7938:ratas|643:ratos
 54653,aire,noun,CLEAR,50788:aire|3865:aires
 54648,devolver,verb,CLEAR,7524:devolver|3998:devolveré|3119:devuelve|2954:devuelto|2760:devuélveme|2421:devuelva|2212:devuelvo|2114:devolverle|1996:devolverlo|1970:devolvió|1606:devolverte|1531:devolverme|1404:devuelves|1389:devuelvan|1260:devuelvas|1215:devolverá|1053:devolví|899:devolveremos|850:devuélvelo|826:devuelta|775:devolviste|759:devuelven|744:devolviendo|725:devolverla|663:devolvemos|662:devolvieron|661:devolvérselo|529:devuélvame|514:devolverán|499:devolvería|491:devolverás|481:devuélvele|455:devolviera|389:devolvérsela|377:devolverles|366:devolverlos|338:devuélvela|316:devueltos|313:devolvernos|297:devolvérmelo|292:devolvértelo|258:devolvía|238:devolvamos|216:devuélvanme|189:devolverlas
+54600,vosotras,pron,PRONOUN; LITERAL,49111:vosotros|5489:vosotras
 54600,decisión,noun,CLEAR,42011:decisión|12589:decisiones
 54540,disculpa,noun,CLEAR,37801:disculpa|16739:disculpas
 54451,luchar,verb,CLEAR,22738:luchar|10428:luchando|2698:luchado|2499:luchamos|2321:luchó|1933:luchan|1351:lucho|1302:luché|1168:lucharon|1058:lucharé|1044:lucharemos|838:luchaba|737:luche|674:luchen|589:luches|546:luchaste|507:luchemos|481:luchará|407:lucharán|396:luchaban|273:luchad|262:lucharía|201:lucharás
@@ -688,7 +689,6 @@ count,spanish,pos,flags,usage
 49345,tras,prep,CLEAR,49345:tras
 49306,bienvenido,adj,CLEAR,28108:bienvenido|19776:bienvenidos|1422:bienvenidas
 49140,brazo,noun,CLEAR,25423:brazo|23717:brazos
-49111,vosotros,pron,PRONOUN,49111:vosotros
 49108,mesa,noun,CLEAR,45409:mesa|3699:mesas
 49062,marchar,verb,CLEAR,5913:marchar|4251:marchó|4241:marcharse|3562:marcho|3386:marcharme|2917:marchado|2390:marcharte|2196:márchate|2017:marche|2014:marchando|1670:marchaos|1415:marchen|1374:marcharnos|1179:marchan|1143:marchamos|941:marches|902:márchese|854:marcharé|805:marcharon|774:marché|575:marchara|566:marchaba|550:marchará|525:marcharemos|524:marchaste|488:marcharos|441:márchense|359:marchemos|231:marcharán|225:marchémonos|219:marcharás|213:marcharía|202:marchad
 48879,dirección,noun,CLEAR,44229:dirección|4650:direcciones
@@ -2896,7 +2896,7 @@ count,spanish,pos,flags,usage
 7774,desafortunadamente,adv,CLEAR,7774:desafortunadamente
 7772,representante,noun,CLEAR,5911:representante|1861:representantes
 7765,mexicano,adj,CLEAR,2629:mexicano|1848:mexicanos|1668:mexicana|563:mejicano|455:mejicanos|305:mejicana|297:mexicanas
-7758,poli,noun,CLEAR,7758:poli
+7758,poli,noun,LITERAL; CLEAR,7758:poli
 7754,that,none,NOUSAGE; NODEF; NOSENT,7754:that
 7753,comprometer,verb,CLEAR,1103:comprometer|793:comprometerse|629:compromete|612:comprometió|580:comprometerme|494:comprometerte|482:comprometo|415:comprometí|335:comprometimos|317:comprometa|297:comprometidas|286:comprometiste|283:comprometernos|261:comprometes|231:comprometieron|223:comprometiendo|223:comprometen|189:comprometemos
 7752,eleno,adj,NOSENT,7752:elena
@@ -3708,7 +3708,6 @@ count,spanish,pos,flags,usage
 5496,debbie,none,NOUSAGE; NODEF; LITERAL,5496:debbie
 5492,harper,none,NOUSAGE; NODEF; NOSENT,5492:harper
 5490,condenar,verb,CLEAR,1209:condenar|714:condenaron|518:condenó|461:condeno|411:condenan|406:condenen|358:condenadas|326:condenarlo|250:condenando|242:condenarán|207:condene|199:condenamos|189:condenarme
-5489,vosotras,pron,PRONOUN; LITERAL,5489:vosotras
 5489,cometa,noun,CLEAR,3729:cometa|1760:cometas
 5488,creativo,adj,CLEAR,2620:creativo|1681:creativa|724:creativos|463:creativas
 5486,silencioso,adj,CLEAR,2921:silencioso|1754:silenciosa|517:silenciosos|294:silenciosas
@@ -6742,7 +6741,7 @@ count,spanish,pos,flags,usage
 2155,when,none,NOUSAGE; NODEF; NOSENT,2155:when
 2155,neutral,adj,CLEAR,1843:neutral|312:neutrales
 2155,atorar,verb,CLEAR,989:atorado|536:atorada|407:atoró|223:atorados
-2154,microonda,noun,CLEAR,2154:microondas
+2154,microondas,noun,CLEAR,2154:microondas
 2153,vasto,adj,CLEAR,944:vasto|715:vasta|271:vastas|223:vastos
 2153,christy,none,NOUSAGE; NODEF; NOSENT,2153:christy
 2152,vicki,none,NOUSAGE; NODEF; NOSENT,2152:vicki
@@ -8781,7 +8780,6 @@ count,spanish,pos,flags,usage
 1378,evangelio,noun,NOSENT,1090:evangelio|288:evangelios
 1378,center,noun,LITERAL; CLEAR,1378:center
 1377,vladimir,none,NOUSAGE; NODEF; NOSENT,1377:vladimir
-1377,ro,noun,NOSENT,782:ro|595:ros
 1377,devastador,adj,CLEAR,962:devastador|415:devastadora
 1377,colmena,noun,CLEAR,1124:colmena|253:colmenas
 1377,chanel,none,NOUSAGE; NODEF; NOSENT,1377:chanel
@@ -10473,7 +10471,6 @@ count,spanish,pos,flags,usage
 1008,depravar,verb,NOSENT,555:depravado|234:depravados|219:depravada
 1007,whitman,none,NOUSAGE; NODEF; NOSENT,1007:whitman
 1007,subordinado,adj,CLEAR,584:subordinados|423:subordinado
-1007,manita,noun,CLEAR,755:manitas|252:manita
 1007,faye,none,NOUSAGE; NODEF; NOSENT,1007:faye
 1007,desdichado,adj,CLEAR,550:desdichado|457:desdichada
 1007,corinne,none,NOUSAGE; NODEF; NOSENT,1007:corinne
@@ -11378,6 +11375,7 @@ count,spanish,pos,flags,usage
 872,debi,none,NOUSAGE; NODEF; NOSENT,872:debi
 872,bucle,noun,NOSENT,872:bucle
 872,arenque,noun,CLEAR,503:arenque|369:arenques
+871,ros,noun,NOSENT,595:ros|276:roses
 871,neoyorquino,adj,CLEAR,373:neoyorquinos|309:neoyorquino|189:neoyorquina
 871,four,none,NOUSAGE; NODEF; NOSENT,871:four
 871,ceño,noun,CLEAR,871:ceño
@@ -11522,7 +11520,6 @@ count,spanish,pos,flags,usage
 852,investigador,adj,DUPLICATE,852:investigadora
 852,hermosura,noun,NOSENT,852:hermosura
 852,conversión,noun,CLEAR,852:conversión
-852,cercanía,noun,CLEAR,432:cercanía|420:cercanías
 852,babear,verb,CLEAR,498:babeando|354:babear
 851,retractar,verb,CLEAR,244:retractarse|210:retractó|200:retráctate|197:retractarme
 851,realización,noun,CLEAR,851:realización
@@ -12129,6 +12126,7 @@ count,spanish,pos,flags,usage
 783,donnelly,none,NOUSAGE; NODEF; NOSENT,783:donnelly
 783,chusma,noun,CLEAR,783:chusma
 782,saltador,noun,NOSENT,581:saltador|201:saltadores
+782,ro,noun,NOSENT,782:ro
 782,pegatina,noun,CLEAR,419:pegatina|363:pegatinas
 782,membrana,noun,NOSENT,516:membrana|266:membranas
 782,ichi,none,NOUSAGE; NODEF; NOSENT,782:ichi
@@ -12367,6 +12365,7 @@ count,spanish,pos,flags,usage
 755,perspicaz,adj,NOSENT,755:perspicaz
 755,ocupante,adj,NOSENT,488:ocupantes|267:ocupante
 755,nightingale,none,NOUSAGE; NODEF; NOSENT,755:nightingale
+755,manitas,noun,CLEAR,755:manitas
 755,jodie,none,NOUSAGE; NODEF; NOSENT,755:jodie
 755,desinteresado,adj,NOSENT,477:desinteresado|278:desinteresada
 755,desconsiderado,adj,NOSENT,554:desconsiderado|201:desconsiderada
@@ -13477,7 +13476,7 @@ count,spanish,pos,flags,usage
 651,chopin,none,NOUSAGE; NODEF; NOSENT,651:chopin
 651,bicarbonato,noun,CLEAR,651:bicarbonato
 650,ómnibus,noun,CLEAR,650:ómnibus
-650,sien,noun,CLEAR,650:sien
+650,sien,noun,NOSENT,650:sien
 650,rie,none,NOUSAGE; NODEF; NOSENT,650:rie
 650,odessa,none,NOUSAGE; NODEF; NOSENT,650:odessa
 650,mural,adj,NOSENT,650:mural
@@ -13825,7 +13824,7 @@ count,spanish,pos,flags,usage
 620,rourke,none,NOUSAGE; NODEF; NOSENT,620:rourke
 620,ricachón,noun,NOSENT,394:ricachón|226:ricachones
 620,nfl,none,NOUSAGE; NODEF; NOSENT,620:nfl
-620,meco,adj,NOSENT,620:meca
+620,meca,interj,NOSENT,620:meca
 620,markus,none,NOUSAGE; NODEF; NOSENT,620:markus
 620,malherir,verb,NOSENT,620:malherido
 620,lyman,none,NOUSAGE; NODEF; NOSENT,620:lyman
@@ -15058,8 +15057,8 @@ count,spanish,pos,flags,usage
 525,groenlandia,none,NOUSAGE; NODEF; NOSENT,525:groenlandia
 525,francois,none,NOUSAGE; NODEF; NOSENT,525:francois
 525,ciera,none,NOUSAGE; NODEF; NOSENT,525:ciera
+525,cas,noun,NOSENT,525:cas
 525,carpintería,noun,NOSENT,525:carpintería
-525,ca,noun,NOSENT,525:cas
 525,-t,none,NOUSAGE; NODEF; NOSENT,525:-t
 524,tok,none,NOUSAGE; NODEF; NOSENT,524:tok
 524,rosal,noun,CLEAR,270:rosales|254:rosal
@@ -16621,6 +16620,7 @@ count,spanish,pos,flags,usage
 432,dni,none,NOUSAGE; NODEF; NOSENT,432:dni
 432,currículo,noun,CLEAR,432:currículo
 432,chocho,adj,NOSENT,432:chocho
+432,cercanía,noun,NOSENT,432:cercanía
 432,cazavampiros,noun,NOSENT,432:cazavampiros
 432,caldero,noun,CLEAR,432:caldero
 432,bastilla,noun,NOSENT,432:bastilla
@@ -16856,6 +16856,7 @@ count,spanish,pos,flags,usage
 420,dônde,none,NOUSAGE; NODEF; NOSENT,420:dônde
 420,disfuncional,adj,CLEAR,420:disfuncional
 420,clarísimo,adj,NOSENT,420:clarísimo
+420,cercanías,noun,CLEAR,420:cercanías
 420,came,none,NOUSAGE; NODEF; NOSENT,420:came
 420,british,adj,NOSENT,420:british
 420,barber,none,NOUSAGE; NODEF; NOSENT,420:barber
@@ -17403,7 +17404,7 @@ count,spanish,pos,flags,usage
 394,heathcliff,none,NOUSAGE; NODEF; NOSENT,394:heathcliff
 394,gonzo,none,NOUSAGE; NODEF; NOSENT,394:gonzo
 394,geller,none,NOUSAGE; NODEF; NOSENT,394:geller
-394,gallito,noun,CLEAR,394:gallito
+394,gallito,noun,NOSENT,394:gallito
 394,fellini,none,NOUSAGE; NODEF; NOSENT,394:fellini
 394,exclusión,noun,NOSENT,394:exclusión
 394,escarcha,noun,CLEAR,394:escarcha
@@ -18051,7 +18052,7 @@ count,spanish,pos,flags,usage
 366,antonieta,none,NOUSAGE; NODEF; NOSENT,366:antonieta
 366,almacenaje,noun,NOSENT,366:almacenaje
 366,agobiado,adj,CLEAR,366:agobiado
-366,aeroplano,noun,CLEAR,366:aeroplano
+366,aeroplano,none,NOUSAGE; NODEF; LITERAL,366:aeroplano
 366,-3ch462300,none,NOUSAGE; NODEF; NOSENT,366:-3ch462300
 365,índole,noun,NOSENT,365:índole
 365,verna,none,NOUSAGE; NODEF; NOSENT,365:verna
@@ -20801,7 +20802,6 @@ count,spanish,pos,flags,usage
 276,thriller,noun,NOSENT,276:thriller
 276,siddharth,none,NOUSAGE; NODEF; NOSENT,276:siddharth
 276,sherif,noun,NOSENT,276:sherif
-276,ros,noun,NOSENT,276:roses
 276,repeler,verb,NOSENT,276:repeler
 276,polución,noun,CLEAR,276:polución
 276,patetico,none,NOUSAGE; NODEF; NOSENT,276:patetico
@@ -21803,6 +21803,7 @@ count,spanish,pos,flags,usage
 252,near,none,NOUSAGE; NODEF; NOSENT,252:near
 252,mâs,none,NOUSAGE; NODEF; NOSENT,252:mâs
 252,meena,none,NOUSAGE; NODEF; NOSENT,252:meena
+252,manita,noun,NOSENT,252:manita
 252,loxley,none,NOUSAGE; NODEF; NOSENT,252:loxley
 252,laredo,none,NOUSAGE; NODEF; NOSENT,252:laredo
 252,kendal,none,NOUSAGE; NODEF; NOSENT,252:kendal
@@ -25273,7 +25274,7 @@ count,spanish,pos,flags,usage
 192,endicott,none,NOUSAGE; NODEF; NOSENT,192:endicott
 192,déjamela,none,NOUSAGE; NODEF; NOSENT,192:déjamela
 192,dolittle,none,NOUSAGE; NODEF; NOSENT,192:dolittle
-192,disquete,noun,NOSENT,192:disquete
+192,disquete,none,NOUSAGE; NODEF; NOSENT,192:disquete
 192,declinar,verb,CLEAR,192:declinar
 192,condensación,noun,NOSENT,192:condensación
 192,claes,none,NOUSAGE; NODEF; NOSENT,192:claes
