@@ -2286,7 +2286,6 @@ count,spanish,pos,flags,usage
 10759,dividir,verb,CLEAR,2193:dividir|1583:dividido|1270:divide|865:dividimos|849:dividida|631:dividiremos|623:divididos|542:dividirnos|394:dividió|380:dividen|314:dividirlo|307:dividiendo|209:divididas|206:dividirse|202:dividamos|191:dividieron
 10758,pasta,noun,CLEAR,10196:pasta|562:pastas
 10745,territorio,noun,CLEAR,9483:territorio|1262:territorios
-10744,ciar,verb,NOSENT,10451:cia|293:cía
 10737,ave,noun,CLEAR,5657:aves|5080:ave
 10732,fabuloso,adj,CLEAR,6734:fabuloso|2760:fabulosa|716:fabulosos|522:fabulosas
 10730,museo,noun,CLEAR,9727:museo|1003:museos
@@ -2299,7 +2298,6 @@ count,spanish,pos,flags,usage
 10703,almacén,noun,CLEAR,9062:almacén|1641:almacenes
 10691,julio,noun,CLEAR,10691:julio
 10661,helicóptero,noun,CLEAR,8589:helicóptero|2072:helicópteros
-10650,miss,noun,NOSENT,10650:miss
 10641,prohibido,adj,CLEAR,7738:prohibido|2170:prohibida|733:prohibidas
 10629,rescate,noun,CLEAR,10629:rescate
 10625,alterar,verb,CLEAR,2837:alterado|1891:alterada|1725:alterar|932:altera|719:alteró|584:alteres|552:alterando|486:alterados|425:altere|269:alteran|205:alteradas
@@ -3060,7 +3058,6 @@ count,spanish,pos,flags,usage
 7167,torturar,verb,CLEAR,1477:torturado|1061:torturar|698:torturando|643:torturaron|540:torturarme|536:torturó|513:torturada|425:torturados|393:torturarte|350:torturan|322:tortures|209:torturarlo
 7164,trasladar,verb,CLEAR,1643:trasladado|1116:trasladar|710:trasladó|620:trasladaron|362:trasladarse|328:traslada|312:trasladan|310:trasladamos|301:trasladada|285:trasladados|262:trasladen|255:trasladarlo|254:trasladando|213:trasladarme|193:trasladarla
 7161,competir,verb,CLEAR,4695:competir|1245:compitiendo|490:compiten|324:compite|216:competimos|191:competirán
-7159,logar,verb,NOSENT,5913:logan|1060:logo|186:logar
 7154,respiración,noun,CLEAR,6721:respiración|433:respiraciones
 7154,determinar,verb,CLEAR,4648:determinar|769:determina|465:determinados|434:determinó|363:determinará|242:determinan|233:determine
 7154,cardíaco,adj,CLEAR,3636:cardíaco|1293:cardiaco|1160:cardíaca|588:cardiaca|477:cardíacos
@@ -3153,7 +3150,6 @@ count,spanish,pos,flags,usage
 6855,malcolm,none,NOUSAGE; NODEF; NOSENT,6855:malcolm
 6850,arco,noun,CLEAR,6067:arco|783:arcos
 6849,roto,noun,DUPLICATE,6849:rota
-6846,so,interj,NOSENT,6846:so
 6846,satélite,noun,CLEAR,5076:satélite|1770:satélites
 6844,maduro,adj,CLEAR,3086:madura|2366:maduro|718:maduros|674:maduras
 6842,atento,adj,CLEAR,3314:atento|2430:atentos|1098:atenta
@@ -9272,6 +9268,7 @@ count,spanish,pos,flags,usage
 1247,memorial,noun,NOSENT,1247:memorial
 1247,j.d.,none,NOUSAGE; NODEF; NOSENT,1247:j.d.
 1247,escasez,noun,CLEAR,1247:escasez
+1246,logar,verb,NOSENT,1060:logo|186:logar
 1246,flote,noun,CLEAR,1246:flote
 1246,fertilidad,noun,NOSENT,1246:fertilidad
 1245,yakuza,noun,CLEAR,1245:yakuza
@@ -20216,6 +20213,7 @@ count,spanish,pos,flags,usage
 293,deudor,noun,NOSENT,293:deudores
 293,decis,none,NOUSAGE; NODEF; NOSENT,293:decis
 293,curie,none,NOUSAGE; NODEF; NOSENT,293:curie
+293,ciar,verb,NOSENT,293:cía
 293,bolin,none,NOUSAGE; NODEF; NOSENT,293:bolin
 293,blasfemo,adj,CLEAR,293:blasfemo
 293,benz,none,NOUSAGE; NODEF; NOSENT,293:benz
