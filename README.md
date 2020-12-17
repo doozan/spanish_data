@@ -89,12 +89,13 @@ mkdir spanish_data
         }
 EOF
 
-    bzcat eng-spa_links.tsv.bz2 | gawk -f join.awk eng_sentences.tsv spa_sentences.tsv - | pv > joined.tsv || return 1
+    bzcat eng-spa_links.tsv.bz2 | gawk -f join.awk eng_sentences.tsv spa_sentences.tsv - > joined.tsv || return 1
 
     # sort by number of spaces in the spanish sentence
     cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
 
     python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
+    echo "...tagging sentences"
     [ spa-only.txt.json -nt eng-spa_links.tsv.bz2 ] || spanish_tools/build_tags.sh spa-only.txt || return 1
     python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
 ```
