@@ -914,7 +914,7 @@ count,spanish,pos,flags,usage
 35911,nivel,n,CLEAR,29519:nivel|6392:niveles
 35847,juez,n,CLEAR,29177:juez|5031:jueces|1639:jueza
 35842,vario,adj,CLEAR,18306:varios|17536:varias
-35817,vera,n,NOSENT,35817:veras
+35817,vera,n,CLEAR,35817:veras
 35687,esperanza,n,CLEAR,28234:esperanza|7453:esperanzas
 35532,diferencia,n,CLEAR,31428:diferencia|4104:diferencias
 35514,respirar,v,CLEAR,13900:respirar|12602:respira|3863:respirando|2110:respire|657:respiras|552:respires|524:respiraba|502:respiren|420:respiran|384:respiramos
@@ -1230,7 +1230,7 @@ count,spanish,pos,flags,usage
 24636,americano,adj,CLEAR,15251:americano|7607:americana|1778:americanas
 24628,renunciar,v,CLEAR,9531:renunciar|2767:renuncio|2242:renunció|1771:renunciado|1614:renuncié|1038:renuncie|942:renuncias|848:renunciaste|812:renunciaré|767:renunciando|572:renuncies|366:renunciaría|313:renunciamos|299:renunciara|261:renunciará|248:renunciaron|237:renuncian
 24627,fbi,none,NOUSAGE; NODEF; NOSENT,24627:fbi
-24609,pantalones,n,LITERAL; CLEAR,24609:pantalones
+24609,pantalones,n,CLEAR,24609:pantalones
 24598,faltar,v,CLEAR,8744:faltan|4706:faltaba|2177:faltar|1562:faltó|1218:faltado|1053:falte|891:faltando|850:faltaban|693:faltaría|592:faltará|420:faltarle|362:faltaste|323:faltes|308:faltara|273:falté|224:faltaron|202:falten
 24594,decidido,adj,CLEAR,23006:decidido|1588:decidida
 24593,robo,n,CLEAR,20955:robo|3638:robos
@@ -2121,7 +2121,7 @@ count,spanish,pos,flags,usage
 11841,ahogar,v,CLEAR,2214:ahogó|1701:ahogando|1266:ahogar|1098:ahoga|879:ahogarse|600:ahogarme|525:ahogada|385:ahogue|384:ahogaron|347:ahogarte|334:ahogados|321:ahogan|307:ahogas|279:ahogaba|275:ahogándose|252:ahogara|243:ahogues|228:ahogará|203:ahogué
 11840,vd.,none,NOUSAGE; NODEF; NOSENT,11840:vd.
 11839,océano,n,CLEAR,10358:océano|1481:océanos
-11836,poli,n,LITERAL; CLEAR,7758:poli|4078:polis
+11836,poli,n,CLEAR,7758:poli|4078:polis
 11829,hank,none,NOUSAGE; NODEF; NOSENT,11829:hank
 11829,actitud,n,CLEAR,11272:actitud|557:actitudes
 11826,palo,n,CLEAR,8423:palo|3403:palos
@@ -2631,7 +2631,7 @@ count,spanish,pos,flags,usage
 8845,sed,n,CLEAR,8845:sed
 8845,avergonzado,adj,CLEAR,4984:avergonzado|3272:avergonzada|589:avergonzados
 8843,tio,none,NOUSAGE; NODEF; NOSENT,8843:tio
-8842,joyas,n,LITERAL; CLEAR,8842:joyas
+8842,joyas,n,CLEAR,8842:joyas
 8841,cojón,n,CLEAR,8841:cojones
 8838,uña,n,CLEAR,7319:uñas|1519:uña
 8835,lealtad,n,CLEAR,8501:lealtad|334:lealtades
@@ -2758,7 +2758,7 @@ count,spanish,pos,flags,usage
 8228,tragedia,n,CLEAR,7489:tragedia|739:tragedias
 8219,rollo,n,CLEAR,6618:rollo|1601:rollos
 8216,sufrimiento,n,CLEAR,7566:sufrimiento|650:sufrimientos
-8215,gafas,n,LITERAL; CLEAR,8215:gafas
+8215,gafas,n,CLEAR,8215:gafas
 8211,medicamento,n,CLEAR,5494:medicamentos|2717:medicamento
 8209,ansioso,adj,CLEAR,4382:ansioso|2274:ansiosa|1367:ansiosos|186:ansiosas
 8207,testimonio,n,CLEAR,7138:testimonio|1069:testimonios
@@ -5305,7 +5305,7 @@ count,spanish,pos,flags,usage
 3122,queen,none,NOUSAGE; NODEF; NOSENT,3122:queen
 3118,relevante,adj,CLEAR,2605:relevante|513:relevantes
 3118,inspección,n,CLEAR,3118:inspección
-3117,cosquillas,n,LITERAL; CLEAR,3117:cosquillas
+3117,cosquillas,n,CLEAR,3117:cosquillas
 3116,venenoso,adj,CLEAR,1172:venenosa|1027:venenoso|624:venenosas|293:venenosos
 3115,trece,num,CLEAR,3115:trece
 3115,irónico,adj,CLEAR,2774:irónico|341:irónica
@@ -5814,7 +5814,7 @@ count,spanish,pos,flags,usage
 2722,imprimir,v,CLEAR,1343:imprimir|474:imprime|253:imprimiendo|228:impresas|222:imprimió|202:imprimí
 2722,comunitario,adj,CLEAR,1841:comunitario|567:comunitaria|314:comunitarios
 2721,venus,none,NOUSAGE; NODEF; LITERAL,2721:venus
-2720,bolos,n,LITERAL; CLEAR,2720:bolos
+2720,bolos,n,CLEAR,2720:bolos
 2719,jeep,n,NOSENT,2532:jeep|187:jeeps
 2718,revelación,n,NOSENT,2071:revelación|647:revelaciones
 2717,herman,none,NOUSAGE; NODEF; NOSENT,2717:herman
@@ -6744,7 +6744,7 @@ count,spanish,pos,flags,usage
 2138,lucifer,none,NOUSAGE; NODEF; NOSENT,2138:lucifer
 2138,holden,none,NOUSAGE; NODEF; NOSENT,2138:holden
 2137,ventilador,n,CLEAR,1756:ventilador|381:ventiladores
-2137,tablas,n,LITERAL; CLEAR,2137:tablas
+2137,tablas,n,CLEAR,2137:tablas
 2137,neill,none,NOUSAGE; NODEF; NOSENT,2137:neill
 2137,apurado,adj,CLEAR,1441:apurado|696:apurada
 2134,masticar,v,CLEAR,1099:masticar|579:mastica|456:masticando
@@ -7882,7 +7882,7 @@ count,spanish,pos,flags,usage
 1649,aprisa,adv,NOSENT,1649:aprisa
 1648,stanton,none,NOUSAGE; NODEF; NOSENT,1648:stanton
 1648,asma,n,CLEAR,1648:asma
-1647,rima,n,CLEAR,1647:rima
+1647,rima,n,NOSENT,1647:rima
 1647,dog,none,NOUSAGE; NODEF; NOSENT,1647:dog
 1646,modus,none,NOUSAGE; NODEF; NOSENT,1646:modus
 1646,guapísimo,adj,NOSENT,996:guapísima|650:guapísimo
@@ -9731,7 +9731,7 @@ count,spanish,pos,flags,usage
 1134,africano,n,DUPLICATE,1134:africanos
 1133,tramo,n,CLEAR,921:tramo|212:tramos
 1133,púa,n,CLEAR,812:púas|321:púa
-1133,póster,n,NOSENT,932:póster|201:pósters
+1133,póster,n,CLEAR,932:póster|201:pósters
 1133,fénix,n,NOSENT,1133:fénix
 1133,demo,n,NOSENT,1133:demo
 1133,corresponsal,n,CLEAR,894:corresponsal|239:corresponsales
@@ -11448,7 +11448,7 @@ count,spanish,pos,flags,usage
 852,investigador,adj,DUPLICATE,852:investigadora
 852,hermosura,n,NOSENT,852:hermosura
 852,conversión,n,CLEAR,852:conversión
-852,cercanía,n,NOSENT,432:cercanía|420:cercanías
+852,cercanía,n,CLEAR,432:cercanía|420:cercanías
 852,babear,v,CLEAR,498:babeando|354:babear
 851,retractar,v,CLEAR,244:retractarse|210:retractó|200:retráctate|197:retractarme
 851,realización,n,CLEAR,851:realización
@@ -12199,7 +12199,7 @@ count,spanish,pos,flags,usage
 767,impaciencia,n,CLEAR,767:impaciencia
 767,conciliar,v,CLEAR,397:conciliar|370:concilio
 767,comprimido,n,CLEAR,549:comprimido|218:comprimidos
-767,carmine,none,NOUSAGE; NODEF; NOSENT,767:carmine
+767,carminar,v,NOSENT,767:carmine
 767,bash,none,NOUSAGE; NODEF; NOSENT,767:bash
 766,wilkins,none,NOUSAGE; NODEF; NOSENT,766:wilkins
 766,singer,none,NOUSAGE; NODEF; NOSENT,766:singer
@@ -14246,7 +14246,7 @@ count,spanish,pos,flags,usage
 576,fallecimiento,n,CLEAR,576:fallecimiento
 576,camaras,none,NOUSAGE; NODEF; NOSENT,576:camaras
 576,branson,none,NOUSAGE; NODEF; NOSENT,576:branson
-576,bolo,n,CLEAR,576:bolo
+576,bolo,adj,NOSENT,576:bolo
 576,aarón,none,NOUSAGE; NODEF; NOSENT,576:aarón
 575,tully,none,NOUSAGE; NODEF; NOSENT,575:tully
 575,protagonizar,v,NOSENT,370:protagonizada|205:protagonizado
@@ -15195,7 +15195,7 @@ count,spanish,pos,flags,usage
 511,coito,n,NOSENT,511:coito
 511,botox,n,NOSENT,511:botox
 510,vigía,n,NOSENT,510:vigía
-510,rimas,n,LITERAL; CLEAR,510:rimas
+510,rimas,n,CLEAR,510:rimas
 510,premisa,n,NOSENT,510:premisa
 510,maxie,none,NOUSAGE; NODEF; NOSENT,510:maxie
 510,kwan,none,NOUSAGE; NODEF; NOSENT,510:kwan
@@ -25061,7 +25061,7 @@ count,spanish,pos,flags,usage
 193,espabilado,adj,NOSENT,193:espabilado
 193,ephraim,none,NOUSAGE; NODEF; NOSENT,193:ephraim
 193,eat,none,NOUSAGE; NODEF; NOSENT,193:eat
-193,divine,none,NOUSAGE; NODEF; NOSENT,193:divine
+193,divinar,v,NOSENT,193:divine
 193,deline,none,NOUSAGE; NODEF; NOSENT,193:deline
 193,daiquiri,n,NOSENT,193:daiquiri
 193,contestame,none,NOUSAGE; NODEF; NOSENT,193:contestame

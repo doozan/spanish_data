@@ -37,13 +37,15 @@ git clone https://github.com/doozan/spanish_tools.git
 git clone https://github.com/doozan/6001_Spanish.git spanish_custom
 mkdir spanish_data
 ```
-### Build the wordlist
+### Extract the language data and build the wordlist
 ```bash
     wget -N -nv 'https://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-articles.xml.bz2'
-    [ es-en.unsorted.txt -nt enwiktionary-latest-pages-articles.xml.bz2 ] || enwiktionary_wordlist/make_wordlist.py \
-	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang-id es | pv > es-en.unsorted.txt || return 1
-    sort -s -k 1,1 -t"{" -o es-en.withforms.txt es-en.unsorted.txt
-    grep -v "\-forms}" es-en.withforms.txt > spanish_data/es-en.txt
+    [ Spanish.txt.bz2 -nt enwiktionary-latest-pages-articles.xml.bz2 ] || PYWIKIBOT_NO_USER_CONFIG=1 python3 -m enwiktionary_wordlist.make_extract \
+	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang es || return 1
+    [ spanish_data/es-en.data -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_wordlist \
+	    --langdata Spanish.txt.bz2 --lang-id es > spanish_data/es-en.data || return 1
+    [ spanish_data/es_allforms.csv -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_all_forms \
+	    --low-mem spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
 ```
 ### Build the sentences
 ```bash
@@ -92,130 +94,24 @@ EOF
     # sort by number of spaces in the spanish sentence
     cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
 
-    spanish_tools/build_sentences.py --dictionary es-en.withforms.txt eng-spa.tsv > spa-only.txt || return 1
+    python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
     [ spa-only.txt.json -nt eng-spa_links.tsv.bz2 ] || spanish_tools/build_tags.sh spa-only.txt || return 1
-    spanish_tools/build_sentences.py --dictionary es-en.withforms.txt eng-spa.tsv --tags spa-only.txt.json | pv > spanish_data/sentences.tsv || return 1
+    python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
 ```
 ### Build the frequency list
 ```bash
     wget -N -nv https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_50k.txt
-    spanish_tools/freq.py --dictionary es-en.withforms.txt es_50k.txt --ignore spanish_custom/ignore.txt > spanish_data/frequency.csv
+    python3 -m spanish_tools.freq --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt es_50k.txt > spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
 
-python3 -m enwiktionary_wordlist.wordlist_to_dictunformat es-en.withforms.txt --lang-id es \
+python3 -m enwiktionary_wordlist.wordlist_to_dictunformat --low-mem spanish_data/es-en.data spanish_data/es_allforms.csv --lang-id es \
 	--description "Spanish-English dictionary. Compiled by Jeff Doozan from Wiktionary data $TAG. CC-BY-SA" \
-	> es-en.dictunformat
-~/.local/bin/pyglossary es-en.dictunformat es-en.ifo -w merge_syns=1 || return 1
+	> es-en.dictunformat || return 1
+~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo -w merge_syns=1 || return 1
 
 # Converting from dictunformat doesn't split synonyms, so use ifo as intermediary
-~/.local/bin/pyglossary es-en.dictunformat es-en.temp.ifo || return 1
-~/.local/bin/pyglossary es-en.temp.ifo es-en.slob || return 1
+~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.temp.ifo || return 1
+~/.local/bin/pyglossary --no-progress-bar --no-color es-en.temp.ifo es-en.slob || return 1
 ```
-#:/DECKDOC
-}
-
-publish_deck() {
-    # Create a release
-    response=$( curl -H "Content-Type:application/json" -H "Authorization: token $TOKEN" \
-        https://api.github.com/repos/doozan/6001_Spanish/releases \
-        -d "{ \"tag_name\":\"$TAG\", \"name\": \"6001_Spanish_Vocab-$TAG\", \"body\": \"Jeff's 6001 Spanish Vocab, release $TAG\"}" )
-
-    UPLOAD_URL=$( echo "$response" | grep upload_url | cut -d '"' -f 4 | cut -d '{' -f 1 )
-    echo UPLOAD_URL=$UPLOAD_URL
-
-    # Add the deck
-    FILE=jeffs_deck.apkg
-    [ -f $FILE ] || { echo $FILE is not a file ; return 1; }
-    curl -H "Authorization: token $TOKEN" \
-         -H "Content-Type: application/octet-stream" \
-         --data-binary @$FILE \
-         "$UPLOAD_URL?name=Jeffs_6001_Spanish_Vocab-$TAG.apkg"
-}
-
-publish_dictionary() {
-    # Create a release
-    response=$( curl -H "Content-Type:application/json" -H "Authorization: token $TOKEN" \
-        https://api.github.com/repos/doozan/Spanish_Data/releases \
-        -d "{ \"tag_name\":\"$TAG\", \"name\": \"Spanish-English-Dictionary-$TAG\", \"body\": \"Spanish-English dictionary, release $TAG\"}" )
-
-    UPLOAD_URL=$( echo "$response" | grep upload_url | cut -d '"' -f 4 | cut -d '{' -f 1 )
-    echo UPLOAD_URL=$UPLOAD_URL
-
-    # Add the dictionary
-    FILE=dictionary.zip
-    zip $FILE es-en.ifo es-en.idx es-en.dict.dz
-    curl -H "Authorization: token $TOKEN" \
-         -H "Content-Type: application/octet-stream" \
-         --data-binary @$FILE \
-         "$UPLOAD_URL?name=Spanish-English-Wiktionary-$TAG.StarDict.zip"
-
-    # Add the wordlist
-    FILE=es-en.slob.zip
-    zip $FILE es-en.slob
-    curl -H "Authorization: token $TOKEN" \
-         -H "Content-Type: application/octet-stream" \
-         --data-binary @$FILE \
-         "$UPLOAD_URL?name=Spanish-English-Wiktionary-$TAG.slob.zip"
-
-}
-
-main() {
-    BUILDDIR=$(pwd)/spanish-$TAG
-    [ -d $BUILDDIR ] || mkdir  $BUILDDIR
-    cd $BUILDDIR
-    clone_repos
-
-    echo "Building wordlist"
-    build_wordlist || { echo "Wordlist build failed"; exit 1; }
-    #build_newdict || { echo "New Dictionary build failed"; }
-
-    echo "Building sentences"
-    build_sentences || { echo "Sentences failed"; exit 1; }
-
-    echo "Building frequency list"
-    build_frequency || { echo "Frequency list failed"; exit 1; }
-
-    echo "Building deck"
-    build_deck || { echo "Deck build failed"; exit 1; }
-
-    echo "Building dictionary"
-    build_dictionary || { echo "Dictionary build failed"; exit 1; }
-
-    # Update the docs
-    cd ..
-    $0 --datadoc > $BUILDDIR/spanish_data/README.md
-    $0 --deckdoc > $BUILDDIR/spanish_custom/README.md
-
-    # Commit the data changes
-    cd $BUILDDIR/spanish_data
-    if ! git diff --no-ext-diff --quiet --exit-code; then
-        git commit -a -m "Automatic build $(date +%F)"
-        git push
-
-        # If there are changes, make a release
-        cd $BUILDDIR
-        publish_dictionary || { echo "Dictionary release failed"; exit 1; }
-    fi
-
-    # Commit the deck changes and publish a release
-    cd $BUILDDIR/spanish_custom
-    if ! git diff --no-ext-diff --quiet --exit-code; then
-        git commit -a -m "Automatic build $(date +%F)"
-        git push
-
-        # If there are deck changes, make a release
-        cd $BUILDDIR
-        publish_deck || { echo "Deck release failed"; exit 1; }
-    fi
-
-    cd $BUILDDIR
-    echo "Syncing the changes to Anki server"
-    xvfb-run -a spanish_tools/sync_anki.py jeffs_deck.apkg --anki "User 1" --remove removed.txt || { echo "Sync failed"; exit 1; }
-
-    #rm -rf $BUILDDIR
-    echo "done"
-}
-
-main
