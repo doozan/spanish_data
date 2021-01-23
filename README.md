@@ -110,9 +110,6 @@ EOF
 python3 -m enwiktionary_wordlist.wordlist_to_dictunformat --low-mem spanish_data/es-en.data spanish_data/es_allforms.csv --lang-id es \
 	--description "Spanish-English dictionary. Compiled by Jeff Doozan from Wiktionary data $TAG. CC-BY-SA" \
 	> es-en.dictunformat || return 1
-~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo -w merge_syns=1 || return 1
-
-# Converting from dictunformat doesn't split synonyms, so use ifo as intermediary
-~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.temp.ifo || return 1
-~/.local/bin/pyglossary --no-progress-bar --no-color es-en.temp.ifo es-en.slob || return 1
+~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo || return 1
+~/.local/bin/pyglossary --no-progress-bar --no-color es-en.ifo es-en.slob || return 1
 ```
