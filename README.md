@@ -20,7 +20,7 @@ This data is used to build the free, open-source Spanish to English dictionary a
 ## Install required tools
 ```bash
 sudo apt install curl bzip2 gawk pv unzip zip pkg-config dictzip
-pip3 install ijson pywikibot mwparserfromhell pyglossary PyICU
+pip3 install ijson pywikibot mwparserfromhell pyglossary PyICU Levenshtein
 ```
 
 ## Install FreeLing on Debian (for other distros, check the [FreeLing instructions](https://freeling-user-manual.readthedocs.io/en/latest/installation/installation-packages/))
