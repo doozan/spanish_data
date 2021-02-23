@@ -338,7 +338,6 @@ count,spanish,pos,flags,usage
 114591,cuidado,n,,111524:cuidado|3067:cuidados
 114461,cuerpo,n,,98410:cuerpo|16051:cuerpos
 113192,adelante,adv,,113192:adelante
-112960,igual,adj,,101272:igual|11688:iguales
 112937,escribir,v,,30111:escribir|15839:escribió|10984:escribe|9599:escribí|8620:escribiendo|5234:escribo|4287:escribiste|3543:escribes|3485:escriba|3042:escribiré|2131:escribía|1555:escriben|1308:escribirlo|1271:escribimos|1271:escribieron|1212:escribirle|1202:escribas|847:escribiera|802:escriban|659:escribirá|616:escribirte|616:escribirás|610:escribiría|608:escríbelo|582:escríbeme|574:escribirme|502:escribirla|410:escribiremos|277:escribías|272:escríbele|229:escribamos|218:escribieras|212:escribían|209:escribirán
 112755,tierra,n,,102197:tierra|10558:tierras
 112728,vuelta,n,,99529:vuelta|13199:vueltas
@@ -373,6 +372,7 @@ count,spanish,pos,flags,usage
 102290,teléfono,n,,95015:teléfono|7275:teléfonos
 102254,arriba,adv,,102254:arriba
 101899,final,n,,94883:final|7016:finales
+101272,igual,adv,,101272:igual
 100902,muchacho,n,,43295:muchacho|42571:muchachos|11647:muchacha|3389:muchachas
 100457,mayor,adj,,87707:mayor|12750:mayores
 99937,bebé,n,,88307:bebé|11630:bebés
@@ -2140,6 +2140,7 @@ count,spanish,pos,flags,usage
 11715,teta,n,,10395:tetas|1320:teta
 11706,arthur,none,NOUSAGE; NODEF; NOSENT,11706:arthur
 11704,virus,n,,11704:virus
+11688,igual,adj,DUPLICATE,11688:iguales
 11688,salsa,n,,11264:salsa|424:salsas
 11681,emperador,n,,9413:emperador|1811:emperatriz|457:emperadores
 11678,distrito,n,,10915:distrito|763:distritos
@@ -3671,7 +3672,6 @@ count,spanish,pos,flags,usage
 5522,completar,v,,3683:completar|641:completada|546:complete|442:completó|210:completando
 5522,star,none,NOUSAGE; NODEF; NOSENT,5522:star
 5521,your,none,NOUSAGE; NODEF; NOSENT,5521:your
-5519,abusar,v,,1344:abusar|906:abusado|711:abusó|639:abusando|419:abusa|287:abusan|280:abusaron|273:abusada|255:abusaba|215:abuses|190:abusados
 5518,mercancía,n,,4499:mercancía|1019:mercancías
 5518,mitchell,none,NOUSAGE; NODEF; NOSENT,5518:mitchell
 5516,ronnie,none,NOUSAGE; NODEF; NOSENT,5516:ronnie
@@ -4071,6 +4071,7 @@ count,spanish,pos,flags,usage
 4617,p,letter,LETTER; LITERAL,4617:p
 4616,melissa,none,NOUSAGE; NODEF; NOSENT,4616:melissa
 4614,protesta,n,,3359:protesta|1255:protestas
+4613,abusar,v,,1344:abusar|711:abusó|639:abusando|419:abusa|287:abusan|280:abusaron|273:abusada|255:abusaba|215:abuses|190:abusados
 4613,ias,none,NOUSAGE; NODEF; NOSENT,4613:ias
 4612,aterrizaje,n,,4612:aterrizaje
 4607,introducir,v,,1510:introducir|805:introdujo|698:introducido|555:introduce|376:introduzca|269:introduciendo|198:introduje|196:introducirse
@@ -4385,7 +4386,7 @@ count,spanish,pos,flags,usage
 4156,aah,none,NOUSAGE; NODEF; LITERAL,4156:aah
 4156,descuento,n,,3637:descuento|519:descuentos
 4154,castle,none,NOUSAGE; NODEF; NOSENT,4154:castle
-4150,cangrejo,n,NOSENT,2805:cangrejo|1345:cangrejos
+4150,cangrejo,n,,2805:cangrejo|1345:cangrejos
 4149,sip,interj,NOSENT,4149:sip
 4147,alec,none,NOUSAGE; NODEF; NOSENT,4147:alec
 4147,desafortunado,adj,,2538:desafortunado|937:desafortunada|441:desafortunados|231:desafortunadas
@@ -4476,7 +4477,6 @@ count,spanish,pos,flags,usage
 4046,recto,adj,,3635:recto|411:rectos
 4044,establo,n,,2905:establo|1139:establos
 4043,dr,none,NOUSAGE; NODEF; LITERAL,4043:dr
-4043,morado,adj,,1889:morada|1568:morado|325:morados|261:moradas
 4042,físicamente,adv,,4042:físicamente
 4041,evaluación,n,,3508:evaluación|533:evaluaciones
 4040,mojar,v,,909:mojar|668:mojo|518:moja|358:mojando|333:moje|327:mojarse|305:mojó|227:mojé|209:mojarme|186:mojas
@@ -5354,7 +5354,7 @@ count,spanish,pos,flags,usage
 3089,dinamita,n,,3089:dinamita
 3088,acariciar,v,,763:caricias|699:acariciar|479:acaricia|431:caricia|335:acariciando|191:acariciarlo|190:acaricio
 3088,observador,n,,1917:observador|837:observadores|334:observadora
-3087,porfavor,none,NOUSAGE; NODEF; NOSENT,3087:porfavor
+3087,porfavor,none,NOUSAGE; NODEF; LITERAL,3087:porfavor
 3087,ramo,n,,1955:ramo|1132:ramos
 3086,constitución,n,,3086:constitución
 3086,cuota,n,,2083:cuota|1003:cuotas
@@ -6432,7 +6432,7 @@ count,spanish,pos,flags,usage
 2330,inauguración,n,,2330:inauguración
 2330,tope,n,,2330:tope
 2329,plástico,adj,DUPLICATE,1356:plástica|683:plásticos|290:plásticas
-2329,reportaje,n,NOSENT,1958:reportaje|371:reportajes
+2329,reportaje,n,,1958:reportaje|371:reportajes
 2328,acta,n,,1885:acta|443:actas
 2328,falsificación,n,,1755:falsificación|573:falsificaciones
 2326,azotea,n,,2326:azotea
@@ -6507,7 +6507,7 @@ count,spanish,pos,flags,usage
 2281,recostar,v,,889:recuéstate|385:recostarme|290:recostado|264:recostarte|252:recuéstese|201:recostada
 2280,cubano,adj,,896:cubanos|884:cubano|500:cubana
 2280,recogido,adj,,2280:recogido
-2279,abortar,v,NOSENT,1475:abortar|306:aborten|303:aborta|195:aborte
+2279,abortar,v,,1475:abortar|306:aborten|303:aborta|195:aborte
 2279,rapidez,n,,2279:rapidez
 2279,rebaño,n,,1969:rebaño|310:rebaños
 2278,giovanni,none,NOUSAGE; NODEF; NOSENT,2278:giovanni
@@ -6718,6 +6718,7 @@ count,spanish,pos,flags,usage
 2155,neutral,adj,,1843:neutral|312:neutrales
 2155,when,none,NOUSAGE; NODEF; NOSENT,2155:when
 2154,microondas,n,,2154:microondas
+2154,morado,adj,,1568:morado|325:morados|261:moradas
 2153,christy,none,NOUSAGE; NODEF; NOSENT,2153:christy
 2153,vasto,adj,,944:vasto|715:vasta|271:vastas|223:vastos
 2152,engordar,v,,773:engordar|647:engordado|390:engordando|342:engorda
@@ -7250,6 +7251,7 @@ count,spanish,pos,flags,usage
 1892,milton,none,NOUSAGE; NODEF; NOSENT,1892:milton
 1892,vernon,none,NOUSAGE; NODEF; NOSENT,1892:vernon
 1890,desconocer,v,,593:desconozco|582:desconoce|268:desconocemos|257:desconocía|190:desconocen
+1889,morada,n,,1889:morada
 1886,consistente,adj,,1367:consistente|519:consistentes
 1886,mercurio,n,,1886:mercurio
 1886,sung,none,NOUSAGE; NODEF; NOSENT,1886:sung
@@ -7797,7 +7799,6 @@ count,spanish,pos,flags,usage
 1675,ancestral,adj,NOSENT,1255:ancestral|420:ancestrales
 1675,aula,n,,1341:aula|334:aulas
 1675,marcy,none,NOUSAGE; NODEF; NOSENT,1675:marcy
-1675,necio,adj,,1084:necio|366:necios|225:necia
 1674,missy,none,NOUSAGE; NODEF; NOSENT,1674:missy
 1673,astilla,n,,1135:astilla|538:astillas
 1673,buster,none,NOUSAGE; NODEF; NOSENT,1673:buster
@@ -8223,7 +8224,7 @@ count,spanish,pos,flags,usage
 1531,Picasso,n,NOSENT,1531:picasso
 1531,azafato,n,,1135:azafata|396:azafatas
 1531,lina,none,NOUSAGE; NODEF; NOSENT,1531:lina
-1530,inclusive,adv,NOSENT,1530:inclusive
+1530,inclusive,adv,,1530:inclusive
 1530,iowa,none,NOUSAGE; NODEF; NOSENT,1530:iowa
 1529,cagada,n,,1529:cagada
 1529,estã,none,NOUSAGE; NODEF; NOSENT,1529:estã
@@ -8878,7 +8879,7 @@ count,spanish,pos,flags,usage
 1337,contratiempo,n,,933:contratiempo|404:contratiempos
 1336,clemencia,n,,1336:clemencia
 1336,comadreja,n,,1118:comadreja|218:comadrejas
-1335,comunión,n,NOSENT,1335:comunión
+1335,comunión,n,,1335:comunión
 1335,exclusivamente,adv,,1335:exclusivamente
 1335,excremento,n,NOSENT,822:excremento|513:excrementos
 1335,rover,none,NOUSAGE; NODEF; NOSENT,1335:rover
@@ -8996,6 +8997,7 @@ count,spanish,pos,flags,usage
 1310,thornton,none,NOUSAGE; NODEF; NOSENT,1310:thornton
 1309,inclinación,n,,1039:inclinación|270:inclinaciones
 1309,laptop,n,,1309:laptop
+1309,necio,adj,,1084:necio|225:necia
 1309,paginar,v,NOSENT,938:pagina|371:paginas
 1308,edison,none,NOUSAGE; NODEF; NOSENT,1308:edison
 1308,moss,none,NOUSAGE; NODEF; NOSENT,1308:moss
@@ -9915,7 +9917,7 @@ count,spanish,pos,flags,usage
 1098,tuberculosis,n,NOSENT,1098:tuberculosis
 1098,ágil,adj,,851:ágil|247:ágiles
 1097,alegato,n,NOSENT,715:alegato|382:alegatos
-1097,perfeccionar,v,NOSENT,514:perfeccionar|384:perfeccionado|199:perfeccionando
+1097,perfeccionar,v,,514:perfeccionar|384:perfeccionado|199:perfeccionando
 1097,riker,none,NOUSAGE; NODEF; NOSENT,1097:riker
 1097,uci,none,NOUSAGE; NODEF; NOSENT,1097:uci
 1096,bondadoso,adj,,734:bondadoso|362:bondadosa
@@ -10096,7 +10098,7 @@ count,spanish,pos,flags,usage
 1064,hut,none,NOUSAGE; NODEF; NOSENT,1064:hut
 1064,would,none,NOUSAGE; NODEF; NOSENT,1064:would
 1063,harmon,none,NOUSAGE; NODEF; NOSENT,1063:harmon
-1063,prodigio,n,NOSENT,1063:prodigio
+1063,prodigio,n,,1063:prodigio
 1063,summers,none,NOUSAGE; NODEF; NOSENT,1063:summers
 1063,sólo-,none,NOUSAGE; NODEF; NOSENT,1063:sólo-
 1062,arbol,none,NOUSAGE; NODEF; NOSENT,1062:arbol
@@ -10308,7 +10310,7 @@ count,spanish,pos,flags,usage
 1026,rizado,adj,,766:rizado|260:rizada
 1026,yuki,adj,NOSENT,1026:yuki
 1025,cresta,interj,NOSENT,1025:cresta
-1025,homosexualidad,n,NOSENT,1025:homosexualidad
+1025,homosexualidad,n,,1025:homosexualidad
 1025,incapacidad,n,,1025:incapacidad
 1025,lenin,none,NOUSAGE; NODEF; NOSENT,1025:lenin
 1025,niki,none,NOUSAGE; NODEF; NOSENT,1025:niki
@@ -10421,7 +10423,7 @@ count,spanish,pos,flags,usage
 1005,existente,adj,,566:existente|439:existentes
 1005,extremista,adj,NOSENT,650:extremistas|355:extremista
 1005,linear,v,NOSENT,1005:lineas
-1005,vaginal,adj,NOSENT,736:vaginal|269:vaginales
+1005,vaginal,adj,,736:vaginal|269:vaginales
 1004,field,none,NOUSAGE; NODEF; NOSENT,1004:field
 1004,friend,n,NOSENT,584:friends|420:friend
 1004,localizador,adj,NOSENT,1004:localizador
@@ -11042,6 +11044,7 @@ count,spanish,pos,flags,usage
 907,su-des,none,NOUSAGE; NODEF; NOSENT,907:su-des
 907,viagra,n,NOSENT,907:viagra
 907,zelda,none,NOUSAGE; NODEF; NOSENT,907:zelda
+906,abusado,adj,,906:abusado
 906,bean,none,NOUSAGE; NODEF; NOSENT,906:bean
 906,beaumont,none,NOUSAGE; NODEF; NOSENT,906:beaumont
 906,ex-novia,none,NOUSAGE; NODEF; LITERAL,906:ex-novia
@@ -11139,7 +11142,6 @@ count,spanish,pos,flags,usage
 895,hawái,none,NOUSAGE; NODEF; NOSENT,895:hawái
 895,próstata,n,NOSENT,895:próstata
 895,superpoder,n,NOSENT,585:superpoderes|310:superpoder
-895,tatuado,adj,,631:tatuado|264:tatuada
 895,turbar,v,,895:turbo
 895,vértigo,n,,895:vértigo
 895,ámbar,n,NOSENT,895:ámbar
@@ -11295,7 +11297,7 @@ count,spanish,pos,flags,usage
 874,marin,none,NOUSAGE; NODEF; NOSENT,874:marin
 874,nebuloso,adj,,874:nebulosa
 874,tontito,adj,NOSENT,458:tontito|416:tontita
-874,vandalismo,n,NOSENT,874:vandalismo
+874,vandalismo,n,,874:vandalismo
 873,infraestructura,n,,873:infraestructura
 873,intensamente,adv,,873:intensamente
 873,ms,none,NOUSAGE; NODEF; NOSENT,873:ms
@@ -11433,7 +11435,7 @@ count,spanish,pos,flags,usage
 854,edo,none,NOUSAGE; NODEF; NOSENT,854:edo
 854,infalible,adj,NOSENT,854:infalible
 854,leila,none,NOUSAGE; NODEF; NOSENT,854:leila
-854,podre,none,NOUSAGE; NODEF; NOSENT,854:podre
+854,podre,n,,854:podre
 854,renée,none,NOUSAGE; NODEF; NOSENT,854:renée
 854,xi,n,NOSENT,854:xi
 854,yolanda,none,NOUSAGE; NODEF; NOSENT,854:yolanda
@@ -11658,7 +11660,7 @@ count,spanish,pos,flags,usage
 824,beep,none,NOUSAGE; NODEF; NOSENT,824:beep
 824,chorlito,n,NOSENT,824:chorlito
 824,nt,none,NOUSAGE; NODEF; NOSENT,824:nt
-824,qui,none,NOUSAGE; NODEF; NOSENT,824:qui
+824,qui,pron,PRONOUN; NOSENT,824:qui
 824,rene,none,NOUSAGE; NODEF; NOSENT,824:rene
 824,revoir,none,NOUSAGE; NODEF; NOSENT,824:revoir
 824,súbito,adj,,516:súbita|308:súbito
@@ -11898,7 +11900,7 @@ count,spanish,pos,flags,usage
 797,unánime,adj,,797:unánime
 797,vanidoso,adj,,520:vanidoso|277:vanidosa
 797,venturo,adj,NOSENT,797:ventura
-796,abominación,n,NOSENT,796:abominación
+796,abominación,n,,796:abominación
 796,cambiante,adj,,557:cambiante|239:cambiantes
 796,cortesana,n,NOSENT,585:cortesana|211:cortesanas
 796,derramamiento,n,,796:derramamiento
@@ -11907,7 +11909,7 @@ count,spanish,pos,flags,usage
 796,elmer,none,NOUSAGE; NODEF; NOSENT,796:elmer
 796,enderezar,v,,541:enderezar|255:endereza
 796,escoltar,v,NOSENT,387:escoltar|206:escoltado|203:escolte
-796,fascismo,n,NOSENT,796:fascismo
+796,fascismo,n,,796:fascismo
 796,mueble,n,,796:mueble
 796,tania,none,NOUSAGE; NODEF; NOSENT,796:tania
 796,worth,none,NOUSAGE; NODEF; NOSENT,796:worth
@@ -12545,7 +12547,7 @@ count,spanish,pos,flags,usage
 728,mechero,n,,728:mechero
 728,nothing,none,NOUSAGE; NODEF; NOSENT,728:nothing
 728,riguroso,adj,,437:riguroso|291:rigurosa
-728,socialismo,n,NOSENT,728:socialismo
+728,socialismo,n,,728:socialismo
 728,tru,none,NOUSAGE; NODEF; NOSENT,728:tru
 727,cómico,n,DUPLICATE,727:cómica
 727,depresivo,adj,,487:depresivo|240:depresiva
@@ -13629,6 +13631,7 @@ count,spanish,pos,flags,usage
 631,paté,n,NOSENT,631:paté
 631,querian,none,NOUSAGE; NODEF; NOSENT,631:querian
 631,sasuke,none,NOUSAGE; NODEF; NOSENT,631:sasuke
+631,tatuado,adj,,631:tatuado
 630,alvarez,none,NOUSAGE; NODEF; NOSENT,630:alvarez
 630,billings,none,NOUSAGE; NODEF; NOSENT,630:billings
 630,campanada,n,,431:campanadas|199:campanada
@@ -13925,7 +13928,7 @@ count,spanish,pos,flags,usage
 603,congelación,n,NOSENT,603:congelación
 603,cúmulo,n,NOSENT,387:cúmulo|216:cúmulos
 603,encía,n,,603:encías
-603,explícamelo,none,NOUSAGE; NODEF; NOSENT,603:explícamelo
+603,explícamelo,none,NOUSAGE; NODEF; LITERAL,603:explícamelo
 603,frannie,none,NOUSAGE; NODEF; NOSENT,603:frannie
 603,gotera,n,,312:gotera|291:goteras
 603,hamaca,n,,603:hamaca
@@ -14137,7 +14140,7 @@ count,spanish,pos,flags,usage
 584,libreto,n,,584:libreto
 584,matorral,n,,384:matorrales|200:matorral
 584,pececito,n,NOSENT,310:pececito|274:pececitos
-584,peldaño,n,NOSENT,307:peldaño|277:peldaños
+584,peldaño,n,,307:peldaño|277:peldaños
 584,preguntale,none,NOUSAGE; NODEF; LITERAL,584:preguntale
 584,rutledge,none,NOUSAGE; NODEF; NOSENT,584:rutledge
 584,softball,n,NOSENT,584:softball
@@ -14575,7 +14578,7 @@ count,spanish,pos,flags,usage
 554,juliano,adj,,554:juliana
 554,martina,none,NOUSAGE; NODEF; NOSENT,554:martina
 554,parish,none,NOUSAGE; NODEF; NOSENT,554:parish
-554,recopilar,v,NOSENT,284:recopilar|270:recopilando
+554,recopilar,v,,284:recopilar|270:recopilando
 554,séquito,n,,554:séquito
 554,warrick,none,NOUSAGE; NODEF; NOSENT,554:warrick
 553,albanés,adj,,279:albaneses|274:albanés
@@ -14769,7 +14772,7 @@ count,spanish,pos,flags,usage
 540,remington,none,NOUSAGE; NODEF; LITERAL,540:remington
 540,shelton,none,NOUSAGE; NODEF; NOSENT,540:shelton
 539,contestador,adj,DUPLICATE,539:contestadora
-539,difusión,n,NOSENT,539:difusión
+539,difusión,n,,539:difusión
 539,escalador,n,,275:escaladores|264:escalador
 539,etiopía,none,NOUSAGE; NODEF; NOSENT,539:etiopía
 539,hipotermia,n,NOSENT,539:hipotermia
@@ -15373,7 +15376,7 @@ count,spanish,pos,flags,usage
 498,naturalidad,n,,498:naturalidad
 498,perpetrador,n,NOSENT,498:perpetrador
 498,plática,n,,498:plática
-498,tempo,n,NOSENT,498:tempo
+498,tempo,n,,498:tempo
 498,wolverine,none,NOUSAGE; NODEF; NOSENT,498:wolverine
 498,woodstock,none,NOUSAGE; NODEF; NOSENT,498:woodstock
 497,eunice,none,NOUSAGE; NODEF; NOSENT,497:eunice
@@ -15393,7 +15396,7 @@ count,spanish,pos,flags,usage
 496,tallarín,n,NOSENT,496:tallarines
 496,turín,none,NOUSAGE; NODEF; NOSENT,496:turín
 496,zoquete,n,NOSENT,496:zoquete
-495,activamente,adv,NOSENT,495:activamente
+495,activamente,adv,,495:activamente
 495,bannister,none,NOUSAGE; NODEF; NOSENT,495:bannister
 495,catacumba,n,,495:catacumbas
 495,cctv,none,NOUSAGE; NODEF; NOSENT,495:cctv
@@ -15895,7 +15898,7 @@ count,spanish,pos,flags,usage
 463,mulligan,none,NOUSAGE; NODEF; NOSENT,463:mulligan
 463,plomería,n,NOSENT,463:plomería
 463,pondre,none,NOUSAGE; NODEF; NOSENT,463:pondre
-463,propiamente,adv,NOSENT,463:propiamente
+463,propiamente,adv,,463:propiamente
 463,prusio,adj,NOSENT,463:prusia
 463,stick,none,NOUSAGE; NODEF; NOSENT,463:stick
 463,twilight,none,NOUSAGE; NODEF; NOSENT,463:twilight
@@ -16097,7 +16100,7 @@ count,spanish,pos,flags,usage
 453,polizón,n,NOSENT,453:polizón
 453,presunción,n,,453:presunción
 453,puaj,interj,,453:puaj
-453,radicalmente,adv,NOSENT,453:radicalmente
+453,radicalmente,adv,,453:radicalmente
 453,resina,n,,453:resina
 453,rs,none,NOUSAGE; NODEF; NOSENT,453:rs
 453,serenata,n,NOSENT,453:serenata
@@ -16660,7 +16663,7 @@ count,spanish,pos,flags,usage
 425,comezón,n,,425:comezón
 425,depto,none,NOUSAGE; NODEF; NOSENT,425:depto
 425,dineral,n,NOSENT,425:dineral
-425,espiritualidad,n,NOSENT,425:espiritualidad
+425,espiritualidad,n,,425:espiritualidad
 425,filosofal,none,NOUSAGE; NODEF; NOSENT,425:filosofal
 425,gominola,n,,239:gominolas|186:gominola
 425,jacks,none,NOUSAGE; NODEF; NOSENT,425:jacks
@@ -17253,7 +17256,7 @@ count,spanish,pos,flags,usage
 397,ryland,none,NOUSAGE; NODEF; NOSENT,397:ryland
 397,salamandra,n,NOSENT,397:salamandra
 397,sinbad,none,NOUSAGE; NODEF; NOSENT,397:sinbad
-397,sinfónico,adj,NOSENT,397:sinfónica
+397,sinfónico,adj,,397:sinfónica
 397,waller,none,NOUSAGE; NODEF; NOSENT,397:waller
 396,blossom,none,NOUSAGE; NODEF; NOSENT,396:blossom
 396,canibalismo,n,NOSENT,396:canibalismo
@@ -17946,6 +17949,7 @@ count,spanish,pos,flags,usage
 366,mahmoud,none,NOUSAGE; NODEF; NOSENT,366:mahmoud
 366,marroquí,n,,366:marroquí
 366,melrose,none,NOUSAGE; NODEF; NOSENT,366:melrose
+366,necio,n,DUPLICATE,366:necios
 366,novillo,n,,366:novillos
 366,pasame,none,NOUSAGE; NODEF; LITERAL,366:pasame
 366,proteccion,none,NOUSAGE; NODEF; NOSENT,366:proteccion
@@ -18249,7 +18253,7 @@ count,spanish,pos,flags,usage
 354,mote,n,NOSENT,354:mote
 354,photoshop,n,NOSENT,354:photoshop
 354,piazza,none,NOUSAGE; NODEF; NOSENT,354:piazza
-354,proletariado,n,NOSENT,354:proletariado
+354,proletariado,n,,354:proletariado
 354,rodgers,none,NOUSAGE; NODEF; NOSENT,354:rodgers
 354,sec,none,NOUSAGE; NODEF; NOSENT,354:sec
 354,sencillez,n,,354:sencillez
@@ -18365,7 +18369,7 @@ count,spanish,pos,flags,usage
 349,electrocardiograma,n,NOSENT,349:electrocardiograma
 349,electrocutar,v,,349:electrocutado
 349,estratagema,n,NOSENT,349:estratagema
-349,extirpar,v,NOSENT,349:extirpar
+349,extirpar,v,,349:extirpar
 349,flower,none,NOUSAGE; NODEF; NOSENT,349:flower
 349,haas,none,NOUSAGE; NODEF; NOSENT,349:haas
 349,holm,none,NOUSAGE; NODEF; NOSENT,349:holm
@@ -18762,7 +18766,7 @@ count,spanish,pos,flags,usage
 335,post-traumático,none,NOUSAGE; NODEF; NOSENT,335:post-traumático
 335,shark,none,NOUSAGE; NODEF; NOSENT,335:shark
 335,tash,none,NOUSAGE; NODEF; NOSENT,335:tash
-335,ventrículo,n,NOSENT,335:ventrículo
+335,ventrículo,n,,335:ventrículo
 335,wonka,none,NOUSAGE; NODEF; NOSENT,335:wonka
 335,zod,none,NOUSAGE; NODEF; NOSENT,335:zod
 334,2do,none,NOUSAGE; NODEF; NOSENT,334:2do
@@ -19018,7 +19022,7 @@ count,spanish,pos,flags,usage
 326,yasmin,none,NOUSAGE; NODEF; NOSENT,326:yasmin
 325,albornoz,n,NOSENT,325:albornoz
 325,ariane,none,NOUSAGE; NODEF; NOSENT,325:ariane
-325,caoba,adj,NOSENT,325:caoba
+325,caoba,n,,325:caoba
 325,caqui,n,,325:caqui
 325,cartelera,n,,325:cartelera
 325,consolación,n,,325:consolación
@@ -19348,7 +19352,7 @@ count,spanish,pos,flags,usage
 315,fregado,adj,,315:fregado
 315,fruncir,v,,315:fruncido
 315,gunner,n,NOSENT,315:gunner
-315,horario,adj,LITERAL; DUPLICATE,315:horaria
+315,horario,adj,DUPLICATE,315:horaria
 315,hyeon,none,NOUSAGE; NODEF; NOSENT,315:hyeon
 315,ikea,none,NOUSAGE; NODEF; NOSENT,315:ikea
 315,letty,none,NOUSAGE; NODEF; NOSENT,315:letty
@@ -20680,7 +20684,7 @@ count,spanish,pos,flags,usage
 277,used,none,NOUSAGE; NODEF; NOSENT,277:used
 277,yosemite,none,NOUSAGE; NODEF; NOSENT,277:yosemite
 277,zueco,adj,NOSENT,277:zuecos
-276,abortado,adj,NOSENT,276:abortado
+276,abortado,adj,,276:abortado
 276,acercarse,v,LITERAL; DUPLICATE-REFLEXIVE,276:acercate
 276,acomodado,adj,,276:acomodado
 276,akron,none,NOUSAGE; NODEF; NOSENT,276:akron
@@ -20800,7 +20804,7 @@ count,spanish,pos,flags,usage
 273,colonización,n,,273:colonización
 273,coronario,adj,NOSENT,273:coronaria
 273,decoloración,n,NOSENT,273:decoloración
-273,dentífrico,adj,,273:dentífrico
+273,dentífrico,n,,273:dentífrico
 273,duk,none,NOUSAGE; NODEF; NOSENT,273:duk
 273,dundee,none,NOUSAGE; NODEF; NOSENT,273:dundee
 273,duvall,none,NOUSAGE; NODEF; NOSENT,273:duvall
@@ -21039,7 +21043,7 @@ count,spanish,pos,flags,usage
 267,p.j.,none,NOUSAGE; NODEF; NOSENT,267:p.j.
 267,parlamentario,adj,,267:parlamentario
 267,pisapapeles,n,NOSENT,267:pisapapeles
-267,podcast,n,NOSENT,267:podcast
+267,podcast,n,,267:podcast
 267,posguerra,n,,267:posguerra
 267,probador,n,,267:probador
 267,reardon,none,NOUSAGE; NODEF; NOSENT,267:reardon
@@ -21168,6 +21172,7 @@ count,spanish,pos,flags,usage
 264,resplandecer,v,,264:resplandece
 264,roc,none,NOUSAGE; NODEF; NOSENT,264:roc
 264,rosenthal,none,NOUSAGE; NODEF; NOSENT,264:rosenthal
+264,tatuar,v,,264:tatuada
 264,tiovivo,n,NOSENT,264:tiovivo
 264,visceral,adj,,264:visceral
 264,volveras,none,NOUSAGE; NODEF; NOSENT,264:volveras
@@ -21223,7 +21228,7 @@ count,spanish,pos,flags,usage
 262,colonizar,v,,262:colonizar
 262,columnista,n,NOSENT,262:columnista
 262,comi,none,NOUSAGE; NODEF; NOSENT,262:comi
-262,detonante,n,NOSENT,262:detonante
+262,detonante,adj,NOSENT,262:detonante
 262,domesticar,v,,262:domesticado
 262,estupefaciente,adj,NOSENT,262:estupefacientes
 262,exponencialmente,adv,NOSENT,262:exponencialmente
@@ -21324,7 +21329,7 @@ count,spanish,pos,flags,usage
 260,larrabee,none,NOUSAGE; NODEF; NOSENT,260:larrabee
 260,latinoamérica,none,NOUSAGE; NODEF; NOSENT,260:latinoamérica
 260,maña,n,,260:maña
-260,mercia,none,NOUSAGE; NODEF; NOSENT,260:mercia
+260,mercio,adj,NOSENT,260:mercia
 260,mirala,none,NOUSAGE; NODEF; NOSENT,260:mirala
 260,norwood,none,NOUSAGE; NODEF; NOSENT,260:norwood
 260,personificación,n,,260:personificación
@@ -21664,7 +21669,7 @@ count,spanish,pos,flags,usage
 252,ahm,none,NOUSAGE; NODEF; NOSENT,252:ahm
 252,alby,none,NOUSAGE; NODEF; NOSENT,252:alby
 252,arnott,none,NOUSAGE; NODEF; NOSENT,252:arnott
-252,aspersor,adj,NOSENT,252:aspersores
+252,aspersor,n,,252:aspersores
 252,cafeteria,none,NOUSAGE; NODEF; NOSENT,252:cafeteria
 252,carry,none,NOUSAGE; NODEF; NOSENT,252:carry
 252,cicuta,n,NOSENT,252:cicuta
@@ -21679,7 +21684,7 @@ count,spanish,pos,flags,usage
 252,escaner,none,NOUSAGE; NODEF; NOSENT,252:escaner
 252,fraulein,none,NOUSAGE; NODEF; NOSENT,252:fraulein
 252,greenpeace,none,NOUSAGE; NODEF; NOSENT,252:greenpeace
-252,humorista,n,NOSENT,252:humorista
+252,humorista,n,,252:humorista
 252,ina,none,NOUSAGE; NODEF; NOSENT,252:ina
 252,incubación,n,NOSENT,252:incubación
 252,kendal,none,NOUSAGE; NODEF; NOSENT,252:kendal
@@ -22113,7 +22118,7 @@ count,spanish,pos,flags,usage
 244,metio,none,NOUSAGE; NODEF; NOSENT,244:metio
 244,molesley,none,NOUSAGE; NODEF; NOSENT,244:molesley
 244,mt,none,NOUSAGE; NODEF; NOSENT,244:mt
-244,narcisismo,n,NOSENT,244:narcisismo
+244,narcisismo,n,,244:narcisismo
 244,nevado,adj,,244:nevado
 244,nevins,none,NOUSAGE; NODEF; NOSENT,244:nevins
 244,ophelia,none,NOUSAGE; NODEF; NOSENT,244:ophelia
@@ -22442,7 +22447,7 @@ count,spanish,pos,flags,usage
 237,erecto,adj,,237:erecto
 237,escabeche,n,NOSENT,237:escabeche
 237,escuadron,none,NOUSAGE; NODEF; NOSENT,237:escuadron
-237,fame,none,NOUSAGE; NODEF; NOSENT,237:fame
+237,fame,n,NOSENT,237:fame
 237,feudo,n,NOSENT,237:feudo
 237,focus,none,NOUSAGE; NODEF; NOSENT,237:focus
 237,gusanito,n,,237:gusanito
@@ -22474,7 +22479,7 @@ count,spanish,pos,flags,usage
 237,simi,none,NOUSAGE; NODEF; NOSENT,237:simi
 237,spitzer,none,NOUSAGE; NODEF; NOSENT,237:spitzer
 237,stumpy,none,NOUSAGE; NODEF; NOSENT,237:stumpy
-237,tibetano,adj,NOSENT,237:tibetano
+237,tibetano,n,,237:tibetano
 237,tita,n,NOSENT,237:tita
 237,torsten,none,NOUSAGE; NODEF; NOSENT,237:torsten
 237,tortazo,n,,237:tortazo
@@ -22876,7 +22881,7 @@ count,spanish,pos,flags,usage
 228,mordecai,none,NOUSAGE; NODEF; NOSENT,228:mordecai
 228,negativamente,adv,NOSENT,228:negativamente
 228,noël,none,NOUSAGE; NODEF; NOSENT,228:noël
-228,penalti,n,NOSENT,228:penalti
+228,penalti,n,,228:penalti
 228,pilato,none,NOUSAGE; NODEF; NOSENT,228:pilato
 228,poligamia,n,,228:poligamia
 228,porsupuesto,none,NOUSAGE; NODEF; NOSENT,228:porsupuesto
@@ -23612,7 +23617,7 @@ count,spanish,pos,flags,usage
 215,o2,none,NOUSAGE; NODEF; NOSENT,215:o2
 215,oc,none,NOUSAGE; NODEF; NOSENT,215:oc
 215,ope,none,NOUSAGE; NODEF; NOSENT,215:ope
-215,papelito,n,NOSENT,215:papelito
+215,papelito,n,,215:papelito
 215,perth,none,NOUSAGE; NODEF; NOSENT,215:perth
 215,plumero,n,NOSENT,215:plumero
 215,polka,n,NOSENT,215:polka
@@ -23774,7 +23779,7 @@ count,spanish,pos,flags,usage
 212,extrano,none,NOUSAGE; NODEF; NOSENT,212:extrano
 212,forraje,n,NOSENT,212:forraje
 212,frisco,none,NOUSAGE; NODEF; NOSENT,212:frisco
-212,gallego,n,,212:gallego
+212,gallego,adj,,212:gallego
 212,hd,none,NOUSAGE; NODEF; NOSENT,212:hd
 212,he-man,none,NOUSAGE; NODEF; NOSENT,212:he-man
 212,liszt,none,NOUSAGE; NODEF; NOSENT,212:liszt
@@ -24575,7 +24580,7 @@ count,spanish,pos,flags,usage
 200,patentado,n,NOSENT,200:patentado
 200,pettigrew,none,NOUSAGE; NODEF; NOSENT,200:pettigrew
 200,platea,n,NOSENT,200:platea
-200,polígono,n,NOSENT,200:polígono
+200,polígono,n,,200:polígono
 200,priorizar,v,NOSENT,200:priorizar
 200,promicina,none,NOUSAGE; NODEF; NOSENT,200:promicina
 200,ps,none,NOUSAGE; NODEF; NOSENT,200:ps
@@ -25230,7 +25235,7 @@ count,spanish,pos,flags,usage
 191,subsistencia,n,NOSENT,191:subsistencia
 191,system,none,NOUSAGE; NODEF; NOSENT,191:system
 191,tabby,none,NOUSAGE; NODEF; NOSENT,191:tabby
-191,tartamudo,adj,NOSENT,191:tartamudo
+191,tartamudo,n,,191:tartamudo
 191,thames,none,NOUSAGE; NODEF; NOSENT,191:thames
 191,third,none,NOUSAGE; NODEF; NOSENT,191:third
 191,timido,none,NOUSAGE; NODEF; NOSENT,191:timido
