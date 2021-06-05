@@ -102,7 +102,7 @@ EOF
 ### Build the frequency list
 ```bash
     wget -N -nv https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_50k.txt
-    python3 -m spanish_tools.freq --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt es_50k.txt > spanish_data/frequency.csv
+    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt es_50k.txt > spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
