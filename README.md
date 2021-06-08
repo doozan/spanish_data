@@ -99,17 +99,9 @@ EOF
     [ spa-only.txt.json -nt eng-spa_links.tsv.bz2 ] || spanish_tools/build_tags.sh spa-only.txt || return 1
     python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
 ```
-### Build the word forms frequency list
+### Build the frequency list
 ```bash
-    wget -N -nv https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_full.txt
-    wget -N -nv http://corpus.rae.es/frec/CREA_total.zip
-    zcat CREA_total.zip | tail -n +2 | awk '{gsub("\\,",""); print $2" "$3;}' | iconv -f ISO-8859-1 -t UTF-8  > CREA_full.txt
-    python3 spansh_tools/merge_freq_list.py CREA_full.txt es_full.txt > es_merged.txt
-    head -50000 es_merged.txt > spanish_data/es_50k_merged.txt
-```
-### Build the lemma frequency list
-```bash
-    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt es_50k_merged.txt > spanish_data/frequency.csv
+    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt spanish_data/es_50k_merged.txt > spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
