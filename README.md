@@ -44,6 +44,9 @@ mkdir spanish_data
 	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang es || return 1
     [ spanish_data/es-en.data -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_wordlist \
 	    --langdata Spanish.txt.bz2 --lang-id es > spanish_data/es-en.data || return 1
+```
+### Build the allforms data
+```bash
     [ spanish_data/es_allforms.csv -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_all_forms \
 	    --low-mem spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
 ```
@@ -54,6 +57,8 @@ mkdir spanish_data
     wget -N -nv https://downloads.tatoeba.org/exports/per_language/eng/eng-spa_links.tsv.bz2
     wget -N -nv https://downloads.tatoeba.org/exports/sentences_in_lists.tar.bz2
     wget -N -nv https://downloads.tatoeba.org/exports/user_languages.tar.bz2
+
+    [ spa_sentences_detailed.tsv.bz2 -nt spanish_data/sentences.tsv ] || return 0
 
     bzcat user_languages.tar.bz2 | tail -n +2 |  grep -P "^spa\t5" | cut -f 3 | grep -v '\N' > spa_5.txt
     bzcat user_languages.tar.bz2 | tail -n +2 |  grep -P "^spa\t4" | cut -f 3 | grep -v '\N' > spa_4.txt
@@ -92,12 +97,12 @@ EOF
     bzcat eng-spa_links.tsv.bz2 | gawk -f join.awk eng_sentences.tsv spa_sentences.tsv - > joined.tsv || return 1
 
     # sort by number of spaces in the spanish sentence
-    cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
+    [ eng-spa.tsv -nt eng-spa_links.tsv.bs2 ] || cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
 
-    python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
-    echo "...tagging sentences"
-    [ spa-only.txt.json -nt eng-spa_links.tsv.bz2 ] || spanish_tools/build_tags.sh spa-only.txt || return 1
-    python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
+    [ spa-only.txt -nt eng-spa.tsv ] || python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
+   info "...tagging sentences"
+    [ spa-only.txt.json -nt spa-only.txt ] || spanish_tools/build_tags.sh spa-only.txt || return 1
+    [ spanish_data/sentences.tsv -nt spa-only.txt.json ] || python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
 ```
 ### Build the frequency list
 ```bash
