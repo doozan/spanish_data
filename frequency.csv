@@ -6271,6 +6271,7 @@ count,spanish,pos,flags,usage
 6844,inédito,adj,NOSENT,2133:inédito|1789:inédita|1759:inéditos|1163:inéditas
 6843,euskadi,none,NOUSAGE; NODEF; NOSENT,6843:euskadi
 6843,replicar,v,,4317:replicó|1394:replica|1132:replicar
+6838,enunciar,v,NOSENT,3057:enunciado|2383:enunciados|708:enunciar|690:enuncia
 6838,expandir,v,,1953:expandir|1781:expande|1019:expandirse|793:expandiendo|652:expandido|640:expandió
 6833,necesitado,adj,,4234:necesitado|2599:necesitados
 6832,decano,n,,5392:decano|850:decana|590:decanos
@@ -7606,7 +7607,7 @@ count,spanish,pos,flags,usage
 5023,icono,n,,2542:icono|1852:iconos|629:ícono
 5022,anton,none,NOUSAGE; NODEF; NOSENT,5022:anton
 5022,unánime,adj,,4467:unánime|555:unánimes
-5021,equipar,v,,1981:equipado|1445:equipados|983:equipada|612:equipadas
+5021,equipar,v,NOSENT,1981:equipado|1445:equipados|983:equipada|612:equipadas
 5020,renal,adj,,3603:renal|1417:renales
 5018,samantha,none,NOUSAGE; NODEF; NOSENT,5018:samantha
 5016,acreedor,n,,3735:acreedores|1281:acreedor
@@ -8183,7 +8184,6 @@ count,spanish,pos,flags,usage
 4461,lindsay,none,NOUSAGE; NODEF; NOSENT,4461:lindsay
 4459,aquiles,none,NOUSAGE; NODEF; NOSENT,4459:aquiles
 4459,gestionar,v,,2581:gestionar|1095:gestiona|783:gestionado
-4455,enunciar,v,NOSENT,3057:enunciado|708:enunciar|690:enuncia
 4455,glenn,none,NOUSAGE; NODEF; NOSENT,4455:glenn
 4455,maletero,n,,4455:maletero
 4455,road,none,NOUSAGE; NODEF; NOSENT,4455:road
@@ -11848,7 +11848,6 @@ count,spanish,pos,flags,usage
 2385,saga,n,,2385:saga
 2384,lluís,none,NOUSAGE; NODEF; NOSENT,2384:lluís
 2384,soneto,n,,1249:soneto|1135:sonetos
-2383,enunciados,v,LITERAL,2383:enunciados
 2383,investidura,n,NOSENT,2383:investidura
 2383,severamente,adv,,2383:severamente
 2383,víscera,n,NOSENT,2383:vísceras
