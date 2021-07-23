@@ -468,6 +468,7 @@ count,spanish,pos,flags,usage
 159344,disculpar,v,,51452:disculpe|39976:disculpa|13178:disculpen|11093:discúlpeme|7942:disculparme|7886:discúlpame|3975:disculpo|3436:discúlpenme|2749:disculparse|2726:disculpan|2616:disculparte|1595:disculpes|1422:disculpó|1375:disculpar|1254:disculpame|1204:discúlpate|1146:disculpad|1009:disculpadme|884:discúlpenos|674:disculpado|626:disculparnos|576:disculpé|550:discúlpanos
 158808,asunto,n,,100583:asunto|58225:asuntos
 158612,papel,n,,121673:papel|36939:papeles
+158325,santo,adj,,76371:santa|57195:santo|23124:santos|1635:santas
 157639,música,n,,155165:música|2474:músicas
 157550,sangre,n,,157550:sangre
 157308,adelante,adv,,157308:adelante
@@ -925,7 +926,6 @@ count,spanish,pos,flags,usage
 82050,resolver,v,,40675:resolver|6204:resuelve|5017:resolvió|3548:resolverlo|3117:resuelva|2597:resuelta|2510:resolverse|2379:resolverá|2312:resuelven|1597:resolviendo|1487:resolveremos|1307:resolvieron|1125:resuelvan|1019:resueltas|990:resolví|780:resolvería|762:resolverlos|732:resolvemos|725:resolvía|686:resolvamos|674:resolveré|642:resolverán|600:resolvimos|565:resolviera
 82028,pierna,n,,50879:piernas|31149:pierna
 82026,oro,n,,81369:oro|657:oros
-81954,santo,n,,57195:santo|23124:santos|1635:santas
 81920,lanzar,v,,15698:lanza|13700:lanzó|13677:lanzar|6647:lance|4091:lanzaron|3908:lanzando|3423:lanzas|3125:lanzan|2503:lanzarse|2295:lanzaba|1690:lanzados|1543:lancé|1288:lanzadas|1264:lanzaban|1250:lanzamos|1231:lanzará|1129:lanzo|852:lancen|723:lanzarme|698:lanzarlo|605:lanzaste|580:lanzara
 81848,directo,adj,,40142:directo|31072:directa|6366:directos|4268:directas
 81661,enfrentar,v,,15929:enfrentar|10518:enfrenta|10430:enfrentarse|5218:enfrentan|4262:enfrentado|4130:enfrentó|3715:enfrentamos|3160:enfrentará|2608:enfrentarme|2251:enfrentando|2131:enfrentaron|1983:enfrentados|1719:enfrentaba|1656:enfrentarte|1585:enfrentarnos|1382:enfrentarlo|1373:enfrentarán|1221:enfrentas|1065:enfrentadas|948:enfrento|888:enfrentándose|809:enfrentaban|803:enfrenté|698:enfrentada|592:enfrenten|587:enfrentarlos
@@ -993,7 +993,6 @@ count,spanish,pos,flags,usage
 76652,destino,n,,71027:destino|5625:destinos
 76620,ministerio,n,,71697:ministerio|4923:ministerios
 76544,victoria,n,,65329:victoria|6569:victorias|4646:vitoria
-76371,santo,adj,DUPLICATE,76371:santa
 76323,marco,n,,52590:marco|23733:marcos
 76316,actitud,n,,60779:actitud|15537:actitudes
 76192,cometer,v,,20237:cometido|12170:cometer|8683:cometió|5676:cometí|5142:cometidos|4726:cometiendo|4176:comete|3080:cometen|2748:cometieron|1684:cometiste|1492:cometidas|1164:cometemos|1012:cometimos|953:cometes|751:cometida|711:cometan|632:cometo|593:cometía|562:cometiera
@@ -14652,7 +14651,6 @@ count,spanish,pos,flags,usage
 1599,satisfactoriamente,adv,,1599:satisfactoriamente
 1598,hurto,n,,1598:hurto
 1598,meteoro,n,,954:meteoro|644:meteoros
-1598,revocar,v,NOSENT,1026:revocar|572:revoque
 1598,richter,none,NOUSAGE; NODEF; NOSENT,1598:richter
 1598,videla,none,NOUSAGE; NODEF; NOSENT,1598:videla
 1597,acordeón,n,,1597:acordeón
@@ -18299,6 +18297,7 @@ count,spanish,pos,flags,usage
 1026,malibú,none,NOUSAGE; NODEF; NOSENT,1026:malibú
 1026,parador,n,NOSENT,1026:parador
 1026,pertinencia,n,NOSENT,1026:pertinencia
+1026,revocar,v,NOSENT,1026:revocar
 1026,urbino,none,NOUSAGE; NODEF; NOSENT,1026:urbino
 1026,vallecano,adj,NOSENT,1026:vallecano
 1025,afro,n,NOSENT,1025:afro
@@ -22563,7 +22562,7 @@ count,spanish,pos,flags,usage
 680,ica,none,NOUSAGE; NODEF; NOSENT,680:ica
 680,maynard,none,NOUSAGE; NODEF; NOSENT,680:maynard
 680,obstruir,v,,680:obstruir
-680,pichincha,none,NOUSAGE; NODEF; NOSENT,680:pichincha
+680,pichincha,n,NOSENT,680:pichincha
 680,plantón,n,NOSENT,680:plantón
 680,reubicación,n,NOSENT,680:reubicación
 680,sameer,none,NOUSAGE; NODEF; NOSENT,680:sameer
@@ -24824,6 +24823,7 @@ count,spanish,pos,flags,usage
 572,pinacoteca,n,NOSENT,572:pinacoteca
 572,platería,n,NOSENT,572:platería
 572,quina,n,NOSENT,572:quina
+572,revoque,n,NOSENT,572:revoque
 572,saab,none,NOUSAGE; NODEF; NOSENT,572:saab
 572,sas,none,NOUSAGE; NODEF; NOSENT,572:sas
 572,serrín,n,NOSENT,572:serrín
