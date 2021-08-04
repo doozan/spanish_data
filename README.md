@@ -58,7 +58,7 @@ mkdir spanish_data
     wget -N -nv https://downloads.tatoeba.org/exports/sentences_in_lists.tar.bz2
     wget -N -nv https://downloads.tatoeba.org/exports/user_languages.tar.bz2
 
-    [ spa_sentences_detailed.tsv.bz2 -nt spanish_data/sentences.tsv ] || return 0
+    #[ spa_sentences_detailed.tsv.bz2 -nt spanish_data/sentences.tsv ] || return 0
 
     bzcat user_languages.tar.bz2 | tail -n +2 |  grep -P "^spa\t5" | cut -f 3 | grep -v '\N' > spa_5.txt
     bzcat user_languages.tar.bz2 | tail -n +2 |  grep -P "^spa\t4" | cut -f 3 | grep -v '\N' > spa_4.txt
