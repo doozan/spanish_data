@@ -106,7 +106,7 @@ EOF
 ```
 ### Build the frequency list
 ```bash
-    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt spanish_data/es_50k_merged.txt > spanish_data/frequency.csv
+    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt --infile spanish_data/es_50k_merged.txt --outfile spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
