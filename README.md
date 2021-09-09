@@ -48,7 +48,7 @@ mkdir spanish_data
 ### Build the allforms data
 ```bash
     [ spanish_data/es_allforms.csv -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_all_forms \
-	    --low-mem spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
+	    spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
 ```
 ### Build the sentences
 ```bash
@@ -99,14 +99,14 @@ EOF
     # sort by number of spaces in the spanish sentence
     [ eng-spa.tsv -nt eng-spa_links.tsv.bs2 ] || cat joined.tsv | sort -k1,1 -k2,2 -t$'\t' --unique | awk 'BEGIN {FS="\t"}; {x=$1; print gsub(/ /, " ", x) "\t" $0}' | sort -n | cut -f 2- > eng-spa.tsv
 
-    [ spa-only.txt -nt eng-spa.tsv ] || python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
+    [ spa-only.txt -nt eng-spa.tsv ] || python3 -m spanish_tools.build_sentences --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv > spa-only.txt || return 1
    info "...tagging sentences"
     [ spa-only.txt.json -nt spa-only.txt ] || spanish_tools/build_tags.sh spa-only.txt || return 1
-    [ spanish_data/sentences.tsv -nt spa-only.txt.json ] || python3 -m spanish_tools.build_sentences --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
+    [ spanish_data/sentences.tsv -nt spa-only.txt.json ] || python3 -m spanish_tools.build_sentences --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv eng-spa.tsv --tags spa-only.txt.json > spanish_data/sentences.tsv || return 1
 ```
 ### Build the frequency list
 ```bash
-    python3 -m spanish_tools.freq --low-mem --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt --infile spanish_data/es_50k_merged.txt --outfile spanish_data/frequency.csv
+    python3 -m spanish_tools.freq --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt --infile spanish_data/es_50k_merged.txt --outfile spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
