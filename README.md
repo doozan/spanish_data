@@ -111,7 +111,7 @@ EOF
 ### Build the Spanish-English Stardict dictionary
 ```bash
 
-python3 -m enwiktionary_wordlist.wordlist_to_dictunformat --low-mem spanish_data/es-en.data spanish_data/es_allforms.csv --lang-id es \
+python3 -m enwiktionary_wordlist.wordlist_to_dictunformat spanish_data/es-en.data spanish_data/es_allforms.csv --lang-id es \
 	--description "Spanish-English dictionary. Compiled by Jeff Doozan from Wiktionary data $TAG. CC-BY-SA" \
 	> es-en.dictunformat || return 1
 ~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo || return 1
