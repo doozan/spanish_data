@@ -3,12 +3,12 @@ This data is built from [Wiktionary](https://en.wiktionary.org) and [Tatoeba](ta
 This data is used to build the free, open-source Spanish to English dictionary available in StarDict and Aard2/slob formats in the [Release section](https://github.com/doozan/spanish_data/releases). It's also used to build my [6001 Spanish Vocab](https://github.com/doozan/6001_Spanish) anki deck, and is provided here with the hope that others may find additional uses for it.
 
 ### Interesting files:
-* es-en.txt - Spanish to English wordlist
+* es-en.data - Spanish to English Wiktionary data formatted for (enwiktionary_wordlist)[https://github.com/doozan/enwiktionary_wordlist)
 * frequency.csv - a list of the most frequently used Spanish lemmas with part of speech and all word variations combined into lemma
 * sentences.tsv - English/Spanish sentence pairs from tatoeba.org with users self-reported proficiency, part of speech tags, and lemmas
 
 ### Credits:
-* es-en.txt (CC-BY-SA Attribution: wiktionary.org)
+* es-en.data (CC-BY-SA Attribution: wiktionary.org)
 * frequency.csv (CC-BY-SA 3.0 github.com/hermitdave/FrequencyWords)
 * sentences.tsv (CC-BY 2.0 FR Attribution: tatoeba.org)
 * Many thanks to Matthias Buchmeier for the original [trans-en-es.awk](https://en.wiktionary.org/wiki/User:Matthias_Buchmeier/trans-en-es.awk) script (GPL2)
@@ -48,7 +48,7 @@ mkdir spanish_data
 ### Build the allforms data
 ```bash
     [ spanish_data/es_allforms.csv -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_all_forms \
-	    spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
+	    --resolve-lemmas spanish_data/es-en.data > spanish_data/es_allforms.csv || return 1
 ```
 ### Build the sentences
 ```bash
@@ -111,7 +111,8 @@ EOF
 ### Build the Spanish-English Stardict dictionary
 ```bash
 
-python3 -m enwiktionary_wordlist.wordlist_to_dictunformat spanish_data/es-en.data spanish_data/es_allforms.csv --lang-id es \
+python3 -m enwiktionary_wordlist.wordlist_to_dictunformat spanish_data/es-en.data spanish_data/es_allforms.csv \
+        --name "Wiktionary" --from-lang-id es --to-lang-id en \
 	--description "Spanish-English dictionary. Compiled by Jeff Doozan from Wiktionary data $TAG. CC-BY-SA" \
 	> es-en.dictunformat || return 1
 ~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo || return 1
