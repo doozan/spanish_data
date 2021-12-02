@@ -39,9 +39,10 @@ mkdir spanish_data
 ```
 ### Extract the language data and build the wordlist
 ```bash
-    wget -N -nv 'https://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-articles.xml.bz2'
-    [ Spanish.txt.bz2 -nt enwiktionary-latest-pages-articles.xml.bz2 ] || PYWIKIBOT_NO_USER_CONFIG=1 python3 -m enwiktionary_wordlist.make_extract \
-	    --xml enwiktionary-latest-pages-articles.xml.bz2 --lang es || return 1
+    wget -N -nv https://dumps.wikimedia.org/enwiktionary/$LATEST/enwiktionary-$LATEST-pages-articles.xml.bz2
+
+    [ Spanish.txt.bz2 -nt enwiktionary-$LATEST-pages-articles.xml.bz2 ] || PYWIKIBOT_NO_USER_CONFIG=1 python3 -m enwiktionary_wordlist.make_extract \
+	    --xml enwiktionary-$LATEST-pages-articles.xml.bz2 --lang es || return 1
     [ spanish_data/es-en.data -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_wordlist \
 	    --langdata Spanish.txt.bz2 --lang-id es > spanish_data/es-en.data || return 1
 ```
