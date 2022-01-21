@@ -44,7 +44,7 @@ mkdir spanish_data
     [ Spanish.txt.bz2 -nt enwiktionary-$LATEST-pages-articles.xml.bz2 ] || PYWIKIBOT_NO_USER_CONFIG=1 python3 -m enwiktionary_wordlist.make_extract \
 	    --xml enwiktionary-$LATEST-pages-articles.xml.bz2 --lang es || return 1
     [ spanish_data/es-en.data -nt Spanish.txt.bz2 ] || python3 -m enwiktionary_wordlist.make_wordlist \
-	    --langdata Spanish.txt.bz2 --lang-id es > spanish_data/es-en.data || return 1
+	    --langdata Spanish.txt.bz2 --lang-id es --exclude-verb-forms --exclude-generated-forms > spanish_data/es-en.data || return 1
 ```
 ### Build the allforms data
 ```bash
@@ -107,7 +107,8 @@ EOF
 ```
 ### Build the frequency list
 ```bash
-    python3 -m spanish_tools.freq --dictionary spanish_data/es-en.data --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt --infile spanish_data/es_50k_merged.txt --outfile spanish_data/frequency.csv
+    wget -N https://github.com/TALP-UPC/FreeLing/raw/master/data/es/probabilitats.dat
+    python3 -m spanish_tools.freq --dictionary spanish_data/es-en.data --probs  probabilitats.dat --allforms spanish_data/es_allforms.csv --ignore spanish_custom/ignore.txt --infile spanish_data/es_50k_merged.txt --outfile spanish_data/frequency.csv
 ```
 ### Build the Spanish-English Stardict dictionary
 ```bash
