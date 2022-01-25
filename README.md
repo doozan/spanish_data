@@ -117,6 +117,6 @@ python3 -m enwiktionary_wordlist.wordlist_to_dictunformat spanish_data/es-en.dat
         --name "Wiktionary" --from-lang-id es --to-lang-id en \
 	--description "Spanish-English dictionary. Compiled by Jeff Doozan from Wiktionary data $TAG. CC-BY-SA" \
 	> es-en.dictunformat || return 1
-~/.local/bin/pyglossary --no-progress-bar --no-color es-en.dictunformat es-en.ifo || return 1
-~/.local/bin/pyglossary --no-progress-bar --no-color es-en.ifo es-en.slob || return 1
+~/.local/bin/pyglossary --ui=none es-en.dictunformat es-en.ifo || return 1
+~/.local/bin/pyglossary --ui=none es-en.ifo es-en.slob || return 1
 ```
