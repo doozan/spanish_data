@@ -23,6 +23,7 @@ count,spanish,pos,flags,usage
 5789737,para,prep,,5779165:para|10572:pa
 5196777,poder,v,,1078647:puede|859403:puedo|483145:puedes|439753:podría|333350:podemos|325450:pueden|300867:poder|199306:podía|159923:pueda|103146:pudo|84758:podrías|72140:podríamos|70413:podrían|69527:pudiera|67764:podrá|66554:podido|58845:pude|49457:puedan|37111:podamos|36654:puedas|35565:podían|34665:podrán|24515:podremos|22921:podrás|22264:podré|22027:pudieron|16972:pudiste|16739:podías|16505:pudieran|15777:podéis|14302:podíamos|12167:pudimos|10404:pudieras|8316:pudiéramos|7709:pudiese|5381:pudiendo|3072:podés|2185:podríais|1792:pudiesen|1663:podáis|1598:podréis|1127:pudiésemos|785:pudieses|764:pudiéndose|755:poderse|594:poderlo
 5080122,ir,v,,1113231:vamos|727117:va|703420:voy|490987:ir|352090:vas|245690:van|232308:ve|230647:iba|189624:vaya|97710:vete|78453:iré|64756:irme|45559:iban|44212:irse|43174:vámonos|42039:vayas|35572:vayan|35126:irá|33132:iremos|32960:irnos|29562:irte|26918:yendo|25076:vayamos|25023:ibas|21915:íbamos|20057:irán|17024:iría|16698:irás|15373:vais|9226:váyase|8951:váyanse|6649:id|3112:irían|2926:iros|2683:irías|2290:iríamos|2068:vayámonos|1557:vayáis|1476:andá|1163:yéndose|940:andate|876:ibais|752:iréis
+4988925,él,pron,PRONOUN,2578758:le|1317380:él|558724:ellos|534063:les
 4977524,hacer,v,,1060946:hacer|813065:hace|335424:haciendo|334182:hizo|253015:hacerlo|175841:haces|160757:hice|147032:hacen|122517:haré|119477:hago|116754:hacía|114606:haga|105651:hiciste|84186:hagas|83513:hará|79924:hicieron|78153:hacemos|75851:haría|58187:haz|50058:haremos|43090:hicimos|42333:hacerse|38716:hazlo|38054:hacerle|38003:hagan|34832:harás|32379:hiciera|31674:hacerte|30569:hacerme|27712:hacían|26138:harán|25437:hagamos|17483:harías|12600:hazme|11549:hacerla|11283:hagámoslo|10038:hacernos|9183:harían|8080:haciéndolo|7805:hacías|7420:hicieran|7167:hicieras|6984:hacerles|6694:hacéis|6461:hacíamos|5557:hágalo|5142:hacerlos|5104:haciéndose|4581:hazte|4106:haríamos|3744:hiciese|3670:hacerlas|3243:haciéndole|2850:hazle|2775:haced|2767:hagáis|2512:haciéndome|2440:háganlo|2298:hiciéramos|2202:hágame|2198:hágase|1872:hacés|1670:hicisteis|1437:haciéndote|1316:házmelo|1255:haciéndola|1248:haceros|1246:hazla|1131:hacérselo|1110:face|1085:haréis|946:haciéndonos|898:hacedlo|886:haznos|882:haciéndoles|772:hágale|710:haciéndolos|650:háganse|628:háganme|603:hiciesen|602:farías|565:hacérmelo
 4812922,ése,pron,PRONOUN; LITERAL,2347477:eso|979289:ese|873569:esa|285506:esos|233507:esas|45147:ése|34161:ésa|5595:ésas|5432:ésos|3239:éso
 4679890,qué,pron,PRONOUN,4679890:qué
@@ -30,7 +31,6 @@ count,spanish,pos,flags,usage
 4384840,tú,pron,PRONOUN,3367473:te|1017367:tú
 4188300,al,contraction,NOSENT,4188300:al
 3937849,decir,v,,705374:decir|643865:dijo|396875:dice|272966:dije|190481:digo|122991:dicen|122864:dijiste|113697:dices|110691:diciendo|100519:decía|92776:di|89120:dime|83768:diga|73440:digas|70566:decirle|67645:diré|63501:dijeron|56980:decirte|53671:dile|52655:diría|47375:decirme|38528:decirlo|26215:digamos|20428:dirá|20199:dígame|18244:decían|17685:decirles|17169:dijera|15220:decírselo|14326:digan|13511:decimos|12823:dímelo|12471:dilo|12317:decirse|11986:dígale|11954:decirnos|11387:dirás|11380:diles|11239:decírtelo|10678:dijimos|7300:decías|7270:dirán|6797:decírmelo|6225:dirías|5880:diremos|5186:dinos|4966:diciéndole|4404:decís|3967:diciéndome|3714:dijeras|3189:decíamos|3040:dirían|2558:díganme|2481:dígales|2352:deciros|2257:díganos|2079:dígamelo|1936:dijese|1920:dijeran|1699:diríamos|1668:decidme|1581:díganle|1499:dígalo|1471:dígaselo|1200:diciéndote|1119:digáis|1097:decid|1077:decidle|1045:diciéndoles|972:dila|856:diríase|801:dijisteis|783:decírnoslo|773:digámoslo|659:dijéramos|638:diciéndolo|627:diciéndonos|607:decirla|576:decile
-3896138,él,pron,PRONOUN,2578758:le|1317380:él
 3776720,como,conj,,3776720:como
 3619482,pero,conj,,3619482:pero
 3443748,mío,determiner,LITERAL,2920281:mi|506671:mis|16796:míos
@@ -73,7 +73,6 @@ count,spanish,pos,flags,usage
 1138534,nada,pron,PRONOUN,1131150:nada|7384:na
 1137345,también,adv,,1119035:también|18310:tambien
 1125954,mismo,adj,,710604:mismo|284115:misma|83215:mismos|48020:mismas
-1092787,ellos,pron,PRONOUN,558724:ellos|534063:les
 1089948,venir,v,,168860:viene|144297:venir|134936:vino|125817:venga|94276:venido|55485:vienen|41153:vine|35440:venía|34580:vienes|27339:vendrá|26772:vengo|25800:vengan|17585:vinieron|16210:viniste|15323:vendría|13487:viniendo|12292:venían|12137:vengas|10072:viniera|9695:vendrán|9003:venimos|8346:vinimos|7303:venid|6094:vendrás|5097:vinieras|4339:vendré|3945:vendrías|2912:vendrían|2414:venías|2340:venida|2239:vinieran|2015:veníamos|2008:vení|2002:venís|1964:vente|1499:viniese|1383:venidas|1160:venidos|964:venirse|754:vendremos|611:venirte
 1086154,nuestro,determiner,LITERAL,410276:nuestro|366673:nuestra|188347:nuestros|120858:nuestras
 1065173,cómo,n,,1065173:cómo
@@ -205,12 +204,12 @@ count,spanish,pos,flags,usage
 375830,seguir,v,,146263:seguir|31754:seguía|30295:siguiendo|27838:siguió|21191:seguimos|16366:seguirá|10496:siguieron|9841:seguí|9392:seguían|8550:sigamos|8377:seguiré|7818:seguiremos|7171:seguirán|4788:seguiría|4662:siguiera|2919:seguid|2833:seguirme|2549:seguirás|2426:seguirlo|2045:seguirle|2038:seguiste|1689:seguirla|1486:seguís|1456:seguirían|1450:siguieran|1354:seguirte|1331:seguidme|1136:seguíamos|986:seguirse|980:seguías|941:seguirlos|837:siguiéndome|813:seguirnos|634:seguirías|575:siguieras|550:siguiese
 371933,pequeño,adj,,151785:pequeño|120404:pequeña|57928:pequeños|41816:pequeñas
 369435,pedir,v,,59941:pidió|52532:pedir|36926:pide|31424:pido|26005:pedí|22419:pidiendo|17909:pedirle|13466:piden|9839:pidieron|9574:pedía|9415:pedimos|9142:pediste|8639:pedirte|7289:pida|6349:pediré|6346:pides|4003:pedirme|3988:pedirá|3480:pedían|3311:pidas|3285:pediría|2824:pidiera|2775:pedirles|2364:pídele|2269:pidan|1902:pidiéndole|1574:pedirlo|1372:pedirán|1332:pedírselo|1273:pediremos|976:pidiéndome|922:pidamos|803:pídeme|770:pedida|712:pídale|607:pedírtelo|566:pidieras|560:pedírmelo|552:pedirás
+369391,pues,conj,,364846:pues|4545:pos
 367601,general,n,,325312:general|42289:generales
 367069,aún,adv,,367069:aún
 366180,hacia,prep,,366180:hacia
 365919,perder,v,,93368:perder|41682:perdió|28896:perdí|27881:pierde|24667:perdiendo|12648:perdimos|11679:perdiste|11148:perdieron|10479:pierden|8763:pierda|8380:pierdes|7938:pierdo|6944:pierdas|6236:perdemos|5968:perderse|5937:perdía|4660:perderá|4503:perdería|4145:perderte|3833:perderlo|3424:pierdan|3287:perderemos|3253:perderé|3206:perderás|3025:perdiera|2778:perderme|2570:piérdete|2564:perdamos|2532:perderla|1858:perderán|1823:perdían|868:perderlos|840:perdernos|829:perdiéndose|796:perderían|657:perderíamos|640:perdieran|637:perdieras|577:perderle
 364953,medio,n,,272484:medio|92469:medios
-364846,pues,conj,,364846:pues
 363274,único,adj,,197219:único|140285:única|16671:únicos|9099:únicas
 359212,punto,n,,263037:punto|96175:puntos
 349208,razón,n,,283566:razón|60982:razones|4660:razon
@@ -347,6 +346,7 @@ count,spanish,pos,flags,usage
 215999,tras,prep,,215999:tras
 215769,clase,n,,164127:clase|51642:clases
 214019,contigo,adv,LITERAL,214019:contigo
+213903,caer,v,,50819:caer|39740:cayó|28346:cae|10602:cayendo|10439:caen|8521:cayeron|8090:caiga|8003:caía|6332:caí|4808:caerá|4319:caídos|4026:caes|3728:caigo|3287:caían|3145:cayera|2773:caerse|2349:caigan|2134:caíste|2088:caería|1726:caerán|1385:caemos|1322:caigas|882:caímos|879:caerme|754:caeré|736:caerás|723:cayeran|715:caerte|650:caerle|582:cayéndose
 213718,luz,n,,169934:luz|43784:luces
 213493,juego,n,,168190:juego|45303:juegos
 212919,ayuda,n,,194194:ayuda|18725:ayudas
@@ -355,7 +355,6 @@ count,spanish,pos,flags,usage
 210686,blanco,adj,,101894:blanco|64093:blanca|26936:blancos|17763:blancas
 210567,cara,n,,188965:cara|21602:caras
 209876,paso,n,,166757:paso|43119:pasos
-209584,caer,v,,50819:caer|39740:cayó|28346:cae|10602:cayendo|10439:caen|8521:cayeron|8090:caiga|8003:caía|6332:caí|4808:caerá|4026:caes|3728:caigo|3287:caían|3145:cayera|2773:caerse|2349:caigan|2134:caíste|2088:caería|1726:caerán|1385:caemos|1322:caigas|882:caímos|879:caerme|754:caeré|736:caerás|723:cayeran|715:caerte|650:caerle|582:cayéndose
 209402,loco,adj,,116369:loco|57166:loca|28215:locos|7652:locas
 209173,explicar,v,,39975:explicó|39496:explicar|39356:explica|6996:explicarlo|6847:explicado|5865:explican|5756:explique|5363:explicarle|5252:explico|5184:explicaré|4835:explicaba|3985:explicarme|3912:explicaría|3816:explicarte|3567:explicaron|3094:explicando|3085:explicarse|2903:expliqué|2002:explicas|1951:explicará|1651:explicárselo|1649:explicarles|1535:explicártelo|1455:explícame|1122:explicara|1011:explícate|990:explicamos|960:explicarnos|952:explicada|805:expliquen|727:expliques|649:explicármelo|623:explicaremos|620:explicaban|619:explícamelo|565:explíquese
 208269,escribir,v,,59965:escribir|31518:escribió|27515:escribe|13986:escribiendo|12687:escribí|9551:escribo|8276:escribía|5857:escriba|4542:escribiste|4379:escriben|4161:escribes|3480:escribiré|2555:escribieron|2161:escribimos|1979:escribiera|1971:escribirlo|1886:escribirle|1817:escribas|1439:escribiría|1248:escriban|1225:escribirá|937:escribirla|877:escribían|874:escribirte|723:escribirme|690:escríbeme|685:escribirás|650:escribirse|635:escríbelo
@@ -381,7 +380,7 @@ count,spanish,pos,flags,usage
 195188,real,adj,,162238:real|32950:reales
 194532,aparecer,v,,56536:aparece|30967:apareció|29198:aparecen|22345:aparecer|8996:aparecía|8542:aparecieron|6813:aparezca|5174:aparecerá|4201:aparecían|4010:apareciendo|2927:aparezcan|2527:apareciera|1771:apareces|1743:aparecerán|1581:apareciste|1235:aparecida|1194:aparecería|964:aparecidos|950:aparezco|819:aparecidas|802:aparecieran|667:aparecí|570:apareciese
 193684,mover,v,,27001:mueve|19115:mover|14946:muevas|14904:moverse|14426:muévete|10877:muévanse|10356:mueva|9011:moviendo|9001:mueven|7054:movió|6838:movía|4630:muevan|4265:moviéndose|3969:moverme|3424:movernos|3240:moverte|3137:moveos|2826:mueves|2698:muevo|2631:movemos|2536:movían|1745:moverlo|1634:muévase|1612:movieron|1112:moví|1105:moverá|1078:movidos|1044:moviera|953:moveré|873:movámonos|858:moverla|810:muévelo|807:mováis|763:moviéndote|651:moveremos|644:moviéndonos|559:moviste|551:movería
-193100,ningún,determiner,LITERAL,193100:ningún
+193100,ningún,none,NOUSAGE; NODEF; LITERAL,193100:ningún
 192695,igual,adv,,192695:igual
 192468,ejemplo,n,,175087:ejemplo|17381:ejemplos
 191450,arma,n,,98828:armas|92622:arma
@@ -1179,7 +1178,6 @@ count,spanish,pos,flags,usage
 64752,afectar,v,,21770:afecta|10606:afectan|8298:afectar|5389:afectó|3611:afectará|3387:afectando|3082:afecte|1689:afecten|1670:afectaba|1630:afectaría|1395:afectaron|810:afectarán|797:afectaban|618:afectara
 64697,reina,n,,61647:reina|3050:reinas
 64588,impedir,v,,17145:impedir|14128:impide|6149:impidió|4717:impiden|4087:impedido|3643:impedía|2587:impida|2011:impidieron|1948:impedirá|1900:impidiendo|1839:impedirlo|1249:impedían|994:impediría|965:impidan|619:impedirle|607:impidiera
-64382,basar,v,,14765:basado|13773:basada|12298:basa|4860:basados|3859:basadas|3722:basándose|3480:basan|1818:basó|1557:basarse|1472:basaba|1067:basándome|882:basándonos|829:basar
 64321,p,letter,LETTER; LITERAL,64321:p
 64317,terrible,adj,,54343:terrible|9974:terribles
 64279,puro,adj,,28742:pura|25851:puro|6080:puros|3606:puras
@@ -2139,6 +2137,7 @@ count,spanish,pos,flags,usage
 32425,significado,n,,27759:significado|4666:significados
 32423,seguro,n,DUPLICATE,32423:seguros
 32414,dedicado,adj,,18618:dedicado|9717:dedicada|4079:dedicadas
+32397,basado,adj,,14765:basado|13773:basada|3859:basadas
 32394,copia,n,,21036:copia|11358:copias
 32372,camisa,n,,27116:camisa|5256:camisas
 32370,limitar,v,,7294:limita|5487:limitó|4596:limitar|3038:limitan|2101:limitaba|2007:limite|1940:limitarse|1100:limites|1029:limitaron|956:limitando|813:limitándose|733:limitaban|650:limitará|626:limito
@@ -2171,6 +2170,7 @@ count,spanish,pos,flags,usage
 32026,denunciar,v,,8231:denunció|6851:denunciar|5300:denunciado|2688:denuncian|2066:denunciaron|1359:denunciando|1302:denunciados|1032:denunciaba|1000:denunciarlo|987:denunciada|659:denunciadas|551:denuncio
 32010,fila,n,,18965:fila|13045:filas
 31998,situar,v,,10620:sitúa|4408:situar|4094:sitúan|3891:situarse|3494:situó|1362:situaba|1036:situaron|979:situándose|730:situará|695:sitúe|689:situando
+31985,basar,v,,12298:basa|4860:basados|3722:basándose|3480:basan|1818:basó|1557:basarse|1472:basaba|1067:basándome|882:basándonos|829:basar
 31985,vergüenza,n,,31395:vergüenza|590:vergüenzas
 31981,cincuenta,num,,31981:cincuenta
 31954,alzar,v,,11909:alza|4231:alzó|2070:alzar|1912:alzas|1825:alzaba|1727:alzado|1540:alzando|1464:alces|1240:alzarse|1187:alzados|1126:alzan|935:alzaron|788:alzaban
@@ -2283,7 +2283,6 @@ count,spanish,pos,flags,usage
 29972,nacimiento,n,,27913:nacimiento|2059:nacimientos
 29958,rumor,n,,17483:rumores|12475:rumor
 29948,violar,v,,4875:violar|4806:viola|4238:violó|3666:violado|3408:violada|2311:violando|1835:violaron|1356:violan|838:violadas|820:violaste|635:violarla|596:violé|564:violarme
-29943,caído,adj,,25624:caído|4319:caídos
 29913,h,letter,LETTER; LITERAL,29913:h
 29891,encantador,adj,,14208:encantador|12861:encantadora|1613:encantadores|1209:encantadoras
 29884,patio,n,,27131:patio|2753:patios
@@ -2567,6 +2566,7 @@ count,spanish,pos,flags,usage
 25661,cristo,n,NOSENT,25661:cristo
 25633,naturalmente,adv,,25633:naturalmente
 25627,estómago,n,,24575:estómago|1052:estómagos
+25624,caído,adj,,25624:caído
 25588,genético,adj,,12971:genética|7181:genético|3240:genéticos|2196:genéticas
 25583,eterno,adj,,11433:eterna|10645:eterno|2118:eternos|1387:eternas
 25563,billete,n,,14093:billetes|11470:billete
@@ -3353,6 +3353,7 @@ count,spanish,pos,flags,usage
 17886,panamá,n,LITERAL,17886:panamá
 17886,sofá,n,,17146:sofá|740:sofás
 17883,ética,n,,15808:ética|2075:éticas
+17859,culto,adj,,13268:culto|2507:cultos|2084:culta
 17858,horizonte,n,,14571:horizonte|3287:horizontes
 17858,síndrome,n,,15627:síndrome|2231:síndromes
 17855,sensibilidad,n,,17007:sensibilidad|848:sensibilidades
@@ -3666,7 +3667,6 @@ count,spanish,pos,flags,usage
 15789,cazar,v,,9041:cazar|2903:cazando|1508:cazado|1353:cazo|984:cazan
 15785,renovar,v,,4784:renovar|3226:renovado|2272:renovada|1441:renueva|770:renovó|731:renovados|673:renovando|650:renovarse|647:renovadas|591:renuevan
 15779,manual,adj,,12063:manual|3716:manuales
-15775,culto,n,,13268:culto|2507:cultos
 15769,ansiedad,n,,15093:ansiedad|676:ansiedades
 15769,macho,n,,11259:macho|4510:machos
 15766,israelí,adj,,9515:israelí|6251:israelíes
@@ -6202,7 +6202,7 @@ count,spanish,pos,flags,usage
 6884,resonancia,n,NOSENT,5504:resonancia|1380:resonancias
 6883,crío,n,,4156:crío|2727:críos
 6881,serenidad,n,,6881:serenidad
-6878,pobrecito,n,NOSENT,3350:pobrecito|2960:pobrecita|568:pobrecitos
+6878,pobrecito,n,,3350:pobrecito|2960:pobrecita|568:pobrecitos
 6877,urbanización,n,NOSENT,5733:urbanización|1144:urbanizaciones
 6875,capacitación,n,,6875:capacitación
 6871,arqueológico,adj,,2388:arqueológico|2098:arqueológicos|1360:arqueológica|1025:arqueológicas
@@ -6250,7 +6250,7 @@ count,spanish,pos,flags,usage
 6799,asentar,v,,1682:asentado|1177:asentada|965:asentar|861:asentarse|787:asentados|710:asentó|617:asentadas
 6797,bulto,n,,4638:bulto|2159:bultos
 6797,carné,n,,3726:carnet|3071:carné
-6788,contracción,n,,4021:contracción|2767:contracciones
+6788,contracción,n,NOSENT,4021:contracción|2767:contracciones
 6788,warren,none,NOUSAGE; NODEF; NOSENT,6788:warren
 6786,afiliar,v,,5027:afiliados|1184:afiliado|575:afiliadas
 6786,arquitectónico,adj,,2520:arquitectónico|1962:arquitectónica|1170:arquitectónicas|1134:arquitectónicos
@@ -7417,7 +7417,7 @@ count,spanish,pos,flags,usage
 5174,herald,none,NOUSAGE; NODEF; NOSENT,5174:herald
 5174,interruptor,n,,4008:interruptor|1166:interruptores
 5173,pense,none,NOUSAGE; NODEF; NOSENT,5173:pense
-5170,tertulia,n,NOSENT,3014:tertulia|2156:tertulias
+5170,tertulia,n,,3014:tertulia|2156:tertulias
 5169,facial,adj,,3741:facial|1428:faciales
 5169,iniciación,n,,5169:iniciación
 5169,orleans,none,NOUSAGE; NODEF; NOSENT,5169:orleans
@@ -7725,7 +7725,7 @@ count,spanish,pos,flags,usage
 4847,ademán,n,,3150:ademán|1697:ademanes
 4840,resurrección,n,,4840:resurrección
 4839,francotirador,n,,3117:francotirador|1722:francotiradores
-4838,suero,n,,4838:suero
+4838,suero,n,NOSENT,4838:suero
 4837,rapido,none,NOUSAGE; NODEF; LITERAL,4837:rapido
 4836,canon,n,NOSENT,2783:canon|2053:cánones
 4832,cínico,adj,,2793:cínico|1380:cínica|659:cínicos
@@ -7923,7 +7923,7 @@ count,spanish,pos,flags,usage
 4641,drástico,adj,,1879:drástica|1419:drástico|1343:drásticas
 4641,empeñado,adj,,3437:empeñado|1204:empeñada
 4641,pekín,none,NOUSAGE; NODEF; NOSENT,4641:pekín
-4639,testículo,n,,3659:testículos|980:testículo
+4639,testículo,n,NOSENT,3659:testículos|980:testículo
 4638,ardilla,n,,2882:ardilla|1756:ardillas
 4638,ordóñez,none,NOUSAGE; NODEF; NOSENT,4638:ordóñez
 4637,elvis,none,NOUSAGE; NODEF; NOSENT,4637:elvis
@@ -7958,7 +7958,7 @@ count,spanish,pos,flags,usage
 4602,autógrafo,n,,3022:autógrafo|1580:autógrafos
 4602,pierce,none,NOUSAGE; NODEF; NOSENT,4602:pierce
 4601,alla,none,NOUSAGE; NODEF; NOSENT,4601:alla
-4601,descomposición,n,,4601:descomposición
+4601,descomposición,n,NOSENT,4601:descomposición
 4601,j.,none,NOUSAGE; NODEF; NOSENT,4601:j.
 4601,leon,none,NOUSAGE; NODEF; NOSENT,4601:leon
 4601,mural,adj,NOSENT,2797:mural|1804:murales
@@ -8027,7 +8027,6 @@ count,spanish,pos,flags,usage
 4547,peninsular,adj,NOSENT,3100:peninsular|1447:peninsulares
 4547,xi,n,NOSENT,4547:xi
 4545,joyce,none,NOUSAGE; NODEF; NOSENT,4545:joyce
-4545,pos,n,NOSENT,4545:pos
 4543,electo,adj,,4543:electo
 4542,hit,n,NOSENT,2408:hit|2134:hits
 4542,mo,none,NOUSAGE; NODEF; NOSENT,4542:mo
@@ -8540,7 +8539,7 @@ count,spanish,pos,flags,usage
 4126,roberts,none,NOUSAGE; NODEF; NOSENT,4126:roberts
 4125,agnes,none,NOUSAGE; NODEF; NOSENT,4125:agnes
 4125,soberbia,n,,4125:soberbia
-4124,down,none,NOUSAGE; NODEF; LITERAL,4124:down
+4124,down,none,NOUSAGE; NODEF; NOSENT,4124:down
 4124,marxismo,n,,4124:marxismo
 4122,martirio,n,NOSENT,4122:martirio
 4120,batido,n,,4120:batido
@@ -8577,7 +8576,7 @@ count,spanish,pos,flags,usage
 4094,center,n,LITERAL,4094:center
 4092,rampa,n,,3067:rampa|1025:rampas
 4092,soria,none,NOUSAGE; NODEF; NOSENT,4092:soria
-4091,buscador,n,,2596:buscador|1495:buscadores
+4091,buscador,adj,NOSENT,2596:buscador|1495:buscadores
 4091,particularidad,n,NOSENT,2093:particularidad|1998:particularidades
 4089,manchester,none,NOUSAGE; NODEF; NOSENT,4089:manchester
 4088,lena,none,NOUSAGE; NODEF; NOSENT,4088:lena
@@ -8889,7 +8888,7 @@ count,spanish,pos,flags,usage
 3867,duhalde,none,NOUSAGE; NODEF; NOSENT,3867:duhalde
 3866,baltimore,none,NOUSAGE; NODEF; NOSENT,3866:baltimore
 3866,consumado,adj,,2503:consumado|682:consumada|681:consumados
-3866,inquisición,n,,3866:inquisición
+3866,inquisición,n,NOSENT,3866:inquisición
 3865,entrante,adj,,3167:entrante|698:entrantes
 3864,melilla,none,NOUSAGE; NODEF; NOSENT,3864:melilla
 3863,maza,n,NOSENT,2499:maza|1364:mazas
@@ -9077,7 +9076,7 @@ count,spanish,pos,flags,usage
 3750,trivial,adj,,2639:trivial|1111:triviales
 3749,hospitalidad,n,,3749:hospitalidad
 3749,simpatizante,adj,NOSENT,2998:simpatizantes|751:simpatizante
-3748,apocalipsis,n,,3748:apocalipsis
+3748,apocalipsis,n,NOSENT,3748:apocalipsis
 3748,enterprise,none,NOUSAGE; NODEF; NOSENT,3748:enterprise
 3748,metafísica,n,,3148:metafísica|600:metafísicas
 3748,recreación,n,,3748:recreación
@@ -10287,7 +10286,7 @@ count,spanish,pos,flags,usage
 3013,vaivén,n,NOSENT,1598:vaivén|1415:vaivenes
 3012,josefa,none,NOUSAGE; NODEF; NOSENT,3012:josefa
 3011,crepúsculo,n,,3011:crepúsculo
-3010,guaraní,adj,NOSENT,1556:guaraníes|1454:guaraní
+3010,guaraní,adj,,1556:guaraníes|1454:guaraní
 3009,cochero,n,,1756:cochero|1253:cochera
 3009,logístico,adj,NOSENT,1908:logística|1101:logístico
 3009,privación,n,,1963:privación|1046:privaciones
@@ -10407,6 +10406,7 @@ count,spanish,pos,flags,usage
 2938,jared,none,NOUSAGE; NODEF; NOSENT,2938:jared
 2937,tramar,v,,2937:tramando
 2936,activación,n,,2936:activación
+2936,simplificar,v,,1672:simplificar|669:simplificado|595:simplifica
 2935,musicar,v,NOSENT,2935:musica
 2934,francés,adj,DUPLICATE,2934:frances
 2934,whoo,none,NOUSAGE; NODEF; NOSENT,2934:whoo
@@ -10750,7 +10750,7 @@ count,spanish,pos,flags,usage
 2777,pum,interj,NOSENT,2777:pum
 2776,escote,n,,2776:escote
 2776,peatón,n,,2000:peatones|776:peatón
-2776,próstata,n,,2776:próstata
+2776,próstata,n,NOSENT,2776:próstata
 2775,amnesia,n,NOSENT,2775:amnesia
 2775,aval,n,NOSENT,2775:aval
 2775,bam,none,NOUSAGE; NODEF; NOSENT,2775:bam
@@ -10772,9 +10772,9 @@ count,spanish,pos,flags,usage
 2768,granado,adj,NOSENT,2019:granados|749:granado
 2768,sangrado,n,,2768:sangrado
 2768,ucranio,n,,2768:ucrania
-2767,cronológico,adj,NOSENT,1618:cronológico|1149:cronológica
+2767,cronológico,adj,,1618:cronológico|1149:cronológica
 2767,julien,none,NOUSAGE; NODEF; NOSENT,2767:julien
-2766,algoritmo,n,,1870:algoritmo|896:algoritmos
+2766,algoritmo,n,NOSENT,1870:algoritmo|896:algoritmos
 2766,camisón,n,NOSENT,2766:camisón
 2766,colon,n,NOSENT,2766:colon
 2766,enfado,n,,2766:enfado
@@ -12090,7 +12090,7 @@ count,spanish,pos,flags,usage
 2277,dolorido,adj,,1271:dolorido|1006:dolorida
 2276,candelabro,n,,1164:candelabros|1112:candelabro
 2276,favorablemente,adv,NOSENT,2276:favorablemente
-2276,manjar,n,NOSENT,1306:manjar|970:manjares
+2276,manjar,n,,1306:manjar|970:manjares
 2275,trasfondo,n,,2275:trasfondo
 2274,cit,none,NOUSAGE; NODEF; NOSENT,2274:cit
 2274,foral,adj,NOSENT,2274:foral
@@ -12113,9 +12113,8 @@ count,spanish,pos,flags,usage
 2269,vie,none,NOUSAGE; NODEF; NOSENT,2269:vie
 2268,destrozo,n,NOSENT,1523:destrozos|745:destrozo
 2268,humanismo,n,NOSENT,2268:humanismo
-2267,ne,none,NOUSAGE; NODEF; LITERAL,2267:ne
+2267,ne,none,NOUSAGE; NODEF; NOSENT,2267:ne
 2267,populista,adj,,1579:populista|688:populistas
-2267,simplificar,v,NOSENT,1672:simplificar|595:simplifica
 2266,arancelario,adj,NOSENT,978:arancelarias|722:arancelaria|566:arancelario
 2266,volátil,adj,,1233:volátil|1033:volátiles
 2265,boyer,none,NOUSAGE; NODEF; NOSENT,2265:boyer
@@ -12559,7 +12558,7 @@ count,spanish,pos,flags,usage
 2122,circunferencia,n,,2122:circunferencia
 2122,lecuona,none,NOUSAGE; NODEF; NOSENT,2122:lecuona
 2121,geología,n,,2121:geología
-2120,broncear,v,,2120:bronceado
+2120,bronceado,n,,2120:bronceado
 2120,licenciatura,n,,2120:licenciatura
 2120,pincelada,n,NOSENT,1241:pinceladas|879:pincelada
 2119,desistir,v,,1511:desistir|608:desistió
@@ -12670,7 +12669,6 @@ count,spanish,pos,flags,usage
 2085,chaco,n,NOSENT,2085:chaco
 2085,solvente,adj,,1129:solvente|956:solventes
 2084,absolución,n,NOSENT,2084:absolución
-2084,culto,adj,DUPLICATE,2084:culta
 2084,jehová,none,NOUSAGE; NODEF; NOSENT,2084:jehová
 2083,acevedo,none,NOUSAGE; NODEF; NOSENT,2083:acevedo
 2083,cash,none,NOUSAGE; NODEF; NOSENT,2083:cash
@@ -12744,7 +12742,7 @@ count,spanish,pos,flags,usage
 2063,arribo,n,NOSENT,2063:arribo
 2063,atracador,n,NOSENT,1184:atracadores|879:atracador
 2063,cass,none,NOUSAGE; NODEF; NOSENT,2063:cass
-2063,homínido,n,NOSENT,1461:homínidos|602:homínido
+2063,homínido,adj,NOSENT,1461:homínidos|602:homínido
 2063,momentáneo,adj,,1075:momentánea|988:momentáneo
 2063,noé,none,NOUSAGE; NODEF; NOSENT,2063:noé
 2062,persuasión,n,NOSENT,2062:persuasión
@@ -15175,7 +15173,7 @@ count,spanish,pos,flags,usage
 1487,indocumentado,adj,NOSENT,1487:indocumentados
 1487,innecesariamente,adv,,1487:innecesariamente
 1487,krauss,none,NOUSAGE; NODEF; NOSENT,1487:krauss
-1487,prohibe,none,NOUSAGE; NODEF; LITERAL,1487:prohibe
+1487,prohibe,none,NOUSAGE; NODEF; NOSENT,1487:prohibe
 1487,ursula,none,NOUSAGE; NODEF; NOSENT,1487:ursula
 1486,aprehensión,n,NOSENT,1486:aprehensión
 1486,aventón,n,,1486:aventón
@@ -15207,7 +15205,7 @@ count,spanish,pos,flags,usage
 1482,jaramillo,none,NOUSAGE; NODEF; NOSENT,1482:jaramillo
 1481,afanar,v,,1481:afanes
 1481,canino,adj,NOSENT,760:canino|721:canina
-1481,escarbar,v,NOSENT,882:escarbar|599:escarbando
+1481,escarbar,v,,882:escarbar|599:escarbando
 1481,loyola,none,NOUSAGE; NODEF; NOSENT,1481:loyola
 1481,make,none,NOUSAGE; NODEF; NOSENT,1481:make
 1481,norberto,none,NOUSAGE; NODEF; NOSENT,1481:norberto
@@ -16469,7 +16467,7 @@ count,spanish,pos,flags,usage
 1260,arrugado,adj,,1260:arrugada
 1260,autocontrol,n,,1260:autocontrol
 1260,descrédito,n,NOSENT,1260:descrédito
-1260,iconografía,n,NOSENT,1260:iconografía
+1260,iconografía,n,,1260:iconografía
 1260,intrincar,v,NOSENT,687:intrincado|573:intrincada
 1260,labrar,v,NOSENT,695:labrado|565:labrar
 1260,mendel,none,NOUSAGE; NODEF; NOSENT,1260:mendel
@@ -17943,7 +17941,7 @@ count,spanish,pos,flags,usage
 1064,legislar,v,NOSENT,1064:legislar
 1064,merecedor,adj,NOSENT,1064:merecedor
 1064,remera,n,,1064:remera
-1063,beat,none,NOUSAGE; NODEF; LITERAL,1063:beat
+1063,beat,none,NOUSAGE; NODEF; NOSENT,1063:beat
 1063,chef,n,,1063:chefs
 1063,cónclave,n,NOSENT,1063:cónclave
 1063,incesantemente,adv,,1063:incesantemente
@@ -18416,7 +18414,7 @@ count,spanish,pos,flags,usage
 1010,banzer,none,NOUSAGE; NODEF; NOSENT,1010:banzer
 1010,desinformación,n,,1010:desinformación
 1010,french,none,NOUSAGE; NODEF; NOSENT,1010:french
-1010,inigualable,adj,,1010:inigualable
+1010,inigualable,adj,NOSENT,1010:inigualable
 1010,nerviosamente,adv,,1010:nerviosamente
 1010,perez,none,NOUSAGE; NODEF; NOSENT,1010:perez
 1010,retrovirus,n,NOSENT,1010:retrovirus
@@ -18581,7 +18579,7 @@ count,spanish,pos,flags,usage
 994,shultz,none,NOUSAGE; NODEF; NOSENT,994:shultz
 994,spiderman,none,NOUSAGE; NODEF; NOSENT,994:spiderman
 994,superfluo,adj,NOSENT,994:superfluo
-994,tamal,n,NOSENT,994:tamales
+994,tamal,n,,994:tamales
 993,block,n,NOSENT,993:block
 993,colmenar,n,NOSENT,993:colmenar
 993,cutler,none,NOUSAGE; NODEF; NOSENT,993:cutler
@@ -18590,7 +18588,7 @@ count,spanish,pos,flags,usage
 992,apartheid,n,,992:apartheid
 992,apurate,none,NOUSAGE; NODEF; LITERAL,992:apurate
 992,brewster,none,NOUSAGE; NODEF; NOSENT,992:brewster
-992,capri,none,NOUSAGE; NODEF; NOSENT,992:capri
+992,capri,n,NOSENT,992:capri
 992,centauri,none,NOUSAGE; NODEF; NOSENT,992:centauri
 992,cobos,none,NOUSAGE; NODEF; NOSENT,992:cobos
 992,esperanzador,adj,NOSENT,992:esperanzador
@@ -18714,7 +18712,7 @@ count,spanish,pos,flags,usage
 978,desprevenido,adj,,978:desprevenido
 978,envolvente,adj,NOSENT,978:envolvente
 978,freya,none,NOUSAGE; NODEF; NOSENT,978:freya
-978,gentuza,n,,978:gentuza
+978,gentuza,n,NOSENT,978:gentuza
 978,ignición,n,NOSENT,978:ignición
 978,janey,none,NOUSAGE; NODEF; NOSENT,978:janey
 978,leila,none,NOUSAGE; NODEF; NOSENT,978:leila
@@ -19470,7 +19468,7 @@ count,spanish,pos,flags,usage
 907,joseba,none,NOUSAGE; NODEF; NOSENT,907:joseba
 907,moody,none,NOUSAGE; NODEF; NOSENT,907:moody
 907,prurito,n,NOSENT,907:prurito
-907,rabí,none,NOUSAGE; NODEF; NOSENT,907:rabí
+907,rabí,n,NOSENT,907:rabí
 907,su-des,none,NOUSAGE; NODEF; NOSENT,907:su-des
 906,añejo,adj,,906:añejo
 906,conjuntivitis,n,NOSENT,906:conjuntivitis
@@ -21303,7 +21301,7 @@ count,spanish,pos,flags,usage
 761,consternado,adj,,761:consternado
 761,didn,none,NOUSAGE; NODEF; NOSENT,761:didn
 761,estrellato,n,NOSENT,761:estrellato
-761,iguana,n,NOSENT,761:iguana
+761,iguana,n,,761:iguana
 761,indisciplina,n,NOSENT,761:indisciplina
 761,ineficiente,adj,NOSENT,761:ineficiente
 761,mandrake,none,NOUSAGE; NODEF; NOSENT,761:mandrake
@@ -21717,7 +21715,7 @@ count,spanish,pos,flags,usage
 735,langston,none,NOUSAGE; NODEF; NOSENT,735:langston
 735,lré,none,NOUSAGE; NODEF; NOSENT,735:lré
 735,ornamento,n,NOSENT,735:ornamentos
-735,remedar,v,,735:remedo
+735,remedo,n,NOSENT,735:remedo
 735,rohit,none,NOUSAGE; NODEF; NOSENT,735:rohit
 735,spam,n,NOSENT,735:spam
 734,camden,none,NOUSAGE; NODEF; NOSENT,734:camden
@@ -21789,7 +21787,7 @@ count,spanish,pos,flags,usage
 730,pepín,none,NOUSAGE; NODEF; NOSENT,730:pepín
 730,querencia,n,NOSENT,730:querencia
 730,raina,none,NOUSAGE; NODEF; NOSENT,730:raina
-730,rupestre,adj,NOSENT,730:rupestre
+730,rupestre,adj,,730:rupestre
 730,sparky,none,NOUSAGE; NODEF; NOSENT,730:sparky
 729,antológico,adj,NOSENT,729:antológica
 729,argh,none,NOUSAGE; NODEF; NOSENT,729:argh
@@ -22828,7 +22826,6 @@ count,spanish,pos,flags,usage
 669,parabólico,adj,NOSENT,669:parabólica
 669,penitente,n,NOSENT,669:penitente
 669,progresismo,n,NOSENT,669:progresismo
-669,simplificado,adj,NOSENT,669:simplificado
 669,veraneante,n,NOSENT,669:veraneantes
 669,walk,none,NOUSAGE; NODEF; NOSENT,669:walk
 668,ange,none,NOUSAGE; NODEF; NOSENT,668:ange
@@ -25252,7 +25249,7 @@ count,spanish,pos,flags,usage
 557,notación,n,NOSENT,557:notación
 557,nun,none,NOUSAGE; NODEF; NOSENT,557:nun
 557,pachuco,n,NOSENT,557:pachuca
-557,prohibo,none,NOUSAGE; NODEF; LITERAL,557:prohibo
+557,prohibo,none,NOUSAGE; NODEF; NOSENT,557:prohibo
 557,reconsideración,n,NOSENT,557:reconsideración
 557,requena,none,NOUSAGE; NODEF; NOSENT,557:requena
 557,riazor,none,NOUSAGE; NODEF; NOSENT,557:riazor
