@@ -18,14 +18,14 @@ count,spanish,pos,flags,usage
 6996590,suyo,determiner,LITERAL,5067627:su|1810304:sus|50806:suyo|41950:suya|16664:suyos|9239:suyas
 6800961,del,contraction,NOSENT,6800961:del
 6315016,tener,v,,1215694:tiene|1044304:tengo|702594:tienes|542472:tenemos|469123:tenía|453940:tener|377317:tienen|167137:tenido|163601:tuvo|109933:tenga|105449:tuve|86471:tendrá|77034:tenían|58265:tendría|51365:tenías|49218:teniendo|45397:tengas|45251:tendrás|44806:tendremos|42228:ten|42075:teníamos|41540:tendré|40968:tuviera|40266:tuvieron|39329:tengan|35810:tuvimos|34826:tendrán|23584:tenéis|23223:tuviste|19884:tengamos|12149:tenerlo|10959:tendrían|10809:tendríamos|10604:tendrías|8655:tuvieras|7991:tuvieran|7591:tenerte|6780:tenés|6687:tenerla|6615:tuviese|5129:tuviéramos|3665:tenerlos|2915:tenerse|2664:tendréis|2527:tenerme|2257:tened|2204:tengáis|2043:tenerle|1621:tenerlas|1445:teníais|1304:tuviesen|907:tuvieses|876:tenidos|773:tuviésemos|761:tenlo|676:tuvisteis|670:tenernos|635:téngase
-6075093,éste,pron,PRONOUN; LITERAL,1714592:esta|1650976:este|1525307:esto|430126:estos|408489:estas|155066:éste|117817:ésta|42650:éstos|30070:éstas
 5789737,para,prep,,5779165:para|10572:pa
-4812922,ése,pron,PRONOUN; LITERAL,2347477:eso|979289:ese|873569:esa|285506:esos|233507:esas|45147:ése|34161:ésa|5595:ésas|5432:ésos|3239:éso
 4805804,poder,v,,1078647:puede|859403:puedo|483145:puedes|439753:podría|325450:pueden|300867:poder|199306:podía|159923:pueda|103146:pudo|84758:podrías|72140:podríamos|70413:podrían|69527:pudiera|67764:podrá|66554:podido|58845:pude|49457:puedan|36654:puedas|35565:podían|34665:podrán|24515:podremos|22921:podrás|22264:podré|22027:pudieron|16972:pudiste|16739:podías|16505:pudieran|14302:podíamos|12167:pudimos|10404:pudieras|8316:pudiéramos|7709:pudiese|5381:pudiendo|2185:podríais|1792:pudiesen|1598:podréis|1127:pudiésemos|785:pudieses|764:pudiéndose|755:poderse|594:poderlo
 4679890,qué,pron,PRONOUN,4679890:qué
 4642930,hacer,v,,1060946:hacer|813065:hace|334182:hizo|253015:hacerlo|175841:haces|160757:hice|147032:hacen|122517:haré|119477:hago|116754:hacía|114606:haga|105651:hiciste|84186:hagas|83513:hará|79924:hicieron|78153:hacemos|75851:haría|58187:haz|50058:haremos|43090:hicimos|42333:hacerse|38716:hazlo|38054:hacerle|38003:hagan|34832:harás|32379:hiciera|31674:hacerte|30569:hacerme|27712:hacían|26138:harán|25437:hagamos|17483:harías|12600:hazme|11549:hacerla|11283:hagámoslo|10038:hacernos|9183:harían|8080:haciéndolo|7805:hacías|7420:hicieran|7167:hicieras|6984:hacerles|6694:hacéis|6461:hacíamos|5557:hágalo|5142:hacerlos|5104:haciéndose|4581:hazte|4106:haríamos|3744:hiciese|3670:hacerlas|3243:haciéndole|2850:hazle|2775:haced|2767:hagáis|2512:haciéndome|2440:háganlo|2298:hiciéramos|2202:hágame|2198:hágase|1872:hacés|1670:hicisteis|1437:haciéndote|1316:házmelo|1255:haciéndola|1248:haceros|1246:hazla|1131:hacérselo|1110:face|1085:haréis|946:haciéndonos|898:hacedlo|886:haznos|882:haciéndoles|830:hagamoslo|772:hágale|710:haciéndolos|650:háganse|628:háganme|603:hiciesen|602:farías|565:hacérmelo
 4384840,tú,pron,PRONOUN,3367473:te|1017367:tú
+4204183,este,determiner,LITERAL,1714592:esta|1650976:este|430126:estos|408489:estas
 4188300,al,contraction,NOSENT,4188300:al
+3957599,todo,determiner,LITERAL,1983170:todo|1125547:todos|436676:todas|412206:toda
 3896138,él,pron,PRONOUN,2578758:le|1317380:él
 3851216,decir,v,,705374:decir|643865:dijo|396875:dice|272966:dije|190481:digo|122991:dicen|122864:dijiste|113697:dices|110691:diciendo|100519:decía|89120:dime|83768:diga|73440:digas|70566:decirle|67645:diré|63501:dijeron|56980:decirte|53671:dile|52655:diría|47375:decirme|38528:decirlo|26215:digamos|20428:dirá|20199:dígame|18244:decían|17685:decirles|17169:dijera|15220:decírselo|14326:digan|13511:decimos|12823:dímelo|12471:dilo|12317:decirse|11986:dígale|11954:decirnos|11387:dirás|11380:diles|11239:decírtelo|10678:dijimos|7790:díselo|7300:decías|7270:dirán|6797:decírmelo|6225:dirías|5880:diremos|4966:diciéndole|4404:decís|3967:diciéndome|3714:dijeras|3189:decíamos|3040:dirían|2558:díganme|2481:dígales|2352:deciros|2257:díganos|2079:dígamelo|2069:jedi|1936:dijese|1920:dijeran|1699:diríamos|1668:decidme|1581:díganle|1499:dígalo|1471:dígaselo|1200:diciéndote|1119:digáis|1097:decid|1077:decidle|1045:diciéndoles|972:dila|920:decirtelo|856:diríase|801:dijisteis|783:decírnoslo|773:digámoslo|659:dijéramos|638:diciéndolo|627:diciéndonos|607:decirla|576:decile|550:dijistes
 3776720,como,conj,,3776720:como
@@ -36,18 +36,19 @@ count,spanish,pos,flags,usage
 3130599,saber,v,,1009177:sé|665570:sabes|360901:sabe|281635:saber|208804:sabía|113284:sabemos|103106:saben|44412:saberlo|37289:sepa|36403:sabías|28790:supo|26705:supe|20870:sepas|18560:sabían|17416:supiera|16571:sabéis|15819:sabrá|13382:sabiendo|12389:sabíamos|11717:sabría|10554:sepan|8908:sabrás|7890:sabremos|6555:supieras|6530:supiste|5942:sabrán|5860:sabré|5360:sabés|5209:sepamos|4338:supieron|3529:supimos|3403:supieran|3037:sabrías|2995:saberse|1936:supiese|1328:supiéramos|1170:sabrían|1027:sabríamos|833:sabíais|809:sepáis|586:sabréis
 2858786,querer,v,,865571:quiero|539160:quieres|425749:quiere|282839:quería|124427:quieren|85072:queremos|64713:quieras|64422:quiera|59718:quisiera|45339:quiso|42252:querías|39289:quise|37476:querer|26864:querían|20755:querría|16200:quieran|14420:queréis|13341:queríamos|10610:querrá|9252:querrás|7769:queriendo|6878:quisieras|6396:querrías|6247:quisieron|5848:quisiste|5268:querés|4727:quisieran|3921:queramos|3864:querrán|3654:quisiéramos|2366:queráis|2322:quisimos|2086:querrían|1861:quererlo|1628:quererte|1511:querré|1209:quererme|1089:querríamos|1078:quisiese|806:quererla|789:queríais
 2651923,sí,pron,PRONOUN,2651923:sí
+2441051,ése,pron,PRONOUN; LITERAL,2347477:eso|45147:ése|34161:ésa|5595:ésas|5432:ésos|3239:éso
 2408645,bien,adv,,2408645:bien
+2371871,ese,determiner,LITERAL,979289:ese|873569:esa|285506:esos|233507:esas
 2364112,o,conj,,2348602:o|15510:ó
+2166005,tuyo,determiner,LITERAL,1749311:tu|305025:tus|55195:tuyo|42281:tuya|8582:tuyos|5611:tuyas
 2134915,ver,v,,647228:ver|187402:veo|151248:vi|146475:ves|93301:vio|77651:vemos|77355:verte|61716:verlo|53638:viste|50719:viendo|43116:veía|40781:veremos|39203:verás|37517:veamos|37197:verla|36946:vea|36569:verme|34478:veré|29795:verá|27855:vieron|22987:vimos|20029:verse|19553:verle|17212:vean|14111:vernos|14061:verlos|13014:verán|12050:viera|11929:veas|9109:veían|8926:vería|7121:véase|6226:verlas|5447:vió|4976:veis|3566:veíamos|3520:vieran|3083:vieras|3080:veros|2419:veréis|2297:veías|2172:verían|1938:verles|1776:veríamos|1677:viéndolo|1594:viese|1410:verías|1277:viéndose|1156:viéndote|1145:viéndola|988:viéramos|792:viéndome|758:visteis|745:véanse|705:veámoslo|704:viéndonos|598:ved|574:viéndole
-2118113,tuyo,determiner,LITERAL,1749311:tu|305025:tus|55195:tuyo|8582:tuyos
 2089952,bueno,adj,,1088324:bueno|331998:buena|310138:buen|178506:buenas|173000:buenos|7986:bonos
-2038753,otro,pron,PRONOUN,685240:otra|629021:otro|443735:otros|280757:otras
-1983170,todo,pron,PRONOUN,1983170:todo
-1974429,todo,determiner,LITERAL,1125547:todos|436676:todas|412206:toda
+2038753,otro,determiner,LITERAL,685240:otra|629021:otro|443735:otros|280757:otras
 1920420,dar,v,,230713:da|204789:dar|158324:dio|152523:dado|92776:di|90843:dame|85917:dan|76984:darle|57151:dando|50031:dieron|47989:daba|46866:das|45228:doy|40805:dale|36288:daré|35710:darme|31880:darte|31803:dé|31105:dará|26270:darse|20922:diste|20699:den|20583:dada|20338:date|19945:daría|16091:darles|15142:damos|14937:diera|14176:daban|14041:darnos|11279:darán|9613:deme|9550:dándole|9522:dimos|8676:daremos|7904:dió|7681:dadas|7209:dámelo|5691:demos|5352:darás|5284:danos|4641:dieran|4366:déme|3392:denme|3366:dámela|3299:darían|2984:dárselo|2825:denle|2665:dele|2642:dales|2622:dándose|2460:dese|2401:darías|2184:démosle|2181:dándome|2090:daros|2071:diese|2054:dense|1974:darlo|1878:dais|1874:dándoles|1864:dieras|1836:dadme|1667:dáselo|1643:dad|1571:darla|1542:daos|1528:déle|1196:dabas|1067:dábamos|1040:dadle|1007:dándote|995:denos|980:dártelo|916:dándonos|891:démelo|814:démonos|776:dése|740:deis|714:dela|699:dásela|669:dalo|658:dármelo|621:diéramos|617:dámelas|615:daríamos|601:diesen|554:dárselos
 1893962,solo,adv,,1214804:sólo|679158:solo
 1876060,aquí,adv,,1810492:aquí|65568:aqui
 1876001,ya,adv,,1876001:ya
+1870910,éste,pron,PRONOUN; LITERAL,1525307:esto|155066:éste|117817:ésta|42650:éstos|30070:éstas
 1766636,nosotros,pron,PRONOUN,1295402:nos|471234:nosotros
 1665041,deber,v,,424180:debe|206999:debería|164437:debo|130008:deben|123071:debemos|120893:debes|100802:deberías|73108:deberíamos|68890:debía|37647:debió|36987:deberían|33241:deberá|23018:debí|18757:deberán|16025:debían|12727:deba|10911:debiste|8187:debieron|6886:debiera|4920:debamos|4880:debíamos|4676:debías|4375:debimos|4222:debéis|4025:debas|3171:deberás|3107:deberíais|2865:deban|2626:deberemos|2354:debiendo|1965:debieran|1832:deberse|1392:deberé|942:debiéramos|915:debieras
 1664866,muy,adv,,1664866:muy
@@ -70,6 +71,7 @@ count,spanish,pos,flags,usage
 1137345,también,adv,,1119035:también|18310:tambien
 1125954,mismo,adj,,710604:mismo|284115:misma|83215:mismos|48020:mismas
 1120020,venir,v,,220598:ven|168860:viene|144297:venir|134936:vino|94276:venido|55485:vienen|41153:vine|35440:venía|34580:vienes|27339:vendrá|17585:vinieron|16210:viniste|15323:vendría|13487:viniendo|12292:venían|10072:viniera|9695:vendrán|9003:venimos|8346:vinimos|7303:venid|6094:vendrás|5097:vinieras|4339:vendré|3945:vendrías|2912:vendrían|2414:venías|2340:venida|2239:vinieran|2015:veníamos|2008:vení|2002:venís|1964:vente|1499:viniese|1383:venidas|1160:venidos|964:venirse|754:vendremos|611:venirte
+1102286,alguno,determiner,LITERAL,316219:algunos|310374:alguna|262466:algún|213227:algunas
 1092787,ellos,pron,PRONOUN,558724:ellos|534063:les
 1086154,nuestro,determiner,LITERAL,410276:nuestro|366673:nuestra|188347:nuestros|120858:nuestras
 1065173,cómo,n,,1065173:cómo
@@ -83,7 +85,6 @@ count,spanish,pos,flags,usage
 927198,grande,adj,,554507:gran|211470:grandes|161221:grande
 923304,entre,prep,,923304:entre
 896508,llevar,v,,124526:lleva|114828:llevar|64510:llevó|51545:llevaba|49986:llevo|41574:llevado|40550:llevan|31598:llevas|26247:llevaron|25814:lleve|24622:llevará|24134:llevaré|21237:llevamos|21003:llevando|14502:llevarlo|14447:llevarte|12575:llevaban|12493:llevarme|11608:llevarse|10892:llevarla|9870:llevaría|9853:llevé|9255:lleven|8162:llevara|8133:llévame|7099:llevaremos|6116:llevarnos|6103:llevada|5820:llevarán|5647:lleves|5256:llévate|5095:llevarle|4816:llevaste|4352:llevados|4293:llevarlos|3509:llevarás|3222:llévalo|2766:llevadas|2742:llevaran|2502:llevemos|2403:llevábamos|2392:llévala|2369:llevabas|2308:llévatelo|2261:llevándose|1933:lleváis|1918:llevárselo|1768:llevarlas|1723:llévenselo|1558:llévenlo|1556:llevarían|1503:llevase|1361:lléveme|1243:llevársela|1214:llevare|1199:llévese|1171:llevaras|1137:llévanos|1130:llévatela|1114:llévale|1074:llevarías|992:llevarles|902:llévense|884:llévalos|806:llévelo|695:llevármelo|687:lléveselo|676:llevaros|674:llevémoslo|672:lleváoslo|667:llevándolo|640:llévenme|576:llevártelo
-894633,alguno,pron,PRONOUN,316219:algunos|310374:alguna|213227:algunas|54813:alguno
 885980,tan,adv,,885980:tan
 882011,encontrar,v,,157882:encontrar|103368:encuentra|90044:encuentro|59728:encontré|56575:encontró|56048:encontramos|50490:encuentran|32773:encontraron|28902:encontraba|18243:encuentre|18179:encuentras|17930:encontraste|15547:encontrarse|15370:encontraremos|14894:encontrarlo|12546:encontrará|11730:encontraban|11299:encontraré|10212:encontrarla|9550:encuentren|8763:encontrarás|8560:encontrarme|7650:encontremos|6906:encontrarán|6841:encontrarte|5869:encontraría|5861:encuentres|5356:encontrarnos|4555:encontrara|4494:encontrarle|3770:encontrando|3599:encontrarlos|2049:encontraran|1542:encontraras|1490:encontraríamos|1379:encontrarían|1340:encontrábamos|1234:encontrándose|1186:encontrarlas|1175:encuéntrame|1148:encuéntralo|1136:encontrase|1033:encontráramos|831:encontrarías|656:encuéntrala|587:encontraréis|583:encontráis|557:encontrare|551:encontrabas
 881965,sentar,v,,538097:siento|79094:siente|51195:sientes|42430:siéntate|27079:sienta|17135:sienten|17129:sentarse|16541:siéntese|12531:sientas|10044:sentó|9221:sentarme|7275:sentar|7142:sentarte|7015:sientan|5372:siéntense|4211:sentaba|4183:sentarnos|4051:sentamos|3907:senté|2198:sentaron|2117:sientate|1989:sentaos|1872:sentará|1801:sentaré|1289:sentémonos|1129:sentándose|1126:sentara|991:sentaban|946:sentaría|906:sentando|772:sentaremos|612:sentaste|565:sentaros
@@ -129,7 +130,7 @@ count,spanish,pos,flags,usage
 628522,trabajo,n,,578718:trabajo|49804:trabajos
 621881,conocer,v,,99604:conozco|95214:conocer|75686:conoce|62445:conoces|37271:conocía|32885:conocí|26406:conocen|24647:conocemos|21354:conocerte|18692:conoció|12274:conocimos|10129:conocerlo|9254:conozca|8491:conocerla|7799:conocían|7529:conociste|6519:conocieron|5229:conociera|4954:conozcas|4933:conociendo|4903:conocías|4674:conocerle|4417:conozcan|4267:conocerse|3419:conocernos|3237:conocerlos|2925:conocéis|2750:conocerá|2740:conocíamos|2381:conocerme|1887:conocerás|1659:conocieras|1559:conozcamos|1518:conocerán|1284:conocería|1217:conocieran|969:conoceré|966:conoceremos|921:conoceros|913:conocerlas|733:conociéramos|675:conociese|552:conocisteis
 620850,amigo,n,,311562:amigo|217200:amigos|70008:amiga|22080:amigas
-619562,mucho,pron,PRONOUN; DUPLICATE,255562:muchas|253854:muchos|110146:mucha
+619562,mucho,determiner,LITERAL; DUPLICATE,255562:muchas|253854:muchos|110146:mucha
 614343,padre,n,,476563:padre|137780:padres
 606350,hola,interj,,606350:hola
 605262,gustar,v,,268737:gusta|139148:gustaría|52249:gustan|33067:gustaba|22140:gustó|17941:guste|16992:gustado|14141:gustas|8695:gustar|7196:gustará|6071:gustaban|2700:gustara|2462:gusten|2386:gustarle|2246:gustaron|1838:gustarme|1494:gustarte|1365:gustando|1308:gustes|1085:gustabas|715:gustamos|703:gustarían|583:gustaste
@@ -167,7 +168,6 @@ count,spanish,pos,flags,usage
 476113,escuchar,v,,118273:escucha|61565:escuchar|32007:escúchame|29689:escuché|24526:escuchado|23219:escuche|22638:escuchando|16990:escucho|16735:escuchen|14709:escuchas|14122:escuchó|11982:escuchaste|8686:escuchaba|7294:escuchan|6169:escucharme|5893:escucharlo|5778:escucharon|5462:escuches|5456:escuchamos|5424:escuchad|4525:escúcheme|3569:escucharte|2829:escuchame|2690:escucharla|2280:escúchenme|2234:escuchará|2106:escuchaban|1641:escuchadme|1538:escuchara|1450:escucharé|1389:escuchemos|1252:escucharlos|1216:escucharle|1088:escucharse|1025:escucharán|987:escuchada|935:escucharía|869:escuchados|783:escucharás|723:escucharemos|722:escucharnos|695:escuchadas|619:escucharlas|592:escúchalo|586:escuchábamos|580:escucharas|573:escúchate
 462629,mano,n,,242120:mano|219623:manos|886:mana
 461342,fuera,adv,,461342:fuera
-461131,aquél,pron,PRONOUN; LITERAL,136416:aquel|114256:aquella|95083:aquellos|44188:aquello|42853:aquellas|13136:aquél|6397:aquéllos|6149:aquélla|2653:aquéllas
 458144,hoy,adv,,458144:hoy
 450799,durante,prep,,450799:durante
 442253,pasado,adj,,374329:pasado|48368:pasada|10766:pasados|8790:pasadas
@@ -193,6 +193,7 @@ count,spanish,pos,flags,usage
 392555,claro,adv,,392555:claro
 392152,podar,v,,333350:podemos|37111:podamos|15777:podéis|3072:podés|1663:podáis|1179:podes
 390602,morir,v,,111783:morir|93628:murió|32506:muere|20133:murieron|17012:muriendo|13932:muera|12525:mueren|12515:muero|9937:morirá|5692:muriera|5250:mueres|4842:moriré|4545:mueras|4485:moría|4408:morirás|4274:moriría|4205:morirán|4099:morirse|3526:moriremos|3263:morimos|3061:mueran|2384:morirme|1868:morí|1794:muérete|1771:morían|1153:muriéndose|1152:moriste|1121:muriese|845:morirían|824:morirte|753:muramos|751:murieran|565:morirías
+388608,aquel,determiner,LITERAL,136416:aquel|114256:aquella|95083:aquellos|42853:aquellas
 387691,dinero,n,,384827:dinero|2864:dineros
 383005,segundo,adj,,194111:segundo|129761:segunda|56015:segundos|3118:segundas
 381256,empezar,v,,82860:empezar|59297:empezó|49802:empieza|21168:empezando|19760:empecé|19013:empezado|18091:empezamos|17968:empezaron|13331:empiezan|11645:empezaba|10194:empiece|10099:empiezo|9452:empecemos|6548:empiezas|4362:empiecen|4163:empezaste|4137:empezaremos|4019:empezará|3321:empezaré|3223:empezaban|2524:empezara|1865:empezarán|1584:empezaría|802:empezaran|739:empezad|733:empezarás|556:empezábamos
@@ -279,7 +280,6 @@ count,spanish,pos,flags,usage
 263979,terminar,v,,63306:terminar|43661:terminó|33885:termina|19146:termine|10938:terminamos|10346:terminé|8333:terminaron|8111:terminan|7833:terminará|7337:termino|5431:terminaste|5253:terminaba|5110:terminando|4660:terminemos|3393:terminen|3369:terminara|3165:termines|3023:terminaría|2582:terminas|2505:terminaré|2104:terminarlo|1931:terminaremos|1561:terminarán|1537:terminaban|1496:terminarás|955:terminarla|636:termínala|621:termínalo|613:terminarse|588:terminaran|550:terminase
 263114,posible,adj,,228632:posible|34482:posibles
 262521,malo,adj,,106107:malo|94014:mala|31909:malas|30491:malos
-262466,alguno,determiner,LITERAL,262466:algún
 260921,cuerpo,n,,221797:cuerpo|39124:cuerpos
 260765,cuatro,num,,260765:cuatro
 260313,largo,adj,,157367:largo|64544:larga|20057:largas|18345:largos
@@ -299,7 +299,6 @@ count,spanish,pos,flags,usage
 253347,social,adj,,176586:social|76761:sociales
 253243,muerte,n,,239537:muerte|13706:muertes
 252337,número,n,,219773:número|32564:números
-251924,ninguno,pron,PRONOUN,189422:ninguna|62502:ninguno
 250103,derecho,n,,169979:derecho|80124:derechos
 250070,conmigo,adv,LITERAL,250070:conmigo
 249870,guerra,n,,236153:guerra|13717:guerras
@@ -390,6 +389,7 @@ count,spanish,pos,flags,usage
 191147,negro,adj,,100303:negro|42382:negra|34233:negros|14229:negras
 190374,información,n,,177797:información|12577:informaciones
 190250,echar,v,,31244:echar|17419:echa|14877:echó|14067:echado|13683:echo|7250:echarle|6737:echando|6331:echaron|5688:eche|5150:eché|5037:echaba|4933:echan|4491:echaré|4336:echas|4100:echarme|3482:echamos|3144:echen|3023:echarse|2771:echarte|2568:echemos|2368:eches|2286:échale|1973:echaste|1903:echarlo|1857:echará|1736:echada|1576:echaremos|1547:echaría|1357:echara|1350:echaban|1320:echarán|1295:échate|1234:échame|1198:echarnos|1065:echarla|972:echaran|859:echarles|740:echarás|729:echarlos|698:echándole|680:echados|622:echándose|554:echad
+189422,ninguno,determiner,LITERAL,189422:ninguna
 188822,programa,n,,136045:programa|52777:programas
 188662,tocar,v,,41327:tocar|37457:toca|15464:tocado|14452:tocó|12118:tocando|8922:tocaba|5955:tocan|5260:toco|5088:tocas|4274:toqué|3882:toquen|3193:tocarlo|2864:tocarme|2811:tocarla|2566:tocamos|2349:tocará|2268:tocaron|1971:tocara|1939:tocarte|1903:tocaban|1755:tocaste|1420:tocaré|1416:tocada|1236:tocaría|1231:tocados|1083:tócame|991:tocarle|979:tocarse|729:tocarlos|637:tocarán|570:tocaremos|552:toquéis
 188030,proceso,n,,150705:proceso|37325:procesos
@@ -407,6 +407,7 @@ count,spanish,pos,flags,usage
 182537,lograr,v,,45533:lograr|31687:logró|16089:logra|12952:logro|10768:lograron|7727:logramos|7384:lograrlo|6126:logré|5922:logran|4711:lograba|4378:lograste|4198:logre|3797:logrando|3110:logrará|2192:lograremos|1954:lograda|1899:lograría|1844:logras|1545:lograra|1337:lograrás|1325:logren|1304:lograban|1259:lograrse|1004:lograrán|988:lograré|802:logremos|702:logradas
 182367,asegurar,v,,36369:aseguró|26350:asegura|21594:asegurar|16629:aseguro|10836:asegurarme|10653:asegúrate|9361:aseguran|8417:asegurarse|4738:asegurarnos|4566:aseguraré|4449:aseguraba|4444:aseguraron|3169:asegúrese|2864:asegurando|2591:asegurarte|1940:asegure|1614:aseguren|1544:asegurarle|1533:asegúrense|1221:aseguré|1183:aseguraban|943:asegurará|902:asegurate|902:aseguraremos|885:asegurarlo|840:aseguramos|622:aseguraría|616:asegurarles|592:asegurándose
 182277,plan,n,,133455:plan|48822:planes
+181675,cuyo,determiner,LITERAL,68960:cuya|65797:cuyo|26449:cuyos|20469:cuyas
 181544,especial,adj,,145974:especial|35570:especiales
 181474,feliz,adj,,151201:feliz|30273:felices
 181249,vivo,adj,,95039:vivo|50510:viva|26288:vivos|9412:vivas
@@ -500,6 +501,7 @@ count,spanish,pos,flags,usage
 148689,decisión,n,,110502:decisión|38187:decisiones
 148346,cuidado,n,,139517:cuidado|8829:cuidados
 148339,meter,v,,20049:meter|16575:metió|12881:mete|10127:meterse|7608:metí|7273:meterme|6084:metiendo|5981:meterte|5623:metes|4856:métete|4830:meto|4638:metieron|4585:meten|4417:metiste|3865:metía|2505:metan|2252:meteré|2154:meternos|2060:meterlo|2025:meterle|1884:metemos|1701:metimos|1493:metiera|1450:meterla|1440:metiéndose|1227:metería|1220:metían|1158:mételo|1043:meterá|785:meteremos|719:meterás|707:metete|697:meterán|681:meterlos|588:métela|583:métase|575:metamos
+147912,poco,determiner,LITERAL; DUPLICATE,76341:pocos|43968:pocas|27603:poca
 147828,os,pron,PRONOUN,147828:os
 147563,carta,n,,95699:carta|51864:cartas
 147242,interés,n,,95053:interés|52189:intereses
@@ -513,6 +515,7 @@ count,spanish,pos,flags,usage
 144129,perdido,adj,,105421:perdido|20926:perdida|11761:perdidos|6021:perdidas
 144027,fácil,adj,,134836:fácil|9191:fáciles
 143684,teléfono,n,,129725:teléfono|13959:teléfonos
+143550,tanto,determiner,LITERAL; DUPLICATE,49996:tantos|48011:tanta|45543:tantas
 143326,espacio,n,,117145:espacio|26181:espacios
 143254,vista,n,,132340:vista|10914:vistas
 143219,desarrollo,n,,140302:desarrollo|2917:desarrollos
@@ -615,7 +618,6 @@ count,spanish,pos,flags,usage
 120707,actuar,v,,40165:actuar|17982:actúa|13236:actuando|9775:actúan|6575:actuó|6002:actuado|3551:actuaba|3081:actúe|3050:actúas|2742:actuará|2510:actuaron|1767:actúen|1709:actuamos|1369:actuaban|1331:actué|1285:actúo|1202:actuarán|1139:actúes|838:actuara|755:actuaría|643:actuaste
 120413,perdonar,v,,31533:perdona|23602:perdone|15638:perdóname|7258:perdóneme|6701:perdonar|4122:perdono|4112:perdonado|3505:perdonen|2973:perdonarme|2113:perdonaré|1894:perdonas|1873:perdonará|1796:perdonó|1770:perdonad|1470:perdonarte|1448:perdonadme|1157:perdonaría|1150:perdónenme|1091:perdonan|794:perdonamos|687:perdonarlo|680:perdónanos|658:perdonarle|654:perdoné|599:perdonados|578:perdonada|557:perdonara
 120403,precio,n,,75245:precio|45158:precios
-120309,poco,determiner,LITERAL; DUPLICATE,76341:pocos|43968:pocas
 119990,descubrir,v,,32803:descubrir|19617:descubrió|11330:descubre|10482:descubrí|6491:descubrieron|4889:descubrimos|4403:descubren|3490:descubriendo|3396:descubra|2743:descubrirlo|2230:descubriste|2092:descubro|1818:descubran|1776:descubrirá|1656:descubría|1596:descubriera|1309:descubres|1211:descubriremos|1137:descubrirse|1025:descubrirán|945:descubrirás|802:descubramos|742:descubriría|730:descubriré|663:descubras|614:descubrieran
 119882,pobre,adj,,81641:pobre|38241:pobres
 119483,oficina,n,,101778:oficina|17705:oficinas
@@ -792,7 +794,6 @@ count,spanish,pos,flags,usage
 94032,jamás,adv,,94032:jamás
 93670,preferir,v,,29803:prefiero|14013:prefiere|12848:preferiría|7527:prefieren|6947:prefieres|5118:prefería|4717:prefirió|2071:preferimos|1989:preferirías|1782:prefiera|1464:preferir|1370:prefirieron|1029:preferían|1012:preferí|776:prefieras|610:prefiriendo|594:preferirían
 93589,estrella,n,,48780:estrella|44809:estrellas
-93554,tanto,determiner,LITERAL; DUPLICATE,48011:tanta|45543:tantas
 93469,derecha,n,,90115:derecha|3354:derechas
 93430,crecer,v,,19737:crecer|14081:crece|11432:creciendo|9959:creció|7517:crecen|4996:crecí|3735:crecía|3480:crezca|3427:crecieron|2801:creces|2293:crecerá|1495:crecida|1427:crecimos|1398:crezcan|1325:crecían|1292:creciste|835:creciera|817:crecerán|782:crezcas|601:crecidas
 93376,elemento,n,,64056:elementos|29320:elemento
@@ -811,7 +812,6 @@ count,spanish,pos,flags,usage
 92582,idiota,n,,75587:idiota|16995:idiotas
 92532,motivo,n,,61136:motivo|31396:motivos
 92465,escrito,adj,,60089:escrito|14365:escrita|12294:escritos|5717:escritas
-92246,cuy,n,NOSENT,65797:cuyo|26449:cuyos
 92125,familiar,adj,,54535:familiar|37590:familiares
 92051,gusto,n,,84638:gusto|7413:gustos
 92050,éxito,n,,83140:éxito|8910:éxitos
@@ -832,7 +832,6 @@ count,spanish,pos,flags,usage
 89530,nacer,v,,28778:nació|13047:nacer|12439:nace|10494:nací|5703:nacen|4241:nacieron|3754:naciste|2477:nazca|1969:naciera|1477:nacía|1147:nacimos|1071:nacerá|974:naciendo|803:nacemos|581:nacieras|575:nacían
 89519,secretario,n,,67378:secretario|17009:secretaria|3410:secretarios|1722:secretarias
 89454,período,n,,51146:período|25141:periodo|9139:períodos|4028:periodos
-89429,cuyo,determiner,LITERAL,68960:cuya|20469:cuyas
 89369,capacidad,n,,81964:capacidad|7405:capacidades
 89224,mandar,v,,15927:manda|14459:mandó|12225:mandar|4786:mandé|4633:mandan|4007:mandaron|3793:mande|3274:mandaba|3090:mandaré|2585:mandando|2158:mandas|1950:mandaste|1943:manden|1930:mandamos|1522:mandarme|1364:mandarle|1212:mandarlo|1047:mandaban|1043:mándame|973:mandarte|947:mandará|837:mandaría|777:mandara|718:mandarla|717:mandaremos|717:mandes|590:mandarán
 89222,negar,v,,17396:negó|15874:niega|11546:negar|5778:niego|5197:niegan|4056:negarse|3846:negaron|3813:negaba|2655:negarlo|2404:negando|1771:niegas|1749:negué|1368:negarme|1357:niegue|1146:negaban|1117:negándose|1057:negada|1051:negarle|966:negamos|955:negará|921:niegues|734:negara|643:negaría|638:negaré|597:negarte|587:negaste
@@ -1055,6 +1054,7 @@ count,spanish,pos,flags,usage
 72712,provocar,v,,15210:provoca|15184:provocar|13092:provocó|6205:provocando|5712:provocan|3673:provocada|3634:provocaron|2170:provocaba|1670:provocadas|1553:provocará|1336:provocaría|1260:provoque|824:provocaban|596:provoques|593:provoquen
 72584,pared,n,,40858:pared|31726:paredes
 72527,cárcel,n,,66403:cárcel|6124:cárceles
+72523,aquél,pron,PRONOUN; LITERAL,44188:aquello|13136:aquél|6397:aquéllos|6149:aquélla|2653:aquéllas
 72482,maravilloso,adj,,43258:maravilloso|20514:maravillosa|4421:maravillosos|4289:maravillosas
 72383,dedo,n,,41274:dedos|31109:dedo
 72360,unión,n,,69911:unión|2449:uniones
@@ -1206,6 +1206,7 @@ count,spanish,pos,flags,usage
 62824,enterar,v,,11119:enterado|8434:enteré|7626:enteró|6480:enterarse|5191:entere|3527:enterar|3109:enterarme|2217:enteramos|2165:enteraste|1819:enteraron|1769:enteran|1531:enterara|1418:enteren|1234:enterará|1061:enterada|939:enterados|711:enteraba|658:enterarte|652:enterarnos|599:entérate|565:enteraría
 62779,vosotras,pron,PRONOUN; LITERAL,56219:vosotros|6560:vosotras
 62507,rostro,n,,52298:rostro|10209:rostros
+62502,ninguno,pron,PRONOUN,62502:ninguno
 62385,honor,n,,57118:honor|5267:honores
 62298,saltar,v,,18114:saltar|12876:salta|8183:saltó|4939:saltando|3311:saltado|2241:saltan|1738:saltaba|1670:salté|1624:saltaron|1078:saltamos|1022:saltas|998:saltaban|970:salten|906:saltarse|716:saltaste|640:saltes|640:saltaré|632:saltará
 62129,voluntad,n,,60249:voluntad|1880:voluntades
@@ -1359,6 +1360,7 @@ count,spanish,pos,flags,usage
 54955,adónde,adv,LITERAL,54955:adónde
 54951,montaña,n,,32481:montaña|22470:montañas
 54866,preciso,adj,,30392:preciso|15182:precisa|4683:precisas|4609:precisos
+54813,alguno,pron,PRONOUN,54813:alguno
 54807,papa,n,,42114:papa|12693:papas
 54783,tratado,n,,43855:tratado|10928:tratados
 54709,actuación,n,,38850:actuación|15859:actuaciones
@@ -1489,7 +1491,6 @@ count,spanish,pos,flags,usage
 50008,frank,none,NOUSAGE; NODEF; NOSENT,50008:frank
 50001,fotografía,n,,30643:fotografía|19358:fotografías
 50001,precioso,adj,,21767:preciosa|18890:precioso|5179:preciosas|4165:preciosos
-49996,tanto,n,DUPLICATE,49996:tantos
 49931,analizar,v,,18017:analizar|5490:analiza|3965:analizado|3899:analizando|2363:analizan|2167:analizados|2088:analizó|1564:analizamos|1395:analizaron|1338:analizada|1307:analizadas|1122:analizará|916:analizarán|913:analice|836:analizaremos|767:analizarlo|606:analicemos|595:analicen|583:analizarse
 49931,describir,v,,10612:describe|10124:describir|7158:descrito|3928:describió|3744:describen|2586:descrita|2496:descritos|1813:describiendo|1780:descritas|1444:describirlo|1392:describía|818:describa|776:describiría|703:describieron|557:descripta
 49914,aplicación,n,,39004:aplicación|10910:aplicaciones
@@ -1514,6 +1515,7 @@ count,spanish,pos,flags,usage
 49342,reacción,n,,34965:reacción|14377:reacciones
 49298,ruso,adj,,18864:ruso|15504:rusos|12147:rusa|2783:rusas
 49291,considerado,adj,,26113:considerado|10283:considerada|8246:considerados|4649:consideradas
+49247,cuanto,determiner,LITERAL; DUPLICATE,26372:cuantos|19491:cuantas|3384:cuanta
 49216,abril,n,,49216:abril
 49215,cifra,n,,24737:cifra|24478:cifras
 49205,relacionado,adj,,15713:relacionados|15049:relacionado|10774:relacionadas|7669:relacionada
@@ -1548,7 +1550,6 @@ count,spanish,pos,flags,usage
 48033,infierno,n,,46332:infierno|1701:infiernos
 47975,veinte,num,,47975:veinte
 47901,vasco,adj,,30757:vasco|8138:vascos|7282:vasca|1724:vascas
-47892,tuya,n,,42281:tuya|5611:tuyas
 47878,previsto,adj,,27000:previsto|10079:prevista|5405:previstas|5394:previstos
 47848,interesado,adj,,22327:interesado|12651:interesados|9707:interesada|3163:interesadas
 47838,ganado,adj,,45910:ganado|1928:ganados
@@ -2412,7 +2413,6 @@ count,spanish,pos,flags,usage
 27666,aprobado,adj,,13794:aprobado|8266:aprobada|2874:aprobados|2732:aprobadas
 27654,postura,n,,21675:postura|5979:posturas
 27608,mentar,v,,8469:miente|6110:mientes|4586:mientas|3668:miento|3232:mienten|1543:mienta
-27603,poca,n,LITERAL,27603:poca
 27598,arriesgar,v,,5125:arriesgar|2607:arriesgarse|2251:arriesgarme|2042:arriesgada|1934:arriesga|1932:arriesgando|1578:arriesgarnos|1299:arriesgó|1052:arriesgaré|943:arriesgo|920:arriesgas|916:arriesgaría|824:arriesgamos|811:arriesgan|794:arriesgué|705:arriesgarte|648:arriesgue|619:arriesgadas|598:arriesgaste
 27591,favorecer,v,,6834:favorece|6458:favorecer|2943:favorecen|2297:favorecido|1484:favoreciendo|1442:favoreció|1307:favorecidos|1162:favorecida|943:favorecía|821:favorezca|695:favorecidas|628:favorezcan|577:favorecerá
 27586,lobo,n,,18111:lobo|8544:lobos|931:loba
@@ -2501,7 +2501,6 @@ count,spanish,pos,flags,usage
 26424,extra,adj,,21191:extra|5233:extras
 26424,sorprendido,adj,,16636:sorprendido|6547:sorprendida|3241:sorprendidos
 26387,campamento,n,,23423:campamento|2964:campamentos
-26372,cuanto,n,DUPLICATE,26372:cuantos
 26360,sabor,n,,23019:sabor|3341:sabores
 26353,someter,v,,4821:sometida|4526:someterse|3836:someter|2985:sometidas|2724:somete|1758:sometió|1400:someten|827:someterá|821:sometieron|723:someta|669:sometía|647:sometiendo|616:someterlo
 26338,contexto,n,,24320:contexto|2018:contextos
@@ -2788,7 +2787,6 @@ count,spanish,pos,flags,usage
 22895,sospechar,v,,6389:sospechar|4940:sospecho|3405:sospechaba|1602:sospechan|1306:sospechado|1192:sospechó|1064:sospechamos|1008:sospeché|767:sospeche|639:sospechando|583:sospechaban
 22892,sindical,adj,NOSENT,12705:sindical|10187:sindicales
 22889,caro,adj,,18139:caro|4750:caros
-22875,cuanto,determiner,LITERAL; DUPLICATE,19491:cuantas|3384:cuanta
 22865,coste,n,,13506:coste|9359:costes
 22854,corredor,n,,14123:corredor|8133:corredores|598:corredora
 22830,rastro,n,,16523:rastro|6307:rastros
@@ -2798,6 +2796,7 @@ count,spanish,pos,flags,usage
 22797,expuesto,adj,,9448:expuesto|5497:expuestos|4138:expuesta|3714:expuestas
 22796,carecer,v,,9718:carece|5524:carecen|3416:carecía|2055:carecer|1504:carecían|579:carecemos
 22793,visitante,n,,13648:visitantes|9145:visitante
+22789,aliado,n,,12806:aliados|6778:aliado|1928:aliada|1277:aliadas
 22768,líquido,n,,16836:líquido|5932:líquidos
 22763,autonomía,n,NOSENT,18837:autonomía|3926:autonomías
 22744,parada,n,,19156:parada|3588:paradas
@@ -3136,7 +3135,6 @@ count,spanish,pos,flags,usage
 19591,elaborar,v,,9366:elaborar|2797:elabora|2152:elaboró|1808:elaboran|1501:elaborando|852:elaboraron|561:elabore|554:elaborará
 19590,encendido,adj,,8641:encendido|5933:encendida|3179:encendidas|1837:encendidos
 19587,pastor,n,,14352:pastor|3406:pastores|1829:pastora
-19584,aliado,n,,12806:aliados|6778:aliado
 19583,esencia,n,,17005:esencia|2578:esencias
 19582,sida,n,NOSENT,19582:sida
 19581,orientación,n,,16631:orientación|2950:orientaciones
@@ -9931,7 +9929,6 @@ count,spanish,pos,flags,usage
 3207,salgado,none,NOUSAGE; NODEF; NOSENT,3207:salgado
 3207,zapatista,adj,NOSENT,1672:zapatistas|1535:zapatista
 3206,fisura,n,NOSENT,1930:fisuras|1276:fisura
-3205,aliado,adj,DUPLICATE,1928:aliada|1277:aliadas
 3205,desnudar,v,,1164:desnudarse|701:desnudar|690:desnudó|650:desnúdate
 3205,rolar,v,NOSENT,3205:rolando
 3204,excremento,n,NOSENT,1739:excrementos|1465:excremento
