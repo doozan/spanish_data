@@ -114,10 +114,10 @@ $(BUILDDIR)/%.data: $(BUILDDIR)/%.data-full
 
 
 
-# Allforms
-$(BUILDDIR)/%.allforms.csv: $(BUILDDIR)/%.data-full
+# Allforms - built from .data and not .data-full
+$(BUILDDIR)/%.allforms.csv: $(BUILDDIR)/%.data
 >   @echo "Making $@..."
->   $(MAKE_ALLFORMS) $< > $@
+>   $(MAKE_ALLFORMS) --low-mem $< > $@
 
 
 # Sentences
@@ -189,9 +189,9 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data-full $(BUILDDIR)/es-en.enwikt.allforms.csv
+$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv
 >   @echo "Making $@..."
->   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/es-en.enwikt.data-full --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/eng-spa.tsv > $@
+>   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/es-en.enwikt.data --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/eng-spa.tsv > $@
 
 $(BUILDDIR)/spa-only.txt.tagged: $(BUILDDIR)/spa-only.txt
 >   @echo "Making $@..."
@@ -204,9 +204,9 @@ $(BUILDDIR)/%-only.txt.json: $(BUILDDIR)/%-only.txt.tagged
 >   echo "" >> $@
 >   echo "]" >> $@
 
-$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data-full $(BUILDDIR)/%.allforms.csv
+$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv
 >   @echo "Making $@..."
->   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/$*.data-full --allforms $(BUILDDIR)/$*.allforms.csv $(BUILDDIR)/eng-spa.tsv --tags $(BUILDDIR)/spa-only.txt.json > $@
+>   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/$*.data --allforms $(BUILDDIR)/$*.allforms.csv $(BUILDDIR)/eng-spa.tsv --tags $(BUILDDIR)/spa-only.txt.json > $@
 
 
 # Frequency list
@@ -235,10 +235,10 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat  $(BUILDDIR)/%.data-full $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
->       --dictionary $(BUILDDIR)/$*.data-full \
+>       --dictionary $(BUILDDIR)/$*.data \
 >       --probs $(BUILDDIR)/probabilitats.dat \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
 >       --data-dir "." \
@@ -250,13 +250,13 @@ $(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat  $(BUILDDIR)/%.data-f
 
 # Dictionary
 
-$(BUILDDIR)/%.dictunformat: $(BUILDDIR)/%.data-full $(BUILDDIR)/%.allforms.csv
+$(BUILDDIR)/%.dictunformat: $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv
 >   @echo "Making $@..."
 >   LANGS=`echo $* | cut -d "." -f 1`
 >   SOURCE=`echo $* | cut -d "." -f 2`
 >   FROM_LANG=`echo $$LANGS | cut -d "-" -f 1`
 >   TO_LANG=`echo $$LANGS | cut -d "-" -f 2`
->   $(WORDLIST_TO_DICTUNFORMAT) $(BUILDDIR)/$*.data-full $(BUILDDIR)/$*.allforms.csv \
+>   $(WORDLIST_TO_DICTUNFORMAT) $(BUILDDIR)/$*.data $(BUILDDIR)/$*.allforms.csv \
 >      --name "$$SOURCE ($$FROM_LANG-$$TO_LANG)" \
 >      --description "$$FROM_LANG-$$TO_LANG dictionary, published by Jeff Doozan using en.wiktionary.org data from $(DATETAG_PRETTY). CC-BY-SA" \
 >      > $@
