@@ -85,9 +85,10 @@ $(BUILDDIR)/%-en.enwikt.txt.bz2: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-artic
 >   $(MAKE_EXTRACT) --xml $< --lang $* --outdir $(BUILDDIR)
 
 # workaround for building several extracts at one time until I can figure how to get make to do this
-$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,en es fr pt) &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
+LANGS := en es fr pl pt
+$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
 >   @echo "Making $@..."
->   $(MAKE_EXTRACT) --xml $< --lang en --lang es --lang fr --lang pt --outdir $(BUILDDIR)
+>   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --outdir $(BUILDDIR)
 
 # Translations
 $(BUILDDIR)/translations.bz2: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
@@ -283,16 +284,15 @@ es_allforms.csv: $(BUILDDIR)/es-en.enwikt.allforms.csv
 
 frequency.csv: $(BUILDDIR)/es-en.enwikt.frequency.csv
 >   echo "Making $@..."
->   head -25001 $< > $@
+>   awk -F, '$$1 >= CUTOFF {print}; NR==25001 {CUTOFF=$$1}' $< > $@
 
 sentences.tsv: $(BUILDDIR)/es-en.enwikt.sentences.tsv
 >   @echo "Making $@..."
 >   cp $< $@
 
-es_merged_50k.txt: $(BUILDDIR)/es.wordcount $(BUILDDIR)/CREA_full.txt
+es_merged_50k.txt: $(BUILDDIR)/es.wordcount
 >   @echo "Making $@..."
->   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 328 > $@
-# 328 hand-picked to generate ~50k entries
+>   awk '$$2 >= CUTOFF {print}; NR==50000 {CUTOFF=$$2}' $< > $@
 
 %.StarDict.zip: $(BUILDDIR)/%.ifo
 >   @echo "Making $@..."
