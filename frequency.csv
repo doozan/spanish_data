@@ -1588,7 +1588,7 @@ count,spanish,pos,flags,usage
 28353,canal,n,,20938:canal|7415:canales
 28315,cultural,adj,,19773:cultural|8542:culturales
 28289,organizar,v,,8796:organizar|3285:organiza|3130:organizó|2114:organizando|1294:organizan|961:organizaron|823:organizarse|709:organizamos|630:organicé|608:organizaba|593:organice|457:organizo|421:organizaré|393:organizarlo|355:organizarnos|313:organizará|308:organizaste|295:organizaban|291:organizaremos|277:organicen|200:organizas|194:organizara|162:organicemos|145:organizarán|141:organices|136:organizarme|101:organizarte|94:organizarla|91:organizaría|77:organizarle|72:organizaran|71:organizarlos|63:organizándose|50:organizarlas|50:organizábamos|50:organízalo|41:organicémonos|38:organízate|37:organizase|34:organizándolo|33:organícense|31:organizarían|26:organizarles|25:organizarás|21:organizad|20:organizaras|19:organizáis|19:organizándonos|17:organizabas|14:organizándolos|14:organizáramos|13:organicéis|13:organizándome|12:organizasteis|11:organizarías|10:organizare|10:organizándole|9:organizaríamos|8:organizaros|8:organizasen|8:organícelo|7:organizaos|7:organizándola|7:organízala|7:organízame|6:organícese|5:organizándolas|5:organizándoles|4:organizarais
-28252,N,letter,LETTER; NOSENT,28252:n
+28252,n,letter,LETTER; NOSENT,28252:n
 28244,ambos,adj,LITERAL,28244:ambas
 28199,tony,none,NOUSAGE; NODEF; LITERAL,28199:tony
 28181,experto,n,,12892:experto|11792:expertos|3188:experta|309:expertas
@@ -24999,3 +24999,12 @@ count,spanish,pos,flags,usage
 414,nicanor,none,NOUSAGE; NODEF; NOSENT,414:nicanor
 414,peng,none,NOUSAGE; NODEF; NOSENT,414:peng
 414,populismo,n,NOSENT,384:populismo|30:populismos
+414,ravel,none,NOUSAGE; NODEF; NOSENT,414:ravel
+414,solange,none,NOUSAGE; NODEF; NOSENT,414:solange
+414,subterfugio,n,NOSENT,225:subterfugio|189:subterfugios
+414,sumner,none,NOUSAGE; NODEF; NOSENT,414:sumner
+414,thesubfactory.net,none,NOUSAGE; NODEF; NOSENT,414:thesubfactory.net
+414,tocante,adj,NOSENT,392:tocante|22:tocantes
+414,transar,v,NOSENT,115:transar|57:transa|39:transado|32:transados|25:transas|24:transan|24:transando|23:transó|20:transaron|19:transe|11:transamos|7:transadas|5:transaba|5:transé|4:transaría|4:transo
+414,volga,none,NOUSAGE; NODEF; NOSENT,414:volga
+414,win,none,NOUSAGE; NODEF; NOSENT,414:win
