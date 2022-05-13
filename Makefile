@@ -17,6 +17,7 @@ endif
 DATETAG := $(shell curl -s https://dumps.wikimedia.org/enwiktionary/ | grep '>[0-9]*/<' | cut -b 10-17 | tail -1)
 DATETAG_PRETTY := $(shell date --date="$(DATETAG)" +%Y-%m-%d)
 
+NGRAMDIR := ../ngram
 BUILDDIR := $(DATETAG_PRETTY)
 PYPATH := PYTHONPATH=$(BUILDDIR)
 
@@ -26,6 +27,8 @@ BUILD_TAGS := $(PYPATH) $(SPANISH_SCRIPTS)/build_tags
 MAKE_FREQ := $(PYPATH) $(SPANISH_SCRIPTS)/make_freq
 MERGE_FREQ_LIST := $(PYPATH) $(SPANISH_SCRIPTS)/merge_freq_list
 
+NGRAM_SUMMARIZE := $(NGRAMDIR)/summarize.py
+NGRAM_COMBINE := $(NGRAMDIR)/combine.py
 WORDLIST_SCRIPTS := $(BUILDDIR)/enwiktionary_wordlist/scripts
 MAKE_EXTRACT := $(PYPATH) $(WORDLIST_SCRIPTS)/make_extract
 MAKE_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/make_wordlist
@@ -49,7 +52,7 @@ clean:
 >   $(RM) -r $(TOOLS)
 >   $(RM) $(TARGETS)
 
-.PHONY: all tools clean
+.PHONY: all tools clean force
 
 
 $(BUILDDIR):
@@ -209,12 +212,31 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/$*.data --allforms $(BUILDDIR)/$*.allforms.csv $(BUILDDIR)/eng-spa.tsv --tags $(BUILDDIR)/spa-only.txt.json > $@
 
-
 # Frequency list
 
 $(BUILDDIR)/probabilitats.dat:
 >   @echo "Making $@..."
+
 >   curl -s "https://raw.githubusercontent.com/TALP-UPC/FreeLing/master/data/es/probabilitats.dat" -o $@
+
+# Call into the ngram makefile to build anything not declared here
+$(NGRAMDIR)/%: force
+>   @echo "Subcontracting $@..."
+>   $(MAKE) -C $(NGRAMDIR) $(@:$(NGRAMDIR)/%=%)
+
+force: ;
+# force used per https://www.gnu.org/software/make/manual/html_node/Overriding-Makefiles.html
+
+$(BUILDDIR)/es-1-1950.coord: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDIR)/spa/1-1950.ngram
+>   @echo "Making $@..."
+
+>   $(NGRAM_COMBINE) --allforms $< $(NGRAMDIR)/spa/1-1950.ngram > $@
+
+$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDIR)/es/1-1950.ngram
+>   @echo "Making $@..."
+
+>   $(NGRAM_COMBINE) --allforms $< $(NGRAMDIR)/es/1-1950.ngram > $@
+>   sort -k2,2nr -k1,1 -o $@ $@
 
 $(BUILDDIR)/es_2018_full.txt:
 >   @echo "Making $@..."
@@ -236,11 +258,11 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
->       --probs $(BUILDDIR)/probabilitats.dat \
+>       --ngprobs $(BUILDDIR)/en-1-1950.ngprobs \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
 >       --data-dir "." \
 >       --custom-dir "$(BUILDDIR)/spanish_custom" \
