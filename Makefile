@@ -27,8 +27,7 @@ BUILD_TAGS := $(PYPATH) $(SPANISH_SCRIPTS)/build_tags
 MAKE_FREQ := $(PYPATH) $(SPANISH_SCRIPTS)/make_freq
 MERGE_FREQ_LIST := $(PYPATH) $(SPANISH_SCRIPTS)/merge_freq_list
 
-NGRAM_SUMMARIZE := $(NGRAMDIR)/summarize.py
-NGRAM_COMBINE := $(NGRAMDIR)/combine.py
+NGRAM_COMBINE := $(PYPATH) $(NGRAMDIR)/combine.py
 WORDLIST_SCRIPTS := $(BUILDDIR)/enwiktionary_wordlist/scripts
 MAKE_EXTRACT := $(PYPATH) $(WORDLIST_SCRIPTS)/make_extract
 MAKE_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/make_wordlist
@@ -232,7 +231,7 @@ $(BUILDDIR)/es-1-1950.coord: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDIR)/s
 
 >   $(NGRAM_COMBINE) --allforms $< $(NGRAMDIR)/spa/1-1950.ngram > $@
 
-$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDIR)/es/1-1950.ngram
+$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDIR)/spa/1-1950.ngram
 >   @echo "Making $@..."
 
 >   $(NGRAM_COMBINE) --allforms $< $(NGRAMDIR)/es/1-1950.ngram > $@
@@ -262,7 +261,7 @@ $(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
->       --ngprobs $(BUILDDIR)/en-1-1950.ngprobs \
+>       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
 >       --data-dir "." \
 >       --custom-dir "$(BUILDDIR)/spanish_custom" \
