@@ -42,7 +42,7 @@ ANALYZE := ~/.local/bin/analyze
 #ANALYZE := /usr/local/bin/analyze
 ZIP := zip
 
-TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz
+TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz $(BUILDDIR)/ngram
 TARGETS :=  es-en.data es_allforms.csv sentences.tsv frequency.csv es_merged_50k.txt es-en.enwikt.StarDict.zip es-en.enwikt.slob.zip en-es.enwikt.slob.zip
 
 tools: $(TOOLS)
@@ -78,6 +78,9 @@ $(BUILDDIR)/spanish_custom:
 
 $(BUILDDIR)/autodooz:
 >   git clone -q https://github.com/doozan/wikibot $@
+
+$(BUILDDIR)/ngram:
+>   git clone -q https://github.com/doozan/ngram $@
 
 
 # Extracts
@@ -192,9 +195,14 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv
+$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs
 >   @echo "Making $@..."
->   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/es-en.enwikt.data --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/eng-spa.tsv > $@
+>   $(BUILD_SENTENCES) \
+>       --dictionary $(BUILDDIR)/es-en.enwikt.data \
+>       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
+>       --probs $(BUILDDIR)/probabilitats.dat \
+>       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       $(BUILDDIR)/eng-spa.tsv > $@
 
 $(BUILDDIR)/spa-only.txt.tagged: $(BUILDDIR)/spa-only.txt
 >   @echo "Making $@..."
@@ -207,9 +215,15 @@ $(BUILDDIR)/%-only.txt.json: $(BUILDDIR)/%-only.txt.tagged
 >   echo "" >> $@
 >   echo "]" >> $@
 
-$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv
+$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs
 >   @echo "Making $@..."
->   $(BUILD_SENTENCES) --dictionary $(BUILDDIR)/$*.data --allforms $(BUILDDIR)/$*.allforms.csv $(BUILDDIR)/eng-spa.tsv --tags $(BUILDDIR)/spa-only.txt.json > $@
+>   $(BUILD_SENTENCES) \
+>       --dictionary $(BUILDDIR)/es-en.enwikt.data \
+>       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
+>       --probs $(BUILDDIR)/probabilitats.dat \
+>       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --tags $(BUILDDIR)/spa-only.txt.json \
+>       $(BUILDDIR)/eng-spa.tsv > $@
 
 # Frequency list
 
@@ -257,10 +271,11 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
+>       --probs $(BUILDDIR)/probabilitats.dat \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
 >       --data-dir "." \
