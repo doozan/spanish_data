@@ -8279,7 +8279,7 @@ count,spanish,pos,flags,usage
 2749,gordito,adj,,1618:gordito|723:gordita|237:gorditos|171:gorditas
 2749,impotencia,n,,2715:impotencia|34:impotencias
 2749,simbolizar,v,,1277:simboliza|370:simbolizan|302:simbolizar|154:simbolizaba|140:simbolizado|105:simbolizada|99:simbolizando|66:simbolizaban|48:simbolizó|25:simbolizados|25:simbolizará|24:simbolice|19:simbolizadas|18:simbolizarse|13:simbolizaría|12:simbolizaron|12:simbolizo|10:simbolicen|9:simbolizas|8:simbolizara|5:simbolizamos|4:simbolizarlos|4:simbolizarán
-2748,amparar,v,NOSENT,359:ampara|346:amparado|316:amparados|315:ampare|217:amparada|195:amparar|176:amparándose|154:amparan|110:amparadas|103:ampararse|79:amparaba|68:amparó|50:amparando|47:amparen|32:amparaban|19:ampararon|16:amparará|15:amparándome|13:amparara|11:amparase|10:ampararme|9:ampararla|9:ampararle|9:ampararlo|9:ampárame|7:amparamos|7:ampararlos|7:ampararte|7:ampararía|7:amparas|7:amparé|6:ampararnos|5:amparándonos|4:ampararán|4:ampáranos
+2748,amparar,v,,359:ampara|346:amparado|316:amparados|315:ampare|217:amparada|195:amparar|176:amparándose|154:amparan|110:amparadas|103:ampararse|79:amparaba|68:amparó|50:amparando|47:amparen|32:amparaban|19:ampararon|16:amparará|15:amparándome|13:amparara|11:amparase|10:ampararme|9:ampararla|9:ampararle|9:ampararlo|9:ampárame|7:amparamos|7:ampararlos|7:ampararte|7:ampararía|7:amparas|7:amparé|6:ampararnos|5:amparándonos|4:ampararán|4:ampáranos
 2748,caudillo,n,,2282:caudillo|466:caudillos
 2747,cónsul,n,NOSENT,2545:cónsul|202:cónsules
 2747,levantamiento,n,,2447:levantamiento|300:levantamientos
@@ -10043,7 +10043,7 @@ count,spanish,pos,flags,usage
 2021,globalización,n,NOSENT,2016:globalización|5:globalizaciones
 2020,Barça,prop,NOSENT,2020:Barça
 2020,abonar,v,,658:abonar|182:abona|141:abonará|131:abonan|95:abonada|92:abonó|88:abonando|81:abonadas|70:abonaron|67:abone|56:abonarán|52:abonen|51:abonarse|41:abonaba|23:abonaban|22:abonarle|20:abonaría|13:abonarlo|12:abonaran|11:abonaremos|11:abonarla|11:abonarían|10:abonarme|10:abonase|9:abonamos|9:abonara|9:abonaré|8:abonarles|8:abonarlos|6:abonarlas|5:abonas|5:abonemos|5:abonándose|4:abonasen|4:aboné
-2020,abstracción,n,NOSENT,1703:abstracción|317:abstracciones
+2020,abstracción,n,,1703:abstracción|317:abstracciones
 2020,fertilidad,n,NOSENT,2020:fertilidad
 2019,camisón,n,NOSENT,1819:camisón|200:camisones
 2019,matricular,v,,447:matricula|347:matriculado|339:matriculados|142:matricularse|112:matriculó|86:matricular|72:matriculada|72:matriculas|56:matricularme|54:matriculé|52:matricularon|28:matricularte|25:matriculadas|21:matriculan|21:matriculen|19:matricule|18:matricularlo|14:matricularé|12:matriculamos|9:matriculando|9:matricularla|8:matriculara|8:matriculará|7:matriculaste|7:matriculo|6:matricularnos|6:matricularán|5:matriculaba|5:matriculándome|4:matricularan|4:matriculase|4:matriculándose
@@ -10911,7 +10911,7 @@ count,spanish,pos,flags,usage
 1766,guido,none,NOUSAGE,1766:guido
 1766,litera,n,,1256:litera|510:literas
 1766,relegar,v,NOSENT,517:relegado|279:relegada|232:relegados|118:relegar|104:relegadas|94:relegando|84:relega|79:relegó|51:relegan|42:relegaron|21:relegaba|14:relegue|11:relegarlo|11:relego|10:relegará|9:relegaban|9:relegamos|9:relegarme|9:relegarse|8:relegara|7:relegas|7:relegándolo|7:relegándose|6:relegarlos|5:relegarle|5:relegaré|5:releguen|5:relegándola|4:relegaría|4:relegándolos
-1765,Gaza,prop,NOSENT,1765:Gaza
+1765,Gaza,prop,LITERAL,1765:Gaza
 1765,Manuela,prop,,1765:Manuela
 1764,amputar,v,,339:amputar|284:amputado|203:amputados|170:amputada|103:amputarle|94:amputaron|77:amputó|75:amputadas|41:amputa|35:amputarme|28:amputarla|27:amputan|25:ampute|24:amputarte|22:amputando|21:amputamos|20:amputen|18:amputé|15:amputarlo|14:amputara|13:amputaré|12:amputaría|11:amputarse|11:amputará|10:amputaran|10:amputársela|9:amputaban|8:amputarán|8:amputas|8:amputo|7:amputarles|6:amputaremos|6:amputarlas|6:amputárselo|4:amputaste
 1764,atemorizar,v,,392:atemorizado|247:atemorizada|237:atemoriza|202:atemorizados|159:atemorizar|73:atemorizaba|60:atemorizan|57:atemorizó|36:atemorizarme|33:atemorice|31:atemorizadas|29:atemorizando|23:atemorizarnos|21:atemorizaban|18:atemorizaron|16:atemorizarse|14:atemorizas|13:atemoricé|12:atemorizarlo|12:atemorizarte|12:atemorizo|9:atemoricen|9:atemorices|9:atemorizará|8:atemorizarlos|7:atemorizarla|7:atemorizarle|6:atemorizaste|4:atemorizarlas|4:atemorizaría|4:atemorizase
@@ -12270,11 +12270,11 @@ count,spanish,pos,flags,usage
 1463,fortalecimiento,n,NOSENT,1463:fortalecimiento
 1463,sheridan,none,NOUSAGE,1463:sheridan
 1462,jalea,n,,1369:jalea|93:jaleas
+1461,Pereira,prop,NOSENT,1461:Pereira
 1461,brigadier,n,,1420:brigadier|41:brigadieres
 1461,emparedado,n,,930:emparedado|531:emparedados
 1461,indebido,adj,,743:indebida|504:indebido|125:indebidas|89:indebidos
 1461,mujeriego,n,NOSENT,1368:mujeriego|93:mujeriegos
-1461,pereira,none,NOUSAGE,1461:pereira
 1461,varado,adj,NOSENT,566:varado|529:varados|289:varada|77:varadas
 1460,Yucatán,prop,NOSENT,1460:Yucatán
 1460,antropólogo,n,,661:antropólogo|520:antropólogos|273:antropóloga|6:antropólogas
@@ -16927,7 +16927,7 @@ count,spanish,pos,flags,usage
 855,olegario,none,NOUSAGE,855:olegario
 855,prision,none,NOUSAGE,855:prision
 855,serafín,n,NOSENT,661:serafín|194:serafines
-855,setecientos,num,NOSENT,643:setecientos|212:setecientas
+855,setecientos,num,,643:setecientos|212:setecientas
 855,spring,none,NOUSAGE,855:spring
 855,toallita,n,NOSENT,529:toallitas|326:toallita
 854,ariza,none,NOUSAGE,854:ariza
@@ -18829,7 +18829,7 @@ count,spanish,pos,flags,usage
 713,al-qaeda,none,NOUSAGE,713:al-qaeda
 713,aloha,none,NOUSAGE,713:aloha
 713,bellota,n,,359:bellotas|354:bellota
-713,figurativo,adj,NOSENT,276:figurativo|219:figurativa|116:figurativas|102:figurativos
+713,figurativo,adj,,276:figurativo|219:figurativa|116:figurativas|102:figurativos
 713,indemnizar,v,NOSENT,277:indemnizar|53:indemnizado|52:indemnizados|48:indemnice|40:indemnizará|35:indemniza|21:indemnizan|21:indemnizarle|19:indemnizada|17:indemnicen|15:indemnizarme|13:indemnizadas|12:indemnizarán|12:indemnizó|11:indemnizarla|11:indemnizaron|10:indemnizarlo|8:indemnizara|8:indemnizarles|6:indemnizando|6:indemnizaré|5:indemnizarlos|5:indemnizarse|4:indemnizaremos|4:indemnizarnos
 713,jagger,none,NOUSAGE,713:jagger
 713,oportunamente,adv,NOSENT,713:oportunamente
@@ -23852,7 +23852,7 @@ count,spanish,pos,flags,usage
 457,wal-mart,none,NOUSAGE,457:wal-mart
 456,Casimiro,prop,NOSENT,456:Casimiro
 456,Olivera,prop,NOSENT,456:Olivera
-456,PCR,n,NOSENT,450:PCR|6:PCRs
+456,PCR,n,NOSENT,450:pcr|6:PCRs
 456,afluente,n,NOSENT,274:afluentes|182:afluente
 456,antic,none,NOUSAGE,456:antic
 456,bocadito,n,,305:bocaditos|151:bocadito
