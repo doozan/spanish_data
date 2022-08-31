@@ -240,10 +240,10 @@ $(NGRAMDATA)/%: force
 force: ;
 # force used per https://www.gnu.org/software/make/manual/html_node/Overriding-Makefiles.html
 
-$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA)/spa/1-1950.ngram.full
+$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA)/spa/1-full-1950.ngram
 >   @echo "Making $@..."
 
->   $(NGRAM_COMBINE) --allforms $< $(NGRAMDATA)/spa/1-1950.ngram.full > $@
+>   $(NGRAM_COMBINE) --allforms $< $(NGRAMDATA)/spa/1-full-1950.ngram > $@
 >   sort -k2,2nr -k1,1 -o $@ $@
 
 $(BUILDDIR)/es_2018_full.txt:
