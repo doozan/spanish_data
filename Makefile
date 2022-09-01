@@ -59,8 +59,7 @@ $(BUILDDIR):
 
 $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2:
 >   @echo "Making $@..."
->   curl -s "https://dumps.wikimedia.org/enwiktionary/$(DATETAG)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2" -o $@
-
+>   curl -s -f --retry 100 --retry-all-errors  "https://dumps.wikimedia.org/enwiktionary/$(DATETAG)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2" -o $@
 
 # Modules
 
