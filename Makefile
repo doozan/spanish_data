@@ -194,13 +194,13 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs
+$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
->       --probs $(BUILDDIR)/probabilitats.dat \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
 $(BUILDDIR)/spa-only.txt.tagged: $(BUILDDIR)/spa-only.txt
@@ -214,13 +214,13 @@ $(BUILDDIR)/%-only.txt.json: $(BUILDDIR)/%-only.txt.tagged
 >   echo "" >> $@
 >   echo "]" >> $@
 
-$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs
+$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
->       --probs $(BUILDDIR)/probabilitats.dat \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
@@ -265,16 +265,12 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/probabilitats.dat $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
->       --probs $(BUILDDIR)/probabilitats.dat \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
->       --data-dir "." \
->       --custom-dir "$(BUILDDIR)/spanish_custom" \
->       --sentences $(BUILDDIR)/$*.sentences.tsv \
 >       --ignore $(BUILDDIR)/spanish_custom/ignore.txt \
 >       --infile $(BUILDDIR)/es.wordcount \
 >       --outfile $@
