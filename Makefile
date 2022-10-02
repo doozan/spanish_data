@@ -28,7 +28,6 @@ MAKE_FREQ := $(PYPATH) $(SPANISH_SCRIPTS)/make_freq
 MERGE_FREQ_LIST := $(PYPATH) $(SPANISH_SCRIPTS)/merge_freq_list
 
 NGRAM_COMBINE := $(PYPATH) $(BUILDDIR)/ngram/combine.py
-NGRAM_NGCASE := $(PYPATH) $(BUILDDIR)/ngram/make_ngcase.py
 WORDLIST_SCRIPTS := $(BUILDDIR)/enwiktionary_wordlist/scripts
 MAKE_EXTRACT := $(PYPATH) $(WORDLIST_SCRIPTS)/make_extract
 MAKE_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/make_wordlist
@@ -195,13 +194,13 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs $(BUILDDIR)/es-1-1950.ngcase
+$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
->       --ngcase $(BUILDDIR)/es-1-1950.ngcase \
+>       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
@@ -246,11 +245,6 @@ $(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA
 
 >   $(NGRAM_COMBINE) --allforms $< $(NGRAMDATA)/spa/1-full-1950.ngram > $@
 >   sort -k2,2nr -k1,1 -o $@ $@
-
-$(BUILDDIR)/es-1-1950.ngcase: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA)/spa/1-full-1950.ngram
->   @echo "Making $@..."
-
->   $(NGRAM_NGCASE) $(NGRAMDATA)/spa/2-filtered-1950.ngram.bz2 --min 1000 > $@
 
 $(BUILDDIR)/es_2018_full.txt:
 >   @echo "Making $@..."
