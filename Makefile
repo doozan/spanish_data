@@ -200,6 +200,7 @@ $(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data 
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
@@ -220,6 +221,7 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
@@ -265,7 +267,7 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount $(BUILDDIR)/%.sentences.tsv
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
