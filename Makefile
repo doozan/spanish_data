@@ -221,6 +221,7 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
