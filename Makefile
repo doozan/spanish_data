@@ -18,6 +18,8 @@ DATETAG := $(shell curl -s https://dumps.wikimedia.org/enwiktionary/ | grep '>[0
 DATETAG_PRETTY := $(shell date --date="$(DATETAG)" +%Y-%m-%d)
 
 NGRAMDATA := ../ngram_data
+NGYEAR := 1950
+#NGYEAR := 2012
 BUILDDIR := $(DATETAG_PRETTY)
 PYPATH := PYTHONPATH=$(BUILDDIR)
 
@@ -194,13 +196,13 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs
+$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
->       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
->       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
+>       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
@@ -215,13 +217,13 @@ $(BUILDDIR)/%-only.txt.json: $(BUILDDIR)/%-only.txt.tagged
 >   echo "" >> $@
 >   echo "]" >> $@
 
-$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-1950.ngprobs
+$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
->       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
->       --ngcase $(NGRAMDATA)/spa/es-1-1950.ngcase \
+>       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram.db \
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
@@ -241,10 +243,10 @@ $(NGRAMDATA)/%: force
 force: ;
 # force used per https://www.gnu.org/software/make/manual/html_node/Overriding-Makefiles.html
 
-$(BUILDDIR)/es-1-1950.ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA)/spa/1-full-1950.ngram
+$(BUILDDIR)/es-1-$(NGYEAR).ngprobs: $(BUILDDIR)/es-en.enwikt.allforms.csv $(NGRAMDATA)/spa/1-full-$(NGYEAR).ngram
 >   @echo "Making $@..."
 
->   $(NGRAM_COMBINE) --allforms $< $(NGRAMDATA)/spa/1-full-1950.ngram > $@
+>   $(NGRAM_COMBINE) --allforms $< $(NGRAMDATA)/spa/1-full-$(NGYEAR).ngram > $@
 >   sort -k2,2nr -k1,1 -o $@ $@
 
 $(BUILDDIR)/es_2018_full.txt:
@@ -267,11 +269,11 @@ $(BUILDDIR)/es.wordcount: $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt
 >   @echo "Making $@..."
 >   $(MERGE_FREQ_LIST) $(BUILDDIR)/es_2018_full.txt $(BUILDDIR)/CREA_full.txt --min 4 > $@
 
-$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-1950.ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount
+$(BUILDDIR)/%.frequency.csv: $(BUILDDIR)/es-1-$(NGYEAR).ngprobs  $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es.wordcount
 >   @echo "Making $@..."
 >   $(MAKE_FREQ) \
 >       --dictionary $(BUILDDIR)/$*.data \
->       --ngprobs $(BUILDDIR)/es-1-1950.ngprobs \
+>       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --allforms $(BUILDDIR)/$*.allforms.csv \
 >       --ignore $(BUILDDIR)/spanish_custom/ignore.txt \
 >       --infile $(BUILDDIR)/es.wordcount \
