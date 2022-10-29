@@ -203,7 +203,7 @@ $(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data 
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
->       --ngramdb $(NGRAMDATA)/spa/ngram.db \
+>       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
 $(BUILDDIR)/spa-only.txt.tagged: $(BUILDDIR)/spa-only.txt
@@ -224,7 +224,7 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
 >       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
->       --ngramdb $(NGRAMDATA)/spa/ngram.db \
+>       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
