@@ -228,6 +228,18 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >       --tags $(BUILDDIR)/spa-only.txt.json \
 >       $(BUILDDIR)/eng-spa.tsv > $@
 
+$(BUILDDIR)/%.sentences-verbrank.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+>   @echo "Making $@..."
+>   $(BUILD_SENTENCES) \
+>       --dictionary $(BUILDDIR)/es-en.enwikt.data \
+>       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
+>       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
+>       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
+>       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
+>       --tags $(BUILDDIR)/spa-only.txt.json \
+>       --verb-rank \
+>       $(BUILDDIR)/eng-spa.tsv > $@
+
 # Frequency list
 
 $(BUILDDIR)/probabilitats.dat:
