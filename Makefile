@@ -21,6 +21,7 @@ NGRAMDATA := ../ngram_data
 NGYEAR := 1950
 #NGYEAR := 2012
 BUILDDIR := $(DATETAG_PRETTY)
+$(shell   mkdir -p $(BUILDDIR))
 PYPATH := PYTHONPATH=$(BUILDDIR)
 
 SPANISH_SCRIPTS := $(BUILDDIR)/spanish_tools/scripts
@@ -55,9 +56,6 @@ clean:
 
 .PHONY: all tools clean force
 
-
-$(BUILDDIR):
->   mkdir -p $(BUILDDIR)
 
 $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2:
 >   @echo "Making $@..."
