@@ -40,9 +40,8 @@ WORDLIST_TO_DICTUNFORMAT := $(PYPATH) $(WORDLIST_SCRIPTS)/wordlist_to_dictunform
 EXTRACT_TRANSLATIONS := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/extract_translations
 TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist 
 
-PYGLOSSARY := ~/.local/bin/pyglossary 
+PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
-#ANALYZE := /usr/local/bin/analyze
 ZIP := zip
 
 TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz $(BUILDDIR)/ngram
@@ -194,7 +193,7 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+$(BUILDDIR)/spa.untagged: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
@@ -202,20 +201,20 @@ $(BUILDDIR)/spa-only.txt: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data 
 >       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
->       $(BUILDDIR)/eng-spa.tsv > $@
+>       $< > $@
 
-$(BUILDDIR)/spa-only.txt.tagged: $(BUILDDIR)/spa-only.txt
+$(BUILDDIR)/%.tagged: $(BUILDDIR)/%.untagged
 >   @echo "Making $@..."
->   $(ANALYZE) -f es.cfg --flush --output json --noloc --nodate --noquant --outlv tagged < $< | pv > $@
+>   $(ANALYZE)  -w 1 -f es.cfg --flush --output json --noloc --nodate --noquant --outlv tagged < $< | pv > $@
 
-$(BUILDDIR)/%-only.txt.json: $(BUILDDIR)/%-only.txt.tagged
+$(BUILDDIR)/%.json: $(BUILDDIR)/%.tagged
 >   @echo "Making $@..."
 >   echo "[" > $@
 >   head -n -1 $< | sed 's/}]}]}/}]}]},/' | sed '$$ s/.$$//' >> $@
 >   echo "" >> $@
 >   echo "]" >> $@
 
-$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+$(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
@@ -223,10 +222,10 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.js
 >       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
->       --tags $(BUILDDIR)/spa-only.txt.json \
->       $(BUILDDIR)/eng-spa.tsv > $@
+>       --tags $(BUILDDIR)/spa.json \
+>       $< > $@
 
-$(BUILDDIR)/%.sentences-verbrank.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-only.txt.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+$(BUILDDIR)/%.sentences-verbrank.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
@@ -234,9 +233,9 @@ $(BUILDDIR)/%.sentences-verbrank.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa-on
 >       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
->       --tags $(BUILDDIR)/spa-only.txt.json \
+>       --tags $(BUILDDIR)/spa.json \
 >       --verb-rank \
->       $(BUILDDIR)/eng-spa.tsv > $@
+>       $< > $@
 
 # Frequency list
 
