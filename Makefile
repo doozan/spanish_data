@@ -69,7 +69,7 @@ $(BUILDDIR)/enwiktionary_parser:
 >   git clone -q https://github.com/doozan/wtparser $@
 
 $(BUILDDIR)/enwiktionary_sectionparser:
->   pip3 install --target=$(BUILD_DIR) git+https://github.com/doozan/enwiktionary_sectionparser
+>   pip3 install --target=$(BUILDDIR) git+https://github.com/doozan/enwiktionary_sectionparser
 
 $(BUILDDIR)/spanish_tools:
 >   git clone -q https://github.com/doozan/spanish_tools $@
