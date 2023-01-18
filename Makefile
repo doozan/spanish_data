@@ -44,7 +44,7 @@ PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
 
-TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz $(BUILDDIR)/ngram
+TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_sectionparser $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz $(BUILDDIR)/ngram
 TARGETS :=  es-en.data es_allforms.csv sentences.tsv frequency.csv es_merged_50k.txt es-en.enwikt.StarDict.zip es-en.enwikt.slob.zip en-es.enwikt.slob.zip
 
 tools: $(TOOLS)
@@ -67,6 +67,9 @@ $(BUILDDIR)/enwiktionary_%:
 
 $(BUILDDIR)/enwiktionary_parser:
 >   git clone -q https://github.com/doozan/wtparser $@
+
+$(BUILDDIR)/enwiktionary_sectionparser:
+>   pip3 install --target=$(BUILD_DIR) git+https://github.com/doozan/enwiktionary_sectionparser
 
 $(BUILDDIR)/spanish_tools:
 >   git clone -q https://github.com/doozan/spanish_tools $@
