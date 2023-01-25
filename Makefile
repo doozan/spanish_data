@@ -338,8 +338,8 @@ es_merged_50k.txt: $(BUILDDIR)/es.wordcount
 
 %.StarDict.zip: $(BUILDDIR)/%.ifo
 >   @echo "Making $@..."
->   $(ZIP) $@ $(BUILDDIR)/es-en.enwikt.{ifo,idx,syn,dict.dz}
+>   $(ZIP) -j $@ $(BUILDDIR)/$*.{ifo,idx,syn,dict.dz}
 
 %.slob.zip: $(BUILDDIR)/%.slob
 >   @echo "Making $@..."
->   $(ZIP) $@ $<
+>   $(ZIP) -j $@ $<
