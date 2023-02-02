@@ -196,7 +196,7 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa.untagged: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+$(BUILDDIR)/spa.sentences: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
@@ -206,7 +206,7 @@ $(BUILDDIR)/spa.untagged: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data 
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
 >       $< > $@
 
-$(BUILDDIR)/%.tagged: $(BUILDDIR)/%.untagged
+$(BUILDDIR)/%.tagged: $(BUILDDIR)/%.sentences
 >   @echo "Making $@..."
 >   $(ANALYZE)  -w 1 -f es.cfg --flush --output json --noloc --nodate --noquant --outlv tagged < $< | pv > $@
 
