@@ -35,10 +35,12 @@ WORDLIST_SCRIPTS := $(BUILDDIR)/enwiktionary_wordlist/scripts
 MAKE_EXTRACT := $(PYPATH) $(WORDLIST_SCRIPTS)/make_extract
 MAKE_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/make_wordlist
 MAKE_ALLFORMS := $(PYPATH) $(WORDLIST_SCRIPTS)/make_all_forms
+KAIKKI_TO_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/kaikki_to_wordlist
 WORDLIST_TO_DICTUNFORMAT := $(PYPATH) $(WORDLIST_SCRIPTS)/wordlist_to_dictunformat
+LANGID_TO_NAME := $(PYPATH) $(WORDLIST_SCRIPTS)/langid_to_name
 
 EXTRACT_TRANSLATIONS := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/extract_translations
-TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist 
+TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist
 
 PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
@@ -101,7 +103,7 @@ $(BUILDDIR)/translations.bz2: $(BUILDDIR)/all-en.enwikt.txt.bz2
 >   @echo "Making $@..."
 >   $(EXTRACT_TRANSLATIONS) --wxt $< | bzip2 > $@
 
-# Wordlist
+# Build wordlist and allforms from wiktionary data
 
 $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2
 >   @echo "Making $@..."
@@ -111,21 +113,25 @@ $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
 >   @echo "Making $@..."
 >   $(TRANSLATIONS_TO_WORDLIST) --trans $< --langid $* > $@
 
-$(BUILDDIR)/en-en.enwikt.data-full: $(BUILDDIR)/en-en.enwikt.txt.bz2
+$(BUILDDIR)/%.enwikt.data: $(BUILDDIR)/%.enwikt.data-full
 >   @echo "Making $@..."
->   $(MAKE_WORDLIST) --langdata $< --lang-id en > $@ #2> $@.warnings
-
-$(BUILDDIR)/%.data: $(BUILDDIR)/%.data-full
->   @echo "Making $@..."
->   $(MAKE_WORDLIST) --lang-id $* --wordlist $< --exclude-generated-forms --exclude-empty > $@
-
-
+>   $(MAKE_WORDLIST) --wordlist $< --exclude-generated-forms --exclude-empty > $@
 
 # Allforms - built from .data and not .data-full
 $(BUILDDIR)/%.allforms.csv: $(BUILDDIR)/%.data
 >   @echo "Making $@..."
 >   $(MAKE_ALLFORMS) --low-mem $< > $@
 
+# Build wordlist and allforms from kaikki data
+
+$(BUILDDIR)/%-en.kaikki.json.gz:
+>   @echo "Making $@..."
+>   LANG_NAME=`$(LANGID_TO_NAME) $*`
+>   curl -s https://kaikki.org/dictionary/$$LANG_NAME/kaikki.org-dictionary-$$LANG_NAME.json.gz -o $@
+
+$(BUILDDIR)/%.kaikki.data $(BUILDDIR)/%.kaikki.allforms.csv &: $(BUILDDIR)/%.kaikki.json.gz
+>   @echo "Making $@..."
+>   $(KAIKKI_TO_WORDLIST) $< --allforms $(BUILDDIR)/$*.kaikki.allforms.csv > $(BUILDDIR)/$*.kaikki.data
 
 # Sentences
 
@@ -196,7 +202,7 @@ $(BUILDDIR)/%.tsv: $(BUILDDIR)/%_joined.tsv
 >   | cut -f 2- \
 >   > $@
 
-$(BUILDDIR)/spa.sentences: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
+$(BUILDDIR)/spa.untagged: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data $(BUILDDIR)/es-en.enwikt.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
 >   @echo "Making $@..."
 >   $(BUILD_SENTENCES) \
 >       --dictionary $(BUILDDIR)/es-en.enwikt.data \
@@ -206,7 +212,11 @@ $(BUILDDIR)/spa.sentences: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/es-en.enwikt.data
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
 >       $< > $@
 
-$(BUILDDIR)/%.tagged: $(BUILDDIR)/%.sentences
+$(BUILDDIR)/%.untagged: $(BUILDDIR)/%.sentences
+>   @echo "Making $@..."
+>   cut -f 1 $< > $@
+
+$(BUILDDIR)/%.tagged: $(BUILDDIR)/%.untagged
 >   @echo "Making $@..."
 >   $(ANALYZE)  -w 1 -f es.cfg --flush --output json --noloc --nodate --noquant --outlv tagged < $< | pv > $@
 
@@ -226,18 +236,6 @@ $(BUILDDIR)/%.sentences.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa.json $(BUIL
 >       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
 >       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
 >       --tags $(BUILDDIR)/spa.json \
->       $< > $@
-
-$(BUILDDIR)/%.sentences-verbrank.tsv: $(BUILDDIR)/eng-spa.tsv $(BUILDDIR)/spa.json $(BUILDDIR)/%.data $(BUILDDIR)/%.allforms.csv $(BUILDDIR)/es-1-$(NGYEAR).ngprobs
->   @echo "Making $@..."
->   $(BUILD_SENTENCES) \
->       --dictionary $(BUILDDIR)/es-en.enwikt.data \
->       --allforms $(BUILDDIR)/es-en.enwikt.allforms.csv \
->       --ngprobs $(BUILDDIR)/es-1-$(NGYEAR).ngprobs \
->       --ngcase $(NGRAMDATA)/spa/es-1-$(NGYEAR).ngcase \
->       --ngramdb $(NGRAMDATA)/spa/ngram-$(NGYEAR).db \
->       --tags $(BUILDDIR)/spa.json \
->       --verb-rank \
 >       $< > $@
 
 # Frequency list
@@ -268,6 +266,10 @@ $(BUILDDIR)/es_2018_full.txt:
 $(BUILDDIR)/CREA_total.zip:
 >   @echo "Making $@..."
 >   curl -s http://corpus.rae.es/frec/CREA_total.zip -o $@
+
+$(BUILDDIR)/CORDE_total.zip:
+>   @echo "Making $@..."
+>   curl -s https://corpus.rae.es/frecCORDE/CORDE_total.zip -o $@
 
 $(BUILDDIR)/CREA_full.txt: $(BUILDDIR)/CREA_total.zip
 >   @echo "Making $@..."
