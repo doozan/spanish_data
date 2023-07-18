@@ -42,6 +42,8 @@ LANGID_TO_NAME := $(PYPATH) $(WORDLIST_SCRIPTS)/langid_to_name
 EXTRACT_TRANSLATIONS := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/extract_translations
 TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist
 
+WIKI_SEARCH := $(PYPATH) $(BUILDDIR)/autodooz/scripts/wikisearch
+
 PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
@@ -103,11 +105,16 @@ $(BUILDDIR)/translations.bz2: $(BUILDDIR)/all-en.enwikt.txt.bz2
 >   @echo "Making $@..."
 >   $(EXTRACT_TRANSLATIONS) --wxt $< | bzip2 > $@
 
-# Build wordlist and allforms from wiktionary data
+# Tagged senses (used for {{transclude sense}})
+$(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
+>   echo "Making $@..."
+>   $(WIKI_SEARCH) --sort --nopath $(BUILDDIR)/$*-en.enwikt.txt.bz2 '\#.*{{senseid' \
+>       | perl -pe 's/(.*?):: \#[*:]*\s*(.*?){{senseid[^}]*?\s*([^|}]*)}}\s*(.*)/\1:\3::\2\4/' > $@
 
-$(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2
+# Build wordlist and allforms from wiktionary data
+$(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt
 >   @echo "Making $@..."
->   $(MAKE_WORDLIST) --langdata $< --lang-id $* > $@ #2> $@.warnings
+>   $(MAKE_WORDLIST) --langdata $< --lang-id $* --transcludes $(BUILDDIR)/en-transcludes.txt > $@ #2> $@.warnings
 
 $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
 >   @echo "Making $@..."
