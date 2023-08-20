@@ -21,7 +21,7 @@ NGRAMDATA := ../ngram_data
 NGYEAR := 1950
 #NGYEAR := 2012
 BUILDDIR := $(DATETAG_PRETTY)
-$(shell   mkdir -p $(BUILDDIR))
+_mkdir := $(shell mkdir -p $(BUILDDIR))
 PYPATH := PYTHONPATH=$(BUILDDIR)
 
 SPANISH_SCRIPTS := $(BUILDDIR)/spanish_tools/scripts
