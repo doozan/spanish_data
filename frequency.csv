@@ -53,7 +53,7 @@ count,spanish,pos,flags,usage
 1328549,deber,v,,292452:debe|186785:debería|154548:debo|117004:debes|105402:debemos|99624:deberías|80305:deben|70848:deberíamos|42007:debía|28931:deberían|25775:debió|21853:debí|15187:deberá|10562:debiste|9872:deba|8330:deberán|8001:debían|5224:debieron|4626:debamos|4432:debías|4115:debimos|3953:debas|3929:debíamos|3806:debiera|3791:debéis|3058:deberíais|2845:deberás|1686:deberemos|1579:deban|1298:deberé|990:debiendo|890:debieran|800:debieras|764:deberse|717:debiéramos|319:deva|237:devo|210:deberle|206:debés|174:deberéis|158:debíais|131:debiese|131:debisteis|110:debiéndose|86:deberte|86:deven|74:deve|62:deberme|62:debáis|42:debiéndome|38:debieses|36:debiéndole|33:dever|30:deberles|30:devemos|28:debierais|27:deves|24:debiésemos|21:debiesen|20:debernos|17:devería|14:devido|13:deveríamos|13:deverías|12:devida|10:debiéndote|10:devan|9:deberos|8:debé|8:devas|8:devés|7:debérselo|7:deviste|6:deberla|6:debértelo|6:deverá|5:deberlo|5:debérmelo|5:devimos|4:debeos|4:deverían|4:devió|4:devían
 1295029,muy,adv,,1294788:muy|241:mui
 1270535,otro,determiner,,482966:otra|412548:otro|231669:otros|143352:otras
-1253283,así,adv,,1205977:así|47021:asi|115:asín|82:ansí|56:assí|32:ansina
+1253288,así,adv,,1205977:así|47021:asi|115:asín|82:ansí|56:assí|32:ansina|5:asina
 1213835,ahora,adv,,1213835:ahora
 1192980,vez,n,,930765:vez|262197:veces|18:vezes
 1188601,cuando,conj,,1188601:cuando
@@ -6149,7 +6149,6 @@ count,spanish,pos,flags,usage
 4340,apelación,n,,3090:apelación|1250:apelaciones
 4340,equipar,v,,1364:equipado|876:equipados|643:equipada|311:equipadas|262:equipar|198:equipara|64:equiparan|52:equipa|50:equipare|50:equiparse|45:equipe|40:equipó|34:equipando|29:equipan|27:equipamos|25:equiparnos|24:equiparon|22:equípense|20:equiparlo|20:equipará|19:equiparla|19:equiparlos|18:equiparé|17:equipen|17:equipé|12:equiparemos|12:equiparte|10:equiparán|9:equiparme|8:equiparas|7:equipaba|6:equiparen|6:equipaste|6:equipemos|5:equipas|5:equipes|4:equipémonos|4:equípate
 4340,mostrador,n,,4145:mostrador|195:mostradores
-4339,coronar,v,,1534:coronado|630:coronada|411:coronar|293:coronó|204:coronando|169:coronados|154:coronadas|109:coronan|102:coronaron|90:coronaba|78:coronarse|58:corono|49:corone|44:coronará|42:coronaban|31:coronamos|30:coronaría|28:coronen|26:coronarlo|24:coróname|23:coronarán|22:coronaremos|22:coronarme|21:coronarte|21:coroné|18:coronarla|12:coronaré|12:coronemos|11:coronándose|9:coronara|9:coronarle|9:coronándolo|7:corónala|7:corónalos|6:coronarías|6:coronase|5:coronaste|5:corones|4:coronaran|4:coronasen
 4339,heroico,adj,,1904:heroico|1362:heroica|623:heroicos|450:heroicas
 4339,sebastian,none,NOUSAGE,4339:sebastian
 4337,exclamar,v,,2431:exclamó|763:exclama|288:exclamar|195:exclamaba|185:exclamé|164:exclamando|61:exclaman|54:exclamaron|47:exclamado|30:exclamaban|30:exclamo|16:exclamamos|16:exclame|9:exclamase|8:exclamará|7:exclamara|7:exclamaría|7:exclamarían|6:exclamas|5:exclamarán|4:exclamaste|4:exclamen
@@ -7030,7 +7029,6 @@ count,spanish,pos,flags,usage
 3571,prometedor,adj,,1999:prometedor|849:prometedora|447:prometedores|276:prometedoras
 3571,unico,none,NOUSAGE,3571:unico
 3570,discoteca,n,,2632:discoteca|938:discotecas
-3570,ganadero,n,,1661:ganaderos|1085:ganadero|582:ganadera|242:ganaderas
 3570,matiz,n,,2443:matices|1127:matiz
 3568,gal,none,NOUSAGE,3568:gal
 3567,denny,none,NOUSAGE,3567:denny
@@ -8870,6 +8868,7 @@ count,spanish,pos,flags,usage
 2489,jun,none,NOUSAGE,2489:jun
 2489,national,none,NOUSAGE,2489:national
 2489,po,interj,,2489:po
+2487,coronado,adj,,1534:coronado|630:coronada|169:coronados|154:coronadas
 2487,jasper,none,NOUSAGE,2487:jasper
 2487,protector,adj,DUPLICATE,2062:protectora|425:protectoras
 2487,torear,v,,936:torear|435:toreó|367:torea|221:toreando|121:toreado|89:toreaba|52:torean|31:toree|27:toreadas|27:torearon|22:toreas|21:toreará|18:toreen|17:torearlo|16:toreara|13:toreaban|12:toreé|11:toreada|10:torearía|9:torearán|8:toreados|7:torearé|5:torees|4:torearan|4:torearla|4:torease
@@ -10448,6 +10447,7 @@ count,spanish,pos,flags,usage
 1909,butch,none,NOUSAGE,1909:butch
 1909,demoníaco,adj,,600:demoníaco|546:demoníaca|231:demoníacos|154:demoníacas|149:demoniaco|145:demoniaca|43:demoniacos|41:demoniacas
 1909,deshonesto,adj,,1044:deshonesto|404:deshonestos|348:deshonesta|113:deshonestas
+1909,ganadero,adj,,1085:ganadero|582:ganadera|242:ganaderas
 1908,disuelto,adj,,941:disuelto|498:disuelta|248:disueltos|221:disueltas
 1908,pedagógico,adj,,729:pedagógica|607:pedagógico|286:pedagógicas|286:pedagógicos
 1908,thesubfactory,none,NOUSAGE,1908:thesubfactory
@@ -10626,6 +10626,7 @@ count,spanish,pos,flags,usage
 1852,Maradona,prop,,1852:maradona
 1852,aconsejable,adj,,1716:aconsejable|136:aconsejables
 1852,ara,n,,1852:aras
+1852,coronar,v,,411:coronar|293:coronó|204:coronando|109:coronan|102:coronaron|90:coronaba|78:coronarse|58:corono|49:corone|44:coronará|42:coronaban|31:coronamos|30:coronaría|28:coronen|26:coronarlo|24:coróname|23:coronarán|22:coronaremos|22:coronarme|21:coronarte|21:coroné|18:coronarla|12:coronaré|12:coronemos|11:coronándose|9:coronara|9:coronarle|9:coronándolo|7:corónala|7:corónalos|6:coronarías|6:coronase|5:coronaste|5:corones|4:coronaran|4:coronasen
 1852,dog,none,NOUSAGE,1852:dog
 1852,mantenido,adj,,1317:mantenida|535:mantenidas
 1851,emparejar,v,,325:emparejar|224:emparejado|139:empareja|122:emparejados|104:emparejan|96:emparejarse|88:emparejó|79:emparejando|72:emparejarme|62:emparejarte|55:emparejaron|43:emparejamos|41:emparejarlo|37:empareje|28:emparejarla|28:emparejarnos|27:emparejarlos|25:emparejo|22:emparejaste|20:emparejas|20:emparejé|19:emparejen|16:emparejaba|16:emparejará|14:emparejaremos|13:emparejaban|11:emparejemos|10:emparejara|10:emparejes|9:emparejaran|9:emparejaría|9:emparejándose|8:emparejarlas|8:emparejarle|8:emparejaros|7:emparejaré|7:emparéjalo|6:emparejarán|6:emparéjate|4:emparejaos|4:emparéjense
@@ -11385,6 +11386,7 @@ count,spanish,pos,flags,usage
 1661,bones,none,NOUSAGE,1661:bones
 1661,cristalino,adj,,644:cristalino|604:cristalina|274:cristalinas|139:cristalinos
 1661,dispensar,v,,452:dispensa|180:dispensado|159:dispensar|128:dispense|84:dispensada|63:dispensó|59:dispensan|57:dispensaba|53:dispensados|45:dispénseme|42:dispensas|32:dispensen|30:dispensaron|25:dispensando|23:dispensaban|20:dispensará|19:dispenso|16:dispensarme|14:dispensadas|14:dispensamos|13:dispensarle|13:dispensarse|13:dispénsame|12:dispensaría|11:dispensara|11:dispénsenme|10:dispensad|10:dispensadme|10:dispensarnos|10:dispensaré|7:dispensarán|5:dispensaremos|5:dispensarla|4:dispensarles|4:dispensándole|4:dispensé|4:dispénsenos
+1661,ganadero,n,DUPLICATE,1661:ganaderos
 1661,inadvertido,adj,,719:inadvertido|462:inadvertida|300:inadvertidos|180:inadvertidas
 1661,indeseable,adj,,843:indeseable|818:indeseables
 1661,obstaculizar,v,,485:obstaculizar|211:obstaculiza|157:obstaculizado|157:obstaculizan|147:obstaculizando|85:obstaculice|64:obstaculizada|50:obstaculicen|41:obstaculizaba|41:obstaculizó|38:obstaculizaron|34:obstaculizaban|27:obstaculizados|21:obstaculizará|21:obstaculizaría|11:obstaculizadas|11:obstaculizarme|10:obstaculizara|10:obstaculizarlo|8:obstaculizaran|7:obstaculizas|6:obstaculizarán|6:obstaculizo|5:obstaculizaré|4:obstaculizarte|4:obstaculizase
@@ -16921,6 +16923,7 @@ count,spanish,pos,flags,usage
 860,Angulo,prop,,860:angulo
 860,chul,none,NOUSAGE,860:chul
 860,descalificación,n,,553:descalificación|307:descalificaciones
+860,estructuración,n,,846:estructuración|14:estructuraciones
 860,explorador,adj,DUPLICATE,490:exploradora|370:exploradoras
 860,ilógico,adj,,598:ilógico|158:ilógica|59:ilógicas|45:ilógicos
 860,incomunicado,adj,,347:incomunicado|285:incomunicados|163:incomunicada|65:incomunicadas
@@ -17071,7 +17074,6 @@ count,spanish,pos,flags,usage
 846,compatibilidad,n,,821:compatibilidad|25:compatibilidades
 846,corear,v,,111:coreen|107:coreando|106:coreaban|96:corearon|92:corear|69:corean|63:coreó|57:coreado|54:coreaba|34:coreada|27:coreados|22:coreadas|4:coreamos|4:coree
 846,driscoll,none,NOUSAGE,846:driscoll
-846,estructuración,n,,846:estructuración
 846,mellie,none,NOUSAGE,846:mellie
 846,miki,none,NOUSAGE,846:miki
 846,pote,n,,627:pote|219:potes
@@ -18783,6 +18785,7 @@ count,spanish,pos,flags,usage
 722,zócalo,n,,595:zócalo|127:zócalos
 721,aja,n,,721:aja
 721,ct,none,NOUSAGE,721:ct
+721,hediondo,adj,,371:hediondo|194:hedionda|112:hediondos|39:hediondas|5:jediondo
 721,hold,n,,689:hold|32:holds
 721,ilustrativo,adj,,373:ilustrativo|175:ilustrativa|106:ilustrativos|67:ilustrativas
 721,invasivo,adj,,308:invasivo|217:invasiva|110:invasivos|86:invasivas
@@ -18856,7 +18859,6 @@ count,spanish,pos,flags,usage
 716,balanceo,n,,670:balanceo|46:balanceos
 716,dimelo,none,NOUSAGE,716:dimelo
 716,emular,v,,402:emular|99:emulando|40:emula|24:emularlo|21:emulado|20:emulan|18:emulaba|13:emuló|12:emularlos|10:emulaban|8:emulada|7:emularla|7:emularon|6:emulen|5:emularía|4:emulados|4:emulamos|4:emulara|4:emulará|4:emularán|4:emule
-716,hediondo,adj,,371:hediondo|194:hedionda|112:hediondos|39:hediondas
 716,libertario,adj,,281:libertario|151:libertarios|142:libertaria|142:libertarias
 716,lutz,none,NOUSAGE,716:lutz
 716,playera,n,,488:playera|228:playeras
@@ -20768,10 +20770,10 @@ count,spanish,pos,flags,usage
 598,sitges,none,NOUSAGE,598:sitges
 598,terciario,n,,478:terciario|120:terciarios
 598,wick,none,NOUSAGE,598:wick
+597,Carrión,prop,,597:carrión
 597,ahjumma,none,NOUSAGE,597:ahjumma
 597,alonzo,none,NOUSAGE,597:alonzo
 597,bela,none,NOUSAGE,597:bela
-597,carrión,none,NOUSAGE,597:carrión
 597,cociente,n,,555:cociente|42:cocientes
 597,eye,none,NOUSAGE,597:eye
 597,habitacional,adj,,404:habitacional|193:habitacionales
@@ -20968,6 +20970,7 @@ count,spanish,pos,flags,usage
 588,frodo,none,NOUSAGE,588:frodo
 588,impopular,adj,,436:impopular|152:impopulares
 588,marlo,n,,581:marlo|7:marlos
+588,neoliberalismo,n,,583:neoliberalismo|5:neoliberalismos
 588,pelícano,n,,383:pelícano|160:pelícanos|33:pelicano|12:pelicanos
 588,promiscuidad,n,,580:promiscuidad|8:promiscuidades
 588,tobillera,n,,354:tobillera|234:tobilleras
@@ -21067,7 +21070,6 @@ count,spanish,pos,flags,usage
 583,homologar,v,,139:homologado|117:homologar|101:homologados|43:homologada|33:homologa|32:homologadas|27:homologarse|19:homologan|12:homologó|11:homologarlo|10:homologando|9:homologue|7:homologuen|6:homologará|5:homologarlas|4:homologarnos|4:homologarán|4:homologo
 583,indistinto,adj,,239:indistinto|154:indistinta|152:indistintas|38:indistintos
 583,insustituible,adj,,460:insustituible|123:insustituibles
-583,neoliberalismo,n,,583:neoliberalismo
 583,sembrada,n,,349:sembrada|234:sembradas
 583,seong,none,NOUSAGE,583:seong
 583,terminator,none,NOUSAGE,583:terminator
@@ -21951,6 +21953,7 @@ count,spanish,pos,flags,usage
 539,titiritero,n,,378:titiritero|126:titiriteros|29:titiritera|6:titiriteras
 538,Creta,prop,,538:creta
 538,Gonzales,prop,,538:gonzales
+538,Griselda,prop,,538:griselda
 538,chamuscado,adj,,252:chamuscado|132:chamuscada|101:chamuscados|53:chamuscadas
 538,cnel,none,NOUSAGE,538:cnel
 538,drago,n,,519:drago|19:dragos
@@ -21958,7 +21961,6 @@ count,spanish,pos,flags,usage
 538,embriagado,adj,,311:embriagado|127:embriagada|81:embriagados|19:embriagadas
 538,ensamblaje,n,,497:ensamblaje|41:ensamblajes
 538,filón,n,,463:filón|75:filones
-538,griselda,none,NOUSAGE,538:griselda
 538,gruñón,adj,DUPLICATE,519:gruñona|19:gruñonas
 538,guisa,n,,521:guisa|17:guisas
 538,lim,none,NOUSAGE,538:lim
