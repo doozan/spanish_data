@@ -114,7 +114,7 @@ $(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
 # Build wordlist and allforms from wiktionary data
 $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt
 >   @echo "Making $@..."
->   $(MAKE_WORDLIST) --langdata $< --lang-id $* --transcludes $(BUILDDIR)/en-transcludes.txt > $@ #2> $@.warnings
+>   $(MAKE_WORDLIST) --langdata $< --lang-id $* --expand-templates --transcludes $(BUILDDIR)/en-transcludes.txt > $@ #2> $@.warnings
 
 $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
 >   @echo "Making $@..."
