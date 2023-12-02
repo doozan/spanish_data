@@ -2199,7 +2199,6 @@ count,spanish,pos,flags,usage
 18658,asqueroso,adj,,12756:asqueroso|3414:asquerosa|1573:asquerosos|915:asquerosas
 18656,afortunado,adj,,9800:afortunado|4906:afortunada|3416:afortunados|534:afortunadas
 18649,solucionar,v,,6972:solucionar|2193:solucionarlo|1866:solucionado|973:soluciona|697:solucionaremos|663:solucionará|582:solucione|438:solucionaré|372:solucionó|341:solucionamos|295:solucionarse|291:solucionan|268:solucionando|233:solucionaría|230:solucionen|171:soluciono|165:soluciónalo|160:solucionemos|142:solucionarlos|138:solucionas|137:solucioné|116:solucionaron|115:solucionada|109:solucionarán|98:solucionados|96:solucionaba|94:solucionara|83:solucionaste|81:solucionarás|40:solucionarían|35:solucionaban|31:soluciónelo|30:solucionadas|30:solucionarla|29:solucionaran|29:solucionarlas|29:soluciónenlo|28:solucionarle|24:solucionase|19:solucionaríamos|19:solucionémoslo|18:solucionarías|15:solucionándolo|15:solucionéis|14:solucionalo|14:solucionarte|13:solucionadlo|10:solucionaras|10:solucionarnos|9:solucionarme|8:solucionad|8:solucionarles|8:solucionándose|7:solucionaréis|7:solucionábamos|7:solucionáis|7:solucionáramos|6:solucionare|6:solucionártelo|5:soluciónalos
-18622,Javier,prop,,15657:javier|2965:xavier
 18618,aparentemente,adv,,18618:aparentemente
 18597,alianza,n,,16174:alianza|2423:alianzas
 18592,destinado,adj,,7559:destinado|4834:destinados|3804:destinada|2395:destinadas
@@ -2532,6 +2531,7 @@ count,spanish,pos,flags,usage
 15706,trozo,n,,10266:trozo|5440:trozos
 15664,experimento,n,,9523:experimento|6141:experimentos
 15659,serpiente,n,,10763:serpiente|4896:serpientes
+15657,Javier,prop,,15657:javier
 15656,disminuir,v,,3930:disminuir|3399:disminuye|2002:disminuido|1556:disminuyendo|940:disminuyó|922:disminuyen|509:disminuya|412:disminuirá|402:disminuyeron|288:disminuidos|232:disminuía|190:disminuyan|168:disminuiría|98:disminuirán|68:disminuyera|55:disminuían|48:disminuirla|46:disminuirlo|43:disminuirse|42:disminuyo|39:disminuirían|35:disminuyes|34:disminuimos|22:disminuí|21:disminuyas|19:disminuyeran|13:disminuiremos|13:disminuiré|13:disminuyese|12:disminuirlos|10:disminuirlas|9:disminuiste|9:disminuyéndola|7:disminuirle|7:disminuyesen|7:disminuyéndose|7:disminúyelo|6:disminuyéndolos|5:disminuirme|5:disminuyéndolo|5:disminuyéramos|4:disminuirás|4:disminuyamos
 15655,arder,v,,4327:ardiendo|3414:arde|2082:arder|1390:arden|725:ardía|529:ardió|513:arda|467:arderá|293:ardo|285:ardían|219:ardido|196:ardan|172:arderán|163:ardieron|160:arderás|132:ardes|105:ardiera|79:ardería|55:ardas|50:arderemos|43:arderé|41:ardemos|28:ardieran|27:arderían|21:arded|20:ardiese|16:ardí|15:arderéis|11:ardamos|10:ardimos|7:arderías|7:ardiéndome|7:ardías|6:arderte|6:ardíamos|5:arderle|5:arderme|5:arderíamos|5:ardidos|5:ardieras|5:ardiesen|4:ardéis
 15653,festival,n,,14181:festival|1472:festivales
@@ -7927,6 +7927,7 @@ count,spanish,pos,flags,usage
 2966,afiliado,n,,1941:afiliados|594:afiliado|233:afiliadas|198:afiliada
 2966,arcilla,n,,2619:arcilla|347:arcillas
 2966,excusar,v,,427:excúseme|354:excuse|302:excusó|236:excusarme|213:excusar|160:excusarse|105:excusan|99:excuso|87:excúsame|67:excúsenme|63:excusándose|59:excuses|58:excusadme|55:excusarte|54:excusando|52:excusaba|50:excusada|43:excusé|37:excusarnos|35:excusaron|34:excusaré|33:excusará|30:excúsenos|29:excusen|26:excusarlo|24:excusara|21:excusamos|18:excusame|16:excusarla|16:excusarle|15:excúsate|13:excusaría|13:excuséis|12:excusáis|11:excusándome|10:excusaban|8:excusadas|8:excusándote|8:excúsanos|7:excusad|7:excusaran|7:excusarán|7:excusarían|7:excusase|6:excusaremos|6:excusaste|5:excusándolo|5:excúsennos|4:excusarás|4:excusándole
+2965,Xavier,prop,,2965:xavier
 2963,antídoto,n,,2827:antídoto|136:antídotos
 2962,cacahuete,n,,1264:cacahuete|1235:cacahuetes|248:cacahuate|215:cacahuates
 2961,gerald,none,NOUSAGE,2961:gerald
@@ -20057,6 +20058,7 @@ count,spanish,pos,flags,usage
 639,tulio,n,,639:tulio
 639,vaquero,adj,DUPLICATE,476:vaquera|163:vaqueras
 638,Jacky,prop,,638:jacky
+638,Siena,prop,,638:siena
 638,Tere,prop,,638:tere
 638,abertzale,adj,,510:abertzale|128:abertzales
 638,alborotador,n,,349:alborotadores|289:alborotador
@@ -20069,7 +20071,6 @@ count,spanish,pos,flags,usage
 638,modelado,n,,563:modelado|75:modelados
 638,penalización,n,,548:penalización|90:penalizaciones
 638,rimmer,none,NOUSAGE,638:rimmer
-638,siena,none,NOUSAGE,638:siena
 637,Rosendo,prop,,637:rosendo
 637,Tebas,prop,,637:tebas
 637,abner,none,NOUSAGE,637:abner
@@ -23922,6 +23923,7 @@ count,spanish,pos,flags,usage
 458,yusuf,none,NOUSAGE,458:yusuf
 457,Cibeles,prop,,457:cibeles
 457,Sinaí,prop,,457:sinaí
+457,Sotero,prop,,457:sotero
 457,abdalá,none,NOUSAGE,457:abdalá
 457,antillano,adj,,190:antillano|124:antillanos|114:antillana|29:antillanas
 457,aron,none,NOUSAGE,457:aron
@@ -23945,7 +23947,6 @@ count,spanish,pos,flags,usage
 457,saxon,none,NOUSAGE,457:saxon
 457,selvático,adj,,179:selvática|140:selvático|72:selváticos|66:selváticas
 457,sly,none,NOUSAGE,457:sly
-457,sotero,none,NOUSAGE,457:sotero
 457,twister,none,NOUSAGE,457:twister
 457,vianda,n,,349:viandas|108:vianda
 457,wal-mart,none,NOUSAGE,457:wal-mart
