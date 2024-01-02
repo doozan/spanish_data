@@ -1278,7 +1278,6 @@ count,spanish,pos,flags,usage
 36752,exterior,adj,,26589:exterior|10163:exteriores
 36736,carácter,n,,33329:carácter|3407:caracteres
 36735,crisis,n,,36735:crisis
-36708,basar,v,,8464:basado|7337:basada|6157:basa|2461:basados|1896:basándose|1815:basadas|1646:basan|1014:basándome|892:basó|721:basándonos|709:basaba|686:basarse|453:basar|284:basas|238:baso|231:basará|225:basándote|218:basamos|192:basaron|187:basaban|160:basando|120:basara|89:basé|73:basaría|67:basarnos|53:basarán|51:basarme|45:basen|40:basarte|26:basaste|25:basaré|23:basaremos|15:basarás|15:basarían|11:basarlo|10:basaran|9:basándoos|8:basemos|8:basábamos|8:basáis|5:basalo|5:basándolo|4:basaras|4:basarla|4:basarlas|4:basase
 36660,trasero,n,,32896:trasero|3764:traseros
 36627,herido,adj,,25488:herido|11139:heridos
 36623,interno,adj,,12473:interna|10893:interno|8725:internos|4532:internas
@@ -2079,6 +2078,7 @@ count,spanish,pos,flags,usage
 20112,instalación,n,,11576:instalaciones|8536:instalación
 20109,pesadilla,n,,14457:pesadilla|5652:pesadillas
 20107,círculo,n,,14215:círculo|5892:círculos
+20077,basado,adj,,8464:basado|7337:basada|2461:basados|1815:basadas
 20071,humanidad,n,,19324:humanidad|747:humanidades
 20066,borrar,v,,5664:borrar|2883:borrado|1851:borra|1289:borró|693:borrando|612:borrados|519:borrarlo|504:borre|441:borraron|438:borré|381:borran|344:borrará|283:borraste|280:borraré|248:borro|215:borren|214:borrarse|212:borraba|193:borramos|192:borras|179:bórralo|178:borres|157:borrara|157:borrarla|145:borrarlos|143:borraría|123:borrarte|114:borrarle|112:borrarán|111:borrás|108:borrarme|95:borrarlas|81:borraremos|79:borraban|73:borrarnos|65:borremos|59:borraran|52:bórrala|42:borrarás|38:borraras|36:borrad|32:borrarían|29:borrándose|28:bórrelo|27:borrase|27:bórrate|25:bórrame|22:bórralas|19:borrate|18:borrare|17:bórralos|15:borrarles|14:borralo|14:borrándolo|14:bórrenlo|12:borrarías|11:borrasen|11:borrándome|9:borradlo|9:bórrale|7:borraros|7:borrándole|7:borréis|7:bórrela|6:borrame|6:borrá|6:borrándolos|5:borradlos|5:borrala|5:borralas|5:borrasteis|5:borráramos|5:bórreme|5:bórrenlos|5:bórrenme|4:borrabas|4:borraríamos|4:borrábamos|4:borráis|4:borrándolas|4:borrándote
 20047,marzo,n,,20047:marzo
@@ -2405,6 +2405,7 @@ count,spanish,pos,flags,usage
 16637,Larry,prop,,16637:larry
 16635,ceremonia,n,,14041:ceremonia|2594:ceremonias
 16633,significado,n,,14769:significado|1864:significados
+16631,basar,v,,6157:basa|1896:basándose|1646:basan|1014:basándome|892:basó|721:basándonos|709:basaba|686:basarse|453:basar|284:basas|238:baso|231:basará|225:basándote|218:basamos|192:basaron|187:basaban|160:basando|120:basara|89:basé|73:basaría|67:basarnos|53:basarán|51:basarme|45:basen|40:basarte|26:basaste|25:basaré|23:basaremos|15:basarás|15:basarían|11:basarlo|10:basaran|9:basándoos|8:basemos|8:basábamos|8:basáis|5:basalo|5:basándolo|4:basaras|4:basarla|4:basarlas|4:basase
 16628,ausencia,n,,15536:ausencia|1088:ausencias|4:absencia
 16627,chaqueta,n,,15298:chaqueta|1291:chaquetas|32:jaqueta|6:jaquetas
 16620,noble,adj,,11825:noble|4795:nobles
@@ -19612,7 +19613,7 @@ count,spanish,pos,flags,usage
 666,arlo,none,NOUSAGE,666:arlo
 666,azaroso,adj,,307:azarosa|226:azaroso|70:azarosos|63:azarosas
 666,barranca,n,,387:barranca|279:barrancas
-666,blunt,none,NOUSAGE,666:blunt
+666,blunt,n,,666:blunt
 666,carpentier,none,NOUSAGE,666:carpentier
 666,dib,none,NOUSAGE,666:dib
 666,esclusa,n,,527:esclusa|139:esclusas
@@ -23100,6 +23101,7 @@ count,spanish,pos,flags,usage
 489,bichito,n,,337:bichito|152:bichitos
 489,boquita,n,,429:boquita|60:boquitas
 489,declinación,n,,443:declinación|46:declinaciones
+489,depto,n,,473:depto|16:deptos
 489,desplome,n,,458:desplome|31:desplomes
 489,estetoscopio,n,,454:estetoscopio|35:estetoscopios
 489,flotación,n,,489:flotación
@@ -23501,7 +23503,6 @@ count,spanish,pos,flags,usage
 473,calvicie,n,,473:calvicie
 473,clinica,none,NOUSAGE,473:clinica
 473,conjuntivitis,n,,473:conjuntivitis
-473,depto,none,NOUSAGE,473:depto
 473,derrotero,n,,312:derroteros|161:derrotero
 473,jornal,n,,318:jornal|155:jornales
 473,mitsubishi,none,NOUSAGE,473:mitsubishi
@@ -24364,6 +24365,7 @@ count,spanish,pos,flags,usage
 443,sacro,adj,DUPLICATE,365:sacra|78:sacras
 443,tosh,none,NOUSAGE,443:tosh
 442,Eurocopa,prop,,442:eurocopa
+442,SAME,prop,,442:same
 442,Zagreb,prop,,442:zagreb
 442,Zúñiga,prop,,442:zúñiga
 442,adusto,adj,,251:adusto|123:adusta|39:adustos|29:adustas
@@ -24395,7 +24397,6 @@ count,spanish,pos,flags,usage
 442,prefijo,n,,367:prefijo|75:prefijos
 442,productions,none,NOUSAGE,442:productions
 442,roñoso,adj,,240:roñoso|99:roñosa|69:roñosos|34:roñosas
-442,same,none,NOUSAGE,442:same
 442,santini,none,NOUSAGE,442:santini
 442,serpentear,v,,120:serpentea|97:serpenteando|72:serpenteaba|52:serpentean|38:serpentear|24:serpenteaban|8:serpenteado|7:serpenteen|6:serpenteó|5:serpenteará|5:serpenteas|4:serpeaba|4:serpentee
 442,sheryl,none,NOUSAGE,442:sheryl
