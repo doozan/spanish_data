@@ -41,9 +41,11 @@ LANGID_TO_NAME := $(PYPATH) $(WORDLIST_SCRIPTS)/langid_to_name
 
 EXTRACT_TRANSLATIONS := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/extract_translations
 TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist
+TEMPLATE_CACHE := $(PYPATH) $(BUILDDIR)/enwiktionary_templates/cache.py
 
 WIKI_SEARCH := $(PYPATH) $(BUILDDIR)/autodooz/scripts/wikisearch
 
+TEMPLATE_CACHEDB := ~/.enwiktionary_templates/cache.db
 PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
@@ -111,8 +113,12 @@ $(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
 >   $(WIKI_SEARCH) --sort --nopath $(BUILDDIR)/$*-en.enwikt.txt.bz2 '\#.*{{senseid' \
 >       | perl -pe 's/(.*?):: \#[*:]*\s*(.*?){{senseid[^}]*?\s*([^|}]*)}}\s*(.*)/\1:\3::\2\4/' > $@
 
+$(TEMPLATE_CACHEDB): $(BUILDDIR)/es-en.enwikt.txt.bz2
+>   echo "Making $@..."
+>   $(TEMPLATE_CACHE) --db $(TEMPLATE_CACHEDB) --wxt $< --update -j 10
+
 # Build wordlist and allforms from wiktionary data
-$(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt
+$(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt $(TEMPLATE_CACHEDB)
 >   @echo "Making $@..."
 >   $(MAKE_WORDLIST) --langdata $< --lang-id $* --expand-templates --transcludes $(BUILDDIR)/en-transcludes.txt > $@ #2> $@.warnings
 
