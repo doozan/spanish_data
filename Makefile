@@ -113,9 +113,14 @@ $(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
 >   $(WIKI_SEARCH) --sort --nopath $(BUILDDIR)/$*-en.enwikt.txt.bz2 '\#.*{{senseid' \
 >       | perl -pe 's/(.*?):: \#[*:]*\s*(.*?){{senseid[^}]*?\s*([^|}]*)}}\s*(.*)/\1:\3::\2\4/' > $@
 
+# Update the template cached - using a temp file to allow future runs to roll back to original data
+# in the case the update fails and the file is deleted
 $(TEMPLATE_CACHEDB): $(BUILDDIR)/es-en.enwikt.txt.bz2
 >   echo "Making $@..."
->   $(TEMPLATE_CACHE) --db $(TEMPLATE_CACHEDB) --wxt $< --update -j 10
+>   if [ -f $@ -a ! -f $@.tmp_orig ]; then cp $@ $@.tmp_orig; fi # create backup
+>   if [ ! -f $@ -a -f $@.tmp_orig ]; then cp $@.tmp_orig $@; fi # restore backup
+>   $(TEMPLATE_CACHE) --db $@ --wxt $< --update -j 15
+>   $(RM) $@.tmp_orig
 
 # Build wordlist and allforms from wiktionary data
 $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt $(TEMPLATE_CACHEDB)
@@ -278,11 +283,11 @@ $(BUILDDIR)/es_2018_full.txt:
 
 $(BUILDDIR)/CREA_total.zip:
 >   @echo "Making $@..."
->   curl -s http://corpus.rae.es/frec/CREA_total.zip -o $@
+>   curl -s http://corpus.rae.es/frec/CREA_total.zip -o $@ -H 'User-Agent: Mozilla/5.0'
 
 $(BUILDDIR)/CORDE_total.zip:
 >   @echo "Making $@..."
->   curl -s https://corpus.rae.es/frecCORDE/CORDE_total.zip -o $@
+>   curl -s https://corpus.rae.es/frecCORDE/CORDE_total.zip -o $@ -H 'User-Agent: Mozilla/5.0'
 
 $(BUILDDIR)/CREA_full.txt: $(BUILDDIR)/CREA_total.zip
 >   @echo "Making $@..."
