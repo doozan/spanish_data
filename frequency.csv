@@ -2,7 +2,7 @@ count,spanish,pos,flags,usage
 24459038,de,prep,,24459038:de
 20002266,ella,pron,,15403031:la|3687944:las|911291:ella
 19102844,que,pron,,19102844:que
-16829477,ser,v,,8013166:es|1052612:ser|1005240:fue|985658:era|946793:sé|903809:son|772069:soy|641438:eres|421711:sea|376857:sido|287967:será|188040:sería|164983:somos|146401:fueron|135785:eran|107891:fui|102733:siendo|61871:sean|56992:seas|51383:fuiste|47998:eras|46117:serán|31745:seré|29120:fuimos|27313:serás|25704:fuese|22815:sois|21405:éramos|19573:fueran|17730:fueras|16789:fué|15016:serlo|14164:serían|12729:seremos|12306:seamos|8083:serías|6366:sos|5532:fuéramos|3234:fuesen|2927:seríamos|2214:fuere|1851:fueses|1728:seáis|1640:seréis|1581:serle|1417:erais|1398:serte|1276:fuisteis|1010:fuésemos|886:siéndolo|752:érase|543:sernos|483:fuerais|321:serme|286:seles|261:fueren|237:seríais|229:serles|197:sela|151:fuer|143:fueseis|111:sete|97:fueres|78:seros|72:soi|69:selo|51:siéndole|43:serla|28:sele|23:seme|23:siéndote|21:séase|20:sidos|16:siéndome|16:séalo|15:séame|13:seámoslo|13:siéndoles|11:siéndonos|11:sémele|10:sedlo|9:serse|8:fuy|7:sedme|7:serlos|6:séanos|5:fuesse|5:fuéron|5:seás|5:sidas|5:siéndolos|5:séanlo
+16829484,ser,v,,8013166:es|1052612:ser|1005240:fue|985658:era|946793:sé|903809:son|772069:soy|641438:eres|421711:sea|376857:sido|287967:será|188040:sería|164983:somos|146401:fueron|135785:eran|107891:fui|102733:siendo|61871:sean|56992:seas|51383:fuiste|47998:eras|46117:serán|31745:seré|29120:fuimos|27313:serás|25704:fuese|22815:sois|21405:éramos|19573:fueran|17730:fueras|16789:fué|15016:serlo|14164:serían|12729:seremos|12306:seamos|8083:serías|6366:sos|5532:fuéramos|3234:fuesen|2927:seríamos|2214:fuere|1851:fueses|1728:seáis|1640:seréis|1581:serle|1417:erais|1398:serte|1276:fuisteis|1010:fuésemos|886:siéndolo|752:érase|543:sernos|483:fuerais|321:serme|286:seles|261:fueren|237:seríais|229:serles|197:sela|151:fuer|143:fueseis|111:sete|97:fueres|78:seros|72:soi|69:selo|51:siéndole|43:serla|28:sele|23:seme|23:siéndote|21:séase|20:sidos|16:siéndome|16:séalo|15:séame|13:seámoslo|13:siéndoles|11:siéndonos|11:sémele|10:sedlo|9:serse|8:fuy|7:eser|7:sedme|7:serlos|6:séanos|5:fuesse|5:fuéron|5:seás|5:sidas|5:siéndolos|5:séanlo
 15921107,él,pron,,6908748:lo|5687850:los|1845414:le|1070567:él|408528:ellos
 12812479,a,prep,,12810585:a|1362:á|532:à
 12100878,el,art,,12100878:el
@@ -7097,12 +7097,12 @@ count,spanish,pos,flags,usage
 3529,agregado,n,,2538:agregado|638:agregados|276:agregada|77:agregadas
 3529,torcido,adj,,1751:torcido|915:torcida|443:torcidos|420:torcidas
 3527,senda,n,,2172:senda|1355:sendas
+3526,escabullirse,v,,551:escabullirse|377:escabulló|297:escabullirme|272:escabullirte|223:escabulle|200:escabullí|179:escabullido|129:escabullirnos|125:escabulléndose|115:escabullía|107:escabulliste|97:escabulles|89:escabullimos|75:escabullendo|72:escabullen|70:escabullo|67:escabullir|53:escabulleron|49:escabulliré|46:escabulléndote|45:escabullas|35:escabulliremos|34:escabulla|28:escabúllete|22:escabullera|19:escabulléndome|17:escabullías|16:escabullíamos|16:escabullían|14:escabullirá|12:escabullirás|11:escabulliría|9:escabullan|9:escabulléndonos|8:escabullámonos|6:escabullida|6:escabullidas|5:escabullamos|5:escabullírsele|4:escabulleras|4:escabullirán|4:escabullirías|4:escabúllanse
 3524,matrimonial,adj,,2599:matrimonial|925:matrimoniales
 3524,nulo,adj,,1394:nula|1388:nulo|394:nulas|348:nulos
 3524,promotor,n,,1912:promotor|1612:promotores
 3524,pícnic,n,,3228:picnic|232:picnics|57:pícnic|7:pícnics
 3523,Molina,prop,,3523:molina
-3521,escabullirse,v,,551:escabullirse|377:escabulló|297:escabullirme|272:escabullirte|223:escabulle|200:escabullí|179:escabullido|129:escabullirnos|125:escabulléndose|115:escabullía|107:escabulliste|97:escabulles|89:escabullimos|75:escabullendo|72:escabullen|70:escabullo|67:escabullir|53:escabulleron|49:escabulliré|46:escabulléndote|45:escabullas|35:escabulliremos|34:escabulla|28:escabúllete|22:escabullera|19:escabulléndome|17:escabullías|16:escabullíamos|16:escabullían|14:escabullirá|12:escabullirás|11:escabulliría|9:escabullan|9:escabulléndonos|8:escabullámonos|6:escabullida|6:escabullidas|5:escabullamos|4:escabulleras|4:escabullirán|4:escabullirías|4:escabúllanse
 3521,eternamente,adv,,3521:eternamente
 3521,tae,none,NOUSAGE,3521:tae
 3521,traficar,v,,998:trafico|663:traficar|545:traficando|410:trafica|265:traficaba|215:trafican|82:traficas|56:traficaban|48:traficado|32:trafique|31:traficamos|26:traficó|24:trafiquen|17:traficara|15:traficabas|15:traficadas|13:traficaron|11:traficada|10:traficábamos|8:traficaste|8:trafiques|8:trafiqué|7:traficados|6:traficáis|4:traficará|4:traficaré
@@ -9211,6 +9211,7 @@ count,spanish,pos,flags,usage
 2349,xv,none,NOUSAGE,2349:xv
 2346,credencial,n,,1677:credenciales|669:credencial
 2346,frederick,none,NOUSAGE,2346:frederick
+2345,antojarse,v,,922:antoja|392:antoje|323:antojaba|226:antojó|109:antojan|79:antojaban|68:antojara|60:antojado|54:antojaron|25:antojen|18:antojase|16:antojarse|14:antojaría|10:antojársele|9:antojando|9:antojar|7:antojará|4:antojaran
 2344,vs,prep,,2344:vs
 2343,desolado,adj,,1161:desolado|785:desolada|244:desolados|153:desoladas
 2341,Reich,n,,2308:reich|33:reichs
@@ -9227,7 +9228,6 @@ count,spanish,pos,flags,usage
 2337,bajada,n,,1860:bajada|477:bajadas
 2336,tachar,v,,439:tachado|433:tachar|181:tachó|121:tachados|110:tache|98:tachan|97:tachada|86:tachando|73:tacharon|73:taché|58:tacharlo|57:tachen|56:tachadas|47:tachaba|36:tacharé|32:tacharme|31:tachaste|30:táchalo|27:tachamos|24:tacharla|20:taches|19:tachaban|16:tacharte|14:táchala|12:tacharse|11:tachará|11:tacharán|10:tacharemos|10:tacharía|10:tachemos|10:tachándolo|7:tachara|7:tacharan|7:tachase|7:táchelo|6:tachándolas|6:tachándonos|6:táchame|5:tachad|5:tacharlos|5:tacharnos|5:tacharían|5:tachándola|5:tachándolos|4:tacharle|4:tachándole
 2335,Delia,prop,,2335:delia
-2335,antojarse,v,,922:antoja|392:antoje|323:antojaba|226:antojó|109:antojan|79:antojaban|68:antojara|60:antojado|54:antojaron|25:antojen|18:antojase|16:antojarse|14:antojaría|9:antojando|9:antojar|7:antojará|4:antojaran
 2335,fijación,n,,2202:fijación|133:fijaciones
 2335,sardina,n,,1710:sardinas|625:sardina
 2335,superintendente,n,,2283:superintendente|43:superintendentes|9:superintendenta
@@ -16519,6 +16519,7 @@ count,spanish,pos,flags,usage
 897,terrón,n,,472:terrón|425:terrones
 897,trump,none,NOUSAGE,897:trump
 896,Generalísimo,prop,,896:generalísimo
+896,apatía,n,,891:apatía|5:apatías
 896,apocalíptico,adj,,354:apocalíptico|288:apocalíptica|139:apocalípticos|115:apocalípticas
 896,bullicio,n,,896:bullicio
 896,carlson,none,NOUSAGE,896:carlson
@@ -16573,7 +16574,6 @@ count,spanish,pos,flags,usage
 892,three,none,NOUSAGE,892:three
 891,RFA,n,,891:rfa
 891,USB,n,,891:usb
-891,apatía,n,,891:apatía
 891,baron,none,NOUSAGE,891:baron
 891,cols,none,NOUSAGE,891:cols
 891,curvatura,n,,811:curvatura|80:curvaturas
@@ -18940,7 +18940,6 @@ count,spanish,pos,flags,usage
 711,chirriar,v,,190:chirriar|136:chirriando|128:chirría|76:chirrían|51:chirriaba|35:chirrió|25:chirriaban|15:chirriaron|11:chirrié|9:chirriado|7:chirríe|7:chirríen|6:chirriara|6:chirrías|5:chirrío|4:chirriaran
 711,cortarla,v,,711:cortarla
 711,damnificado,n,,644:damnificados|67:damnificado
-711,hijo de puta,n,,635:hijoputa|68:hijoputas|8:jueputa
 711,kruger,none,NOUSAGE,711:kruger
 711,núm.,n,,641:núm|41:núm.|29:núms
 710,ban,none,NOUSAGE,710:ban
@@ -19044,6 +19043,7 @@ count,spanish,pos,flags,usage
 703,carles,none,NOUSAGE,703:carles
 703,carmesí,adj,,684:carmesí|19:carmesíes
 703,exámen,none,NOUSAGE,703:exámen
+703,hijo de puta,n,,635:hijoputa|68:hijoputas
 703,moreau,none,NOUSAGE,703:moreau
 703,penalizar,v,,151:penalizar|115:penalizado|100:penaliza|61:penalizados|46:penalizada|43:penalizan|21:penalice|21:penalizando|16:penalizadas|16:penalizó|15:penalizaron|14:penalizará|9:penalicen|9:penalizarte|8:penalizarlo|8:penalizarán|7:penalizaban|6:penalizarse|5:penalizarla|5:penalizarme|5:penalizaré|5:penalizaría|5:penalizarían|4:penalizaba|4:penalizarlos|4:penalizas
 703,ping-pong,n,,703:ping-pong
@@ -24503,6 +24503,7 @@ count,spanish,pos,flags,usage
 439,ácaro,n,,353:ácaros|86:ácaro
 438,Fatah,prop,,438:fatah
 438,Fito,prop,,438:fito
+438,Juancho,prop,,438:juancho
 438,Rafi,prop,,438:rafi
 438,alpinista,n,,260:alpinista|178:alpinistas
 438,ariadna,none,NOUSAGE,438:ariadna
@@ -24513,7 +24514,6 @@ count,spanish,pos,flags,usage
 438,gauss,none,NOUSAGE,438:gauss
 438,isleño,adj,,229:isleño|171:isleña|38:isleñas
 438,janelle,none,NOUSAGE,438:janelle
-438,juancho,none,NOUSAGE,438:juancho
 438,kamal,none,NOUSAGE,438:kamal
 438,kelley,none,NOUSAGE,438:kelley
 438,maricarla,none,NOUSAGE,438:maricarla
