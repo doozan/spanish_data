@@ -100,7 +100,7 @@ $(BUILDDIR)/%-en.enwikt.txt.bz2: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-artic
 LANGS := all en es fr pl pt
 $(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
 >   @echo "Making $@..."
->   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --outdir $(BUILDDIR)
+>   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --templates --outdir $(BUILDDIR)
 
 # Translations
 $(BUILDDIR)/translations.bz2: $(BUILDDIR)/all-en.enwikt.txt.bz2
