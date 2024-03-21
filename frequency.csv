@@ -15819,6 +15819,7 @@ count,spanish,pos,flags,usage
 968,canoso,adj,,560:canoso|322:canosa|58:canosos|28:canosas
 968,excluyente,adj,,575:excluyente|393:excluyentes
 968,friedrich,none,NOUSAGE,968:friedrich
+968,lic,n,,956:lic|12:lics
 968,sunset,none,NOUSAGE,968:sunset
 967,Cachemira,prop,,957:cachemira|10:cachemiras
 967,barbudo,adj,,736:barbudo|231:barbudos
@@ -15932,7 +15933,6 @@ count,spanish,pos,flags,usage
 956,completado,adj,,826:completada|130:completadas
 956,ferdinand,none,NOUSAGE,956:ferdinand
 956,grime,n,,951:grimes|5:grime
-956,lic,none,NOUSAGE,956:lic
 956,nathaniel,none,NOUSAGE,956:nathaniel
 956,rebuscar,v,,267:rebuscar|237:rebuscando|102:rebusca|84:rebuscó|45:rebuscaba|44:rebusque|31:rebusco|26:rebusqué|24:rebuscan|19:rebusques|17:rebuscamos|9:rebuscas|8:rebuscaron|8:rebuscaste|8:rebusquen|7:rebuscaban|7:rebuscarse|5:rebuscaré|4:rebuscad|4:rebuscara
 956,urdir,v,,203:urdido|153:urdir|132:urdida|95:urdió|85:urdiendo|54:urde|38:urdieron|31:urden|30:urdía|29:urdidos|25:urdidas|17:urdían|15:urda|11:urdimos|9:urdí|7:urdo|6:urdirse|6:urdiste|5:urdan|5:urdiéndose
@@ -16573,6 +16573,7 @@ count,spanish,pos,flags,usage
 892,rastra,n,,753:rastras|139:rastra
 892,storm,none,NOUSAGE,892:storm
 892,three,none,NOUSAGE,892:three
+891,Goethe,prop,,891:goethe
 891,RFA,n,,891:rfa
 891,USB,n,,891:usb
 891,baron,none,NOUSAGE,891:baron
@@ -16580,7 +16581,6 @@ count,spanish,pos,flags,usage
 891,curvatura,n,,811:curvatura|80:curvaturas
 891,embellecer,v,,230:embellecer|132:embellece|76:embellecido|66:embellecida|63:embellecen|38:embellecía|34:embelleciendo|27:embelleció|26:embellecerlo|21:embellecerla|21:embellecerse|18:embellecidos|13:embellecieron|11:embellecerá|11:embellecidas|10:embellecí|9:embellecerte|9:embelleces|9:embellecían|9:embellezca|8:embellezco|7:embellecerlos|6:embellecerme|6:embellezcan|5:embellecería|5:embelleciéndola|5:embelleciéndose|4:embellecerlas|4:embelleciera|4:embellecimos|4:embelleciste
 891,franny,none,NOUSAGE,891:franny
-891,goethe,none,NOUSAGE,891:goethe
 891,hell,none,NOUSAGE,891:hell
 891,humanismo,n,,881:humanismo|10:humanismos
 891,regodearse,v,,205:regodearse|188:regodearte|82:regodearme|65:regodea|53:regodeándose|44:regodeaba|43:regodeando|34:regodees|21:regodeándote|17:regodean|16:regodearnos|16:regodeas|15:regodear|12:regodeándome|11:regodéate|10:regodee|10:regodeó|8:regodeado|6:regodearos|5:regodeamos|5:regodeará|5:regodeen|4:regodeaban|4:regodearía|4:regodeate|4:regodeándonos|4:regodeé
@@ -23714,7 +23714,6 @@ count,spanish,pos,flags,usage
 465,napalm,n,,465:napalm
 465,nenaza,n,,351:nenaza|114:nenazas
 465,nono,adj,,457:nona|8:nonas
-465,periquito,n,,333:periquito|132:periquitos
 465,proporcionalmente,adv,,465:proporcionalmente
 465,querubín,n,,228:querubín|213:querubines|14:querube|10:querubes
 465,rasta,adj,,268:rasta|197:rastas
