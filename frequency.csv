@@ -2068,7 +2068,7 @@ count,spanish,pos,flags,usage
 20263,sano,adj,,9628:sano|6590:sana|2944:sanos|1101:sanas
 20243,gratis,adj,,20243:gratis
 20243,jake,none,NOUSAGE,20243:jake
-20235,ei,none,NOUSAGE,20235:ei
+20235,EI,prop,,20235:ei
 20214,tropa,n,,16515:tropas|3699:tropa
 20201,dirigente,n,,12138:dirigentes|8047:dirigente|16:dirigenta
 20201,previsto,adj,,12143:previsto|4005:prevista|2028:previstas|2025:previstos
@@ -6621,7 +6621,7 @@ count,spanish,pos,flags,usage
 3893,arca,n,,2730:arca|1163:arcas
 3893,bishop,none,NOUSAGE,3893:bishop
 3893,igualar,v,,1350:igualar|594:iguala|332:igualó|168:iguale|157:igualo|145:igualan|141:igualando|108:igualaron|96:igualarse|91:igualaba|86:igualarlo|66:igualará|66:igualen|54:igualaré|42:igualamos|36:igualaban|36:igualarla|32:igualara|30:igualaría|26:igualarme|25:igualaremos|25:igualas|23:igualarte|21:igualarlos|18:igualarán|17:igualarnos|17:igualarían|16:igualarle|14:igualase|11:igualemos|11:igualé|10:igualarlas|8:igualaran|6:igualándose|6:iguálalo|5:igualarás|4:igualándola
-3892,chi,none,NOUSAGE,3892:chi
+3892,chi,particle,,3892:chi
 3892,grand,none,NOUSAGE,3892:grand
 3892,importado,adj,,2057:importado|907:importados|496:importada|432:importadas
 3891,creatividad,n,,3891:creatividad
@@ -13981,7 +13981,6 @@ count,spanish,pos,flags,usage
 1182,peliculas,none,NOUSAGE,1182:peliculas
 1181,Josefa,prop,,1181:josefa
 1181,búlgaro,adj,,565:búlgaro|351:búlgaros|223:búlgara|42:búlgaras
-1181,empobrecer,v,,329:empobrecido|177:empobrecida|151:empobrecidos|135:empobrece|97:empobrecidas|68:empobrecer|59:empobrecen|36:empobreciendo|32:empobreció|21:empobrecieron|12:empobrecerse|11:empobreciéndose|10:empobrecía|7:empobrecería|6:empobrecerá|5:empobrecemos|5:empobrecernos|4:empobrecerla|4:empobrecerán|4:empobreciéndonos|4:empobrecían|4:empobrezca
 1181,enjambre,n,,994:enjambre|187:enjambres
 1181,estadísticamente,adv,,1181:estadísticamente
 1181,interfaz,n,,1028:interfaz|153:interfaces
@@ -18294,6 +18293,7 @@ count,spanish,pos,flags,usage
 754,desvelado,adj,,460:desvelado|164:desvelada|82:desvelados|48:desveladas
 754,dictatorial,adj,,523:dictatorial|231:dictatoriales
 754,embolia,n,,701:embolia|53:embolias
+754,empobrecido,adj,,329:empobrecido|177:empobrecida|151:empobrecidos|97:empobrecidas
 754,estabilizador,n,,428:estabilizador|326:estabilizadores
 754,feudo,n,,619:feudo|135:feudos
 754,georgina,none,NOUSAGE,754:georgina
@@ -24852,6 +24852,7 @@ count,spanish,pos,flags,usage
 427,cansino,adj,,204:cansino|124:cansinos|81:cansina|18:cansinas
 427,cea,none,NOUSAGE,427:cea
 427,docto,adj,,165:docto|124:doctos|110:docta|28:doctas
+427,empobrecer,v,,135:empobrece|68:empobrecer|59:empobrecen|36:empobreciendo|32:empobreció|21:empobrecieron|12:empobrecerse|11:empobreciéndose|10:empobrecía|7:empobrecería|6:empobrecerá|5:empobrecemos|5:empobrecernos|4:empobrecerla|4:empobrecerán|4:empobreciéndonos|4:empobrecían|4:empobrezca
 427,escupitajo,n,,266:escupitajo|161:escupitajos
 427,fariseo,n,,308:fariseos|104:fariseo|11:farisea|4:fariseas
 427,heathcliff,none,NOUSAGE,427:heathcliff
