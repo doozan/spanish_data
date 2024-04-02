@@ -99,9 +99,9 @@ $(BUILDDIR)/%-en.enwikt.txt.bz2: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-artic
 # workaround for building several extracts at one time until I can figure how to get make to do this
 LANGS := all en es fr pl pt
 OTHERS := templates modules redirects
-$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) $(patsubst %,$(BUILDDIR)/%.enwikt.txt.bz2,$(OTHERS)) &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
+$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) $(patsubst %,$(BUILDDIR)/%.enwikt.txt.bz2,$(OTHERS)) $(BUILDDIR)/enwikt.pages &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2 $(BUILDDIR)/enwiktionary_wordlist
 >   @echo "Making $@..."
->   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --templates --modules --redirects --outdir $(BUILDDIR)
+>   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --templates --modules --redirects --allpages --outdir $(BUILDDIR)
 
 # Translations
 $(BUILDDIR)/translations.bz2: $(BUILDDIR)/all-en.enwikt.txt.bz2
