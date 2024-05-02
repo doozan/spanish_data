@@ -12759,7 +12759,6 @@ count,spanish,pos,flags,usage
 1377,espontáneamente,adv,,1377:espontáneamente
 1377,pavimento,n,,1243:pavimento|134:pavimentos
 1376,aC,adv,,1376:ac
-1376,clonar,v,,391:clonar|235:clonado|110:clonados|81:clone|75:clonada|62:clonó|58:clonando|41:clonaron|38:clonadas|31:clonarlo|27:clonamos|26:clona|24:cloné|18:clonarse|18:clonas|16:clonarte|14:clonarme|14:clono|13:clonaría|12:clonan|12:clonarla|11:clonaste|9:clonen|8:clonarlos|6:clonaré|5:clonaban|5:clonaran|4:clonara|4:clonarle|4:clonarnos|4:clonarán
 1376,descuartizar,v,,264:descuartizado|167:descuartizar|139:descuartizada|112:descuartizados|108:descuartizó|62:descuartiza|60:descuartizaron|48:descuartizando|40:descuartizan|27:descuarticen|27:descuartizadas|27:descuartizarlo|24:descuartizaré|23:descuartizo|21:descuartizarla|19:descuarticé|17:descuartizaba|17:descuartizaban|16:descuartizarme|15:descuartizamos|15:descuartizarte|14:descuartice|14:descuartizarán|14:descuartizaste|11:descuartizarlos|9:descuartizarle|8:descuartizaran|7:descuartizaremos|7:descuartizarnos|6:descuartices|6:descuartizara|6:descuartizará|6:descuartizaría|6:descuartizas|5:descuarticemos|5:descuartícenlos|4:descuartizándolo
 1376,humanista,n,,984:humanista|392:humanistas
 1376,novak,none,NOUSAGE,1376:novak
@@ -13023,6 +13022,7 @@ count,spanish,pos,flags,usage
 1333,thea,none,NOUSAGE,1333:thea
 1332,Almería,prop,,1332:almería
 1332,agravio,n,,691:agravio|641:agravios
+1332,clonar,v,,391:clonar|235:clonado|110:clonados|81:clone|75:clonada|62:clonó|58:clonando|41:clonaron|38:clonadas|31:clonarlo|27:clonamos|24:cloné|18:clonarse|16:clonarte|14:clonarme|14:clono|13:clonaría|12:clonan|12:clonarla|11:clonaste|9:clonen|8:clonarlos|6:clonaré|5:clonaban|5:clonaran|4:clonara|4:clonarle|4:clonarnos|4:clonarán
 1332,liaño,none,NOUSAGE,1332:liaño
 1332,significante,n,,959:significante|373:significantes
 1332,teri,none,NOUSAGE,1332:teri
