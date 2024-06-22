@@ -2096,7 +2096,6 @@ count,spanish,pos,flags,usage
 19960,ala,n,,11347:alas|8613:ala
 19935,adolescente,n,,10991:adolescente|8944:adolescentes
 19932,ahogar,v,,2607:ahogado|2467:ahogó|1878:ahogando|1572:ahogar|1522:ahoga|1049:ahogarse|792:ahogada|658:ahogarme|616:ahogados|505:ahogaba|479:ahogaron|455:ahogan|432:ahogue|363:ahogándose|359:ahogarte|326:ahogas|286:ahogara|251:ahogues|241:ahogará|212:ahogué|211:ahogadas|177:ahogaré|163:ahogamos|159:ahogarlo|156:ahogaría|150:ahogaste|146:ahoguen|136:ahogarla|133:ahogaremos|125:ahogándome|118:ahogarnos|112:ahogarán|108:ahogaban|107:ahogarás|80:ahógate|66:ahogaras|61:ahoguemos|60:ahogándote|59:ahogarlos|44:ahogaran|40:ahogabas|39:ahogarle|34:ahogándonos|29:ahogándola|27:ahogándolo|26:ahogase|25:ahógame|24:ahogarían|24:ahogarías|23:ahógalo|22:ahogarlas|18:ahogaríamos|14:ahogare|13:ahogábamos|13:ahogándolos|12:ahogate|12:ahogáis|12:ahógala|12:ahógalos|11:ahogaros|11:ahoguéis|10:ahogaréis|9:ahogáramos|6:ahogándole|6:ahóguese|5:ahogasen|5:ahoguémoslo|5:ahóguense|4:ahóguenlos
-19918,gigante,n,,13721:gigante|6135:gigantes|58:giganta|4:gigantas
 19918,virgen,n,,17280:virgen|2638:vírgenes
 19915,contemplar,v,,4261:contemplar|3936:contempla|1791:contemplando|1307:contemplaba|1068:contemplado|1022:contemplan|860:contempló|474:contemplen|413:contemplada|406:contemplados|405:contemplo|375:contemple|359:contempladas|337:contemplaban|325:contemplamos|286:contemplarse|259:contemplé|213:contemplad|183:contemplarla|183:contemplarlo|174:contemplaron|94:contemplas|92:contemplará|90:contemplara|65:contemplarlas|64:contemplaría|63:contemplándola|56:contemplarlos|53:contemplarte|49:contemplándose|47:contemplarán|46:contemplándolo|43:contemplemos|43:contemplábamos|36:contemplaremos|34:contemplarme|31:contemples|30:contemplaran|27:contemplase|26:contemplarle|26:contemplaré|26:contemplándolos|23:contemplándome|19:contemplándole|17:contemplaste|16:contemplándote|14:contemplarnos|13:contemplabas|12:contemplarían|11:contémplalo|10:contemplarles|10:contemplándolas|10:contemplándonos|9:contemplasen|8:contemplarás|8:contémplala|8:contémplame|7:contemplaros|6:contempladlo|6:contemplaras|6:contempláramos|5:contempladme|5:contempláis|5:contémplate|5:contémplenlo|4:contemplaríamos
 19913,prácticamente,adv,,19913:prácticamente
@@ -2106,6 +2105,7 @@ count,spanish,pos,flags,usage
 19874,sincero,adj,,10418:sincero|6194:sincera|2098:sinceros|1164:sinceras
 19861,oso,n,,13220:oso|4731:osos|1424:osa|407:osas|79:osso
 19857,oreja,n,,10216:oreja|9641:orejas
+19856,gigante,adj,,13721:gigante|6135:gigantes
 19846,condenado,adj,,11292:condenado|4720:condenados|3135:condenada|699:condenadas
 19832,barato,adj,,10080:barato|5158:barata|2653:baratos|1941:baratas
 19797,tensión,n,,16229:tensión|3568:tensiones
@@ -3225,7 +3225,7 @@ count,spanish,pos,flags,usage
 11444,tigre,n,,8194:tigre|2664:tigres|520:tigresa|66:tigresas
 11437,atmósfera,n,,10599:atmósfera|496:atmósferas|335:atmosfera|7:atmosferas
 11421,atribuir,v,,2543:atribuye|1197:atribuyen|1079:atribuyó|1051:atribuir|968:atribuido|489:atribuía|457:atribuida|429:atribuirse|393:atribuidas|354:atribuidos|327:atribuyeron|232:atribuían|203:atribuirle|195:atribuyendo|150:atribuya|143:atribuimos|128:atribuyo|84:atribuirlo|83:atribuí|78:atribuyes|71:atribuirme|66:atribuyan|58:atribuirá|54:atribuyéndole|43:atribuírselo|39:atribuyéndose|38:atribuyera|37:atribuirles|37:atribuírsele|35:atribuiría|29:atribuirán|27:atribuirla|25:atribuyéndolo|23:atribuirte|22:atribuyeran|20:atribuírsela|17:atribuiré|14:atribuyas|14:atribuyéndoles|13:atribuirlas|12:atribuiste|11:atribuyéndola|11:atribuyéndolas|10:atribuyamos|10:atribuyese|9:atribuirlos|9:atribuirnos|8:atribuyéndolos|8:atribuyéndome|8:atribuíamos|8:atribúyelo|7:atribuiremos|7:atribuirían|7:atribuírseles|6:atribuírselas|6:atribuís|5:atribuyéndosele|5:atribuyéndoselo|5:atribúyalo|4:atribuírselos
-11419,elizabeth,none,NOUSAGE,11419:elizabeth
+11419,Elizabeth,prop,,11419:elizabeth
 11414,transferir,v,,2126:transferido|1993:transferir|678:transferida|637:transfirió|604:transferidos|589:transfiere|499:transfirieron|462:transfiriendo|334:transfiera|313:transferidas|305:transfieran|280:transfieren|231:transferirlo|197:transferiré|173:transferí|149:transferirme|146:transferirse|141:transferirá|129:transferirte|129:transfiero|117:transferirán|112:transferimos|94:transferirla|79:transfirieran|73:transferiste|64:transferirle|62:transferirlos|61:transfiriera|59:transfería|57:transferiremos|46:transfieras|45:transfieres|33:transferirlas|32:transferiría|31:transferían|23:trasferido|22:transfiérelo|21:trasferir|19:transfiéralo|18:transferirás|17:transferirían|15:transferirnos|15:transfiéreme|13:transfiriéndose|12:transfiriéndole|12:transfiriéndolo|11:transferirles|11:transfiramos|10:trasferida|8:transfiérame|8:trasfirieron|7:transfiérala|7:transfiérela|7:trasfiere|7:trasfirió|6:transfiriéndolas|6:transfiéranlo|6:transfiérete|5:transferírselo|5:trasferidas|5:trasferidos|5:trasferimos|5:trasfieran|4:transferírsela|4:transfirieras|4:transfiriéndolos|4:transfiriéndote|4:transfiriéramos|4:transfiéremelo|4:trasfiriendo
 11404,ligar,v,,2597:ligado|2067:ligar|1848:ligada|1380:ligados|874:ligadas|599:ligando|246:ligó|205:ligan|197:ligues|150:ligaba|134:ligarse|121:ligo|102:ligarme|91:ligamos|83:ligarte|83:ligaste|67:ligué|58:ligaron|48:ligaban|47:liguen|38:ligarlo|35:ligarla|33:ligara|27:ligaría|22:ligártela|21:ligará|19:ligarlos|18:ligarnos|18:ligándose|16:ligaré|14:ligabas|14:ligármela|13:ligaremos|13:ligarle|12:ligaran|10:ligarás|9:lígala|8:ligársela|7:ligase|7:liguemos|7:ligándome|7:lígalo|6:ligarías|6:ligábamos|6:ligándote|5:ligándola|4:ligarlas|4:ligándolas|4:ligándolo|4:ligándonos
 11400,cuarta,n,,10633:cuarta|767:cuartas
@@ -7969,6 +7969,7 @@ count,spanish,pos,flags,usage
 2938,edwards,none,NOUSAGE,2938:edwards
 2938,lider,none,NOUSAGE,2938:lider
 2938,temeroso,adj,,1309:temeroso|797:temerosa|670:temerosos|162:temerosas
+2937,Sudáfrica,prop,,2418:sudáfrica|519:suráfrica
 2937,inmueble,n,,1498:inmuebles|1439:inmueble
 2937,paramédico,n,,1840:paramédicos|1016:paramédico|68:paramédica|13:paramédicas
 2936,allanamiento,n,,2478:allanamiento|458:allanamientos
@@ -9055,7 +9056,6 @@ count,spanish,pos,flags,usage
 2419,ocasional,adj,,1486:ocasional|933:ocasionales
 2419,porro,n,,1739:porro|680:porros
 2418,Dani,prop,,2418:dani
-2418,Sudáfrica,prop,,2418:sudáfrica
 2418,deslumbrar,v,,454:deslumbrado|304:deslumbrar|275:deslumbra|230:deslumbró|150:deslumbrados|145:deslumbrada|95:deslumbran|76:deslumbraba|61:deslumbre|59:deslumbrando|39:deslumbrará|38:deslumbraron|31:deslúmbrame|30:deslumbrarlos|30:deslumbraste|29:deslumbro|26:deslumbrarme|26:deslumbras|22:deslumbrarse|21:deslumbrarnos|21:deslumbrarte|19:deslumbradas|19:deslumbrarás|18:deslumbrarla|17:deslumbrarlo|17:deslumbres|16:deslumbré|15:deslumbraban|14:deslúmbralos|12:deslumbrara|10:deslumbraré|10:deslumbren|9:deslumbrarles|9:deslumbraría|8:deslumbrarle|6:deslumbramos|6:deslumbrase|6:deslumbrándolos|6:deslúmbranos|5:deslumbraran|5:deslumbrarán|5:deslúmbrale|4:deslumbremos|4:deslumbrándole|4:deslúmbrala|4:deslúmbrales|4:deslúmbreme|4:deslúmbrenos
 2418,escénico,adj,,991:escénico|670:escénica|572:escénicas|185:escénicos
 2418,thor,none,NOUSAGE,2418:thor
@@ -14846,6 +14846,7 @@ count,spanish,pos,flags,usage
 1075,interpersonal,adj,,575:interpersonales|500:interpersonal
 1075,lanzadera,n,,902:lanzadera|173:lanzaderas
 1075,ojito,n,,900:ojitos|175:ojito
+1075,transgresión,n,,607:transgresión|339:transgresiones|108:trasgresión|21:trasgresiones
 1075,traumatizado,adj,,468:traumatizado|398:traumatizada|161:traumatizados|48:traumatizadas
 1074,albedrío,n,,1070:albedrío|4:albedríos
 1074,amazónico,adj,,455:amazónica|329:amazonia|145:amazónico|73:amazónicos|72:amazónicas
@@ -15467,12 +15468,12 @@ count,spanish,pos,flags,usage
 1006,nichols,none,NOUSAGE,1006:nichols
 1006,perceptible,adj,,733:perceptible|273:perceptibles
 1006,predisponer,v,,270:predispuesto|151:predispone|133:predispuestos|130:predispuesta|96:predisponen|57:predisponer|56:predispuestas|26:predispuso|19:predisponía|18:predisponga|11:predisponiendo|7:predispondría|7:predisponerlo|7:predisponían|5:predisponerte|5:predispongan|4:predisponerla|4:predispusiera
+1005,Miraflores,prop,,1005:miraflores
 1005,antropológico,adj,,414:antropológico|331:antropológica|146:antropológicos|114:antropológicas
 1005,chopin,none,NOUSAGE,1005:chopin
 1005,farola,n,,521:farola|484:farolas
 1005,hollow,none,NOUSAGE,1005:hollow
 1005,insular,adj,,710:insular|295:insulares
-1005,miraflores,none,NOUSAGE,1005:miraflores
 1005,please,none,NOUSAGE,1005:please
 1005,pong,none,NOUSAGE,1005:pong
 1005,respetuosamente,adv,,1005:respetuosamente
@@ -16038,7 +16039,6 @@ count,spanish,pos,flags,usage
 946,degustar,v,,483:degustar|87:degustando|56:degustado|39:degusta|31:degustarlo|29:degustaron|25:degustan|23:degustaba|18:degusto|17:degustó|15:degustados|15:degustaremos|15:degustarse|12:degustarlos|11:degustamos|11:deguste|10:degustada|9:degustaban|8:degustarán|6:degustarlas|5:degustemos|5:degusté|4:degustarte|4:degustas|4:degustes|4:degustándolo
 946,etarra,adj,DUPLICATE,946:etarra
 946,samaritano,n,,677:samaritano|132:samaritana|129:samaritanos|8:samaritanas
-946,transgresión,n,,607:transgresión|339:transgresiones
 945,Alfaro,prop,,945:alfaro
 945,cíclico,adj,,355:cíclica|325:cíclico|150:cíclicas|115:cíclicos
 945,earp,none,NOUSAGE,945:earp
@@ -22405,7 +22405,6 @@ count,spanish,pos,flags,usage
 519,peñarol,none,NOUSAGE,519:peñarol
 519,sagrario,n,,490:sagrario|29:sagrarios
 519,soviet,n,,345:soviet|174:soviets
-519,suráfrica,none,NOUSAGE,519:suráfrica
 519,tiritar,v,,262:tiritando|93:tiritar|73:tiritaba|40:tirito|22:tiritaban|21:tiritan|4:tiritábamos|4:tiritó
 519,ultranza,n,,519:ultranza
 518,Elba,prop,,518:elba
@@ -23180,6 +23179,7 @@ count,spanish,pos,flags,usage
 486,invisibilidad,n,,486:invisibilidad
 486,keyes,none,NOUSAGE,486:keyes
 486,listar,v,,320:listen|68:listar|23:listan|20:listando|17:listó|15:liste|7:listaron|6:listaba|6:listé|4:listamos
+486,pelón,n,,292:pelón|115:pelona|65:pelones|14:pelonas
 486,pervivir,v,,166:pervive|102:perviven|44:pervivir|39:pervivido|23:pervivirá|23:pervivió|20:perviva|18:pervivía|14:pervivieron|10:perviviendo|6:perviviera|5:pervivirán|4:perviviese|4:perviviría|4:pervivo|4:pervivían
 486,poza,n,,351:poza|135:pozas
 486,principiar,v,,291:principia|70:principió|45:principiar|15:principiando|11:principiaba|11:principiaron|9:principian|8:principiado|8:principiará|8:principie|5:principien|5:principié
