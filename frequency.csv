@@ -3853,7 +3853,6 @@ count,spanish,pos,flags,usage
 8730,iluminar,v,,2151:ilumina|1379:iluminar|714:iluminó|563:iluminaba|552:iluminan|467:ilumine|455:iluminando|249:ilumíname|219:iluminaban|192:iluminaron|184:iluminará|143:iluminarse|132:iluminas|110:iluminen|83:iluminara|83:iluminarnos|71:iluminarme|67:ilumino|60:iluminarlo|60:iluminarán|60:ilumínanos|44:iluminaría|43:iluminarte|39:iluminé|37:ilumines|33:ilumíneme|31:iluminaste|30:iluminamos|30:iluminaré|29:iluminaran|28:iluminarlos|26:ilumínalo|25:ilumínenos|23:iluminemos|22:iluminándolo|22:iluminándose|21:iluminarla|21:iluminase|18:iluminaremos|18:iluminarás|14:iluminame|14:iluminarle|12:iluminándome|11:iluminad|11:iluminarían|11:iluminándote|9:iluminanos|9:iluminándole|9:ilumínala|9:ilumínalos|9:ilumínate|8:iluminarles|8:iluminándola|8:iluminándonos|8:ilumínenme|7:iluminándolas|7:iluminándolos|6:iluminabas|6:iluminarlas|6:ilumínale|5:iluminadme|5:iluminaras|4:ilumínenlo
 8730,proveer,v,,1735:proveer|1285:provee|945:provisto|612:provistos|482:proveen|457:proveerá|421:provista|235:proveyó|229:provistas|199:proveía|194:provea|160:proveemos|153:proveyendo|148:proveerse|122:proveo|114:proveerle|103:proveernos|85:provean|83:proveían|81:proveeré|77:proveerán|71:proveído|68:proveyeron|65:proveerles|64:proveería|63:proveeremos|49:proveerte|45:proveerme|38:provees|37:proveerlo|31:proveerlos|27:proveerla|27:proveí|24:proveyera|23:proveídos|20:proveerás|14:proveerían|10:proveeros|10:proveímos|10:proveíste|9:proveerlas|9:proveyéndoles|9:proveída|8:proveyeran|7:proveas|7:proveeríamos|7:proveyese|6:proveyéndole|6:proveías|5:proveamos|5:proveyéndolo|5:proveyéndolos|5:proveérsela|5:proveíamos|5:provéase|4:proveyéndose|4:proveérselos|4:proveídas|4:provéete
 8728,parcial,adj,,6358:parcial|2370:parciales
-8728,vano,adj,,7244:vano|648:vana|480:vanos|356:vanas
 8724,falda,n,,6237:falda|2487:faldas
 8722,Jessica,prop,,8722:jessica
 8721,transferencia,n,,6758:transferencia|1873:transferencias|72:trasferencia|18:trasferencias
@@ -4209,6 +4208,7 @@ count,spanish,pos,flags,usage
 7730,espléndido,adj,,4175:espléndido|2539:espléndida|552:espléndidos|464:espléndidas
 7728,portero,n,,6110:portero|839:portera|734:porteros|45:porteras
 7727,agrícola,adj,,4573:agrícola|3154:agrícolas
+7724,vano,n,,7244:vano|480:vanos
 7723,zoe,none,NOUSAGE,7723:zoe
 7722,angela,none,NOUSAGE,7722:angela
 7718,jess,none,NOUSAGE,7718:jess
@@ -7070,7 +7070,6 @@ count,spanish,pos,flags,usage
 3548,estimación,n,,2063:estimación|1485:estimaciones
 3547,políticamente,adv,,3547:políticamente
 3547,redactor,n,,2057:redactor|750:redactora|704:redactores|36:redactoras
-3546,soja,n,,2451:soja|1089:soya|6:sojas
 3545,reid,none,NOUSAGE,3545:reid
 3544,óptica,n,,3029:óptica|515:ópticas
 3543,penique,n,,1859:peniques|1684:penique
@@ -8961,6 +8960,7 @@ count,spanish,pos,flags,usage
 2457,hulk,none,NOUSAGE,2457:hulk
 2457,mae,n,,2403:mae|54:maes
 2457,premisa,n,,1422:premisa|1035:premisas
+2457,soja,n,,2451:soja|6:sojas
 2456,simultáneo,adj,,1184:simultánea|513:simultáneo|395:simultáneas|364:simultáneos
 2455,conque,conj,,2455:conque
 2455,gerry,none,NOUSAGE,2455:gerry
@@ -14734,6 +14734,7 @@ count,spanish,pos,flags,usage
 1089,coincidente,adj,,580:coincidentes|509:coincidente
 1089,erich,none,NOUSAGE,1089:erich
 1089,putita,n,,930:putita|159:putitas
+1089,soya,none,NOUSAGE,1089:soya
 1089,triangular,adj,,921:triangular|168:triangulares
 1088,despecho,n,,1073:despecho|15:despechos
 1088,estaras,none,NOUSAGE,1088:estaras
@@ -15489,6 +15490,7 @@ count,spanish,pos,flags,usage
 1004,sanchez,none,NOUSAGE,1004:sanchez
 1004,tocadiscos,n,,1004:tocadiscos
 1004,ulterior,adj,,683:ulterior|321:ulteriores
+1004,vano,adj,DUPLICATE,648:vana|356:vanas
 1003,draper,none,NOUSAGE,1003:draper
 1003,hebilla,n,,706:hebilla|297:hebillas
 1003,nudista,adj,,676:nudista|327:nudistas
@@ -16751,7 +16753,6 @@ count,spanish,pos,flags,usage
 877,fogón,n,,610:fogón|267:fogones
 877,gunther,none,NOUSAGE,877:gunther
 877,kristina,none,NOUSAGE,877:kristina
-877,levar,v,,234:levar|149:leven|66:levan|55:levando|38:levad|36:levamos|27:levó|22:levaba|22:levo|20:levará|19:levé|17:levado|17:levaron|14:levemos|13:levaremos|11:levaban|11:levaré|10:levare|10:levarlo|10:levaría|9:levase|8:levarte|7:levarlos|7:lévenselo|6:levada|5:levadas|5:levara|5:levarla|5:levarme|5:levarse|5:levárselo|5:lévese|4:levaran
 877,milly,none,NOUSAGE,877:milly
 877,osama,none,NOUSAGE,877:osama
 877,reuben,none,NOUSAGE,877:reuben
@@ -16823,6 +16824,7 @@ count,spanish,pos,flags,usage
 871,corroer,v,,328:corroe|120:corroído|54:corroer|51:corroída|50:corroyendo|45:corroídos|43:corroía|42:corroen|39:corroídas|17:corroerá|16:corroerse|15:corroa|12:corroían|7:corroerlo|7:corroería|6:corroyéndose|6:corroyó|5:corroerme|4:corroan|4:corroyera
 871,hispanoamericano,adj,,398:hispanoamericana|333:hispanoamericano|140:hispanoamericanas
 871,johanna,none,NOUSAGE,871:johanna
+871,levar,v,,234:levar|149:leven|66:levan|55:levando|38:levad|36:levamos|27:levó|22:levaba|22:levo|20:levará|19:levé|17:levado|17:levaron|14:levemos|13:levaremos|11:levaban|11:levaré|10:levare|10:levarlo|10:levaría|9:levase|8:levarte|7:levarlos|7:lévenselo|5:levadas|5:levara|5:levarla|5:levarme|5:levarse|5:levárselo|5:lévese|4:levaran
 871,rolls,none,NOUSAGE,871:rolls
 871,worth,none,NOUSAGE,871:worth
 870,Samir,prop,,870:samir
@@ -17307,6 +17309,7 @@ count,spanish,pos,flags,usage
 828,tergiversar,v,,163:tergiversar|99:tergiversado|87:tergiversa|85:tergiversando|60:tergiversan|59:tergiversada|42:tergiversó|37:tergiverses|30:tergiversadas|26:tergiversas|25:tergiversados|18:tergiverse|17:tergiversaron|16:tergiverso|13:tergiversen|11:tergiversarlo|10:tergiversaba|7:tergiversé|6:tergiversarse|5:tergiversaban|4:tergiversamos|4:tergiversará|4:tergiversándola
 828,university,none,NOUSAGE,828:university
 827,Granma,prop,,827:granma
+827,TJ,prop,,827:tj
 827,coagulación,n,,822:coagulación|5:coagulaciones
 827,combativo,adj,,356:combativo|297:combativa|94:combativos|80:combativas
 827,consternado,adj,,444:consternado|202:consternada|165:consternados|16:consternadas
@@ -17319,7 +17322,6 @@ count,spanish,pos,flags,usage
 827,n-no,none,NOUSAGE,827:n-no
 827,nubosidad,n,,827:nubosidad
 827,patilla,n,,721:patillas|106:patilla
-827,tj,none,NOUSAGE,827:tj
 826,Lupita,prop,,826:lupita
 826,bragueta,n,,788:bragueta|38:braguetas
 826,cedro,n,,586:cedro|240:cedros
