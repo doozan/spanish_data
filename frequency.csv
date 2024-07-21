@@ -6011,7 +6011,6 @@ count,spanish,pos,flags,usage
 4501,distraído,adj,,2646:distraído|1396:distraída|388:distraídos|71:distraídas
 4500,ciervo,n,,2848:ciervo|1195:ciervos|422:cierva|35:ciervas
 4497,alison,none,NOUSAGE,4497:alison
-4497,narrar,v,,1567:narra|755:narrar|356:narrado|271:narran|241:narró|239:narrada|209:narrando|183:narraba|126:narrados|78:narro|72:narradas|54:narraban|41:narre|36:narraron|30:narrará|23:narré|22:narrarlo|17:narrarle|17:narraré|14:narrara|13:narramos|13:narraría|12:narrarse|11:narrarla|11:narrarles|11:narrarnos|11:narras|7:narrarlos|7:narrarán|6:narrarlas|6:narrarme|6:narrarte|6:narremos|6:narren|6:narrándole|5:narrase|5:narraste|4:narrándose
 4494,d.,none,NOUSAGE,4494:d.
 4492,tubería,n,,2281:tubería|2211:tuberías
 4491,conducto,n,,2827:conducto|1664:conductos
@@ -6089,6 +6088,7 @@ count,spanish,pos,flags,usage
 4420,alla,none,NOUSAGE,4420:alla
 4420,chantaje,n,,4055:chantaje|353:chantajes|12:chantage
 4419,c.,none,NOUSAGE,4419:c.
+4419,narrar,v,,1567:narra|755:narrar|356:narrado|271:narran|241:narró|239:narrada|209:narrando|183:narraba|126:narrados|72:narradas|54:narraban|41:narre|36:narraron|30:narrará|23:narré|22:narrarlo|17:narrarle|17:narraré|14:narrara|13:narramos|13:narraría|12:narrarse|11:narrarla|11:narrarles|11:narrarnos|11:narras|7:narrarlos|7:narrarán|6:narrarlas|6:narrarme|6:narrarte|6:narremos|6:narren|6:narrándole|5:narrase|5:narraste|4:narrándose
 4418,gimnasia,n,,4418:gimnasia
 4418,invocar,v,,963:invocar|489:invoco|450:invocando|423:invoca|374:invocado|257:invocó|186:invocamos|163:invocan|110:invocaba|88:invocados|86:invocada|83:invoque|67:invoqué|55:invocaban|51:invocarlo|49:invocadas|48:invocaron|47:invocaste|41:invocas|40:invocaré|25:invoques|24:invocarla|23:invocarse|23:invoquen|22:invocará|22:invocaría|19:invocaremos|18:invocara|18:invoquemos|13:invocarlos|12:invocarme|11:invocare|11:invocarle|10:invócalo|9:invocarán|8:invocarlas|8:invocándose|7:invocase|7:invocándola|7:invocándolo|6:invocabas|5:invocaran|5:invocaras|5:invocarnos|5:invocarte|5:invócame|4:invocad|4:invocarás|4:invocaréis|4:invocasteis|4:invocáis
 4418,violeta,adj,,3508:violeta|910:violetas
@@ -8137,6 +8137,7 @@ count,spanish,pos,flags,usage
 2847,pupila,n,,1992:pupilas|855:pupila
 2845,potenciar,v,,1458:potenciar|232:potenciado|183:potencian|166:potenciando|128:potenciada|90:potenciará|83:potenció|79:potencie|69:potenciados|48:potencien|44:potenciadas|42:potenciaron|38:potenciarse|28:potenciaba|22:potenciaría|21:potenciarla|21:potenciarlo|21:potenciarán|12:potenciaremos|10:potenciarlos|9:potenciaban|9:potenciara|9:potenciarlas|9:potenciándose|6:potenciamos|4:potenciarían|4:potenciándolas
 2844,Praga,prop,,2844:praga
+2844,elevador,adj,,2302:elevador|395:elevadores|125:elevadora|22:elevadoras
 2843,inolvidable,adj,,2210:inolvidable|633:inolvidables
 2843,interlocutor,n,,1694:interlocutor|1043:interlocutores|99:interlocutora|7:interlocutoras
 2843,lagarto,n,,1853:lagarto|990:lagartos
@@ -8404,7 +8405,6 @@ count,spanish,pos,flags,usage
 2698,compacto,adj,,1257:compacto|640:compacta|627:compactos|174:compactas
 2698,cristianismo,n,,2692:cristianismo|6:cristianismos
 2698,cualificado,adj,,976:cualificado|863:cualificada|755:cualificados|104:cualificadas
-2697,elevador,n,,2302:elevador|395:elevadores
 2696,aplazar,v,,982:aplazar|321:aplaza|219:aplazarlo|189:aplazó|141:aplazando|88:aplace|76:aplazan|60:aplazamos|58:aplazaron|55:aplazarse|55:aplazo|54:aplazará|51:aplazarla|41:aplazaba|39:aplacemos|31:aplazaremos|27:aplazaré|26:aplacé|26:aplazara|20:aplacen|18:aplazaría|18:aplazándolo|15:aplaces|15:aplazase|9:aplazarlos|9:aplázalo|8:aplazaban|8:aplazaste|8:aplázala|7:aplazaran|7:aplazarán|6:aplazas|5:aplazándola|4:aplazándose
 2696,elogiar,v,,573:elogió|367:elogiar|349:elogia|284:elogiado|145:elogiando|117:elogian|102:elogiaba|95:elogiada|82:elogiaron|56:elogiados|47:elogiarte|42:elogiaban|42:elogiarlo|38:elogie|34:elogiarme|31:elogié|29:elogiamos|25:elogies|23:elogiarle|22:elogiadas|19:elogias|19:elogien|16:elogiarla|15:elogiaste|14:elogiara|13:elogiará|12:elogiarlos|11:elogiaría|8:elogiarán|8:elogiándome|7:elogiemos|7:elogiándolo|5:elogiaré|5:elogiase|5:elogiándole|5:elógialo|4:elogiabas|4:elogiaras|4:elogiarlas|4:elogiarse|4:elogiándola|4:elogiándote
 2696,jura,n,,2696:jura
@@ -11291,6 +11291,7 @@ count,spanish,pos,flags,usage
 1685,tieso,adj,,905:tieso|430:tiesa|225:tiesos|125:tiesas
 1684,desafiante,adj,,1440:desafiante|244:desafiantes
 1684,frialdad,n,,1677:frialdad|7:frialdades
+1684,ion,n,,1118:iones|443:ion|123:ión
 1684,mussolini,none,NOUSAGE,1684:mussolini
 1684,tolerante,adj,,1224:tolerante|460:tolerantes
 1683,Ezequiel,prop,,1683:ezequiel
@@ -11862,7 +11863,6 @@ count,spanish,pos,flags,usage
 1562,transcribir,v,,325:transcribir|166:transcribe|163:transcrito|155:transcribo|91:transcribimos|75:transcritos|61:transcribió|61:transcrita|57:transcritas|54:transcribiendo|50:transcriben|33:transcribí|33:transcribía|33:transcripto|27:transcriba|20:transcribirlo|14:transcribieron|13:transcribiremos|12:transcribirá|12:transcribiré|11:transcribirse|10:trascrito|9:transcriptos|8:transcriban|8:transcribirla|8:transcripta|7:transcribiera|7:transcribiste|7:transcriptas|6:transcribes|6:transcribirlos|4:transcribas|4:transcribirlas|4:transcribirán|4:transcribiría|4:trascripto
 1561,avispa,n,,836:avispas|725:avispa
 1561,engranaje,n,,831:engranaje|730:engranajes
-1561,ion,n,,1118:iones|443:ion
 1561,meticuloso,adj,,910:meticuloso|418:meticulosa|177:meticulosos|56:meticulosas
 1561,proxeneta,n,,1207:proxeneta|354:proxenetas
 1561,reactivar,v,,735:reactivar|179:reactivado|88:reactivó|63:reactive|54:reactivarse|45:reactivará|43:reactivada|43:reactivando|42:reactivan|40:reactivarlo|32:reactiven|24:reactivarla|24:reactivaron|22:reactivados|19:reactivamos|16:reactivaremos|11:reactivadas|9:reactivaba|9:reactivarán|9:reactivaría|8:reactivarlas|8:reactivé|7:reactivarlos|7:reactivemos|6:reactivara|5:reactivarte|5:reactivándose|4:reactivaré|4:reactives
@@ -13773,6 +13773,7 @@ count,spanish,pos,flags,usage
 1213,patógeno,n,,666:patógenos|547:patógeno
 1213,tios,none,NOUSAGE,1213:tios
 1213,vikram,none,NOUSAGE,1213:vikram
+1212,Jehová,prop,,1162:jehová|50:jehovah
 1212,adinerado,adj,,410:adinerado|382:adinerada|301:adinerados|119:adineradas
 1212,errático,adj,,559:errático|395:errática|155:erráticos|103:erráticas
 1212,inalámbrico,adj,,462:inalámbrica|452:inalámbrico|154:inalámbricos|144:inalámbricas
@@ -14121,7 +14122,6 @@ count,spanish,pos,flags,usage
 1163,suzy,none,NOUSAGE,1163:suzy
 1162,Alejandría,prop,,1162:alejandría
 1162,Frida,prop,,1162:frida
-1162,Jehová,prop,,1162:jehová
 1162,excepcionalmente,adv,,1162:excepcionalmente
 1162,inalcanzable,adj,,925:inalcanzable|237:inalcanzables
 1162,independentista,adj,,633:independentista|524:independentistas|5:independista
@@ -24260,6 +24260,7 @@ count,spanish,pos,flags,usage
 447,wikileaks,none,NOUSAGE,447:wikileaks
 446,Laredo,prop,,446:laredo
 446,Tato,prop,,446:tato
+446,Yokohama,prop,,446:yokohama
 446,aciago,adj,,176:aciago|127:aciagos|115:aciaga|28:aciagas
 446,acuciante,adj,,258:acuciante|188:acuciantes
 446,alienado,adj,,196:alienado|126:alienados|100:alienada|24:alienadas
@@ -24284,7 +24285,6 @@ count,spanish,pos,flags,usage
 446,simbología,n,,411:simbología|35:simbologías
 446,talavera,n,,446:talavera
 446,voracidad,n,,446:voracidad
-446,yokohama,none,NOUSAGE,446:yokohama
 445,Melo,prop,,445:melo
 445,Michoacán,prop,,445:michoacán
 445,Suez,prop,,445:suez
