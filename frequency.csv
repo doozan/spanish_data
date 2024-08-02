@@ -2576,10 +2576,10 @@ count,spanish,pos,flags,usage
 15438,externo,adj,,5954:externa|4180:externo|2951:externos|2353:externas
 15428,primo,adj,DUPLICATE,12223:prima|3205:primas
 15424,embajador,n,,12540:embajador|1763:embajadores|1095:embajadora|26:embajadoras
+15417,apropiado,adj,,9185:apropiado|3740:apropiada|1264:apropiados|1207:apropiadas|13:apropriado|8:apropriada
 15417,enojar,v,,3490:enojar|2131:enojes|1455:enoja|1385:enojó|760:enoje|644:enojas|606:enojarse|536:enojarme|502:enojé|450:enojará|408:enojarte|355:enojaste|298:enojan|280:enojando|273:enojaba|264:enojaría|167:enojaron|158:enojaré|150:enojara|142:enojen|123:enójate|93:enojarías|87:enojarás|80:enojarán|72:enojamos|69:enojaras|41:enojarlo|41:enojarían|39:enojarnos|32:enojaban|30:enojándose|26:enojarla|24:enojabas|23:enojaran|22:enojándome|19:enojarlos|17:enojás|15:enojate|14:enojándote|14:enojés|12:enojaremos|12:enójese|11:enojemos|9:enojare|9:enojéis|7:enojarle|5:enojaros|5:enójense|4:enojábamos|4:enojáis|4:enojáramos
 15407,fracaso,n,,13355:fracaso|2052:fracasos
 15398,Japón,prop,,15398:japón
-15396,apropiado,adj,,9185:apropiado|3740:apropiada|1264:apropiados|1207:apropiadas
 15394,herramienta,n,,10235:herramientas|5159:herramienta
 15368,espía,n,,10277:espía|5091:espías
 15362,expediente,n,,11284:expediente|4078:expedientes
@@ -10100,7 +10100,6 @@ count,spanish,pos,flags,usage
 2016,dewey,none,NOUSAGE,2016:dewey
 2016,sustento,n,,1989:sustento|27:sustentos
 2015,cliché,n,,1394:cliché|550:clichés|40:clisés|31:clisé
-2014,cónyuge,n,,1092:cónyuge|910:cónyuges|12:cónyugue
 2014,enunciado,n,,1137:enunciado|877:enunciados
 2013,asfixia,n,,1939:asfixia|74:asfixias
 2013,juerga,n,,1756:juerga|257:juergas
@@ -10134,6 +10133,7 @@ count,spanish,pos,flags,usage
 2003,postergar,v,,504:postergar|259:postergado|186:postergada|146:postergando|143:postergó|99:postergados|94:posterga|75:postergarlo|61:postergadas|56:postergan|48:postergaron|43:postergue|42:postergarse|29:postergaba|29:postergamos|21:postergué|18:posterguen|15:postergara|14:postergarla|13:postergará|13:postergas|11:postergo|11:posterguemos|10:postergaría|10:postergándolo|8:postergaban|7:postergaremos|7:postergaré|6:postergarían|6:postergaste|6:postergándose|5:postergues|4:postergarlas|4:postergándola
 2003,woods,none,NOUSAGE,2003:woods
 2002,carnada,n,,1915:carnada|87:carnadas
+2002,cónyuge,n,,1092:cónyuge|910:cónyuges
 2002,extraordinariamente,adv,,2002:extraordinariamente
 2002,golpeado,adj,,1694:golpeada|308:golpeadas
 2002,mueca,n,,1362:mueca|640:muecas
@@ -23228,6 +23228,7 @@ count,spanish,pos,flags,usage
 484,fuji,none,NOUSAGE,484:fuji
 484,habsburgo,n,,449:habsburgo|35:habsburgos
 484,indefensión,n,,484:indefensión
+484,ladronzuelo,n,,330:ladronzuelo|98:ladronzuelos|56:ladronzuela
 484,magali,none,NOUSAGE,484:magali
 484,magog,none,NOUSAGE,484:magog
 484,marisma,n,,346:marismas|138:marisma
@@ -24832,7 +24833,6 @@ count,spanish,pos,flags,usage
 428,germinal,adj,,329:germinal|99:germinales
 428,interplanetario,adj,,158:interplanetario|134:interplanetaria|71:interplanetarios|65:interplanetarias
 428,intubación,n,,416:intubación|12:intubaciones
-428,ladronzuelo,n,,330:ladronzuelo|98:ladronzuelos
 428,maxilar,adj,,346:maxilar|82:maxilares
 428,moloch,none,NOUSAGE,428:moloch
 428,pedagogo,n,,226:pedagogo|143:pedagogos|54:pedagoga|5:pedagogas
