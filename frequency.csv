@@ -2388,7 +2388,6 @@ count,spanish,pos,flags,usage
 16821,guía,n,,14553:guía|2268:guías
 16821,inferior,adj,,12122:inferior|4699:inferiores
 16815,tabla,n,,11751:tabla|5064:tablas
-16798,supremo,adj,,9531:supremo|6691:suprema|365:supremos|211:supremas
 16796,humo,n,,15573:humo|1223:humos
 16796,labor,n,,13133:labor|3663:labores
 16787,efectuar,v,,3916:efectuar|1890:efectuado|1486:efectuó|1452:efectúa|1156:efectuada|1035:efectuadas|910:efectuará|783:efectuarse|707:efectuados|568:efectúan|544:efectuaron|463:efectuando|335:efectúe|265:efectuaba|241:efectuarán|201:efectúen|152:efectuaban|91:efectuara|85:efectuaría|76:efectuamos|57:efectuarlo|51:efectuándose|37:efectuaran|37:efectuaremos|30:efectuarían|29:efectuase|29:efectué|26:efectuarla|21:efectuarle|21:efectúo|20:efectuarlas|16:efectuemos|15:efectuaré|13:efectuasen|11:efectuarlos|5:efectúela|5:efectúes|4:efectuarás|4:efectuándola
@@ -3551,6 +3550,7 @@ count,spanish,pos,flags,usage
 9900,prevenir,v,,5219:prevenir|731:previene|644:prevén|547:prevenido|273:previno|268:prevenirlo|220:previenen|202:previniendo|195:prevengo|155:prevenidos|128:prevenirte|123:prevenirse|122:prevenirla|119:previne|96:prevenida|94:prevenga|87:prevenirle|85:prevenirlos|70:prevenirme|58:prevenía|48:prevengan|47:prevendrá|45:prevenirnos|43:prevenirlas|35:prevenirles|32:prevenimos|28:prevenían|27:previnieron|22:prevenidas|17:prevendría|17:previniera|15:preveniros|14:previniste|10:prevengas|9:previniéndose|8:prevendrán|8:previenes|7:prevendré|7:previnimos|6:prevengamos|6:previniéndolo|5:previniéndola|4:previnieran|4:prevéngase
 9898,indicado,adj,,5716:indicado|2723:indicada|811:indicados|648:indicadas
 9897,tyler,none,NOUSAGE,9897:tyler
+9896,supremo,adj,,9531:supremo|365:supremos
 9883,albert,none,NOUSAGE,9883:albert
 9882,anne,none,NOUSAGE,9882:anne
 9881,mantenimiento,n,,9838:mantenimiento|43:mantenimientos
@@ -4543,6 +4543,7 @@ count,spanish,pos,flags,usage
 6905,imprimir,v,,2269:imprimir|908:imprime|470:imprimió|364:imprimiendo|335:imprimen|209:imprimí|204:imprimieron|203:imprimirlo|188:imprima|136:imprimimos|127:imprimido|119:imprimía|105:impriman|90:imprimirse|85:imprimiré|81:imprímelo|80:imprimirá|72:imprimo|65:imprimirle|64:imprimían|55:imprimes|51:imprimiste|50:imprimirla|48:imprimirán|46:imprimas|44:imprimirlos|42:imprimirlas|41:imprimiremos|36:imprimiera|34:imprimiría|23:imprimieran|22:imprímela|21:imprimiéndole|20:imprimirme|17:imprimamos|17:imprímalo|13:imprimiéndose|12:imprimida|12:imprimiese|12:imprímeme|11:imprimirles|9:imprimirte|8:imprimirás|7:imprimid|7:imprimirían|7:imprimiéndoles|6:imprimidos|6:imprimieras|6:imprimiéramos|6:imprímanlo|5:imprimidas|5:imprimiéndolo|5:imprimiéndolos|5:imprimíamos|5:imprímelas|5:imprímelos|4:imprimirías|4:imprimámoslo|4:imprimís
 6903,institucional,adj,,5024:institucional|1879:institucionales
 6903,stanley,none,NOUSAGE,6903:stanley
+6902,suprema,n,,6691:suprema|211:supremas
 6900,restante,adj,,4821:restantes|2079:restante
 6892,igualdad,n,,6859:igualdad|33:igualdades
 6891,estratégico,adj,,2368:estratégica|2228:estratégico|1284:estratégicos|1011:estratégicas
@@ -11366,6 +11367,7 @@ count,spanish,pos,flags,usage
 1668,paddy,none,NOUSAGE,1668:paddy
 1668,refrán,n,,1334:refrán|334:refranes
 1668,teal,none,NOUSAGE,1668:teal
+1668,zoom,n,,1460:zoom|186:zum|22:zooms
 1667,espejismo,n,,1351:espejismo|316:espejismos
 1667,galáctico,adj,,878:galáctica|514:galáctico|178:galácticos|97:galácticas
 1667,horace,none,NOUSAGE,1667:horace
@@ -12223,7 +12225,6 @@ count,spanish,pos,flags,usage
 1482,nexo,n,,949:nexo|533:nexos
 1482,recortado,adj,,622:recortado|405:recortada|228:recortados|227:recortadas
 1482,reluciente,adj,,988:reluciente|494:relucientes
-1482,zoom,n,,1460:zoom|22:zooms
 1481,dead,none,NOUSAGE,1481:dead
 1481,gratificante,adj,,1319:gratificante|162:gratificantes
 1481,impedimento,n,,1052:impedimento|418:impedimentos|11:impedimiento
@@ -13745,7 +13746,6 @@ count,spanish,pos,flags,usage
 1218,insultante,adj,,1058:insultante|160:insultantes
 1218,podeis,none,NOUSAGE,1218:podeis
 1218,purgar,v,,423:purgar|143:purgado|99:purgando|51:purgó|48:purgados|47:purgarse|44:purgan|37:purgue|30:purgada|28:purgarme|20:purgarlo|19:purgo|17:purgará|16:purguen|14:purgaban|14:purgaré|13:purgaba|13:purgaremos|12:purgarlos|11:purgadas|11:purguemos|11:purgué|10:purgarte|9:purgamos|9:purgarnos|9:purgaron|9:púrgate|8:purgaran|7:purgara|7:purgarle|6:púrgala|5:purgarlas|5:purgarán|5:purgaría|4:purgarla|4:purgues
-1218,remojar,v,,360:remojar|142:remojado|100:remojada|74:remojados|68:remojadas|63:remoja|61:remojando|37:remojan|33:remojarse|24:remojas|23:remojarlo|23:remojó|20:remojarme|20:remoje|17:remojarlos|17:remojaron|15:remojamos|15:remojándose|14:remojarla|14:remojarte|12:remojaba|10:remójalo|9:remojarlas|8:remójala|7:remojarnos|5:remojaban|5:remojen|5:remojes|5:remojé|4:remojaré|4:remojaste|4:remójalos
 1218,zanjar,v,,409:zanjar|359:zanjado|114:zanjó|102:zanjada|25:zanjamos|24:zanjarlo|19:zanjaba|19:zanje|19:zanjemos|17:zanjadas|14:zanjando|13:zanjan|13:zanjaron|12:zanjados|10:zanjaremos|10:zanjará|9:zanjarse|8:zanjaría|6:zanjé|4:zanjaban|4:zanjara|4:zanjaré|4:zanjo
 1217,ahhh,none,NOUSAGE,1217:ahhh
 1217,amorcito,n,,1196:amorcito|21:amorcitos
@@ -15088,6 +15088,7 @@ count,spanish,pos,flags,usage
 1050,enfriamiento,n,,1017:enfriamiento|33:enfriamientos
 1050,jazmín,n,,821:jazmín|229:jazmines
 1050,objetivamente,adv,,1050:objetivamente
+1050,remojar,v,,360:remojar|142:remojado|74:remojados|63:remoja|61:remojando|37:remojan|33:remojarse|24:remojas|23:remojarlo|23:remojó|20:remojarme|20:remoje|17:remojarlos|17:remojaron|15:remojamos|15:remojándose|14:remojarla|14:remojarte|12:remojaba|10:remójalo|9:remojarlas|8:remójala|7:remojarnos|5:remojaban|5:remojen|5:remojes|5:remojé|4:remojaré|4:remojaste|4:remójalos
 1049,chung,none,NOUSAGE,1049:chung
 1049,erotismo,n,,1049:erotismo
 1049,intencionalmente,adv,,1049:intencionalmente
@@ -20128,7 +20129,7 @@ count,spanish,pos,flags,usage
 635,pajarillo,n,,407:pajarillo|228:pajarillos
 635,procreación,n,,629:procreación|6:procreaciones
 635,psique,n,,623:psique|12:psiques
-635,squash,none,NOUSAGE,635:squash
+635,squash,n,,635:squash
 635,tudela,none,NOUSAGE,635:tudela
 634,abanderado,n,,412:abanderado|117:abanderados|83:abanderada|22:abanderadas
 634,antagonista,n,,332:antagonista|302:antagonistas
