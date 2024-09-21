@@ -6519,7 +6519,6 @@ count,spanish,pos,flags,usage
 4000,Elvis,prop,,4000:elvis
 3998,suizo,adj,,2667:suizo|1331:suizos
 3997,normativa,n,,3423:normativa|574:normativas
-3997,paraguas,n,,3924:paraguas|43:paragüas|30:paragua
 3995,rocky,none,NOUSAGE,3995:rocky
 3994,inapropiado,adj,,2618:inapropiado|817:inapropiada|306:inapropiadas|253:inapropiados
 3994,venenoso,adj,,1394:venenosa|1224:venenoso|873:venenosas|503:venenosos
@@ -6543,6 +6542,7 @@ count,spanish,pos,flags,usage
 3971,Arizona,prop,,3971:arizona
 3971,conducción,n,,3801:conducción|170:conducciones
 3971,materno,adj,,2203:materna|1361:materno|241:maternos|166:maternas
+3967,paraguas,n,,3924:paraguas|43:paragüas
 3964,elaine,none,NOUSAGE,3964:elaine
 3962,UGT,prop,,3962:ugt
 3961,kathy,none,NOUSAGE,3961:kathy
@@ -6686,8 +6686,8 @@ count,spanish,pos,flags,usage
 3840,arranque,n,,3429:arranque|411:arranques
 3840,motivado,adj,,1934:motivado|988:motivada|628:motivados|290:motivadas
 3839,dispar,adj,,3619:dispares|220:dispar
+3838,Menem,prop,,3838:menem
 3838,adjudicar,v,,707:adjudicó|650:adjudicado|373:adjudicar|342:adjudica|241:adjudicarse|179:adjudicaron|159:adjudicada|158:adjudican|157:adjudicados|147:adjudicadas|77:adjudicaba|64:adjudicarle|64:adjudicará|61:adjudique|57:adjudicarán|41:adjudicaban|41:adjudicando|33:adjudicándose|29:adjudicara|28:adjudiquen|25:adjudico|23:adjudicamos|21:adjudicaría|21:adjudicándole|19:adjudicarme|19:adjudicárselo|12:adjudiqué|11:adjudicaran|8:adjudicarla|8:adjudicarles|8:adjudicarte|8:adjudicas|7:adjudicarlas|7:adjudicarlo|7:adjudicársela|6:adjudicaré|6:adjudicase|5:adjudicaremos|5:adjudicándoles|4:adjudicarnos
-3838,menem,none,NOUSAGE,3838:menem
 3836,funerario,adj,,2372:funeraria|643:funerario|429:funerarios|392:funerarias
 3835,cerámica,n,,3329:cerámica|506:cerámicas
 3834,abiertamente,adv,,3834:abiertamente
@@ -7649,6 +7649,7 @@ count,spanish,pos,flags,usage
 3144,comparecer,v,,1137:comparecer|558:compareció|273:comparezca|211:comparece|194:comparecerá|144:comparecido|129:comparecieron|83:comparezcan|72:comparecen|62:comparecía|58:comparecerán|36:compareciera|30:comparezco|20:compareceré|19:comparecí|18:compareciendo|17:comparecían|16:comparecería|16:comparecieran|12:comparecerás|11:compareciese|7:compareced|6:compareces|6:comparezcas|5:comparecerían|4:compareceremos
 3144,estacionado,adj,,1993:estacionado|593:estacionados|423:estacionada|135:estacionadas
 3144,indagar,v,,1295:indagar|475:indagando|265:indaga|198:indagó|173:indagado|96:indagué|81:indagan|68:indague|65:indagamos|42:indagaba|38:indago|33:indaguen|30:indagaré|30:indagues|26:indagados|25:indagara|24:indagaron|22:indaguemos|21:indagará|18:indagaban|16:indagas|14:indagaremos|13:indagarlo|12:indagarán|11:indagaría|10:indagarse|9:indagada|9:indagase|7:indagadas|7:indagaste|6:indagaran|5:indagarla
+3143,radiactivo,adj,,589:radiactivo|589:radiactivos|573:radioactivo|412:radiactiva|370:radioactiva|274:radioactivos|193:radiactivas|143:radioactivas
 3142,there,none,NOUSAGE,3142:there
 3141,alusión,n,,2240:alusión|901:alusiones
 3141,mentalmente,adv,,3141:mentalmente
@@ -10893,7 +10894,6 @@ count,spanish,pos,flags,usage
 1784,pittsburgh,none,NOUSAGE,1784:pittsburgh
 1783,Yolanda,prop,,1783:yolanda
 1783,cerrojo,n,,1362:cerrojo|421:cerrojos
-1783,radiactivo,adj,,589:radiactivo|589:radiactivos|412:radiactiva|193:radiactivas
 1782,careta,n,,1372:caretas|410:careta
 1782,infrarrojo,adj,,645:infrarrojos|546:infrarrojo|402:infrarroja|175:infrarrojas|14:infrarojo
 1781,laborista,n,,1180:laborista|601:laboristas
@@ -12867,7 +12867,6 @@ count,spanish,pos,flags,usage
 1360,agachado,adj,,574:agachado|455:agachada|272:agachados|59:agachadas
 1360,biliar,adj,,896:biliar|464:biliares
 1360,desconocimiento,n,,1351:desconocimiento|9:desconocimientos
-1360,radioactivo,adj,,573:radioactivo|370:radioactiva|274:radioactivos|143:radioactivas
 1360,tiza,n,,1243:tiza|117:tizas
 1359,carabinero,n,,1131:carabineros|222:carabinero|6:carabinera
 1359,diurno,adj,,477:diurno|466:diurna|237:diurnas|179:diurnos
@@ -14751,6 +14750,7 @@ count,spanish,pos,flags,usage
 1087,wilde,none,NOUSAGE,1087:wilde
 1086,Andrade,prop,,1086:andrade
 1086,expropiación,n,,876:expropiación|210:expropiaciones
+1086,manco,n,,902:manco|88:manca|86:mancos|10:mancas
 1086,seguidamente,adv,,1086:seguidamente
 1085,centrista,adj,,675:centrista|410:centristas
 1085,chismoso,adj,,474:chismosa|326:chismoso|157:chismosos|128:chismosas
@@ -15627,7 +15627,6 @@ count,spanish,pos,flags,usage
 988,desliz,n,,797:desliz|191:deslices
 988,fáser,n,,406:fáser|313:fáseres|269:fásers
 988,insostenible,adj,,878:insostenible|110:insostenibles
-988,manco,n,,902:manco|86:mancos
 988,mejillón,n,,839:mejillones|149:mejillón
 988,patentar,v,,286:patentado|179:patentar|142:patentada|103:patentó|49:patentados|47:patentadas|33:patentarlo|28:patenta|18:patentarla|14:patentando|14:patentaron|13:patentan|10:patentamos|9:patenté|7:patentas|7:patenten|6:patentarse|5:patentarlos|5:patentaría|5:patento|4:patentara|4:patentaré
 988,reclusión,n,,981:reclusión|7:reclusiones
@@ -16204,7 +16203,7 @@ count,spanish,pos,flags,usage
 930,ryu,none,NOUSAGE,930:ryu
 930,sitiar,v,,275:sitiada|199:sitiados|164:sitiado|75:sitiar|47:sitiaron|35:sitió|29:sitiadas|29:sitiando|18:sitiaban|18:sitian|11:sitiaba|8:sitia|6:sitiarnos|6:sities|5:sitiaremos|5:sitiarlos
 930,vándalo,n,,597:vándalos|320:vándalo|13:vándala
-930,zelda,none,NOUSAGE,930:zelda
+930,zelda,n,,930:zelda
 929,afrenta,n,,802:afrenta|127:afrentas
 929,alisar,v,,287:alisa|141:alise|109:alisar|80:alisó|46:alisando|33:alisándose|28:alisaba|24:alisarse|23:alisada|21:alisas|17:alisan|17:alisarlo|12:alisarla|11:alisadas|11:alisé|8:alisarme|8:alisarte|8:alísate|6:alisará|5:alisamos|5:alisaron|5:alísalo|4:alisara|4:alisarles|4:alisarlos|4:alisaste|4:alisándolo|4:alísala
 929,burgess,none,NOUSAGE,929:burgess
@@ -17548,7 +17547,6 @@ count,spanish,pos,flags,usage
 809,dedicatoria,n,,719:dedicatoria|90:dedicatorias
 809,engels,none,NOUSAGE,809:engels
 809,interestatal,adj,,699:interestatal|110:interestatales
-809,mimbre,n,,683:mimbre|122:mimbres|4:vimbre
 809,netamente,adv,,809:netamente
 809,pectoral,adj,,500:pectorales|309:pectoral
 809,piercing,n,,513:piercing|296:piercings
@@ -17612,6 +17610,7 @@ count,spanish,pos,flags,usage
 805,irremediablemente,adv,,805:irremediablemente
 805,kylie,none,NOUSAGE,805:kylie
 805,maltrecho,adj,,353:maltrecho|267:maltrecha|119:maltrechos|66:maltrechas
+805,mimbre,n,,683:mimbre|122:mimbres
 805,polluelo,n,,464:polluelos|303:polluelo|21:polluela|17:polluelas
 805,prematuramente,adv,,805:prematuramente
 805,queridísimo,adj,,382:queridísima|356:queridísimo|56:queridísimos|11:queridísimas
@@ -20957,6 +20956,7 @@ count,spanish,pos,flags,usage
 590,packard,none,NOUSAGE,590:packard
 590,piropo,n,,320:piropo|270:piropos
 590,poroto,n,,474:porotos|116:poroto
+590,pícolo,n,,585:piccolo|5:pícolo
 590,smithers,none,NOUSAGE,590:smithers
 590,tad,none,NOUSAGE,590:tad
 589,Alhambra,prop,,589:alhambra
@@ -21049,7 +21049,6 @@ count,spanish,pos,flags,usage
 585,estúpidamente,adv,,585:estúpidamente
 585,garner,none,NOUSAGE,585:garner
 585,paliativo,n,,431:paliativos|154:paliativo
-585,piccolo,n,,585:piccolo
 585,piggy,none,NOUSAGE,585:piggy
 585,primerizo,n,,178:primeriza|162:primerizo|147:primerizos|98:primerizas
 585,rem,none,NOUSAGE,585:rem
