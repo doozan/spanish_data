@@ -5315,7 +5315,6 @@ count,spanish,pos,flags,usage
 5428,Daisy,prop,,5428:daisy
 5427,agrario,adj,,2828:agraria|1102:agrario|863:agrarias|634:agrarios
 5426,adquisición,n,,4491:adquisición|935:adquisiciones
-5426,drogar,v,,623:drogó|518:drogarse|386:drogaron|364:drogo|356:drogarme|328:drogando|312:drogarte|295:drogaba|292:drogar|292:drogaste|214:drogan|187:drogué|173:drogándose|129:drogarnos|112:drogamos|83:drogue|76:drogara|66:drogues|57:drogaban|52:drogarlo|50:drogándote|48:drogarla|44:drogándome|40:drogabas|38:droguen|30:drogaría|25:drogábamos|23:drogaré|19:drogaran|19:drógate|18:drogarle|17:drogándonos|16:drogaras|13:drogará|13:droguémonos|12:drogaremos|9:drogaros|9:drogarán|8:drogarás|7:drogarlos|7:droguemos|6:drogarías|6:drogase|6:drogándola|5:drogarlas|5:drogándolo|5:drogándolos|5:drógame|4:drogarles|4:drogarían
 5423,explosivo,adj,DUPLICATE,3420:explosivo|1448:explosiva|555:explosivas
 5418,Brenda,prop,,5418:brenda
 5418,hans,none,NOUSAGE,5418:hans
@@ -5559,6 +5558,7 @@ count,spanish,pos,flags,usage
 5067,picante,adj,,4072:picante|995:picantes
 5063,narrador,n,,4258:narrador|502:narradores|275:narradora|28:narradoras
 5063,nazi,adj,DUPLICATE,5063:nazi
+5062,drogar,v,,623:drogó|518:drogarse|386:drogaron|356:drogarme|328:drogando|312:drogarte|295:drogaba|292:drogar|292:drogaste|214:drogan|187:drogué|173:drogándose|129:drogarnos|112:drogamos|83:drogue|76:drogara|66:drogues|57:drogaban|52:drogarlo|50:drogándote|48:drogarla|44:drogándome|40:drogabas|38:droguen|30:drogaría|25:drogábamos|23:drogaré|19:drogaran|19:drógate|18:drogarle|17:drogándonos|16:drogaras|13:drogará|13:droguémonos|12:drogaremos|9:drogaros|9:drogarán|8:drogarás|7:drogarlos|7:droguemos|6:drogarías|6:drogase|6:drogándola|5:drogarlas|5:drogándolo|5:drogándolos|5:drógame|4:drogarles|4:drogarían
 5060,Vásquez,prop,,3901:vázquez|1159:vásquez
 5060,vagón,n,,3496:vagón|1564:vagones
 5056,Mateo,prop,,5056:mateo
@@ -9904,7 +9904,6 @@ count,spanish,pos,flags,usage
 2082,felicity,none,NOUSAGE,2082:felicity
 2082,vello,n,,1739:vello|343:vellos
 2081,anguita,none,NOUSAGE,2081:anguita
-2081,averiar,v,,845:averiado|582:averió|245:averiada|143:averiados|58:averiadas|39:averiarse|37:averiar|30:averiaron|18:averíe|15:averían|11:averiando|11:averiara|10:averío|8:averiamos|8:averiaste|6:averié|5:averiaban|5:averiarla|5:averiará
 2081,interactuar,v,,859:interactuar|357:interactúan|233:interactúa|218:interactuando|54:interactuado|46:interactuamos|38:interactúen|35:interactúe|34:interactuó|31:interactuaron|29:interactúas|23:interactuaba|18:interactuaban|15:interactúo|13:interactuaste|12:interactuemos|11:interactuarán|10:interactuará|9:interactúes|8:interactué|7:interactuara|7:interactuaría|6:interactuaran|4:interactuarían|4:interactuáis
 2081,leroy,none,NOUSAGE,2081:leroy
 2081,uniformado,adj,,1334:uniformados|516:uniformado|178:uniformada|53:uniformadas
@@ -9935,6 +9934,7 @@ count,spanish,pos,flags,usage
 2073,embarque,n,,1784:embarque|289:embarques
 2072,crónico,adj,,1435:crónico|637:crónicos
 2071,Hamlet,prop,,2071:hamlet
+2071,averiar,v,,845:averiado|582:averió|245:averiada|143:averiados|58:averiadas|39:averiarse|37:averiar|30:averiaron|18:averíe|15:averían|11:averiando|11:averiara|8:averiamos|8:averiaste|6:averié|5:averiaban|5:averiarla|5:averiará
 2071,cuestionario,n,,1574:cuestionario|497:cuestionarios
 2071,subconsciente,adj,,1963:subconsciente|108:subconscientes
 2070,Alicante,prop,,2070:alicante
@@ -15008,7 +15008,7 @@ count,spanish,pos,flags,usage
 1060,pasividad,n,,1048:pasividad|12:pasividades
 1060,punzante,adj,,673:punzante|387:punzantes
 1060,toto,n,,1048:toto|12:totos
-1060,í,none,NOUSAGE,1060:í
+1060,í,letter,,1060:í
 1059,airlines,none,NOUSAGE,1059:airlines
 1059,autovía,n,,856:autovía|193:autovías|10:autovia
 1059,espontaneidad,n,,1051:espontaneidad|8:espontaneidades
@@ -19588,7 +19588,6 @@ count,spanish,pos,flags,usage
 669,lucrezia,none,NOUSAGE,669:lucrezia
 669,meadows,none,NOUSAGE,669:meadows
 669,philips,none,NOUSAGE,669:philips
-669,ponchar,v,,338:ponchó|53:ponchado|50:ponchada|48:ponchar|40:poncha|28:ponchando|23:ponchados|21:poncharon|18:ponchadas|9:ponché|8:pónchalo|7:poncharse|6:ponchaba|6:ponchaste|5:ponchan|5:poncharte|4:poncharlo
 669,shankar,none,NOUSAGE,669:shankar
 669,simbiosis,n,,669:simbiosis
 669,snob,none,NOUSAGE,669:snob
@@ -20727,6 +20726,7 @@ count,spanish,pos,flags,usage
 601,medular,adj,,411:medular|190:medulares
 601,mesonero,n,,496:mesonero|60:mesonera|35:mesoneros|10:mesoneras
 601,pelotazo,n,,433:pelotazo|168:pelotazos
+601,ponchar,v,,338:ponchó|53:ponchado|48:ponchar|40:poncha|28:ponchando|23:ponchados|21:poncharon|9:ponché|8:pónchalo|7:poncharse|6:ponchaba|6:ponchaste|5:ponchan|5:poncharte|4:poncharlo
 601,precariedad,n,,579:precariedad|22:precariedades
 601,shangai,none,NOUSAGE,601:shangai
 601,ski,none,NOUSAGE,601:ski
