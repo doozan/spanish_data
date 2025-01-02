@@ -5352,6 +5352,7 @@ count,spanish,pos,flags,usage
 5360,divorciado,adj,,2268:divorciado|1509:divorciada|1342:divorciados|241:divorciadas
 5360,jules,none,NOUSAGE,5360:jules
 5356,frasco,n,,3881:frasco|1475:frascos
+5355,comisionado,n,,4532:comisionado|616:comisionados|199:comisionada|8:comisionadas
 5353,UE,prop,,5353:ue
 5352,metáfora,n,,3931:metáfora|1421:metáforas
 5352,suministrar,v,,1028:suministrar|775:suministra|425:suministrado|369:suministran|356:suministrada|321:suministró|274:suministrados|266:suministrando|156:suministraba|136:suministrará|133:suministrarle|129:suministradas|123:suministre|117:suministraron|88:suministren|82:suministramos|73:suministraban|44:suministrarán|42:suministrarles|37:suministrarse|36:suministrándole|35:suministré|28:suministrara|27:suministraremos|27:suministras|25:suministrarnos|21:suministraste|20:suministraré|20:suministraría|17:suministrándoles|15:suministrarlo|14:suministrarla|13:suministrarte|10:suministraran|10:suministrarme|9:suminístrenle|7:suministrarlos|7:suministremos|7:suminístrale|6:suministrarás|6:suministrarían|5:subministro|5:suministrárselos|4:suministrarlas|4:suministrase
@@ -5499,7 +5500,6 @@ count,spanish,pos,flags,usage
 5151,impreso,adj,,1935:impreso|1513:impresa|1156:impresos|547:impresas
 5151,sostén,n,,4679:sostén|472:sostenes
 5151,villano,n,,2903:villano|1933:villanos|277:villana|38:villanas
-5148,comisionado,n,,4532:comisionado|616:comisionados
 5143,Prado,prop,,5143:prado
 5143,auxiliar,v,,2986:auxiliar|1569:auxiliares|131:auxiliado|50:auxilia|45:auxiliados|37:auxilian|36:auxiliada|32:auxilió|25:auxiliarlo|24:auxiliando|23:auxiliaron|17:auxilie|14:auxiliarlos|14:auxiliarme|12:auxiliarle|11:auxiliarla|11:auxiliarnos|10:auxiliara|10:auxiliaran|10:auxiliarse|10:auxiliará|10:auxilien|8:auxiliaba|8:auxiliaban|8:auxiliadas|7:auxiliándose|6:auxiliarte|5:auxiliamos|5:auxiliarles|5:auxiliaría|4:auxiliarán
 5143,fotografiar,v,,1476:fotografiar|741:fotografiado|323:fotografiando|315:fotografió|253:fotografiada|214:fotografiados|146:fotografié|130:fotografiaron|103:fotografiaba|99:fotografío|96:fotografiadas|95:fotografiarlo|93:fotografíen|88:fotografiarla|79:fotografiamos|79:fotografían|77:fotografiarse|72:fotografiarlos|66:fotografiarme|62:fotografiarte|56:fotografíe|52:fotografiara|46:fotografiaban|45:fotografiaste|42:fotografiaran|37:fotografíes|24:fotografiarlas|23:fotografiaré|18:fotografiarle|17:fotografiarnos|16:fotografiará|13:fotografiaremos|13:fotografiaría|13:fotografíalo|11:fotografíame|10:fotografiarles|10:fotografiemos|9:fotografiarán|8:fotografiándome|7:fotografiaras|6:fotografiábamos|5:fotografiarás|5:fotografiase|5:fotografiá|5:fotografiándole|5:fotografiándolo|5:fotografiándose|5:fotografiándote|5:fotografíalos|4:fotografiaros|4:fotografiarían|4:fotografiasen|4:fotografiáis|4:fotografiándola
@@ -6723,7 +6723,7 @@ count,spanish,pos,flags,usage
 3809,rompecabezas,n,,3809:rompecabezas
 3808,generalitat,n,,3808:generalitat
 3807,pactar,v,,1044:pactado|937:pactar|398:pactada|202:pactó|170:pactados|150:pactadas|143:pacta|126:pactaron|109:pactan|85:pacte|73:pactamos|64:pactando|36:pacten|33:pactará|25:pacté|24:pactarse|24:pactaría|22:pactarán|21:pactaba|21:pactemos|16:pactaban|16:pactaste|14:pactaremos|14:pactes|10:pactaran|9:pactara|8:pactaré|8:pactas|5:pactarían
-3804,cc,none,NOUSAGE,3804:cc
+3804,CC,n,,3804:cc
 3804,restauración,n,,3687:restauración|117:restauraciones
 3802,TVE,prop,,3802:tve
 3802,sonny,none,NOUSAGE,3802:sonny
@@ -15088,6 +15088,7 @@ count,spanish,pos,flags,usage
 1050,enfriamiento,n,,1017:enfriamiento|33:enfriamientos
 1050,jazmín,n,,821:jazmín|229:jazmines
 1050,objetivamente,adv,,1050:objetivamente
+1050,premier,n,,1013:premier|20:premiers|17:premieres
 1050,remojar,v,,360:remojar|142:remojado|74:remojados|63:remoja|61:remojando|37:remojan|33:remojarse|24:remojas|23:remojarlo|23:remojó|20:remojarme|20:remoje|17:remojarlos|17:remojaron|15:remojamos|15:remojándose|14:remojarla|14:remojarte|12:remojaba|10:remójalo|9:remojarlas|8:remójala|7:remojarnos|5:remojaban|5:remojen|5:remojes|5:remojé|4:remojaré|4:remojaste|4:remójalos
 1049,Hurtado,prop,,1049:hurtado
 1049,chung,none,NOUSAGE,1049:chung
@@ -15257,7 +15258,6 @@ count,spanish,pos,flags,usage
 1030,johnnie,none,NOUSAGE,1030:johnnie
 1030,magistratura,n,,978:magistratura|52:magistraturas
 1030,nt,none,NOUSAGE,1030:nt
-1030,premier,n,,1013:premier|17:premieres
 1030,speed,none,NOUSAGE,1030:speed
 1029,abominación,n,,866:abominación|163:abominaciones
 1029,desproporcionado,adj,,456:desproporcionada|358:desproporcionado|136:desproporcionadas|79:desproporcionados
