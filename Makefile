@@ -117,11 +117,12 @@ $(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
 # Update the template cached - using a temp file to allow future runs to roll back to original data
 # in the case the update fails and the file is deleted
 $(TEMPLATE_CACHEDB): $(BUILDDIR)/es-en.enwikt.txt.bz2
->   echo "Making $@..."
+>   @echo "Making $@..."
 >   if [ -f $@ -a ! -f $@.tmp_orig ]; then cp $@ $@.tmp_orig; fi # create backup
 >   if [ ! -f $@ -a -f $@.tmp_orig ]; then cp $@.tmp_orig $@; fi # restore backup
 >   $(TEMPLATE_CACHE) --db $@ --wxt $< --update -j 15
 >   $(RM) $@.tmp_orig
+>   touch $@
 
 # Build wordlist and allforms from wiktionary data
 $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt $(TEMPLATE_CACHEDB)
