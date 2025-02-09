@@ -98,8 +98,8 @@ $(BUILDDIR)/%-en.enwikt.txt.bz2: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-artic
 
 # workaround for building several extracts at one time until I can figure how to get make to do this
 LANGS := all en es fr pl pt
-OTHERS := templates modules redirects
-$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) $(patsubst %,$(BUILDDIR)/%.enwikt.txt.bz2,$(OTHERS)) $(BUILDDIR)/enwikt.pages &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2 $(BUILDDIR)/enwiktionary_wordlist
+OTHERS := templates modules
+$(patsubst %,$(BUILDDIR)/%-en.enwikt.txt.bz2,$(LANGS)) $(patsubst %,$(BUILDDIR)/%.enwikt.txt.bz2,$(OTHERS)) $(BUILDDIR)/enwikt.pages $(BUILDDIR)/redirects.tsv &: $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2
 >   @echo "Making $@..."
 >   $(MAKE_EXTRACT) --xml $< $(patsubst %,--lang %,$(LANGS)) --templates --modules --redirects --allpages --outdir $(BUILDDIR)
 
@@ -127,7 +127,13 @@ $(TEMPLATE_CACHEDB): $(BUILDDIR)/es-en.enwikt.txt.bz2
 # Build wordlist and allforms from wiktionary data
 $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/en-transcludes.txt $(TEMPLATE_CACHEDB)
 >   @echo "Making $@..."
->   $(MAKE_WORDLIST) --langdata $< --lang-id $* --expand-templates --transcludes $(BUILDDIR)/en-transcludes.txt > $@ #2> $@.warnings
+>   $(MAKE_WORDLIST) \
+>       --langdata $< \
+>       --lang-id $* \
+>       --expand-templates \
+>       --transcludes $(BUILDDIR)/en-transcludes.txt \
+>       --redirects $(BUILDDIR)/redirects.tsv \
+>       > $@ #2> $@.warnings
 
 $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
 >   @echo "Making $@..."
@@ -135,7 +141,11 @@ $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
 
 $(BUILDDIR)/%.enwikt.data: $(BUILDDIR)/%.enwikt.data-full
 >   @echo "Making $@..."
->   $(MAKE_WORDLIST) --wordlist $< --exclude-generated-forms --exclude-empty > $@
+>   $(MAKE_WORDLIST) \
+>       --wordlist $< \
+>       --exclude-generated-forms \
+>       --exclude-empty \
+>       > $@
 
 # Allforms - built from .data and not .data-full
 $(BUILDDIR)/%.allforms.csv: $(BUILDDIR)/%.data
