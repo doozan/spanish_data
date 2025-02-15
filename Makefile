@@ -28,7 +28,6 @@ PYPATH := PYTHONPATH=$(PYENV)
 
 SPANISH_SCRIPTS := $(PYENV)/spanish_tools/scripts
 BUILD_SENTENCES := $(PYPATH) $(SPANISH_SCRIPTS)/build_sentences
-BUILD_TAGS := $(PYPATH) $(SPANISH_SCRIPTS)/build_tags
 MAKE_FREQ := $(PYPATH) $(SPANISH_SCRIPTS)/make_freq
 MERGE_FREQ_LIST := $(PYPATH) $(SPANISH_SCRIPTS)/merge_freq_list
 
@@ -51,7 +50,7 @@ PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
 
-TOOLS := $(PYENV)/enwiktionary_wordlist $(PYENV)/enwiktionary_templates $(PYENV)/enwiktionary_sectionparser $(PYENV)/enwiktionary_parser $(PYENV)/enwiktionary_translations $(PYENV)/spanish_tools $(BUILDDIR)/spanish_custom $(PYENV)/autodooz $(PYENV)/ngram
+TOOLS := $(PYENV)/enwiktionary_wordlist $(PYENV)/enwiktionary_templates $(PYENV)/enwiktionary_sectionparser $(PYENV)/enwiktionary_translations $(PYENV)/spanish_tools $(BUILDDIR)/spanish_custom $(PYENV)/autodooz $(PYENV)/ngram
 TARGETS :=  es-en.data es_allforms.csv sentences.tsv frequency.csv es_merged_50k.txt es-en.enwikt.StarDict.zip es-en.enwikt.slob.zip en-es.enwikt.slob.zip
 tools: $(TOOLS)
 all: $(TOOLS) $(TARGETS)
