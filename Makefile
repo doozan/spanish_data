@@ -22,37 +22,37 @@ NGYEAR := 1950
 #NGYEAR := 2012
 BUILDDIR := $(DATETAG_PRETTY)
 _mkdir := $(shell mkdir -p $(BUILDDIR))
-PYPATH := PYTHONPATH=$(BUILDDIR)
 
-SPANISH_SCRIPTS := $(BUILDDIR)/spanish_tools/scripts
+PYENV := $(BUILDDIR)/python
+PYPATH := PYTHONPATH=$(PYENV)
+
+SPANISH_SCRIPTS := $(PYENV)/spanish_tools/scripts
 BUILD_SENTENCES := $(PYPATH) $(SPANISH_SCRIPTS)/build_sentences
 BUILD_TAGS := $(PYPATH) $(SPANISH_SCRIPTS)/build_tags
 MAKE_FREQ := $(PYPATH) $(SPANISH_SCRIPTS)/make_freq
 MERGE_FREQ_LIST := $(PYPATH) $(SPANISH_SCRIPTS)/merge_freq_list
 
-NGRAM_COMBINE := $(PYPATH) $(BUILDDIR)/ngram/combine.py
-WORDLIST_SCRIPTS := $(BUILDDIR)/enwiktionary_wordlist/scripts
-MAKE_EXTRACT := $(PYPATH) $(WORDLIST_SCRIPTS)/make_extract
-MAKE_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/make_wordlist
-MAKE_ALLFORMS := $(PYPATH) $(WORDLIST_SCRIPTS)/make_all_forms
-KAIKKI_TO_WORDLIST := $(PYPATH) $(WORDLIST_SCRIPTS)/kaikki_to_wordlist
-WORDLIST_TO_DICTUNFORMAT := $(PYPATH) $(WORDLIST_SCRIPTS)/wordlist_to_dictunformat
-LANGID_TO_NAME := $(PYPATH) $(WORDLIST_SCRIPTS)/langid_to_name
+NGRAM_COMBINE := $(PYPATH) $(PYENV)/ngram/combine.py
+MAKE_EXTRACT := $(PYPATH) $(PYENV)/bin/make_extract
+MAKE_WORDLIST := $(PYPATH) $(PYENV)/bin/make_wordlist
+MAKE_ALLFORMS := $(PYPATH) $(PYENV)/bin/make_all_forms
+KAIKKI_TO_WORDLIST := $(PYPATH) $(PYENV)/bin/kaikki_to_wordlist
+WORDLIST_TO_DICTUNFORMAT := $(PYPATH) $(PYENV)/bin/wordlist_to_dictunformat
+LANGID_TO_NAME := $(PYPATH) $(PYENV)/bin/langid_to_name
 
-EXTRACT_TRANSLATIONS := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/extract_translations
-TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(BUILDDIR)/enwiktionary_translations/scripts/translations_to_wordlist
-TEMPLATE_CACHE := $(PYPATH) $(BUILDDIR)/enwiktionary_templates/cache.py
+EXTRACT_TRANSLATIONS := $(PYPATH) $(PYENV)/enwiktionary_translations/scripts/extract_translations
+TRANSLATIONS_TO_WORDLIST := $(PYPATH) $(PYENV)/enwiktionary_translations/scripts/translations_to_wordlist
+TEMPLATE_CACHE := $(PYPATH) python3 -m enwiktionary_templates.cache
 
-WIKI_SEARCH := $(PYPATH) $(BUILDDIR)/autodooz/scripts/wikisearch
+WIKI_SEARCH := $(PYPATH) $(PYENV)/autodooz/scripts/wikisearch
 
 TEMPLATE_CACHEDB := ~/.enwiktionary_templates/cache.db
 PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
 
-TOOLS := $(BUILDDIR)/enwiktionary_wordlist $(BUILDDIR)/enwiktionary_templates $(BUILDDIR)/enwiktionary_sectionparser $(BUILDDIR)/enwiktionary_parser $(BUILDDIR)/enwiktionary_translations $(BUILDDIR)/spanish_tools $(BUILDDIR)/spanish_custom $(BUILDDIR)/autodooz $(BUILDDIR)/ngram
+TOOLS := $(PYENV)/enwiktionary_wordlist $(PYENV)/enwiktionary_templates $(PYENV)/enwiktionary_sectionparser $(PYENV)/enwiktionary_parser $(PYENV)/enwiktionary_translations $(PYENV)/spanish_tools $(BUILDDIR)/spanish_custom $(PYENV)/autodooz $(PYENV)/ngram
 TARGETS :=  es-en.data es_allforms.csv sentences.tsv frequency.csv es_merged_50k.txt es-en.enwikt.StarDict.zip es-en.enwikt.slob.zip en-es.enwikt.slob.zip
-
 tools: $(TOOLS)
 all: $(TOOLS) $(TARGETS)
 clean:
@@ -68,26 +68,32 @@ $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2:
 
 # Modules
 
-$(BUILDDIR)/enwiktionary_%:
+$(PYENV)/enwiktionary_%:
 >   git clone -q https://github.com/doozan/enwiktionary_$* $@
 
-$(BUILDDIR)/enwiktionary_parser:
+$(PYENV)/enwiktionary_parser:
 >   git clone -q https://github.com/doozan/wtparser $@
 
-$(BUILDDIR)/enwiktionary_sectionparser:
->   pip3 install --target=$(BUILDDIR) git+https://github.com/doozan/enwiktionary_sectionparser
+$(PYENV)/enwiktionary_sectionparser:
+>   pip3 install --target=$(PYENV) git+https://github.com/doozan/enwiktionary_sectionparser
 
-$(BUILDDIR)/spanish_tools:
+$(PYENV)/enwiktionary_templates:
+>   pip3 install --target=$(PYENV) git+https://github.com/doozan/enwiktionary_templates
+
+$(PYENV)/enwiktionary_wordlist:
+>   pip3 install --target=$(PYENV) git+https://github.com/doozan/enwiktionary_wordlist
+
+$(PYENV)/spanish_tools:
 >   git clone -q https://github.com/doozan/spanish_tools $@
+
+$(PYENV)/autodooz:
+>   git clone -q https://github.com/doozan/wikibot $@
+
+$(PYENV)/ngram:
+>   git clone -q https://github.com/doozan/ngram $@
 
 $(BUILDDIR)/spanish_custom:
 >   git clone -q https://github.com/doozan/6001_spanish $@
-
-$(BUILDDIR)/autodooz:
->   git clone -q https://github.com/doozan/wikibot $@
-
-$(BUILDDIR)/ngram:
->   git clone -q https://github.com/doozan/ngram $@
 
 
 # Extracts
