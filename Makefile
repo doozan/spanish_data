@@ -132,7 +132,6 @@ $(BUILDDIR)/%-en.enwikt.data-full: $(BUILDDIR)/%-en.enwikt.txt.bz2 $(BUILDDIR)/e
 >       --lang-id $* \
 >       --expand-templates \
 >       --transcludes $(BUILDDIR)/en-transcludes.txt \
->       --redirects $(BUILDDIR)/redirects.tsv \
 >       > $@ #2> $@.warnings
 
 $(BUILDDIR)/en-%.enwikt.data-full: $(BUILDDIR)/translations.bz2
