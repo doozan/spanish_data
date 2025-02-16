@@ -116,8 +116,8 @@ $(BUILDDIR)/translations.bz2: $(BUILDDIR)/all-en.enwikt.txt.bz2
 # Tagged senses (used for {{transclude sense}})
 $(BUILDDIR)/%-transcludes.txt: $(BUILDDIR)/%-en.enwikt.txt.bz2
 >   echo "Making $@..."
->   $(WIKI_SEARCH) --sort --nopath $(BUILDDIR)/$*-en.enwikt.txt.bz2 '\#.*{{senseid' \
->       | perl -pe 's/(.*?):: \#[*:]*\s*(.*?){{senseid[^}]*?\s*([^|}]*)}}\s*(.*)/\1:\3::\2\4/' > $@
+>   $(WIKI_SEARCH) --sort --nopath $(BUILDDIR)/$*-en.enwikt.txt.bz2 '\#.*{{(sid|senseid)' \
+>       | perl -pe 's/(.*?):: \#[*:]*\s*(.*?){{(?:sid|senseid)[^}]*?\s*([^|}]*)}}\s*(.*)/\1:\3::\2\4/' > $@
 
 # Update the template cached - using a temp file to allow future runs to roll back to original data
 # in the case the update fails and the file is deleted
