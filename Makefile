@@ -50,7 +50,7 @@ PYGLOSSARY := ~/.local/bin/pyglossary
 ANALYZE := ~/.local/bin/analyze
 ZIP := zip
 
-TOOLS := $(PYENV)/enwiktionary_wordlist $(PYENV)/enwiktionary_templates $(PYENV)/enwiktionary_sectionparser $(PYENV)/enwiktionary_translations $(PYENV)/spanish_tools $(BUILDDIR)/spanish_custom $(PYENV)/autodooz $(PYENV)/ngram
+TOOLS := $(PYENV)/enwiktionary_wordlist $(PYENV)/enwiktionary_templates $(PYENV)/enwiktionary_sectionparser $(PYENV)/enwiktionary_translations $(PYENV)/enwiktionary_parser $(PYENV)/spanish_tools $(BUILDDIR)/spanish_custom $(PYENV)/autodooz $(PYENV)/ngram
 TARGETS :=  es-en.data es_allforms.csv sentences.tsv frequency.csv es_merged_50k.txt es-en.enwikt.StarDict.zip es-en.enwikt.slob.zip en-es.enwikt.slob.zip
 tools: $(TOOLS)
 all: $(TOOLS) $(TARGETS)
