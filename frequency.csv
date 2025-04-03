@@ -23453,6 +23453,7 @@ count,spanish,pos,flags,usage
 474,Indianápolis,prop,,474:indianápolis
 474,Moscoso,prop,,474:moscoso
 474,Natividad,prop,,474:natividad
+474,Teresita,prop,,474:teresita
 474,akiko,none,NOUSAGE,474:akiko
 474,aristotélico,adj,,255:aristotélica|133:aristotélico|43:aristotélicas|43:aristotélicos
 474,caché,n,,375:caché|80:cache|19:cachés
@@ -23482,7 +23483,6 @@ count,spanish,pos,flags,usage
 474,ruego,n,,474:ruegos
 474,salteado,n,,294:salteado|180:salteados
 474,southern,none,NOUSAGE,474:southern
-474,teresita,none,NOUSAGE,474:teresita
 474,turn,none,NOUSAGE,474:turn
 474,zarigüeya,n,,363:zarigüeya|111:zarigüeyas
 473,ACB,prop,,473:acb
