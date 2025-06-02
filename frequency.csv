@@ -6977,6 +6977,7 @@ count,spanish,pos,flags,usage
 3617,hudson,none,NOUSAGE,3617:hudson
 3616,ilustre,adj,,2264:ilustre|1352:ilustres
 3616,l.a.,none,NOUSAGE,3616:l.a.
+3616,pai,n,,3025:pais|591:pai
 3615,hoparse,v,,3574:hope|28:hopes|13:hopa
 3615,tortilla,n,,2562:tortilla|1053:tortillas
 3614,exhausto,adj,,1761:exhausto|1209:exhausta|539:exhaustos|105:exhaustas
@@ -7827,7 +7828,6 @@ count,spanish,pos,flags,usage
 3025,coña,n,,2951:coña|74:coñas
 3025,encarnar,v,,1393:encarna|413:encarnar|264:encarnan|211:encarnaba|184:encarnó|113:encarnando|55:encarnaban|51:encarnarse|47:encarnará|38:encarne|31:encarno|30:encarnara|30:encarnaron|22:encarnas|20:encarnaría|16:encarnarán|15:encarnamos|14:encarnarlo|12:encarnen|12:encarnándose|9:encarné|8:encarnarme|6:encarnarla|6:encarnarían|6:encarnase|5:encarnarlos|5:encarnes|5:encarnándolo|4:encarnaré
 3025,levantado,adj,,2500:levantada|525:levantadas
-3025,pais,none,NOUSAGE,3025:pais
 3025,unica,none,NOUSAGE,3025:unica
 3024,amnistía,n,,2924:amnistía|100:amnistías
 3024,escaño,n,,1927:escaños|1097:escaño
@@ -10588,6 +10588,7 @@ count,spanish,pos,flags,usage
 1866,Sanz,prop,,1866:sanz
 1866,bache,n,,974:bache|892:baches
 1866,erguido,adj,,842:erguido|669:erguida|250:erguidos|105:erguidas
+1866,mai,n,,1472:mai|394:mais
 1866,sandalia,n,,1596:sandalias|270:sandalia
 1865,budista,adj,,1206:budista|659:budistas
 1864,ceguera,n,,1831:ceguera|33:cegueras
@@ -10987,6 +10988,7 @@ count,spanish,pos,flags,usage
 1758,jeannie,none,NOUSAGE,1758:jeannie
 1758,priya,none,NOUSAGE,1758:priya
 1758,pétalo,n,,1460:pétalos|298:pétalo
+1757,colt,n,,1614:colt|143:colts
 1757,ing,none,NOUSAGE,1757:ing
 1757,parabrisas,n,,1757:parabrisas
 1757,puñal,n,,1403:puñal|354:puñales
@@ -11612,7 +11614,6 @@ count,spanish,pos,flags,usage
 1615,sí.,none,NOUSAGE,1615:sí.
 1614,Andrómeda,prop,,1614:andrómeda
 1614,Nilo,prop,,1614:nilo
-1614,colt,none,NOUSAGE,1614:colt
 1614,pancarta,n,,829:pancartas|785:pancarta
 1614,vinci,none,NOUSAGE,1614:vinci
 1613,ciclismo,n,,1613:ciclismo
@@ -12266,7 +12267,6 @@ count,spanish,pos,flags,usage
 1473,vestigio,n,,906:vestigios|567:vestigio
 1472,Mejía,prop,,1472:mejía
 1472,caminante,n,,756:caminante|716:caminantes
-1472,mai,none,NOUSAGE,1472:mai
 1471,Sáenz,prop,,1471:sáenz
 1471,cojear,v,,554:cojeando|287:cojea|199:cojeaba|178:cojear|68:cojeas|49:cojeo|27:cojean|15:cojee|13:cojeara|11:cojeará|9:cojees|9:cojeó|7:cojeaban|6:cojeado|6:cojearé|5:cojeabas|5:cojearás|5:cojeaste|5:cojeen|5:cojeé|4:cojeamos|4:cojearía
 1471,dramaturgo,n,,1107:dramaturgo|291:dramaturgos|66:dramaturga|7:dramaturgas
@@ -17244,6 +17244,7 @@ count,spanish,pos,flags,usage
 832,desinflar,v,,176:desinflado|97:desinfla|85:desinflada|84:desinfló|48:desinflados|46:desinflar|41:desinflarse|36:desinflando|30:desinflan|25:desinfladas|25:desinfle|20:desinflaron|16:desinflo|12:desinflara|9:desinflaba|8:desinflándose|8:desinflé|7:desinflame|7:desinflaste|6:desinflarlo|6:desinflaría|6:desinflas|6:desinflen|5:desinflamos|5:desinflarle|5:desinflarte|5:desinfles|4:desinflará|4:desínflala
 832,estiramiento,n,,586:estiramiento|246:estiramientos
 832,fecundación,n,,818:fecundación|14:fecundaciones
+832,hijo de puta,n,,635:hijoputa|103:hijueputa|68:hijoputas|26:hijueputas
 832,humanoide,n,,471:humanoide|361:humanoides
 832,hurón,n,,524:hurón|308:hurones
 832,jesuita,adj,DUPLICATE,832:jesuita
@@ -19037,7 +19038,6 @@ count,spanish,pos,flags,usage
 703,carles,none,NOUSAGE,703:carles
 703,carmesí,adj,,684:carmesí|19:carmesíes
 703,exámen,none,NOUSAGE,703:exámen
-703,hijo de puta,n,,635:hijoputa|68:hijoputas
 703,moreau,none,NOUSAGE,703:moreau
 703,penalizar,v,,151:penalizar|115:penalizado|100:penaliza|61:penalizados|46:penalizada|43:penalizan|21:penalice|21:penalizando|16:penalizadas|16:penalizó|15:penalizaron|14:penalizará|9:penalicen|9:penalizarte|8:penalizarlo|8:penalizarán|7:penalizaban|6:penalizarse|5:penalizarla|5:penalizarme|5:penalizaré|5:penalizaría|5:penalizarían|4:penalizaba|4:penalizarlos|4:penalizas
 703,ping-pong,n,,703:ping-pong
@@ -20920,7 +20920,6 @@ count,spanish,pos,flags,usage
 591,inciso,n,,493:inciso|98:incisos
 591,magullar,v,,258:magullado|132:magullada|70:magullados|59:magulladas|20:magullar|10:magulla|10:magulló|8:magullo|6:magullé|5:magullan|5:magullando|4:magullarme|4:magullarse
 591,míster,n,,506:míster|85:misses
-591,pai,none,NOUSAGE,591:pai
 591,rashid,none,NOUSAGE,591:rashid
 591,rebatir,v,,239:rebatir|85:rebatió|47:rebate|24:rebatiendo|23:rebatida|20:rebatido|18:rebatirlo|15:rebaten|14:rebatidos|10:rebata|10:rebatidas|10:rebatirle|10:rebatía|9:rebatirla|8:rebatieron|8:rebatiré|7:rebatirlos|7:rebatirá|7:rebatiría|4:rebates|4:rebatimos|4:rebatiremos|4:rebatirme|4:rebatirse
 591,repatriar,v,,179:repatriados|123:repatriado|121:repatriar|29:repatriada|22:repatriadas|22:repatriaron|12:repatriaran|12:repatriarlo|12:repatriarlos|12:repatrió|8:repatríen|7:repatrien|6:repatriamos|6:repatriando|6:repatriarse|6:repatrían|4:repatriarme|4:repatriará
@@ -22505,6 +22504,7 @@ count,spanish,pos,flags,usage
 515,tradicionalista,adj,,296:tradicionalista|219:tradicionalistas
 515,wexler,none,NOUSAGE,515:wexler
 514,Landa,prop,,514:landa
+514,Ourense,prop,,514:ourense
 514,altanero,adj,,234:altanero|193:altanera|60:altaneros|27:altaneras
 514,atalaya,n,,466:atalaya|48:atalayas
 514,beecher,none,NOUSAGE,514:beecher
@@ -22518,7 +22518,6 @@ count,spanish,pos,flags,usage
 514,merlyn,none,NOUSAGE,514:merlyn
 514,mullido,adj,,240:mullido|142:mullida|73:mullidos|59:mullidas
 514,other,none,NOUSAGE,514:other
-514,ourense,none,NOUSAGE,514:ourense
 514,petaca,n,,462:petaca|52:petacas
 514,picador,n,,261:picador|253:picadores
 514,putrefacción,n,,493:putrefacción|21:putrefacciones
@@ -24999,3 +24998,33 @@ count,spanish,pos,flags,usage
 423,tubular,adj,,289:tubular|134:tubulares
 423,tû,none,NOUSAGE,423:tû
 423,urbanizar,v,,102:urbanizar|91:urbanizado|68:urbanizada|63:urbanizadas|48:urbanizados|14:urbanizando|11:urbanizarse|10:urbanizará|6:urbaniza|5:urbanizan|5:urbanizó
+422,amonio,n,,422:amonio
+422,arch,none,NOUSAGE,422:arch
+422,arnaud,none,NOUSAGE,422:arnaud
+422,ashby,none,NOUSAGE,422:ashby
+422,auf,none,NOUSAGE,422:auf
+422,bingham,none,NOUSAGE,422:bingham
+422,causton,none,NOUSAGE,422:causton
+422,claraboya,n,,328:claraboya|94:claraboyas
+422,cord,none,NOUSAGE,422:cord
+422,dov,none,NOUSAGE,422:dov
+422,empecer,v,,422:empece
+422,encarnizado,adj,,208:encarnizada|89:encarnizado|78:encarnizados|47:encarnizadas
+422,escarnio,n,,396:escarnio|26:escarnios
+422,estaba-,none,NOUSAGE,422:estaba-
+422,exquisitez,n,,284:exquisitez|138:exquisiteces
+422,flower,none,NOUSAGE,422:flower
+422,fonética,n,,358:fonética|64:fonéticas
+422,gimotear,v,,168:gimotear|114:gimoteando|54:gimotea|24:gimoteaba|15:gimoteó|14:gimoteas|10:gimotees|9:gimotean|6:gimotee|4:gimoteaban|4:gimoteabas
+422,infravalorar,v,,123:infravalorado|42:infravalorada|39:infravalores|38:infravalorar|35:infravalorados|21:infravaloras|19:infravalora|19:infravalorando|15:infravaloradas|11:infravalore|10:infravaloré|9:infravaloró|8:infravalorarse|7:infravaloren|6:infravaloramos|6:infravaloran|5:infravalorarte|5:infravaloro|4:infravalorarme
+422,irún,none,NOUSAGE,422:irún
+422,jurásico,adj,,353:jurásico|39:jurásica|19:jurásicos|11:jurásicas
+422,laúd,n,,374:laúd|48:laúdes
+422,obturador,n,,379:obturador|43:obturadores
+422,parisiense,adj,,310:parisiense|112:parisienses
+422,pídeselo,none,NOUSAGE,422:pídeselo
+422,siberiano,adj,,205:siberiano|100:siberianos|89:siberiana|28:siberianas
+422,uday,none,NOUSAGE,422:uday
+422,walkie-talkie,n,,297:walkie-talkie|125:walkie-talkies
+422,waller,none,NOUSAGE,422:waller
+422,warden,none,NOUSAGE,422:warden
