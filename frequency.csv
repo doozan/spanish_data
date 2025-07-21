@@ -16,12 +16,12 @@ count,spanish,pos,flags,usage
 5577805,uno,determiner,DUPLICATE,5193925:una|249272:unos|134608:unas
 5264237,tener,v,,986784:tengo|954339:tiene|682238:tienes|498611:tenemos|350961:tener|350059:tenía|264360:tienen|123709:tenido|100620:tuvo|91480:tuve|86947:tenga|59087:tendrá|49330:tenías|47201:tenían|43398:tengas|42905:tendrás|42473:tendría|40319:ten|39981:tendremos|39060:tendré|35790:teniendo|35272:teníamos|31723:tuviera|31220:tuvimos|26783:tengan|23456:tuvieron|22883:tendrán|22480:tuviste|21728:tenéis|17130:tengamos|10361:tenerlo|9983:tendrías|8641:tendríamos|8327:tuvieras|7332:tenerte|6576:tendrían|5552:tenerla|4987:tuvieran|4724:tenés|4582:tuviese|4374:tuviéramos|2941:tenerlos|2453:tendréis|2251:tenerme|2036:tengáis|2021:tened|1619:tenerle|1327:teníais|1192:tenerlas|1155:tenerse|876:tuvieses|706:tenlo|694:tuviesen|634:tuvisteis|612:tuviésemos|543:tenernos|408:tendríais|377:tenida|365:tenidos|305:teneros|274:tenerles|263:tenme|258:tenidas|246:téngalo|234:téngase|229:tuvierais|221:teniéndolo|176:tené|168:teniéndote|167:tenla|142:teniéndola|128:téngame|101:ténganlo|90:teniéndolos|89:teniéndome|84:tuviere|80:tenlos|70:tente|65:tenedlo|65:teniéndose|62:teniéndole|49:tuvieseis|44:teniéndolas|41:teneos|41:tengámoslo|41:tenle|39:ténganme|37:téngala|32:tengámosla|26:tenelo|26:teneme|26:tenenos|26:tenérselo|24:tengás|24:tuvieren|22:ténganos|21:tenedme|18:teniéndonos|17:téngalos|15:teniéndoos|15:ténganlos|12:tenlas|12:téngale|10:tennos|9:tenérmelo|9:téngalas|9:ténganle|9:ténganse|8:tenedla|7:teniéndoles|7:tuvieres|7:ténganla|7:ténganlas|7:ténmelo|6:tenérsela|6:tenértelo|5:tenedlos|5:tenela|5:tenérselas|4:tengámoslos|4:tenles|4:tenérsele|4:tenértelas|4:téngannos
 5080634,se,pron,,5080634:se
-4808424,ir,v,,1072351:vamos|662485:voy|604495:va|439955:ir|336124:vas|198486:ve|186422:van|172489:vaya|169636:iba|137917:ves|104001:ido|95198:vete|76578:iré|62112:irme|41592:vámonos|39835:vayas|36800:irse|32174:irnos|31686:iremos|30501:vayan|29813:irá|28846:irte|26827:iban|24104:yendo|23630:ibas|23518:vayamos|18130:íbamos|16029:irás|14183:vais|13867:iría|13465:irán|8740:váyanse|8616:váyase|6053:id|2827:iros|2566:irías|2098:ba|2063:iríamos|2019:vayámonos|1931:irían|1456:vayáis|1175:andá|801:yéndose|790:ibais|775:andate|705:iréis|586:idos|278:yéndome|224:veme|214:irle|191:yéndote|182:vele|166:andale|106:yéndonos|86:irlo|65:irla|65:iríais|60:irlos|48:irles|45:idle|37:veles|35:irlas|25:íos|23:venos|22:yéndole|20:írsele|16:vayás|15:fuéronse|11:vamanos|9:íbase|7:idles|6:andalo|5:váyale|5:írselo|4:fuime|4:írseles
+4809407,ir,v,,1072351:vamos|662485:voy|604495:va|439955:ir|336124:vas|198486:ve|186422:van|172489:vaya|169636:iba|137917:ves|104001:ido|95198:vete|76578:iré|62112:irme|41592:vámonos|39835:vayas|36800:irse|32174:irnos|31686:iremos|30501:vayan|29813:irá|28846:irte|26827:iban|24104:yendo|23630:ibas|23518:vayamos|18130:íbamos|16029:irás|14183:vais|13867:iría|13465:irán|8740:váyanse|8616:váyase|6053:id|2827:iros|2566:irías|2098:ba|2063:iríamos|2019:vayámonos|1931:irían|1456:vayáis|1175:andá|801:yéndose|790:ibais|777:llendo|775:andate|705:iréis|586:idos|278:yéndome|224:veme|214:irle|191:yéndote|182:vele|166:andale|163:hiba|106:yéndonos|86:irlo|65:irla|65:iríais|60:irlos|48:irles|45:idle|37:veles|35:irlas|29:hibas|25:íos|23:venos|22:yéndole|20:írsele|16:vayás|15:fuéronse|14:hiban|11:vamanos|9:íbase|7:idles|6:andalo|5:váyale|5:írselo|4:fuime|4:írseles
 4615774,tú,pron,,3154427:te|946172:tú|483867:ti|31308:tí
 4509652,con,prep,,4509652:con
 4351664,qué,pron,,4351664:qué
 4121086,suyo,determiner,,3109129:su|1011957:sus
-4104323,hacer,v,,890471:hacer|609859:hace|298899:haciendo|245925:hizo|225440:hacerlo|170177:haces|150151:hice|119359:haré|109515:hago|105315:hacen|103778:hiciste|96236:haga|81124:hagas|70083:hacemos|69106:hacía|68452:hará|67342:haría|55234:hicieron|47539:haremos|38617:hicimos|38133:hazlo|34178:harás|31082:hacerle|30570:hagan|30235:hacerte|27207:hacerme|24124:hiciera|23846:hacerse|23462:hagamos|20955:harán|17029:harías|14958:hacían|12036:hazme|11198:hagámoslo|8625:hacerla|7808:hacernos|7275:hacías|6985:harían|6947:hicieras|6613:haciéndolo|6176:hacéis|5361:hacerles|5178:hágalo|4974:hacíamos|4879:hicieran|4331:hazte|3808:hacerlos|3645:haríamos|2844:haciéndose|2744:hazle|2570:haced|2547:hiciese|2521:hagáis|2485:hacerlas|2361:háganlo|2031:haciéndole|1991:haciéndome|1922:hiciéramos|1876:hágame|1773:hágase|1622:her|1573:hicisteis|1424:hacés|1317:haciéndote|1302:házmelo|1200:hazla|1107:haceros|1002:haréis|967:face|913:hacérselo|869:haznos|851:hacedlo|779:far|687:hágale|673:haciéndola|657:haciéndonos|590:háganse|588:fer|581:háganme|527:hicistes|507:hacérmelo|503:hazlos|497:haciéndoles|459:hacértelo|441:hazles|426:hicieses|411:haciéndolos|410:haríais|400:hize|394:hágala|388:hágamelo|384:hacíais|336:hiciesen|335:háganle|334:hacedme|321:hacé|286:haciéndolas|277:fo|249:hacedle|246:háganos|243:hagámosle|231:hizó|225:farías|209:hacelo|194:hiciésemos|191:hazlas|186:hágalos|183:hagámosla|181:haceme|176:hacérsela|169:hicierais|169:hágales|151:hagámonos|148:fagan|129:háganlos|111:háganla|109:haceos|106:hacete|101:háganmelo|96:hagás|81:haciéndoselo|81:hacérselas|79:háganoslo|77:hacérnoslo|76:háznoslo|75:fago|75:hacérsele|72:hiciere|72:háztelo|64:hacérmela|61:hacedla|61:hacértela|58:hacérselos|56:hagámosles|54:háganles|49:hágalas|48:fazer|48:hacedlos|46:hagámoslos|46:hágaselo|44:hacedles|43:házmela|42:hacednos|39:hacédmelo|39:háganlas|36:hacele|33:facer|32:hacérmelas|32:hicieseis|31:hágannos|30:haciéndoos|28:hacértelas|26:hacedlas|25:hicieren|24:fizo|24:haciéndomelo|21:hagámoslas|19:háztela|18:faría|17:fice|16:faga|16:hacéroslo|16:hicieres|15:faced|15:hacérmelos|14:fechos|14:hacela|13:hacértelos|12:fazan|12:haciéndotelo|12:hacérnosla|12:hágamela|12:házmelas|11:haziendo|11:háganselo|11:hágasela|11:hízose|10:hacérseles|9:faze|9:háganmela|8:facen|8:haciéndosela|8:hacédnoslo|8:hacérsenos|8:hágaselas|6:hacelos|6:haciéndoselas|6:hacémelo|6:hiciereis|6:hágamelas|6:hágannoslo|6:hízole|5:hacelas|5:haciéndosele|5:hiciéronle|5:hágansela|5:házmelos|5:háztelas|4:faré|4:fazen|4:ficieron|4:haciéndoselos|4:hacédmela|4:hacérnoslos|4:hiciéremos|4:háganosla
+4105258,hacer,v,,890471:hacer|609859:hace|298899:haciendo|245925:hizo|225440:hacerlo|170177:haces|150151:hice|119359:haré|109515:hago|105315:hacen|103778:hiciste|96236:haga|81124:hagas|70083:hacemos|69106:hacía|68452:hará|67342:haría|55234:hicieron|47539:haremos|38617:hicimos|38133:hazlo|34178:harás|31082:hacerle|30570:hagan|30235:hacerte|27207:hacerme|24124:hiciera|23846:hacerse|23462:hagamos|20955:harán|17029:harías|14958:hacían|12036:hazme|11198:hagámoslo|8625:hacerla|7808:hacernos|7275:hacías|6985:harían|6947:hicieras|6613:haciéndolo|6176:hacéis|5361:hacerles|5178:hágalo|4974:hacíamos|4879:hicieran|4331:hazte|3808:hacerlos|3645:haríamos|2844:haciéndose|2744:hazle|2570:haced|2547:hiciese|2521:hagáis|2485:hacerlas|2361:háganlo|2031:haciéndole|1991:haciéndome|1922:hiciéramos|1876:hágame|1773:hágase|1622:her|1573:hicisteis|1424:hacés|1317:haciéndote|1302:házmelo|1200:hazla|1107:haceros|1002:haréis|967:face|913:hacérselo|869:haznos|851:hacedlo|779:far|687:hágale|673:haciéndola|657:haciéndonos|590:háganse|588:fer|581:háganme|527:hicistes|507:hacérmelo|503:hazlos|500:jace|497:haciéndoles|459:hacértelo|441:hazles|426:hicieses|411:haciéndolos|410:haríais|400:hize|394:hágala|388:hágamelo|384:hacíais|336:hiciesen|335:háganle|334:hacedme|321:hacé|286:haciéndolas|277:fo|249:hacedle|246:háganos|243:hagámosle|231:hizó|225:farías|209:hacelo|194:hiciésemos|191:hazlas|186:hágalos|183:hagámosla|181:haceme|176:hacérsela|169:hicierais|169:hágales|157:jago|151:hagámonos|148:fagan|129:háganlos|114:jaga|111:háganla|109:haceos|106:hacete|101:háganmelo|98:jaz|96:hagás|81:haciéndoselo|81:hacérselas|79:háganoslo|77:hacérnoslo|76:háznoslo|75:fago|75:hacérsele|72:hiciere|72:háztelo|64:hacérmela|61:hacedla|61:hacértela|58:hacérselos|56:hagámosles|54:háganles|49:hágalas|48:fazer|48:hacedlos|46:hagámoslos|46:hágaselo|44:hacedles|43:házmela|42:hacednos|39:hacédmelo|39:háganlas|36:hacele|34:jagan|33:facer|32:hacérmelas|32:hicieseis|31:hágannos|30:haciéndoos|28:hacértelas|26:hacedlas|25:hicieren|24:fizo|24:haciéndomelo|21:hagámoslas|19:háztela|18:faría|17:fice|16:faga|16:hacéroslo|16:hicieres|15:faced|15:hacérmelos|14:fechos|14:hacela|14:jizo|13:hacértelos|12:fazan|12:haciéndotelo|12:hacérnosla|12:hágamela|12:házmelas|11:haziendo|11:háganselo|11:hágasela|11:hízose|10:hacérseles|9:faze|9:háganmela|8:facen|8:haciéndosela|8:hacédnoslo|8:hacérsenos|8:hágaselas|8:jarán|6:hacelos|6:haciéndoselas|6:hacémelo|6:hiciereis|6:hágamelas|6:hágannoslo|6:hízole|6:isiste|5:hacelas|5:haciéndosele|5:hiciéronle|5:hágansela|5:házmelos|5:háztelas|4:faré|4:fazen|4:ficieron|4:haciéndoselos|4:hacédmela|4:hacérnoslos|4:hiciéremos|4:háganosla|4:jecho
 3989376,poder,v,,825278:puedo|792545:puede|470464:puedes|369129:podría|294383:podemos|212072:pueden|132930:podía|122548:pueda|83204:podrías|66937:pudo|63447:podríamos|50340:pudiera|49743:pude|48930:podrían|42890:podido|39718:podrá|35242:puedas|33781:podamos|28490:puedan|21083:podrás|20677:podremos|20034:podré|19296:podían|18256:podrán|16520:pudiste|15535:podías|14720:podéis|13096:pudieron|11538:podíamos|10108:pudieras|9695:pudimos|9162:pudieran|7183:pudiéramos|5323:pudiese|2216:pudiendo|2182:podés|2088:podríais|1509:podáis|1410:podréis|973:pudiésemos|907:pudiesen|759:pudieses|356:podíais|321:poderse|302:pudierais|295:poderlo|278:pudiéndose|210:pudisteis|190:poderte|161:poderme|160:poderle|145:poderla|124:podernos|103:poderlos|64:pudiere|63:pudieseis|53:poderlas|50:poderles|33:poderos|22:pudiéndolo|19:podé|15:podérselo|11:pudieren|9:podeos|6:pudiéndosele|6:pudiéremos|5:podida|5:podás|5:podérmelo|5:pudiéndole|5:pudiéndome|5:pudiéndonos|5:puédese|4:podérselos
 3894308,para,prep,,3894252:para|56:pora
 3505097,del,contraction,,3505097:del
@@ -31,7 +31,7 @@ count,spanish,pos,flags,usage
 2824214,mío,determiner,,2589564:mi|220959:mío|13691:míos
 2819996,pero,conj,,2819996:pero
 2676145,si,conj,,2676145:si
-2668894,querer,v,,822885:quiero|524005:quieres|365883:quiere|249429:quería|104978:quieren|71689:querido|71159:queremos|60870:quieras|54110:quiera|49009:quisiera|40682:querías|34787:quise|27718:querer|27473:quiso|20000:querían|19567:querría|13242:queréis|12623:quieran|11806:queríamos|9592:querrá|8791:querrás|8347:queridos|6414:quisieras|6249:querrías|5440:quisiste|5164:queriendo|3709:querés|3481:quisieron|3451:querrán|3318:queramos|2969:quisieran|2577:quisiéramos|2132:queráis|1827:querrían|1756:quisimos|1391:quererte|1352:querré|1223:quererlo|973:quererme|962:querríamos|780:quisiese|736:queríais|576:quererla|306:quererle|258:quiéreme|254:querréis|243:quererse|223:querremos|219:querernos|211:quier|192:querríais|183:quererlos|160:queriéndote|156:quisieses|129:queriéndome|109:queriéndolo|89:quisierais|88:quisiesen|66:queriéndole|64:quisisteis|63:queriéndola|60:quererlas|56:quiérase|53:quiéralo|52:kiero|51:queriéndose|49:queriéndonos|40:quisiésemos|38:quererles|32:quereros|31:quisiere|27:querámoslo|25:quiérelo|23:quiérela|17:queriéndolos|15:quiéranlo|15:quiérete|14:queredme|14:queré|12:queriéndoles|12:quisieres|11:quisieren|10:querás|9:quereme|9:quereos|9:quiéranme|9:quiérele|8:querámonos|8:quisto|8:quiérame|7:querelo|6:querete|6:queriéndoos|6:quisiéremos|5:quiéranse|5:quiérelos|4:queriéndolas
+2669267,querer,v,,822885:quiero|524005:quieres|365883:quiere|249429:quería|104978:quieren|71689:querido|71159:queremos|60870:quieras|54110:quiera|49009:quisiera|40682:querías|34787:quise|27718:querer|27473:quiso|20000:querían|19567:querría|13242:queréis|12623:quieran|11806:queríamos|9592:querrá|8791:querrás|8347:queridos|6414:quisieras|6249:querrías|5440:quisiste|5164:queriendo|3709:querés|3481:quisieron|3451:querrán|3318:queramos|2969:quisieran|2577:quisiéramos|2132:queráis|1827:querrían|1756:quisimos|1391:quererte|1352:querré|1223:quererlo|973:quererme|962:querríamos|780:quisiese|736:queríais|576:quererla|373:quizo|306:quererle|258:quiéreme|254:querréis|243:quererse|223:querremos|219:querernos|211:quier|192:querríais|183:quererlos|160:queriéndote|156:quisieses|129:queriéndome|109:queriéndolo|89:quisierais|88:quisiesen|66:queriéndole|64:quisisteis|63:queriéndola|60:quererlas|56:quiérase|53:quiéralo|52:kiero|51:queriéndose|49:queriéndonos|40:quisiésemos|38:quererles|32:quereros|31:quisiere|27:querámoslo|25:quiérelo|23:quiérela|17:queriéndolos|15:quiéranlo|15:quiérete|14:queredme|14:queré|12:queriéndoles|12:quisieres|11:quisieren|10:querás|9:quereme|9:quereos|9:quiéranme|9:quiérele|8:querámonos|8:quisto|8:quiérame|7:querelo|6:querete|6:queriéndoos|6:quisiéremos|5:quiéranse|5:quiérelos|4:queriéndolas
 2500543,al,contraction,,2500543:al
 2459145,sí,pron,,2459145:sí
 2404116,como,conj,,2404116:como
@@ -47,13 +47,13 @@ count,spanish,pos,flags,usage
 1593689,éste,pron,,1379826:esto|94130:éste|73379:ésta|19792:éstos|15279:éstas|11283:ésto
 1443869,nosotros,pron,,1021380:nos|398706:nosotros|23783:nosotras
 1435949,creer,v,,683937:creo|229737:crees|109380:cree|92453:creer|49603:creí|39775:creía|39149:creen|20179:creemos|19059:creerlo|19002:crea|18223:créeme|11859:creas|9592:creyó|7172:creído|6853:crean|5126:creerme|5058:créame|4654:creías|4506:creyendo|4423:creíste|4260:creéis|4219:creían|3741:creerá|3296:creería|3123:creyeron|2970:creíamos|2914:creamos|2763:creerás|2498:creerte|2198:creerán|2138:creyera|2069:creímos|2052:creerías|1896:créanme|1677:creerle|1570:creeme|1542:creé|1031:creeré|801:creerse|698:creedme|680:creés|662:créelo|634:creerían|611:creed|588:creyeras|453:creáis|431:creyeran|420:creérmelo|330:creerla|328:creyese|257:creernos|248:creértelo|238:creyéndose|222:creerles|178:créalo|170:créanlo|162:creíais|147:creyéramos|139:creyéndolo|137:créetelo|106:creelo|105:creeréis|103:creeremos|101:créase|86:creeros|78:creeríais|71:creídos|68:creyesen|67:creyéndote|63:creyéndome|61:creerlas|57:creísteis|51:creeríamos|44:créele|43:creerlos|42:créanos|42:créenos|33:creyeses|31:créemelo|29:creyéndola|26:creyéndole|25:creyésemos|25:créamelo|21:créete|18:creérsela|17:creyerais|16:creérnoslo|15:creértela|14:creedlo|14:créela|13:creyéndoselo|13:créanle|12:creás|12:creéroslo|12:créale|11:creyere|11:creyeseis|11:créaselo|10:creedle|10:creyéndolas|10:creémelo|10:creérmelas|9:creyéndonos|9:créannos|8:creele|8:creenos|8:creérselas|8:creételo|8:créanmelo|7:creednos|7:créeles|6:creyéndoles|6:creíase|5:creyéndotelo|5:creérmela|5:créala|4:creyéndolos|4:créanse|4:créanselo
-1396282,o,conj,,1386256:o|10022:ó|4:ò
 1389542,ya,adv,,1389442:ya|100:yas
+1386260,o,conj,,1386256:o|4:ò
 1371192,dar,v,,159390:da|133102:dar|104868:dio|100541:dado|88513:dame|60442:darle|60427:dan|42212:das|39424:doy|38932:dale|37363:dando|35142:daré|33462:dieron|31909:darme|30345:darte|24749:daba|23343:dará|23172:dé|20090:diste|19785:date|15981:den|15489:daría|14153:darse|12542:darles|12069:damos|11740:darnos|10031:diera|9991:dada|9369:deme|8383:darán|7802:daremos|7780:dimos|7115:dámelo|6859:dió|6801:daban|5785:dándole|5304:dados|5153:danos|5042:darás|4850:demos|4104:déme|4102:dadas|3316:denme|3296:dámela|2844:dieran|2779:denle|2660:dárselo|2554:dales|2552:dele|2350:dese|2293:darías|2256:darían|2106:démosle|1998:dense|1895:daros|1753:dieras|1664:dadme|1636:dáselo|1633:dándome|1602:dais|1505:daos|1494:dad|1455:darlo|1277:dándose|1220:diese|1186:darla|1090:dándoles|1010:dabas|1007:dadle|978:denos|931:dártelo|901:dándote|867:démelo|781:démonos|700:dése|690:dábamos|688:dela|684:dásela|663:dándonos|641:dalo|630:deis|618:dármelo|600:dámelas|523:dámelos|484:daríamos|469:diéramos|464:démela|455:dárselos|454:dennos|443:dárselas|391:dártela|376:denles|340:démosles|333:dármela|331:disteis|298:diesen|288:dadnos|279:déselo|262:deles|243:darlas|233:daréis|229:darlos|202:dadles|201:delos|157:dieses|156:delo|148:dártelas|140:dándolo|135:dármelas|130:désela|119:dársele|119:dártelos|119:démelas|114:dala|113:dánoslo|93:démelos|91:dármelos|77:dárnoslo|75:dénselo|70:diésemos|70:dénmelo|69:déselas|58:dierais|58:dánosle|54:dándoselo|51:daríais|49:dise|49:dándola|47:denlo|46:dádmelo|45:dabais|43:dárnosla|43:déselos|41:dándosela|41:dánosla|39:delas|39:dándoselas|37:démoslo|36:dalas|33:diere|33:dándolas|33:dénmela|31:dadlo|31:dándoos|30:dádmela|29:dárseles|27:dénsela|25:dénmelos|23:dénmelas|18:dádmelos|18:dándosele|18:dénselos|17:dároslo|15:dándolos|15:dénoslo|12:dalos|12:dándomelo|12:dándoselos|12:dárosla|11:dieseis|11:diose|11:dándomelas|11:dárnoslas|11:dárnoslos|11:dénselas|9:denlos|9:dándotelas|9:dénosla|8:dadla|8:dándotelo|8:démosla|7:dádnoslo|7:dámele|6:dieren|6:dióse|6:dábale|6:dádmelas|6:dándotela|6:dánoslos|5:denla|5:denlas|5:diome|5:dándoseles|5:dánoslas|4:diole|4:dióle|4:dándomela|4:dándomelos|4:dároslos|4:dénnoslo|4:dénoslos
 1328549,deber,v,,292452:debe|186785:debería|154548:debo|117004:debes|105402:debemos|99624:deberías|80305:deben|70848:deberíamos|42007:debía|28931:deberían|25775:debió|21853:debí|15187:deberá|10562:debiste|9872:deba|8330:deberán|8001:debían|5224:debieron|4626:debamos|4432:debías|4115:debimos|3953:debas|3929:debíamos|3806:debiera|3791:debéis|3058:deberíais|2845:deberás|1686:deberemos|1579:deban|1298:deberé|990:debiendo|890:debieran|800:debieras|764:deberse|717:debiéramos|319:deva|237:devo|210:deberle|206:debés|174:deberéis|158:debíais|131:debiese|131:debisteis|110:debiéndose|86:deberte|86:deven|74:deve|62:deberme|62:debáis|42:debiéndome|38:debieses|36:debiéndole|33:dever|30:deberles|30:devemos|28:debierais|27:deves|24:debiésemos|21:debiesen|20:debernos|17:devería|14:devido|13:deveríamos|13:deverías|12:devida|10:debiéndote|10:devan|9:deberos|8:debé|8:devas|8:devés|7:debérselo|7:deviste|6:deberla|6:debértelo|6:deverá|5:deberlo|5:debérmelo|5:devimos|4:debeos|4:deverían|4:devió|4:devían
 1295029,muy,adv,,1294788:muy|241:mui
 1270535,otro,determiner,,482966:otra|412548:otro|231669:otros|143352:otras
-1253288,así,adv,,1205977:así|47021:asi|115:asín|82:ansí|56:assí|32:ansina|5:asina
+1253362,así,adv,,1205977:así|47021:asi|115:asín|82:ansí|60:haci|56:assí|32:ansina|14:hací|5:asina
 1213835,ahora,adv,,1213835:ahora
 1192980,vez,n,,930765:vez|262197:veces|18:vezes
 1188601,cuando,conj,,1188601:cuando
@@ -168,7 +168,7 @@ count,spanish,pos,flags,usage
 363811,acabar,v,,74616:acaba|58517:acabo|45438:acabó|30872:acabado|30678:acabar|20715:acabas|15624:acaban|15584:acabamos|10849:acabe|9555:acababa|6682:acabará|5881:acabaron|3277:acabemos|3265:acabando|3039:acabé|2780:acabaría|2257:acabara|2237:acabaré|2023:acabados|1848:acaben|1726:acabaremos|1724:acabarás|1612:acabarán|1598:acabaste|1585:acabes|1556:acababan|595:acabábamos|589:acabarlo|560:acabarían|554:acabarse|498:acabaran|486:acabáis|470:acabase|441:acábalo|367:acababas|350:acabad|325:acabaras|315:acabaríamos|263:acabarías|257:acabarla|207:acabáramos|144:acabaréis|123:acabarlos|116:acabéis|113:acábate|106:acábala|96:acabarte|89:acábalos|87:acabare|83:acabarme|77:acabándose|60:acabalo|59:acabasen|59:acabóse|58:acabasteis|58:acábenlos|49:acabás|44:acábatelo|41:acabarnos|39:acábenlo|34:acabose|33:acabémoslo|29:acabases|27:acábelo|24:acabarlas|24:acábenla|23:acabala|23:acabareis|23:acabaríais|21:acabásemos|19:acabarais|18:acababais|15:acabártelo|14:acabárselo|13:acábese|11:acabémoslos|10:acabándolos|10:acabémosla|10:acábela|9:acabalos|9:acabándolo|9:acábatela|8:acabaos|8:acábame|7:acábense|6:acabarle|6:acabá|6:acábelos|5:acabaros|5:acabándola|5:acabándome|5:acabándonos|5:acabársele|5:acabémonos|4:acabaseis|4:acabárselas|4:acabárseles|4:acabártela
 359412,tratar,v,,119650:trata|65310:tratando|39683:tratar|21247:trataba|15376:trató|11345:traté|10251:trate|9535:tratan|8118:tratas|6861:tratamos|4274:trataré|4209:trataron|3623:trates|3484:tratara|3361:tratarse|2923:traten|2497:tratará|2379:trataste|2195:trataban|1838:trataría|1831:trataremos|1766:tratada|1524:tratemos|1377:tratarme|1264:tratándose|1260:tratarlo|1214:tratarán|1017:tratase|894:tratadas|894:tratarla|717:tratabas|658:tratarte|546:tratarlos|525:tratábamos|482:trataran|367:tratarás|316:tratarnos|311:tratarle|304:tratare|279:trataras|242:tratarían|235:trátalo|231:trátame|209:trátala|201:tratarías|189:tratándome|187:tratáis|174:tratarlas|141:tratad|113:tratándolo|108:tratá|86:tratéis|84:tratáramos|84:trátenlo|81:tratándola|77:trataríamos|77:trátese|73:tratándote|71:tratarles|63:tratasen|59:trátelo|49:tratándonos|48:tratándolos|48:tráteme|47:trátale|46:tratándole|44:trátalos|43:trátela|36:trátenla|31:tratás|30:trátase|24:tratasteis|23:trataros|23:trátalas|22:trátelos|22:trátenlos|21:tratadlo|21:tratándolas|20:tratabais|19:tratadla|19:trátenme|18:tratalo|16:tratame|16:tratases|15:tratadlos|15:tratábase|15:tratásemos|13:tratémonos|13:trátele|12:trataréis|12:tratársele|12:tratémoslo|10:trátate|9:tratadle|9:trátales|8:trátelas|7:tratala|7:tratarais|7:trataseis|7:trátanos|6:trataríais|6:tratémosla|6:tratémosle|5:tratadme|5:tratalos|5:tratareis|5:tratés|5:trátenle|5:trátennos|5:trátense|4:tratándoles|4:tratárseles|4:trátenlas
 349324,tres,num,,349324:tres
-342015,último,adj,,132602:última|119291:último|64105:últimos|26017:últimas
+347390,último,adj,,132602:última|119291:último|64105:últimos|26017:últimas|4232:ultimo|1143:ultimos
 338840,trabajar,v,,114099:trabajar|65886:trabajando|40659:trabaja|16931:trabajaba|15244:trabajado|14273:trabajas|12996:trabajan|9656:trabajamos|9532:trabajó|6556:trabajé|4321:trabaje|2934:trabajaban|2607:trabajaré|2366:trabajaron|1992:trabajen|1834:trabajaste|1704:trabajes|1662:trabajaremos|1568:trabajará|1480:trabajabas|1182:trabajemos|1125:trabajara|1040:trabajarás|1035:trabajábamos|862:trabajaría|718:trabajarán|440:trabajáis|436:trabajaras|308:trabajaran|263:trabajada|240:trabajarlo|238:trabajadas|238:trabajarías|234:trabajados|212:trabajase|183:trabajad|158:trabajáramos|145:trabajaríamos|135:trabajare|132:trabajarían|108:trabajarla|92:trabájalo|91:trabajéis|88:trabajarse|77:trabajás|58:trabajaréis|50:trabajasen|48:trabajándolo|47:trabajabais|44:trabajases|39:trabajasteis|37:trabajásemos|35:trabajarlas|34:trabajarlos|31:trabajarte|30:trabajándola|26:trabajándose|24:trabajarme|22:trabajalo|22:trabajándome|18:trabajareis|15:trabajarais|15:trabajá|15:trabájala|15:trabájate|14:trabajarle|13:trabajarnos|12:trabajaren|12:trabajándote|11:trabajármelo|11:trabájatelo|11:trabájenlo|10:trabajártelo|9:trabájale|7:trabajándole|7:trabajárselo|6:trabajándolos|4:trabajaseis|4:trabajándolas|4:trabájelo
 334668,morir,v,,96325:morir|78814:murió|26231:muere|15520:muriendo|14838:murieron|12051:muera|11339:muero|9309:morirá|9276:mueren|5045:muriera|4903:mueres|4500:moriré|4308:mueras|4268:morirás|3945:morirán|3653:moriría|3402:moriremos|3041:moría|2930:morimos|2714:morirse|2527:mueran|1827:morirme|1764:morí|1754:muérete|1115:moriste|1026:morían|925:muriese|910:muriéndose|730:morirte|688:muramos|668:morirían|594:murieran|542:morirías|430:murieras|326:moriréis|304:moriríamos|275:muriéndome|271:morías|197:morirnos|169:moríamos|152:morís|142:morid|137:muéranse|118:muriéndote|112:muérase|93:muriesen|90:muráis|82:muriéramos|74:murieses|55:muriéndonos|39:moriles|20:morite|20:muriésemos|18:moriros|18:moriríais|14:moristeis|9:murierais|7:moríais|5:morirlo|5:moríos|4:morírsele
 334232,cada,determiner,,334232:cada
@@ -317,8 +317,8 @@ count,spanish,pos,flags,usage
 157864,cariño,n,,157329:cariño|535:cariños
 157835,además,adv,,157835:además
 157300,posible,adj,,141531:posible|15769:posibles
+157281,echar,v,,24315:echar|12671:echa|12594:echo|11026:echado|8698:echó|5925:echarle|4945:eche|4750:echando|4740:echaron|4339:echaré|4040:echas|4020:eché|3534:echarme|3225:echan|3000:echaba|2877:echamos|2637:echen|2543:echarte|2448:echemos|2212:eches|2171:échale|1819:echaste|1622:echarse|1597:echará|1566:echarlo|1447:echaremos|1248:echaría|1185:échame|1170:échate|1161:echarán|993:echarnos|982:echada|974:echara|892:echarla|749:echaran|701:echarás|676:echaban|645:echarles|561:echarlos|542:echad|444:échalo|404:echados|391:echándole|381:échele|311:echabas|300:echarían|300:echémosle|292:echándose|288:echale|285:échese|269:echaras|261:échala|244:echadas|233:echarías|223:hechar|219:echándome|218:échense|194:échalos|190:echase|182:écheme|174:echadle|174:echaros|171:echábamos|162:echare|162:echáis|161:echándote|160:échales|160:échenle|150:echate|138:echadme|133:echarlas|126:échanos|120:echéis|105:echadlo|105:echame|102:échenlo|89:échelo|87:echaos|79:echándolo|77:echasen|72:echárselo|68:echalo|67:echaríamos|66:echándonos|66:echármelo|61:echáramos|59:echasteis|58:echándola|55:échenme|52:échela|50:echadla|48:echémoslo|48:échalas|42:échenlos|41:echándoles|39:echadlos|39:echases|38:échenla|37:echaréis|33:echársela|33:échamelo|31:echadles|30:echártelo|29:écheles|28:echabais|27:echársele|27:echémosles|27:échelos|26:échenos|25:echásemos|24:echadnos|23:echándolos|22:échenles|21:echalos|20:echala|19:echales|17:echándolas|16:echareis|16:echármela|16:echémosla|15:echárselas|13:echás|13:échenlas|11:echanos|11:echaríais|11:echá|11:echándoselo|11:echémonos|11:échamela|11:échatelo|10:echándomelo|10:échennos|9:echarais|9:échelas|8:echárselos|8:echémoslos|8:échatele|7:echártela|7:echémoste|6:echalas|6:echándosele|6:echárnoslo|6:échatela|5:echadlas|5:echándoos|5:echándosela|4:echándotelo|4:echármelas|4:echémoslas|4:échemela|4:échemelo|4:échenmelo|4:échenselo
 157094,clase,n,,125560:clase|31534:clases
-157058,echar,v,,24315:echar|12671:echa|12594:echo|11026:echado|8698:echó|5925:echarle|4945:eche|4750:echando|4740:echaron|4339:echaré|4040:echas|4020:eché|3534:echarme|3225:echan|3000:echaba|2877:echamos|2637:echen|2543:echarte|2448:echemos|2212:eches|2171:échale|1819:echaste|1622:echarse|1597:echará|1566:echarlo|1447:echaremos|1248:echaría|1185:échame|1170:échate|1161:echarán|993:echarnos|982:echada|974:echara|892:echarla|749:echaran|701:echarás|676:echaban|645:echarles|561:echarlos|542:echad|444:échalo|404:echados|391:echándole|381:échele|311:echabas|300:echarían|300:echémosle|292:echándose|288:echale|285:échese|269:echaras|261:échala|244:echadas|233:echarías|219:echándome|218:échense|194:échalos|190:echase|182:écheme|174:echadle|174:echaros|171:echábamos|162:echare|162:echáis|161:echándote|160:échales|160:échenle|150:echate|138:echadme|133:echarlas|126:échanos|120:echéis|105:echadlo|105:echame|102:échenlo|89:échelo|87:echaos|79:echándolo|77:echasen|72:echárselo|68:echalo|67:echaríamos|66:echándonos|66:echármelo|61:echáramos|59:echasteis|58:echándola|55:échenme|52:échela|50:echadla|48:echémoslo|48:échalas|42:échenlos|41:echándoles|39:echadlos|39:echases|38:échenla|37:echaréis|33:echársela|33:échamelo|31:echadles|30:echártelo|29:écheles|28:echabais|27:echársele|27:echémosles|27:échelos|26:échenos|25:echásemos|24:echadnos|23:echándolos|22:échenles|21:echalos|20:echala|19:echales|17:echándolas|16:echareis|16:echármela|16:echémosla|15:echárselas|13:echás|13:échenlas|11:echanos|11:echaríais|11:echá|11:echándoselo|11:echémonos|11:échamela|11:échatelo|10:echándomelo|10:échennos|9:echarais|9:échelas|8:echárselos|8:echémoslos|8:échatele|7:echártela|7:echémoste|6:echalas|6:echándosele|6:echárnoslo|6:échatela|5:echadlas|5:echándoos|5:echándosela|4:echándotelo|4:echármelas|4:echémoslas|4:échemela|4:échemelo|4:échenmelo|4:échenselo
 156922,cual,pron,,124597:cual|31966:cuales|199:quel|124:qual|36:quales
 155831,arma,n,,83893:arma|71938:armas
 155819,cinco,num,,155815:cinco|4:çinco
@@ -515,12 +515,12 @@ count,spanish,pos,flags,usage
 96234,cama,n,,90769:cama|5465:camas
 96185,vario,adj,,53621:varios|42193:varias|292:varia|79:vario
 96079,utilizar,v,,19200:utilizar|12072:utiliza|9969:utilizado|9453:utilizando|7165:utilizan|5248:utilizó|3873:utilizados|3580:utilizada|2196:utilice|2074:utilizadas|1854:utilizaron|1793:utilizaba|1740:utilizamos|1488:utilizarlo|1450:utilizarse|1095:utilizo|1075:utilizaban|990:utilicen|950:utilizará|949:utilizarla|845:utilicé|749:utilizas|580:utilizaremos|547:utilizarán|543:utilizarlos|510:utilizaste|416:utilizaría|388:utilizaré|387:utilices|336:utilizarlas|329:utilizara|184:utilicemos|155:utilizarme|150:utilizaran|133:utilizarían|123:utilizándose|117:utilizarte|89:utilízalo|88:utilizábamos|72:utilizarás|71:utilizase|68:utilizándolo|65:utilizarle|63:utilizaras|58:utilizad|56:utilizándola|49:utilizarnos|43:utilizáis|42:utilizaríamos|41:utilizabas|40:utilízala|39:utilizarías|37:utilizándolos|34:utilizasen|32:utilizáramos|31:utilícelo|30:utilizándome|28:utilizare|28:utilizándote|27:utilízame|26:utilicéis|19:utilízalos|16:utilizasteis|15:utilícela|14:utilizándolas|12:utilizándonos|11:utilizándole|11:utilizásemos|9:utilizarles|9:utilízalas|8:utilícelos|8:utilícenlo|7:utilizadlo|7:utilizalo|6:utilizaréis|6:utilizá|5:utilizaros|5:utilíceme|5:utilícenla|5:utilícenlas|5:utilícenlos|5:utilícense|4:utilicémoslo|4:utilizabais|4:utilizadme|4:utilizala|4:utilizaren|4:utilizases|4:utilícese
-95986,tirar,v,,15755:tirar|15027:tira|7773:tiró|6399:tirando|4537:tiras|4059:tire|3856:tiré|2526:tiraste|2398:tiren|2298:tiran|2047:tiraron|1998:tires|1778:tirarlo|1564:tiramos|1506:tirarme|1422:tiraba|1343:tirarse|1242:tiraré|1162:tíralo|1143:tirarte|1093:tírala|944:tirad|841:tirarla|725:tiraría|676:tirarle|670:tírate|639:tiraban|532:tirara|500:jace|413:tirará|403:tirándose|379:tirarlos|377:tírame|344:tiraremos|337:tiremos|330:tirarlas|292:tirarnos|249:tirarán|213:tírale|203:tiraran|199:tirándole|196:tirándome|190:tírela|189:tiraras|186:tirándote|175:tirarás|173:tírese|166:tirabas|163:tíralos|163:tírelo|157:jago|153:tíralas|150:tiralo|139:tirarles|130:tirarías|124:tírense|117:tirase|117:tirármela|114:jaga|111:tirártela|110:tiréis|99:tirábamos|98:jaz|96:tirándolo|96:tirársela|88:tirare|88:tirate|88:tiráis|86:tírenlo|83:tirame|81:tirala|79:tirarían|66:tírenlas|58:tirártelo|58:tíramela|57:tirá|56:tiradlas|54:tiradlo|53:tíratela|52:tírenla|51:tirárselo|50:tirármelo|46:tíreme|44:tirándola|43:tirándonos|43:tíramelo|42:tirasen|41:tírenlos|36:tirale|35:tiraros|35:tirás|34:jagan|32:tírales|30:tiradlos|29:tirándolos|29:tirémoslo|27:tirándoles|26:tiralos|26:tiráramos|26:tirárselas|26:tírelos|25:tiradle|25:tirándolas|24:tiradla|24:tirasteis|23:tírenle|22:tírele|21:tiraos|20:tiraríamos|20:tirásemos|19:tirases|17:tirémonos|17:tíratelo|15:tirándotela|15:tirémosla|15:tirémosle|15:tíranos|14:jizo|14:tiraréis|14:tírelas|13:tirárselos|12:tirártelas|12:tírenme|11:tiradme|11:tiralas|11:tirés|10:tirármelos|10:tirárnosla|8:jarán|8:tirámelo|8:tirándomela|8:tirándosela|8:tírenles|7:tirándotelo|7:tirármele|6:tirándoos|6:tirármelas|6:tirárnoslas|6:tirársele|6:tirémoslas|6:tirémoslos|6:tírenos|5:tirándoselo|5:tíramelas|5:tírenselos|4:jecho|4:tirándosele|4:tirártelos|4:tíremelas|4:tíresela|4:tíreselo
 95623,abuelo,n,,47717:abuela|41903:abuelo|5034:abuelos|949:abuelas|16:agüela|4:agüelo
 95455,viaje,n,,81501:viaje|13946:viajes|8:viage
 95432,demonio,n,,75100:demonios|20332:demonio
 95293,perfecto,adj,,63930:perfecto|24792:perfecta|3749:perfectos|2822:perfectas
 95181,raro,adj,,64457:raro|17546:rara|6981:raras|6197:raros
+95057,tirar,v,,15755:tirar|15027:tira|7773:tiró|6399:tirando|4537:tiras|4059:tire|3856:tiré|2526:tiraste|2398:tiren|2298:tiran|2047:tiraron|1998:tires|1778:tirarlo|1564:tiramos|1506:tirarme|1422:tiraba|1343:tirarse|1242:tiraré|1162:tíralo|1143:tirarte|1093:tírala|944:tirad|841:tirarla|725:tiraría|676:tirarle|670:tírate|639:tiraban|532:tirara|413:tirará|403:tirándose|379:tirarlos|377:tírame|344:tiraremos|337:tiremos|330:tirarlas|292:tirarnos|249:tirarán|213:tírale|203:tiraran|199:tirándole|196:tirándome|190:tírela|189:tiraras|186:tirándote|175:tirarás|173:tírese|166:tirabas|163:tíralos|163:tírelo|153:tíralas|150:tiralo|139:tirarles|130:tirarías|124:tírense|117:tirase|117:tirármela|111:tirártela|110:tiréis|99:tirábamos|96:tirándolo|96:tirársela|88:tirare|88:tirate|88:tiráis|86:tírenlo|83:tirame|81:tirala|79:tirarían|66:tírenlas|58:tirártelo|58:tíramela|57:tirá|56:tiradlas|54:tiradlo|53:tíratela|52:tírenla|51:tirárselo|50:tirármelo|46:tíreme|44:tirándola|43:tirándonos|43:tíramelo|42:tirasen|41:tírenlos|36:tirale|35:tiraros|35:tirás|32:tírales|30:tiradlos|29:tirándolos|29:tirémoslo|27:tirándoles|26:tiralos|26:tiráramos|26:tirárselas|26:tírelos|25:tiradle|25:tirándolas|24:tiradla|24:tirasteis|23:tírenle|22:tírele|21:tiraos|20:tiraríamos|20:tirásemos|19:tirases|17:tirémonos|17:tíratelo|15:tirándotela|15:tirémosla|15:tirémosle|15:tíranos|14:tiraréis|14:tírelas|13:tirárselos|12:tirártelas|12:tírenme|11:tiradme|11:tiralas|11:tirés|10:tirármelos|10:tirárnosla|8:tirámelo|8:tirándomela|8:tirándosela|8:tírenles|7:tirándotelo|7:tirármele|6:tirándoos|6:tirármelas|6:tirárnoslas|6:tirársele|6:tirémoslas|6:tirémoslos|6:tírenos|5:tirándoselo|5:tíramelas|5:tírenselos|4:tirándosele|4:tirártelos|4:tíremelas|4:tíresela|4:tíreselo
 95034,despertar,v,,28177:despierta|12368:despertar|7009:desperté|6472:despertó|5697:despertado|5117:despierte|1862:despiertas|1767:despertarme|1767:despertarte|1684:despiertes|1537:despierten|1530:despertarse|1522:despertando|1521:despertaste|1462:despertaba|1335:despertará|1285:despiertan|1027:despertaron|952:despertarlo|883:despiértate|871:despertamos|814:despertarla|762:despertarás|753:despertara|690:despertaré|482:despiértame|398:despertad|392:despertaría|376:despertarle|284:despertaras|278:despertaban|256:despertarlos|244:despertarán|225:despertemos|216:despiértalo|211:despertaremos|202:despertarnos|140:despiértese|139:despertaran|134:despertase|127:despiértense|123:despertada|113:despiértala|104:despertándose|98:despertados|97:despertares|83:despertarías|81:despertate|81:despertándome|77:despiértelo|75:despertabas|70:despertaos|62:despiértenme|58:despertéis|51:despertarles|49:despiérteme|47:despertábamos|45:despertaros|42:despertarían|41:despiértale|41:despiértalos|40:despertadas|36:despiértele|36:despiértenlo|35:despertarlas|33:despertándote|32:despertáis|30:despertases|28:despiértela|27:despertare|25:despertaríamos|24:despertáramos|24:despertás|23:despertasen|22:despertadme|20:despertaréis|16:despertándonos|16:despertémoslo|12:despertá|12:despiértenla|11:despertasteis|11:despertándolo|11:despiértanos|10:despertadle|10:despiértales|9:despertándole|9:despiértelos|7:despertémosla|6:despertándolos|6:despertásemos|6:despertémonos|6:despiértenlos|5:despertadlo|5:despertándola|5:despiértalas|4:despertadlos|4:despertareis|4:despertaríais|4:despertóse|4:despiértenos
 95001,resultar,v,,44850:resulta|14958:resultó|6346:resultar|4837:resultaba|4730:resultan|3853:resultaron|3386:resulte|2151:resultará|1866:resultaría|1444:resultando|939:resultara|890:resultaban|876:resulten|871:resulto|689:resultas|272:resultarán|242:resultarle|235:resultaste|232:resultase|195:resultarían|176:resultaran|162:resulté|133:resultarte|95:resultarme|72:resultarnos|69:resultamos|67:resultarles|50:resultes|46:resultasen|36:resultabas|34:resultaras|34:resultarás|30:resultare|16:resultarías|16:resultándole|13:resultáis|12:resultaren|12:resultándome|11:resultaré|9:resultaremos|8:resultábamos|7:resultemos|7:resultás|6:resultaros|5:resultaríamos|5:resultándoles|4:resultada|4:resultéis
 94509,oficial,adj,,68865:oficial|25644:oficiales
@@ -840,7 +840,7 @@ count,spanish,pos,flags,usage
 55729,casado,adj,,26909:casado|15398:casada|11798:casados|1624:casadas
 55697,cena,n,,53130:cena|2567:cenas
 55687,guardia,n,,39820:guardia|15867:guardias
-55623,desarrollo,n,,54450:desarrollo|1173:desarrollos
+55655,desarrollo,n,,54450:desarrollo|1173:desarrollos|32:desarollo
 55607,apostar,v,,32799:apuesto|7563:apostar|1786:apostado|1719:apostando|1674:apostaría|1171:apostó|972:aposté|829:apostamos|731:apostarlo|643:apuestan|462:apostaste|454:apuestos|448:apostaré|423:apostados|407:apostaba|385:apueste|365:apostaron|297:aposta|259:apuesten|231:apuestes|229:apostemos|140:apostaban|119:apostara|112:apostarle|108:apostará|103:apuéstalo|93:apostaremos|93:apostarías|78:apostada|73:aposto|65:apostarse|61:aposte|56:apostarás|53:apostadas|53:apostarte|50:apostad|40:apostabas|37:apostáis|37:apuéstale|35:apostarán|35:apostábamos|31:apostaras|25:apostaran|25:apostarían|25:apostándole|22:apostarme|22:apostase|20:apostare|18:apostan|14:apostarlos|11:apostarnos|11:apostasteis|10:apuéstame|10:apuéstate|7:apostaos|7:apostaríamos|7:apostáramos|7:apuéstelo|6:apostarla|6:apostarlas|6:aposten|6:apostándose|5:apostarles|5:apostá|5:apuéstele|4:apostaros|4:apuéstalos
 55600,presente,adj,,43774:presente|11826:presentes
 55583,odiar,v,,13120:odia|7118:odias|6862:odiaba|4959:odian|3334:odiar|2085:odiaría|1778:odiado|1579:odie|1335:odiamos|1294:odiabas|1136:odié|1112:odiarme|1068:odies|900:odiaban|838:odiarte|485:odiarlo|454:odiando|428:odien|397:odiara|394:odiará|382:odió|305:odiarla|272:odiada|231:odiarías|229:odiaré|223:odiarás|216:odiaste|210:odiarán|189:odiarnos|181:odiados|180:odiándome|168:odiábamos|163:odiarlos|157:odiaras|156:odiarle|150:odiaron|139:odiarse|133:odiáis|121:ódiame|110:odiaran|101:odiándote|83:odiándolo|82:odiemos|65:odiarían|62:odiándonos|59:odiase|50:odiándose|42:odiadas|36:odiaríamos|32:odiándola|30:odiaros|30:odiases|30:odiéis|29:odiándole|27:odiaremos|25:odiabais|22:odiame|22:odiándolos|20:odiarles|19:odiarlas|19:odiáramos|19:odiás|16:odiasen|14:odiare|9:odiad|6:odiarais|6:ódiala|6:ódialo|5:odiadme|5:odiándolas|5:ódialos|4:odialo|4:ódiate|4:ódieme|4:ódienme
@@ -1702,7 +1702,7 @@ count,spanish,pos,flags,usage
 25662,alumno,n,,16504:alumnos|6040:alumno|1993:alumna|1125:alumnas
 25638,conferencia,n,,20189:conferencia|5449:conferencias
 25615,veinte,num,,25615:veinte
-25605,fbi,none,NOUSAGE,25605:fbi
+25605,FBI,prop,,25605:fbi
 25604,plantear,v,,5800:plantea|3172:planteado|3014:plantear|2225:planteó|1779:plantean|1330:plantearse|1134:planteada|780:planteaba|733:planteadas|655:planteados|640:planteando|597:plantearon|404:planteamos|381:plantee|320:planteará|235:planteaban|204:planteé|184:plantearnos|183:plantearle|162:planteen|141:plantearlo|138:plantearía|132:planteas|129:plantearme|122:planteara|114:plantearte|85:plantearán|76:planteándose|57:plantearé|55:planteárselo|51:plantees|48:planteaste|46:plantearemos|46:planteemos|38:plantearla|31:plantease|27:plantearan|26:plantearían|26:planteábamos|26:planteándome|20:plantearles|19:plantearlas|16:planteármelo|15:plantearlos|15:planteándole|15:plantéatelo|14:plantéate|13:planteártelo|12:plantearas|11:planteándonos|9:planteárnoslo|9:planteársela|9:planteársele|8:planteáis|8:planteándote|7:plantearás|7:planteasen|6:plantearías|6:planteáramos|6:planteárselas|5:plantearos|5:plantearíamos|5:planteándoles|5:planteándolo|5:plantéese|4:planteabas|4:plantéalo
 25600,acudir,v,,6284:acudir|3317:acudió|2367:acude|2025:acudieron|1948:acuden|1528:acudido|1038:acuda|758:acudía|724:acudían|715:acudan|605:acudí|571:acudirá|532:acudiendo|445:acudirán|320:acudiera|320:acudimos|305:acudiste|283:acudo|221:acudiría|209:acudes|204:acudiré|115:acudieran|94:acudirían|92:acudiremos|85:acudas|83:acudid|82:acudiese|53:acudamos|42:acudíamos|33:acudís|32:acudirás|31:acudiesen|29:acudieras|26:acudirse|18:acudáis|17:acudirías|17:acudías|13:acudisteis|12:acudiéramos|7:acudiríamos
 25594,jurado,n,,23702:jurado|1892:jurados
@@ -2769,7 +2769,7 @@ count,spanish,pos,flags,usage
 14069,lentamente,adv,,14069:lentamente
 14064,vídeo,n,,11530:vídeo|2534:vídeos
 14060,tanque,n,,8154:tanque|5906:tanques
-14052,f,letter,,14052:f
+14052,f,interj,,14052:f
 14036,prostituto,n,,8652:prostituta|4851:prostitutas|419:prostituto|114:prostitutos
 14009,gary,none,NOUSAGE,14009:gary
 13991,crema,n,,12890:crema|1101:cremas
@@ -3016,7 +3016,6 @@ count,spanish,pos,flags,usage
 12428,descender,v,,2517:descender|2290:desciende|1315:descendió|1183:descendiendo|1074:descendido|752:descienden|518:descendía|471:descendieron|392:descienda|284:descendemos|220:descendían|208:descenderá|163:desciendan|162:desciendo|91:descendí|83:descendiera|77:descenderán|77:descendimos|73:desciendes|63:descenderemos|60:descendamos|54:descendería|38:descenderé|33:descendíamos|28:descended|25:descendidos|24:descendida|22:descenderían|19:descendiese|19:descendiste|18:descendieran|16:desciendas|8:descenderás|7:descenderíamos|7:descendiéramos|7:descendéis|6:descenderlo|6:descendidas|5:descenderla|5:descenderse|4:descenderías|4:descendías
 12414,lanza,n,,10135:lanza|2279:lanzas
 12410,aniversario,n,,12044:aniversario|366:aniversarios
-12405,ultimar,v,,6039:ultima|4232:ultimo|955:ultimas|312:ultimar|205:ultimado|144:ultimando|130:ultimate|70:ultiman|49:ultimados|44:ultimada|31:ultimaba|31:ultimó|25:ultimen|23:ultimaban|22:ultimaron|21:ultimadas|19:ultime|10:ultimarlo|10:ultimará|8:ultimarse|7:ultimamos|7:ultimaremos|6:ultimarán|5:ultimándose
 12385,estadio,n,,10907:estadio|1478:estadios
 12354,ampliar,v,,4798:ampliar|1192:amplía|1087:ampliado|791:ampliando|662:amplió|589:ampliada|328:amplían|304:amplíe|302:ampliará|246:ampliarse|172:ampliaron|158:ampliarlo|144:ampliadas|132:ampliarla|129:amplíen|128:ampliamos|122:ampliados|116:ampliaba|83:ampliándose|82:amplié|79:ampliaremos|78:ampliarán|77:ampliaría|59:ampliara|49:ampliemos|46:amplío|42:ampliaban|39:ampliaré|38:amplíalo|28:ampliaran|26:ampliarlas|25:ampliarlos|19:ampliándolo|19:amplíala|17:ampliad|17:amplías|16:ampliase|16:ampliándola|11:ampliarían|10:ampliarnos|9:ampliándolas|8:amplíelo|8:amplíes|7:ampliarle|7:ampliarme|7:ampliarás|6:ampliaste|6:ampliábamos|6:amplíela|5:ampliaríamos|5:ampliándolos|4:ampliasen
 12354,destrozar,v,,2440:destrozar|1707:destrozó|1247:destrozando|926:destroza|719:destrozaron|407:destrozan|399:destrozaste|309:destrozará|309:destrozaría|308:destrozaré|285:destrocé|246:destrozarlo|235:destroce|221:destrozarte|189:destrocen|185:destrozas|165:destrozarán|150:destrozaba|147:destrozamos|132:destrozarme|131:destroces|117:destrozarle|113:destrozara|112:destrozarla|83:destrózalo|79:destrozarlos|75:destrozaban|72:destrozaremos|61:destrozarnos|60:destrocemos|59:destrozarás|56:destrozarse|50:destrozaran|46:destrozarían|37:destrozándolo|36:destrozándose|28:destrozarías|24:destrozare|24:destrozándole|24:destrózala|23:destrózalos|21:destrozándome|16:destrozarlas|16:destrozáis|15:destrozándola|14:destrozabas|14:destrozad|14:destrozaríamos|14:destrózale|13:destrocéis|13:destrozaras|13:destrozarles|13:destrozándolos|12:destrozándote|11:destrózame|9:destrozaros|9:destrozábamos|8:destrozalo|8:destrozase|8:destrócenlo|8:destrócenlos|7:destrozándonos|7:destrozáramos|6:destrozadlo|6:destrócelo|5:destrozaréis|5:destrózales|5:destrózate|4:destrozadla|4:destrozadle|4:destrozaríais|4:destrozasen|4:destrozases|4:destrozándoles|4:destrozársela
@@ -3512,6 +3511,7 @@ count,spanish,pos,flags,usage
 10026,Canadá,prop,,10026:canadá
 10026,sally,none,NOUSAGE,10026:sally
 10024,gimnasio,n,,9595:gimnasio|429:gimnasios
+10022,ó,conj,,10022:ó
 10021,orquesta,n,,8914:orquesta|959:orquestas|148:orquestra
 10019,ensalada,n,,8647:ensalada|1372:ensaladas
 10016,sello,n,,7454:sello|2562:sellos
@@ -4031,6 +4031,7 @@ count,spanish,pos,flags,usage
 8179,procedente,adj,,4568:procedentes|3611:procedente
 8176,atento,adj,,4908:atento|3268:atentos
 8174,autónomo,n,,4661:autónoma|3513:autónomas
+8173,ultimar,v,,6039:ultima|955:ultimas|312:ultimar|205:ultimado|144:ultimando|130:ultimate|70:ultiman|49:ultimados|44:ultimada|31:ultimaba|31:ultimó|25:ultimen|23:ultimaban|22:ultimaron|21:ultimadas|19:ultime|10:ultimarlo|10:ultimará|8:ultimarse|7:ultimamos|7:ultimaremos|6:ultimarán|5:ultimándose
 8169,cuidadoso,adj,,4204:cuidadoso|2100:cuidadosa|1668:cuidadosos|197:cuidadosas
 8169,infeliz,adj,,6737:infeliz|1432:infelices
 8168,randy,none,NOUSAGE,8168:randy
@@ -4211,6 +4212,7 @@ count,spanish,pos,flags,usage
 7707,rellenar,v,,2479:rellenar|1119:rellena|710:rellenas|435:rellenado|391:rellenando|366:rellene|251:rellenan|234:rellenó|156:rellené|154:rellenarlo|138:rellenamos|83:rellenaré|78:rellenaba|76:rellenarlos|72:rellenaste|71:rellenen|65:rellenaron|62:rellénalo|61:rellenarla|50:rellenes|46:rellenados|45:rellenará|42:rellenaremos|42:rellenarlas|41:rellenada|41:rellenarse|32:rellenaban|30:rellenara|26:rellenarte|24:rellenad|23:rellenadas|20:rellénelo|19:rellenarme|19:rellénalos|18:rellenemos|18:rellénala|17:rellenarán|17:rellenaría|14:rellenéis|13:relléname|9:rellenaran|8:rellenaras|8:rellenarás|7:rellenarle|7:rellenábamos|7:rellenándola|7:rellenándolas|7:rellenándolos|7:rellenándose|6:rellenáis|5:rellenabas|5:rellenándolo|5:rellenárselo|5:rellénalas|4:rellenalo|4:rellenare|4:rellenase|4:rellenases
 7704,efectivamente,adv,,7704:efectivamente
 7701,nacionalista,adj,,3991:nacionalista|3710:nacionalistas
+7699,boom,n,,4759:boom|2820:bum|85:booms|35:bums
 7698,talla,n,,6904:talla|794:tallas
 7696,cobertura,n,,7470:cobertura|226:coberturas
 7696,discreto,adj,,3636:discreto|2382:discreta|1204:discretos|474:discretas
@@ -4840,7 +4842,6 @@ count,spanish,pos,flags,usage
 6235,contribución,n,,4458:contribución|1777:contribuciones
 6233,sereno,n,,6074:serena|159:serenas
 6232,ofensiva,n,,5554:ofensiva|678:ofensivas
-6228,portugués,adj,,3074:portugués|1474:portuguesa|1376:portugueses|304:portuguesas
 6227,circular,n,DUPLICATE,5200:circular|1027:circulares
 6227,pino,n,,4010:pino|2217:pinos
 6223,relativamente,adv,,6223:relativamente
@@ -5694,7 +5695,6 @@ count,spanish,pos,flags,usage
 4860,jung,none,NOUSAGE,4860:jung
 4859,bombardeo,n,,3252:bombardeo|1607:bombardeos
 4858,aca,none,NOUSAGE,4858:aca
-4858,lamer,v,,852:lame|532:lamiendo|249:lamió|237:lamo|204:lamía|178:lamido|170:lamen|164:lames|150:lamerle|136:lamerme|134:lámelo|119:lamerte|106:lamida|101:lambo|101:lámeme|83:lamiéndose|80:lamerlo|78:lamerse|77:laman|73:lamí|60:lameré|59:lamerla|59:lamiste|55:lamían|51:lamiéndole|47:lamiéndome|45:lamiera|43:lamba|42:lamidas|39:lamería|30:lamieron|30:lámela|29:lamerá|29:lámete|27:lamerlos|24:lamidos|23:lamiéndote|20:lamemos|20:lamerlas|19:lamerles|16:lambe|15:lamerás|15:lamías|15:lámele|14:lamerán|14:lámelos|13:lamernos|13:lamieran|12:lamieras|11:lamamos|11:lamber|11:lamed|11:lamerías|11:lamimos|11:lamiéndonos|11:lámame|10:lamiéndolo|9:lameme|8:lamiéndola|8:lamérselo|7:lamérsela|6:lámelas|5:lameremos|5:lamiéndoles|5:lamíamos|4:lambas|4:lamérselas|4:lamértela|4:lámalo
 4858,manada,n,,4232:manada|626:manadas
 4856,vamonos,none,NOUSAGE,4856:vamonos
 4855,difícilmente,adv,,4855:difícilmente
@@ -5708,7 +5708,6 @@ count,spanish,pos,flags,usage
 4846,oido,none,NOUSAGE,4846:oido
 4846,perímetro,n,,4751:perímetro|95:perímetros
 4846,trimestre,n,,4582:trimestre|264:trimestres
-4844,boom,n,,4759:boom|85:booms
 4841,prolongado,adj,,2007:prolongado|1911:prolongada|494:prolongados|429:prolongadas
 4840,lote,n,,3924:lote|916:lotes
 4840,ratificar,v,,1121:ratificó|765:ratificado|713:ratificar|534:ratifica|324:ratificada|219:ratificaron|154:ratifican|136:ratificados|108:ratifique|90:ratificando|81:ratificará|68:ratificaba|64:ratificadas|63:ratifico|47:ratificamos|47:ratificara|45:ratificarlo|38:ratifiquen|37:ratificaría|36:ratificarse|31:ratificarán|22:ratificaban|14:ratifiqué|13:ratificase|12:ratificarla|11:ratificaran|11:ratificarle|9:ratificarlas|8:ratificarlos|7:ratificarían|4:ratificarnos|4:ratificasen|4:ratificándose
@@ -5827,6 +5826,7 @@ count,spanish,pos,flags,usage
 4713,consecutivo,adj,,1527:consecutivos|1196:consecutivo|1006:consecutivas|984:consecutiva
 4712,exótico,adj,,1559:exótico|1099:exótica|1043:exóticos|1011:exóticas
 4711,Uruguay,prop,,4711:uruguay
+4710,lamer,v,,852:lame|532:lamiendo|249:lamió|237:lamo|204:lamía|178:lamido|170:lamen|164:lames|150:lamerle|136:lamerme|134:lámelo|119:lamerte|101:lambo|101:lámeme|83:lamiéndose|80:lamerlo|78:lamerse|77:laman|73:lamí|60:lameré|59:lamerla|59:lamiste|55:lamían|51:lamiéndole|47:lamiéndome|45:lamiera|43:lamba|39:lamería|30:lamieron|30:lámela|29:lamerá|29:lámete|27:lamerlos|24:lamidos|23:lamiéndote|20:lamemos|20:lamerlas|19:lamerles|16:lambe|15:lamerás|15:lamías|15:lámele|14:lamerán|14:lámelos|13:lamernos|13:lamieran|12:lamieras|11:lamamos|11:lamber|11:lamed|11:lamerías|11:lamimos|11:lamiéndonos|11:lámame|10:lamiéndolo|9:lameme|8:lamiéndola|8:lamérselo|7:lamérsela|6:lámelas|5:lameremos|5:lamiéndoles|5:lamíamos|4:lambas|4:lamérselas|4:lamértela|4:lámalo
 4710,noventa,num,,4710:noventa
 4708,dependiente,adj,,3025:dependiente|1683:dependientes
 4706,ceja,n,,3363:cejas|1343:ceja
@@ -6045,6 +6045,7 @@ count,spanish,pos,flags,usage
 4456,deterioro,n,,4318:deterioro|138:deterioros
 4456,rebajar,v,,1173:rebajar|583:rebajado|233:rebajó|181:rebajada|179:rebajarse|167:rebajando|167:rebajarme|156:rebaje|140:rebajan|132:rebajados|110:rebajaría|93:rebajes|85:rebajarte|84:rebajaron|80:rebajaré|78:rebajará|74:rebajarlo|62:rebajadas|61:rebajaba|53:rebajen|50:rebajé|48:rebajarla|44:rebajara|43:rebajamos|33:rebajarnos|32:rebajarle|26:rebajarán|25:rebajaremos|23:rebajaste|20:rebajemos|18:rebajaran|17:rebajarías|16:rebajaban|16:rebajarlos|16:rebajándome|15:rebajándose|12:rebajase|11:rebajaras|11:rebajarían|10:rebajarlas|10:rebajándola|9:rebajándolo|9:rebájalo|8:rebajarles|8:rebajándote|6:rebajarás|6:rebajándole|5:rebajabas|5:rebajáis|5:rebajárselo|4:rebájame|4:rebájate
 4455,sermón,n,,3094:sermón|1361:sermones
+4450,portugués,n,,3074:portugués|1376:portugueses
 4448,grieta,n,,2363:grieta|2085:grietas
 4448,sip,interj,,4448:sip
 4448,valenciano,n,,1970:valenciana|1780:valenciano|513:valencianos|185:valencianas
@@ -6053,7 +6054,6 @@ count,spanish,pos,flags,usage
 4446,extraterrestre,n,,4446:extraterrestres
 4446,preceder,v,,1126:precede|725:precedido|490:precedieron|471:precedida|344:preceden|344:precedió|169:precedidos|152:precedía|123:precedidas|120:preceder|91:precediendo|72:precedían|56:preceda|32:precederá|26:precederán|26:precediera|21:precedan|17:precedo|14:precedería|5:precederle|5:precederme|5:precedieran|4:precederlo|4:precediese|4:precediéndola
 4445,acampar,v,,2006:acampar|491:acampando|327:acamparemos|298:acampado|222:acampamos|181:acampados|115:acampa|113:acamparon|99:acampan|92:acampemos|85:acampó|51:acampaban|49:acampaba|45:acampen|36:acampe|28:acampé|27:acamparé|24:acampábamos|22:acampas|18:acamparán|17:acampaste|17:acampo|16:acampará|15:acamparía|13:acampad|8:acamparíamos|6:acampara|6:acamparan|5:acamparían|5:acampáis|4:acampes|4:acampáramos
-4444,jalar,v,,984:jala|652:jalar|360:jalen|312:jalando|292:jaló|141:jalas|137:jalado|135:jalan|134:jalo|94:jalaba|82:jalé|70:jálalo|68:jalada|66:jalarlo|60:jalaste|60:jálame|46:jalad|44:jalarla|42:jalamos|38:jalaré|35:jalara|33:jalarle|32:jálala|31:jaladas|28:jalaron|26:jalarte|26:jálale|25:jalarme|24:jalados|23:jalaban|20:jalándolo|18:jalándose|17:jalará|17:jalemos|16:jalaremos|16:jalándole|15:jalarse|14:jalándome|14:jálate|14:jálenlo|13:jalaría|12:jalalo|12:jálele|11:jálelo|11:jálenme|10:jalaras|9:jalarán|9:jalándola|8:jalársela|6:jalaran|6:jalarlos|6:jalándolos|6:jálenla|5:jalarlas|5:jalarás|5:jálalas|5:jálalos|5:jálela|5:jálenle|5:jálense|5:jálese|4:jalare|4:jalarías|4:jalándote|4:jalándotela|4:jalártela|4:jálatelo
 4441,carnicero,n,,3673:carnicero|579:carniceros|173:carnicera|16:carniceras
 4441,satisfactorio,adj,,1923:satisfactorio|1622:satisfactoria|509:satisfactorios|387:satisfactorias
 4441,this,none,NOUSAGE,4441:this
@@ -6145,6 +6145,7 @@ count,spanish,pos,flags,usage
 4349,coral,n,,3684:coral|665:corales
 4347,ternura,n,,4262:ternura|85:ternuras
 4345,francotirador,n,,2869:francotirador|1407:francotiradores|65:francotiradora|4:francotiradoras
+4345,jalar,v,,984:jala|652:jalar|360:jalen|312:jalando|292:jaló|141:jalas|137:jalado|135:jalan|134:jalo|94:jalaba|82:jalé|70:jálalo|66:jalarlo|60:jalaste|60:jálame|46:jalad|44:jalarla|42:jalamos|38:jalaré|35:jalara|33:jalarle|32:jálala|28:jalaron|26:jalarte|26:jálale|25:jalarme|24:jalados|23:jalaban|20:jalándolo|18:jalándose|17:jalará|17:jalemos|16:jalaremos|16:jalándole|15:jalarse|14:jalándome|14:jálate|14:jálenlo|13:jalaría|12:jalalo|12:jálele|11:jálelo|11:jálenme|10:jalaras|9:jalarán|9:jalándola|8:jalársela|6:jalaran|6:jalarlos|6:jalándolos|6:jálenla|5:jalarlas|5:jalarás|5:jálalas|5:jálalos|5:jálela|5:jálenle|5:jálense|5:jálese|4:jalare|4:jalarías|4:jalándote|4:jalándotela|4:jalártela|4:jálatelo
 4343,camilla,n,,4038:camilla|305:camillas
 4343,engordar,v,,1119:engordar|803:engordado|527:engorda|459:engordando|254:engordan|167:engordó|137:engordé|106:engordas|92:engordo|73:engordaste|64:engordaba|55:engorden|43:engordaré|41:engordará|41:engordarás|40:engordamos|36:engordaban|30:engordados|29:engordaron|27:engordara|27:engordarte|20:engordarlo|20:engordaría|17:engordaremos|15:engordada|15:engordarlos|14:engordarme|10:engordadas|10:engordarla|9:engordarán|8:engordaras|7:engordarle|6:engordemos|5:engordáis|5:engórdame|4:engordaran|4:engordarlas|4:engordándose
 4341,acertado,adj,,2385:acertado|1378:acertada|338:acertadas|240:acertados
@@ -8180,7 +8181,6 @@ count,spanish,pos,flags,usage
 2821,hyun,none,NOUSAGE,2821:hyun
 2821,natación,n,,2821:natación
 2820,Robles,prop,,2820:robles
-2820,bum,interj,,2820:bum
 2819,enfatizar,v,,977:enfatizó|595:enfatizar|475:enfatiza|172:enfatizando|100:enfatizan|93:enfatizado|71:enfatizaba|68:enfatizaron|47:enfatizo|30:enfatizamos|28:enfatizada|23:enfatizarlo|20:enfatice|16:enfatizarse|15:enfatizaban|14:enfaticen|14:enfatizados|9:enfatizara|7:enfatizas|6:enfatizadas|6:enfatizará|5:enfaticé|4:enfaticemos|4:enfatices|4:enfatizaremos|4:enfatizaré|4:enfatizaría|4:enfatizaste|4:enfatizándose
 2819,pizarra,n,,2538:pizarra|281:pizarras
 2817,acortar,v,,945:acortar|332:acorta|228:acortando|192:acortado|169:acortó|137:acortan|56:acortarse|56:acorte|55:acortará|52:acortarlo|49:acortamos|47:acortaron|43:acorté|38:acortada|36:acortaba|36:acortaría|34:acortaremos|31:acortemos|30:acortarla|25:acorten|25:acorto|23:acortaban|23:acortarán|22:acortaré|18:acortara|17:acortadas|16:acortados|16:acortas|16:acortaste|13:acortándose|10:acortarle|7:acórtalo|6:acortarlas|6:acortarles|4:acortarían|4:acórtalos
@@ -8598,6 +8598,7 @@ count,spanish,pos,flags,usage
 2604,Judas,prop,,2604:judas
 2604,estudioso,adj,,1436:estudiosos|988:estudioso|165:estudiosa|15:estudiosas
 2604,membrana,n,,1783:membrana|821:membranas
+2604,reptil,n,,1564:reptiles|1036:reptil|4:réptiles
 2603,policíaco,adj,,573:policíaca|440:policiaca|401:policíaco|367:policiaco|234:policíacas|221:policiacas|200:policíacos|167:policiacos
 2602,Indiana,prop,,2581:indiana|21:indianas
 2602,obsceno,adj,,1152:obsceno|610:obscena|456:obscenas|384:obscenos
@@ -8606,7 +8607,6 @@ count,spanish,pos,flags,usage
 2601,tapadera,n,,2468:tapadera|133:tapaderas
 2600,cerilla,n,,1605:cerillas|995:cerilla
 2600,placentero,adj,,1259:placentero|917:placentera|242:placenteras|182:placenteros
-2600,reptil,n,,1564:reptiles|1036:reptil
 2600,semejanza,n,,2062:semejanza|538:semejanzas
 2599,Mari,prop,,2599:mari
 2599,opositor,n,,1499:opositores|1100:opositor
@@ -8842,8 +8842,8 @@ count,spanish,pos,flags,usage
 2502,complacido,adj,,1582:complacido|585:complacida|303:complacidos|32:complacidas
 2502,non,adj,,2502:non
 2502,proyectil,n,,1270:proyectiles|1232:proyectil
+2501,Google,prop,,2501:google
 2501,cargador,n,,1864:cargador|623:cargadores|14:cargadoras
-2501,google,none,NOUSAGE,2501:google
 2501,maxwell,none,NOUSAGE,2501:maxwell
 2501,paternidad,n,,2486:paternidad|15:paternidades
 2500,Zamora,prop,,2500:zamora
@@ -9469,7 +9469,6 @@ count,spanish,pos,flags,usage
 2242,vicki,none,NOUSAGE,2242:vicki
 2242,yoo,none,NOUSAGE,2242:yoo
 2241,aw,none,NOUSAGE,2241:aw
-2241,búho,n,,1440:búho|543:búhos|196:buho|62:buhos
 2240,Extremadura,prop,,2240:extremadura
 2240,coordinado,adj,,824:coordinado|644:coordinada|407:coordinados|365:coordinadas
 2240,lúcido,adj,,1056:lúcido|780:lúcida|287:lúcidos|117:lúcidas
@@ -9719,8 +9718,8 @@ count,spanish,pos,flags,usage
 2151,floyd,none,NOUSAGE,2151:floyd
 2151,hipnotizar,v,,614:hipnotizado|271:hipnotizada|226:hipnotizar|152:hipnotizados|130:hipnotiza|115:hipnotizó|88:hipnotizarme|50:hipnotizando|44:hipnotizaron|39:hipnotizarte|37:hipnoticé|37:hipnotizan|36:hipnotizaba|34:hipnotizarlo|31:hipnotizarla|25:hipnotizo|24:hipnotice|22:hipnotizadas|21:hipnotizaré|21:hipnotizas|21:hipnotizaste|14:hipnotizarle|14:hipnotizarlos|13:hipnoticen|12:hipnotízame|11:hipnotizaban|11:hipnotizara|8:hipnotizamos|5:hipnotices|5:hipnotizarse|4:hipnotizaran|4:hipnotizarnos|4:hipnotizará|4:hipnotizándolo|4:hipnotizándome
 2151,tallar,v,,513:tallar|460:tallada|359:talladas|153:tallando|150:talló|83:tallaron|73:tallé|46:tallaba|46:tallan|32:tallen|30:tallaban|25:tallamos|24:tallarlo|24:tallaré|20:tallaste|19:tallarse|14:tallarla|13:tallara|10:tallarle|8:tallaremos|8:tallaría|6:tallarme|6:tallarte|6:tallará|5:tallarlas|5:tallándolo|5:tállate|4:tallándose|4:tállame
+2150,BBC,prop,,2150:bbc
 2150,Iraq,prop,,2150:iraq
-2150,bbc,none,NOUSAGE,2150:bbc
 2150,constelación,n,,1378:constelación|772:constelaciones
 2150,fastidio,n,,2120:fastidio|30:fastidios
 2150,inexistente,adj,,1489:inexistente|661:inexistentes
@@ -10198,6 +10197,7 @@ count,spanish,pos,flags,usage
 1984,rivalidad,n,,1541:rivalidad|443:rivalidades
 1983,Lorca,prop,,1983:lorca
 1983,apasionante,adj,,1700:apasionante|283:apasionantes
+1983,búho,n,,1440:búho|543:búhos
 1983,constituyente,n,,1312:constituyente|671:constituyentes
 1983,cronista,n,,1254:cronista|729:cronistas
 1983,express,none,NOUSAGE,1983:express
@@ -10905,6 +10905,7 @@ count,spanish,pos,flags,usage
 1778,estrechamente,adv,,1778:estrechamente
 1778,ethel,none,NOUSAGE,1778:ethel
 1778,incompatible,adj,,909:incompatible|869:incompatibles
+1778,portugués,adj,DUPLICATE,1474:portuguesa|304:portuguesas
 1778,sudoroso,adj,,835:sudoroso|338:sudorosa|323:sudorosos|282:sudorosas
 1777,clemencia,n,,1777:clemencia
 1776,calmante,n,,961:calmantes|815:calmante
@@ -11641,9 +11642,9 @@ count,spanish,pos,flags,usage
 1609,atestiguar,v,,477:atestiguar|224:atestiguan|213:atestigua|87:atestiguarlo|84:atestiguó|74:atestiguado|51:atestiguando|46:atestiguaron|45:atestigüe|35:atestiguará|34:atestiguo|29:atestiguaba|24:atestiguaban|21:atestiguaré|20:atestigüen|19:atestiguara|18:atestiguada|16:atestiguarán|14:atestiguamos|14:atestiguaría|10:atestigüé|8:atestiguaran|8:atestiguarían|8:atestigües|6:atestiguados|5:atestiguad|5:atestiguadas|5:atestiguarás|5:atestiguas|4:atestiguaste
 1609,probado,adj,,1268:probada|341:probadas
 1608,Lupe,prop,,1608:lupe
+1608,NBA,prop,,1608:nba
 1608,domar,v,,495:domar|225:domado|186:dome|119:domada|79:domarlo|57:domando|46:domarla|45:domó|44:doman|39:domados|34:domarlos|25:domarte|22:domaré|20:domé|17:domaba|17:domaste|16:domarme|14:domadas|13:domaremos|10:domamos|10:domarlas|9:domara|9:domarnos|9:dómalo|8:domarle|8:domaron|8:domará|7:domen|5:domarse|4:domad|4:domaría|4:domes
 1608,lynch,none,NOUSAGE,1608:lynch
-1608,nba,none,NOUSAGE,1608:nba
 1608,sustraer,v,,295:sustraerse|245:sustraído|170:sustraer|137:sustraídos|114:sustrajo|90:sustraída|89:sustrae|82:sustrajeron|68:sustraídas|41:sustraerme|36:sustraen|36:sustrayendo|26:sustraía|17:sustraerle|16:sustraje|15:sustraiga|14:sustraernos|13:sustraían|11:sustraerlo|10:substraerse|9:sustraerla|8:substrae|8:sustraemos|7:sustraerte|6:substraído|6:sustraerlos|6:sustrayéndola|5:sustraeré|4:substraer|4:sustraerlas|4:sustraigan|4:sustraigo|4:sustrajera|4:sustrayéndole|4:sustrayéndolo
 1608,timo,n,,1409:timo|199:timos
 1607,fragancia,n,,1344:fragancia|263:fragancias
@@ -14290,7 +14291,6 @@ count,spanish,pos,flags,usage
 1143,pe,n,,980:pe|163:pes
 1143,sensualidad,n,,1132:sensualidad|11:sensualidades
 1143,slade,none,NOUSAGE,1143:slade
-1143,ultimos,none,NOUSAGE,1143:ultimos
 1143,ventajoso,adj,,481:ventajoso|397:ventajosa|183:ventajosas|82:ventajosos
 1142,Oaxaca,prop,,1142:oaxaca
 1142,Sudán,prop,,1142:sudán
@@ -14492,7 +14492,7 @@ count,spanish,pos,flags,usage
 1115,catre,n,,937:catre|178:catres
 1115,inútilmente,adv,,1115:inútilmente
 1115,narco,n,,594:narcos|517:narco|4:narca
-1115,ole,none,NOUSAGE,1115:ole
+1115,olé,interj,,1115:ole
 1115,ouch,none,NOUSAGE,1115:ouch
 1115,sociópata,n,,916:sociópata|199:sociópatas
 1115,sombrilla,n,,814:sombrilla|301:sombrillas
@@ -17075,6 +17075,7 @@ count,spanish,pos,flags,usage
 847,conciso,adj,,411:conciso|309:concisa|77:concisas|50:concisos
 847,ecuatorial,adj,,694:ecuatorial|153:ecuatoriales
 847,loren,none,NOUSAGE,847:loren
+847,mandarín,n,,724:mandarín|123:mandarines
 847,mccall,none,NOUSAGE,847:mccall
 847,nordeste,n,,847:nordeste
 847,padrón,n,,750:padrón|97:padrones
@@ -17984,7 +17985,6 @@ count,spanish,pos,flags,usage
 777,cms,none,NOUSAGE,777:cms
 777,incubar,v,,166:incubando|133:incubar|75:incubado|69:incuba|64:incuban|37:incubó|34:incubo|31:incubados|25:incubaron|23:incubaba|19:incubándose|18:incubarse|16:incubada|15:incuben|12:incubadas|7:incubaban|7:incubarlos|7:incube|6:incubamos|5:incubas|4:incubarlo|4:incubé
 777,livia,none,NOUSAGE,777:livia
-777,llendo,none,NOUSAGE,777:llendo
 777,longitudinal,adj,,544:longitudinal|233:longitudinales
 777,parma,none,NOUSAGE,777:parma
 777,timador,n,,441:timador|234:timadores|93:timadora|9:timadoras
@@ -18747,7 +18747,6 @@ count,spanish,pos,flags,usage
 724,lam,none,NOUSAGE,724:lam
 724,laurel,n,,724:laureles
 724,mamacita,n,,702:mamacita|22:mamacitas
-724,mandarín,n,,724:mandarín
 724,muestreo,n,,638:muestreo|86:muestreos
 724,optimus,none,NOUSAGE,724:optimus
 724,pasadena,none,NOUSAGE,724:pasadena
@@ -20285,6 +20284,7 @@ count,spanish,pos,flags,usage
 624,ELN,prop,,624:eln
 624,Eladio,prop,,624:eladio
 624,Ocampo,prop,,624:ocampo
+624,PAC,n,,624:pac
 624,Teófilo,prop,,624:teófilo
 624,balanceado,adj,,247:balanceado|232:balanceada|93:balanceados|52:balanceadas
 624,desdoblar,v,,129:desdobla|63:desdoblado|62:desdoblar|49:desdoblarse|48:desdobló|46:desdoblada|46:desdoblan|25:desdoblaba|22:desdoble|20:desdoblando|17:desdoblándose|13:desdoblados|12:desdobladas|10:desdoblarme|10:desdoblé|8:desdoblo|6:desdoblarlo|6:desdoblará|5:desdoblamos|5:desdoblara|5:desdoblarlos|5:desdobles|4:desdoblarán|4:desdoblas|4:desdóblelo
@@ -20296,7 +20296,6 @@ count,spanish,pos,flags,usage
 624,jeta,n,,584:jeta|40:jetas
 624,kato,none,NOUSAGE,624:kato
 624,lenguado,n,,531:lenguado|93:lenguados
-624,pac,none,NOUSAGE,624:pac
 624,perspicacia,n,,624:perspicacia
 624,queenie,none,NOUSAGE,624:queenie
 624,rebekah,none,NOUSAGE,624:rebekah
@@ -20711,7 +20710,7 @@ count,spanish,pos,flags,usage
 601,Sakura,prop,,601:sakura
 601,adicionar,v,,188:adicionar|71:adiciona|57:adicionando|36:adicionan|33:adicionado|31:adicionarle|29:adicionada|20:adicionó|17:adicionándole|16:adicionados|14:adicionadas|12:adicionarse|10:adicionarles|9:adicionarán|8:adicionaron|8:adicionándoles|7:adicionamos|6:adicionaba|6:adicionará|6:adicioné|5:adicione|4:adicionaban|4:adicionaría|4:adicionándose
 601,bibi,n,,588:bibi|13:bibis
-601,contrarreloj,adj,,593:contrarreloj|8:contrarrelojes
+601,contrarreloj,n,,593:contrarreloj|8:contrarrelojes
 601,develar,v,,244:develar|62:develado|56:devela|43:develó|26:develan|25:develaron|21:develando|20:develará|17:develada|12:develados|11:develarse|11:devele|8:develamos|8:develarlo|7:develaba|7:develaría|6:develaré|5:develaremos|4:develadas|4:develara|4:develo
 601,fundacional,adj,,465:fundacional|136:fundacionales
 601,jing,none,NOUSAGE,601:jing
@@ -21301,6 +21300,7 @@ count,spanish,pos,flags,usage
 572,lauderdale,none,NOUSAGE,572:lauderdale
 572,psicodélico,adj,,152:psicodélicos|140:psicodélica|131:psicodélico|102:psicodélicas|20:sicodélico|12:sicodélica|8:sicodélicos|7:sicodélicas
 572,sec,none,NOUSAGE,572:sec
+571,GAO,prop,,571:gao
 571,acacia,n,,335:acacia|236:acacias
 571,afamado,adj,,294:afamado|148:afamados|92:afamada|37:afamadas
 571,atwood,none,NOUSAGE,571:atwood
@@ -21310,7 +21310,6 @@ count,spanish,pos,flags,usage
 571,dirigible,n,,465:dirigible|106:dirigibles
 571,early,none,NOUSAGE,571:early
 571,explicable,adj,,456:explicable|115:explicables
-571,gao,none,NOUSAGE,571:gao
 571,garrity,none,NOUSAGE,571:garrity
 571,harald,none,NOUSAGE,571:harald
 571,hinojo,n,,438:hinojo|133:hinojos
@@ -22646,7 +22645,7 @@ count,spanish,pos,flags,usage
 508,agujerear,v,,125:agujerear|62:agujereó|42:agujereando|32:agujereo|28:agujerearon|25:agujerea|25:agujerean|14:agujeree|13:agujerearte|11:agujerearle|10:agujereaban|10:agujerearé|10:agujereé|9:agujerearlo|9:agujereaste|9:agujereen|8:agujereaba|8:agujerearme|8:agujerearse|8:agujereas|7:agujereara|7:agujereará|6:agujerearla|5:agujerearlos|5:agujerees|4:agujereamos|4:agujerearan|4:agujerearía
 508,audífono,n,,508:audífono
 508,cade,none,NOUSAGE,508:cade
-508,cazarecompensas,n,,404:cazarrecompensas|104:cazarecompensas
+508,cazarrecompensas,n,,404:cazarrecompensas|104:cazarecompensas
 508,corday,none,NOUSAGE,508:corday
 508,debs,none,NOUSAGE,508:debs
 508,diplomado,n,,340:diplomado|168:diplomados
@@ -23647,12 +23646,12 @@ count,spanish,pos,flags,usage
 467,indian,none,NOUSAGE,467:indian
 467,iniciador,n,,282:iniciador|143:iniciadores|32:iniciadora|10:iniciadoras
 467,kensington,none,NOUSAGE,467:kensington
-467,mutual,adj,,402:mutual|65:mutuales
+467,mutual,n,,402:mutual|65:mutuales
 467,mystic,none,NOUSAGE,467:mystic
 467,míchel,none,NOUSAGE,467:míchel
 467,own,none,NOUSAGE,467:own
 467,papelería,n,,423:papelería|44:papelerías
-467,puaj,interj,,467:puaj
+467,puaj,n,,467:puaj
 467,reiko,none,NOUSAGE,467:reiko
 467,robledo,none,NOUSAGE,467:robledo
 467,signor,none,NOUSAGE,467:signor
