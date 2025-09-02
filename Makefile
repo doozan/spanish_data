@@ -125,7 +125,7 @@ $(TEMPLATE_CACHEDB): $(BUILDDIR)/es-en.enwikt.txt.bz2
 >   @echo "Making $@..."
 >   if [ -f $@ -a ! -f $@.tmp_orig ]; then cp $@ $@.tmp_orig; fi # create backup
 >   if [ ! -f $@ -a -f $@.tmp_orig ]; then cp $@.tmp_orig $@; fi # restore backup
->   $(TEMPLATE_CACHE) --db $@ --wxt $< --update -j 15
+>   $(TEMPLATE_CACHE) --db $@ --wxt $< --update --progress
 >   $(RM) $@.tmp_orig
 >   touch $@
 

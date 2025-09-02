@@ -927,7 +927,7 @@ count,spanish,pos,flags,usage
 50914,central,adj,,44599:central|6315:centrales
 50899,cubrir,v,,12067:cubrir|6939:cubre|3176:cubriendo|2339:cubren|1859:cubría|1788:cubrió|1504:cubro|1473:cubra|1180:cúbreme|1160:cubrirá|1067:cubriré|1028:cubrirse|1004:cubran|964:cubrirlo|840:cúbranse|825:cúbrete|795:cubrirme|779:cubrimos|738:cubrían|665:cubrirte|634:cubrieron|608:cubriremos|569:cubrí|525:cubres|376:cubriría|361:cubrirla|356:cubrirán|335:cubras|308:cubrirnos|286:cubriera|268:cubriste|262:cúbrelo|225:cubriéndose|222:cúbranme|216:cubrirlos|181:cubrid|164:cubrirle|152:cubriéndolo|148:cúbrenos|134:cúbrase|116:cubrirlas|116:cubríos|114:cubrirás|107:cubridme|103:cúbranlo|102:cubriéndole|98:cubriéndote|98:cúbrela|86:cubramos|86:cubrirían|83:cubriéndome|78:cubrieran|74:cubriéndola|64:cúbrelos|58:cúbrame|51:cúbrannos|50:cúbrele|48:cubriese|48:cubriros|48:cubrías|48:cúbralo|47:cubrieras|43:cubriéndonos|42:cubrirías|40:cubriéndolos|34:cubridnos|33:cúbranlos|29:cubríamos|26:cubridle|26:cubriríamos|26:cubrís|25:cubrirles|20:cubridlo|20:cubriéndolas|20:cúbranla|19:cúbrelas|18:cúbranos|17:cúbrale|16:cubráis|16:cúbralos|15:cubriéndoles|15:cubrámonos|15:cúbrala|14:cubrámoslo|14:cúbranle|13:cubrime|13:cubriéramos|8:cúbranlas|7:cubridla|7:cubridlos|7:cubriesen|7:cúbralas|6:cubrieses|6:cubriréis|5:cubridles|5:cubrámosla|5:cúbreles|4:cubrilo|4:cubristeis|4:cubriéndoos|4:cubrámosle|4:cúbretela|4:cúbretelo
 50831,salida,n,,45378:salida|5453:salidas
-50730,americano,n,,20166:americano|15627:americanos|11990:americana|2947:americanas
+50730,americano,adj,,20166:americano|15627:americanos|11990:americana|2947:americanas
 50665,tren,n,,44180:tren|6485:trenes
 50630,serie,n,,46534:serie|4096:series
 50605,sector,n,,34334:sector|16271:sectores
@@ -1572,7 +1572,7 @@ count,spanish,pos,flags,usage
 28106,aplicar,v,,7546:aplicar|5120:aplica|2093:aplican|1776:aplicando|1571:aplicarse|1345:aplicó|1034:aplique|974:aplicará|529:aplicaron|468:aplicaba|462:aplicamos|455:aplicarán|411:apliquen|360:aplicarlo|321:aplicarle|268:aplicarla|254:aplico|240:apliqué|212:aplicaría|181:aplicas|180:aplicaban|173:apliques|154:aplicara|149:aplicarlas|137:aplicarlos|122:aplicaremos|118:aplicándose|107:aplicaré|86:aplicarles|85:apliquemos|84:aplicaste|81:aplicaran|77:aplícate|74:aplicarme|66:aplicarte|61:aplicarían|60:aplicándole|53:aplicase|50:aplicándolo|42:aplicársele|37:aplícale|34:aplicándola|28:aplíquese|25:aplícalo|21:aplicarnos|19:aplicándoles|18:aplicasen|18:aplicárselo|18:aplíquele|17:aplicándolas|16:aplicaras|16:aplicáramos|16:aplíquelo|15:aplicarás|15:aplicársela|13:aplicándome|12:aplicárseles|12:aplíquenle|11:aplicábamos|11:aplicándolos|11:aplíquela|8:aplicadle|8:aplicaríamos|8:aplicarías|8:aplicándonos|8:aplíquense|7:aplicad|7:aplicare|7:aplicáis|7:aplicártela|7:aplícala|7:aplícatelo|7:aplíquenlo|6:aplicárselas|6:aplicártelo|6:apliquéis|6:aplíqueselo|5:aplicabas|5:aplicalo|5:aplíquelos|4:aplicaos|4:aplicate|4:aplícatela|4:aplíquelas
 28076,arrancar,v,,5245:arranca|4235:arrancar|3033:arrancó|1870:arrancado|1235:arrancaré|1002:arrancarle|845:arrancaron|837:arrancando|834:arranco|718:arrancan|637:arrancaba|595:arrancarte|534:arranqué|495:arrancará|488:arrancarme|454:arrancados|420:arranquen|332:arrancarlo|330:arrancaría|322:arrancamos|291:arrancas|274:arrancaste|222:arrancarse|201:arrancara|200:arrancaban|153:arrancarán|144:arrancarla|137:arrancarles|126:arráncale|116:arráncalo|113:arrancaran|111:arranquemos|109:arrancaremos|83:arrancándole|73:arrancare|69:arrancándose|68:arráncame|66:arráncate|61:arrancarlos|52:arrancarás|49:arrancarlas|48:arrancarnos|47:arrancárselo|43:arrancarían|38:arrancá|34:arrancad|34:arráncala|32:arrancase|31:arrancársela|30:arrancándome|28:arrancaras|23:arrancarías|23:arrancármelo|22:arráncatelo|21:arrancaros|20:arrancándoles|19:arrancártelo|18:arrancasen|18:arrancándolo|18:arrancármela|16:arránquenle|16:arránquese|15:arrancándote|15:arráncalos|15:rancas|14:arrancándonos|14:arrancárselas|13:arrancadle|13:arrancándola|12:arrancábamos|11:arrancabas|11:arrancárselos|11:arrancártela|10:arráncamela|10:arránquele|9:arrancadles|9:arrancáis|9:arráncalas|9:arráncales|9:arránquenla|8:arrancalo|7:arrancándolas|7:arránquenlos|7:arránquense|6:arrancale|6:arrancártelas|6:arrancás|6:arranquéis|6:arráncamelo|6:arránquelo|6:arránquenme|5:arrancadme|5:arranquémonos|4:arrancadlo|4:arrancases|4:arrancándolos|4:arrancáramos|4:arránquela|4:arránquenles|4:arránquenlo
 28067,cuchillo,n,,23799:cuchillo|4268:cuchillos
-28061,norteamericano,n,,10362:norteamericano|7697:norteamericana|7398:norteamericanos|2604:norteamericanas
+28061,norteamericano,adj,,10362:norteamericano|7697:norteamericana|7398:norteamericanos|2604:norteamericanas
 28049,concepto,n,,20275:concepto|7774:conceptos
 28047,sencillo,adj,,16434:sencillo|7669:sencilla|2170:sencillas|1774:sencillos
 28023,votar,v,,9487:votar|2026:votado|1957:vota|1665:votó|1610:votaron|1212:vote|1180:voten|997:votan|795:voté|743:votamos|719:votará|607:votando|589:votemos|587:votarán|500:votaría|432:votaré|365:votaremos|332:votaste|256:votas|204:votaran|189:votara|144:votarás|139:votarían|132:votados|126:votes|125:votaba|115:votad|93:votaban|60:votarías|54:votarlo|51:votarme|46:votarse|45:votarle|40:votarte|34:votase|30:votéis|29:votaríamos|28:votáis|26:votaras|24:votarla|22:votasen|22:votasteis|22:votáramos|21:vótame|18:votareis|17:votare|13:votadme|12:votaréis|12:votábamos|8:votabas|8:votándole|7:vótenme|6:votarnos|6:votaríais|6:vóteme|5:votarlos|5:votásemos|4:votarles|4:votaros|4:votases|4:votándome|4:votémoslo
@@ -1784,6 +1784,7 @@ count,spanish,pos,flags,usage
 24248,químico,adj,,10664:química|5910:químicos|4226:químico|3418:químicas|16:chímica|14:chímicos
 24230,prisionero,n,,11279:prisioneros|10346:prisionero|2221:prisionera|384:prisioneras
 24227,superficie,n,,21933:superficie|2294:superficies
+24219,estadounidense,adj,,13474:estadounidense|9164:estadounidenses|1010:estadunidense|571:estadunidenses
 24217,madera,n,,22886:madera|1331:maderas
 24217,transformar,v,,3560:transforma|3397:transformar|2858:transformado|2547:transformó|1588:transformarse|1210:transforman|1028:transformando|681:transformada|660:transformaron|535:transforme|453:transformados|452:transformaba|415:transformará|356:transformándose|325:transformarlo|279:transformo|261:transformaría|240:transformarla|221:transformadas|213:transformarme|192:transformarte|187:transformen|176:transformamos|176:transformé|168:transformara|161:transformaban|154:transformas|138:transformaste|126:transformarlos|115:transformarán|106:transformarnos|98:transformaré|70:transformándolo|70:transfórmate|68:transformes|60:trasforma|58:transformarlas|58:transformarían|56:transformándola|50:transformaremos|44:transformaran|40:transformase|38:transformándolos|36:transformarás|33:transformemos|29:trasformar|28:transformándolas|24:trasformado|23:transformándome|23:trasformó|22:transformaras|20:transformaos|20:transfórmense|20:trasforman|18:trasformarse|17:transformate|16:transformarle|15:transfórmame|13:transformasen|13:transformándonos|12:trasforme|11:transformabas|11:transformarías|10:transformare|10:transformábamos|10:transformándote|10:transfórmalo|8:trasformará|7:trasformada|7:trasformando|7:trasformaron|6:trasformados|5:transformarles|5:transformáis|5:transformémonos|5:trasformaría|5:trasformo|5:trasformándose|4:transformad|4:transformalo|4:transformaríamos|4:trasformaba|4:trasformarlo
 24208,frío,adj,DUPLICATE,20540:fría|3668:frías
@@ -2841,7 +2842,6 @@ count,spanish,pos,flags,usage
 13493,canto,n,,11040:canto|2453:cantos
 13485,lucy,none,NOUSAGE,13485:lucy
 13475,situado,adj,,5856:situado|4163:situada|2075:situados|1381:situadas
-13474,estadounidense,none,NOUSAGE,13474:estadounidense
 13474,oscar,none,NOUSAGE,13474:oscar
 13469,tejido,n,,8942:tejido|4527:tejidos
 13466,enseñanza,n,,10232:enseñanza|3234:enseñanzas
@@ -3726,6 +3726,7 @@ count,spanish,pos,flags,usage
 9212,hígado,n,,8891:hígado|321:hígados
 9208,pandilla,n,,6939:pandilla|2269:pandillas
 9205,limón,n,,7915:limón|1290:limones
+9198,catalán,n,,6260:catalán|2938:catalanes
 9196,acoger,v,,1220:acoge|1065:acogido|1039:acogió|1028:acoger|627:acogerse|470:acogieron|398:acogen|392:acogerá|342:acogidos|284:acoja|173:acogía|154:acogiendo|140:acogí|139:acogerme|137:acojo|129:acojan|120:acogiéndose|119:acogerán|85:acogemos|85:acogería|84:acogían|75:acogiera|73:acogerla|73:acogimos|70:acogernos|66:acogerte|64:acogerlo|51:acogerlos|44:acogiste|38:acoges|35:acogerle|33:acogeré|30:acogiéndome|28:acojas|25:acogerían|24:acogeremos|24:acógeme|23:acogieran|18:acojamos|18:acógela|16:acogiese|15:acogedme|14:acógelo|12:acogeros|12:acógete|11:acógenos|9:acogerlas|9:acogisteis|8:acogieras|8:acogiéndonos|8:acojáis|7:acogiéndote|6:acogiesen|5:acoged|5:acogerles|5:acogiéndola|4:acogedlos
 9192,arquitecto,n,,6421:arquitecto|2449:arquitectos|306:arquitecta|16:arquitectas
 9181,trágico,adj,,5033:trágico|2942:trágica|633:trágicos|573:trágicas
@@ -3734,7 +3735,6 @@ count,spanish,pos,flags,usage
 9172,miseria,n,,8076:miseria|1096:miserias
 9168,automático,adj,,4573:automático|2677:automática|959:automáticas|959:automáticos
 9166,convenio,n,,6771:convenio|2395:convenios
-9164,estadounidenses,none,NOUSAGE,9164:estadounidenses
 9163,rechazo,n,,8780:rechazo|383:rechazos
 9160,radiación,n,,7933:radiación|1227:radiaciones
 9153,frankie,none,NOUSAGE,9153:frankie
@@ -3851,6 +3851,7 @@ count,spanish,pos,flags,usage
 8724,falda,n,,6237:falda|2487:faldas
 8722,Jessica,prop,,8722:jessica
 8721,transferencia,n,,6758:transferencia|1873:transferencias|72:trasferencia|18:trasferencias
+8717,africano,adj,,2978:africano|2725:africanos|2138:africana|876:africanas
 8711,casino,n,,7228:casino|1483:casinos
 8709,crudo,adj,,4618:crudo|2294:cruda|1125:crudos|672:crudas
 8703,destacado,adj,,3914:destacado|2603:destacados|1289:destacada|897:destacadas
@@ -4292,6 +4293,7 @@ count,spanish,pos,flags,usage
 7521,anular,v,,2771:anular|1092:anula|585:anuló|419:anule|286:anulan|249:anulando|227:anularlo|186:anularon|168:anulen|165:anulará|112:anulaba|104:anulo|94:anularla|94:anularía|92:anulamos|89:anularé|88:anularse|69:anulara|51:anulé|43:anularán|35:anulaban|34:anulas|34:anúlalo|33:anularan|31:anularemos|30:anulaste|29:anulares|28:anularlas|27:anularlos|26:anules|22:anulase|22:anulándose|21:anulemos|20:anularme|19:anúlelo|18:anularían|18:anúlala|13:anularle|12:anúlela|11:anulad|7:anulasen|7:anulándolo|6:anularás|6:anúlalos|6:anúlelos|5:anularnos|5:anularte|4:anulabas|4:anularías|4:anúlenlo
 7514,correctamente,adv,,7514:correctamente
 7514,mensajero,n,,5396:mensajero|1334:mensajeros|565:mensajera|214:mensajeras|5:mensagero
+7513,madrileño,adj,,3006:madrileño|2498:madrileña|1652:madrileños|357:madrileñas
 7509,tiroteo,n,,6646:tiroteo|863:tiroteos
 7508,estirar,v,,1848:estirar|1302:estira|569:estiró|538:estirando|284:estire|233:estirarse|219:estiraba|193:estiran|173:estiro|173:estírate|167:estiren|146:estiras|145:estirarme|126:estiré|101:estiramos|99:estirarla|98:estirándose|89:estires|79:estirarte|77:estirarlo|72:estiraron|66:estiraban|51:estírense|50:estirad|48:estíralo|43:estírala|41:estiraré|37:estirara|31:estirará|29:estirándome|27:estiremos|25:estiraste|24:estirarnos|22:estírese|21:estirarlos|20:estiraremos|20:estirarlas|17:estiraría|16:estirándote|15:estirarle|15:estirándola|13:estirándolo|12:estirarán|11:estirarás|11:estíralas|10:estírame|9:estirándole|8:estirabas|7:estirase|6:estiraos|6:estiraran|6:estiraras|6:estirarían|6:estirate|6:estíralos|6:estírelo|5:estirá|5:estiráramos|5:estírela|5:estírenla|4:estirala|4:estirábamos|4:estírale|4:estírele
 7507,Nelson,prop,,7507:nelson
@@ -4426,6 +4428,7 @@ count,spanish,pos,flags,usage
 7195,interponer,v,,1198:interpone|1160:interponga|743:interpuso|613:interponerse|517:interponer|352:interpondrá|263:interpongan|259:interponen|238:interponerme|222:interpusiera|219:interponía|165:interpusieron|125:interpondré|125:interponiendo|120:interpongas|114:interponiéndose|110:interpondría|95:interponerte|81:interpones|73:interponían|64:interpuse|51:interpondrán|42:interpusieran|31:interpongo|29:interponernos|25:interpusiste|24:interpondrás|19:interpusiese|14:interpondrían|13:interpondremos|13:interpusimos|12:interponemos|8:interpongamos|8:interpongáis|8:interpusieras|6:interpondrías|6:interponerlos|6:interponiéndome|5:interponiéndoos|5:interponiéndote|5:interponte|5:interponéis|4:interponíamos
 7192,quema,n,,6587:quema|605:quemas
 7192,supuestamente,adv,,7192:supuestamente
+7191,israelí,adj,,4185:israelí|2951:israelíes|55:israelís
 7190,nido,n,,6000:nido|1190:nidos
 7190,susto,n,,6701:susto|489:sustos
 7190,ídolo,n,,5770:ídolo|1386:ídolos|29:ídola|5:ídolas
@@ -4495,6 +4498,7 @@ count,spanish,pos,flags,usage
 6994,administrador,n,,4865:administrador|1324:administradores|649:administradora|156:administradoras
 6994,residir,v,,3701:reside|885:residen|640:residía|519:residir|205:residían|180:residiendo|161:residió|138:resida|120:residido|97:resido|76:residan|63:residirá|40:resides|33:residiría|30:residieron|24:residiera|18:residimos|18:residirán|13:residí|7:residiré|6:residieran|6:residirás|5:residiese|5:residirían|4:residíamos
 6992,ladrillo,n,,3686:ladrillos|3306:ladrillo
+6990,peruano,adj,,2878:peruano|2011:peruana|1653:peruanos|448:peruanas
 6987,mutuo,adj,,3214:mutuo|2612:mutua|644:mutuas|517:mutuos
 6985,cometa,n,,4675:cometa|2310:cometas
 6983,ochenta,num,,6983:ochenta
@@ -4634,7 +4638,6 @@ count,spanish,pos,flags,usage
 6716,susurrar,v,,1365:susurrando|1305:susurra|1131:susurró|636:susurrar|330:susurraba|251:susurran|231:susurras|129:susurré|117:susurrado|89:susurrarle|85:susurraban|75:susurrándole|71:susurre|65:susurraste|59:susurraré|54:susurramos|48:susurrarme|46:susurres|45:susurrarte|43:susurradas|41:susurrándome|38:susurrara|38:susurraron|34:susurrada|34:susurrará|31:susurrarlo|30:susurrándote|27:susúrrame|24:susurren|23:susúrrale|18:susurraría|16:susurráis|16:susúrramelo|15:susurrados|15:susúrralo|14:susurrarán|13:susurrabas|11:susurrarás|10:susurrarnos|10:susurrármelo|9:susurraran|8:susurrándose|7:susurraras|7:susurrándoles|7:susurrártelo|6:susurrarías|6:susurrábamos|6:susurrándonos|5:susurraremos|5:susurrarse|5:susurrándolo|4:susurrase|4:susurrárselo|4:susúrrele
 6712,ejercitar,v,,3591:ejercito|801:ejercitar|321:ejercita|264:ejercitando|258:ejercitarse|155:ejercitarme|126:ejercitado|124:ejercitan|87:ejercitarte|79:ejercite|78:ejercitas|75:ejercitó|67:ejercitándose|64:ejercitaba|45:ejerciten|42:ejercitada|42:ejercitándome|41:ejercitamos|40:ejercitarlo|34:ejercitarnos|34:ejercité|27:ejercitarla|27:ejercitándote|25:ejercitará|23:ejercitados|22:ejercitemos|20:ejercitaban|16:ejercitara|16:ejercitaron|16:ejercitaré|16:ejercitaste|15:ejercitadas|13:ejercitarlos|13:ejercites|11:ejercitaremos|9:ejercitarán|9:ejercitaría|9:ejercítese|8:ejercitaran|8:ejercitarás|8:ejercítate|7:ejercitarlas|7:ejercitándolo|5:ejercitaras|5:ejercitare|5:ejercitándonos|4:ejercitándola
 6711,Andrea,prop,,6711:andrea
-6710,yanqui,n,,2127:yanquis|1749:yanqui|1730:yankees|864:yankee|142:yankis|98:yanki
 6709,diferenciar,v,,1858:diferenciar|833:diferencian|617:diferenciadas|598:diferenciados|491:diferenciado|463:diferenciada|376:diferenciarse|210:diferenciaba|154:diferenciarlos|109:diferenciando|105:diferenciarlo|97:diferenciaban|96:diferenció|85:diferenciarlas|79:diferenciamos|77:diferencie|60:diferenciarla|59:diferenciándose|49:diferenciarnos|40:diferenciará|37:diferencio|35:diferencien|26:diferenciaría|25:diferenciarán|23:diferenciaron|16:diferenciarme|16:diferenciarte|15:diferenciara|7:diferenciemos|7:diferenciándolas|6:diferenciarían|6:diferencies|6:diferenciándola|5:diferenciaran|5:diferenciarles|5:diferenciaros|5:diferenciaríamos|4:diferenciaremos|4:diferenciase
 6706,blando,adj,,3158:blando|1762:blanda|1045:blandos|741:blandas
 6706,consolidar,v,,1956:consolidar|1049:consolidado|627:consolida|468:consolidó|442:consolidada|374:consolidando|348:consolidarse|234:consolidados|203:consolidadas|186:consolidan|180:consolide|120:consolidaron|99:consolidará|64:consolidaba|59:consolidándose|49:consoliden|36:consolidaría|28:consolidara|28:consolidarlo|23:consolidamos|20:consolidarán|19:consolidaban|19:consolidarla|14:consolidemos|13:consolidarnos|9:consolidaremos|7:consolidaran|7:consolidé|6:consolidarían|5:consolidarme|5:consolidarte|5:consolidase|4:consolidarlas
@@ -4826,7 +4829,6 @@ count,spanish,pos,flags,usage
 6269,domingo,n,,6269:domingos
 6267,puñado,n,,5971:puñado|296:puñados
 6265,cóctel,n,,2945:cóctel|1525:cócteles|688:cocktail|612:coctel|306:cocteles|189:cocktails
-6260,catalán,n,,6260:catalán
 6260,liam,none,NOUSAGE,6260:liam
 6255,ahorcar,v,,1530:ahorcado|718:ahorcó|541:ahorcar|336:ahorcados|285:ahorquen|221:ahorcarse|208:ahorcaron|194:ahorcada|188:ahorcarme|188:ahorcarán|167:ahorca|144:ahorcan|131:ahorcarlo|127:ahorcarte|112:ahorcando|82:ahorque|73:ahorco|72:ahorcaré|57:ahorcaran|55:ahorcaría|53:ahorcará|47:ahorcamos|45:ahorcándose|40:ahorcarle|40:ahorcarlos|39:ahorcarnos|38:ahorcas|37:ahorcaremos|36:ahorcadas|36:ahorcarla|30:ahorcaste|29:ahorcaban|29:ahorcarían|25:ahorques|25:ahórcate|22:ahorcadle|21:ahorcaba|21:ahorcara|21:ahorqué|16:ahorcadlo|13:ahorcándolo|12:ahorquemos|11:ahorcarás|11:ahorcándome|11:ahórquenlo|10:ahorcasen|10:ahórquenlos|9:ahorcad|9:ahorcarles|9:ahorcaros|9:ahorcase|8:ahórcame|7:ahorcaras|7:ahórcalo|6:ahorcate|5:ahorcabas|5:ahorcarlas|4:ahorcadla|4:ahorcadlos|4:ahorcándola|4:ahorcáramos|4:ahorquémosle|4:ahorquémoslo
 6250,colin,none,NOUSAGE,6250:colin
@@ -5209,6 +5211,7 @@ count,spanish,pos,flags,usage
 5556,insoportable,adj,,4953:insoportable|603:insoportables
 5551,patente,n,,3423:patente|2128:patentes
 5549,condón,n,,2825:condón|2724:condones
+5545,andaluz,adj,,2346:andaluz|1424:andaluza|1209:andaluces|566:andaluzas
 5545,freddy,none,NOUSAGE,5545:freddy
 5544,sanidad,n,,5540:sanidad|4:sanidades
 5542,veredicto,n,,5391:veredicto|151:veredictos
@@ -5286,6 +5289,7 @@ count,spanish,pos,flags,usage
 5447,barney,none,NOUSAGE,5447:barney
 5447,calificado,adj,,2793:calificado|1335:calificada|953:calificados|366:calificadas
 5447,farmacéutico,adj,,1748:farmacéutica|1651:farmacéutico|1209:farmacéuticos|839:farmacéuticas
+5443,canario,n,,2286:canario|2257:canaria|900:canarios
 5443,legado,n,,5186:legado|257:legados
 5442,simular,v,,1422:simular|744:simulando|604:simula|426:simulado|257:simuló|243:simulada|231:simulaba|231:simulan|125:simulados|114:simulé|112:simuladas|89:simule|83:simulaban|76:simulo|70:simularon|67:simulamos|64:simulas|55:simules|50:simularemos|47:simulaste|40:simulemos|35:simulará|35:simularé|35:simulen|34:simulara|28:simularlo|18:simularía|14:simularán|14:simulábamos|13:simularse|11:simulabas|9:simulad|7:simularas|7:simulándolo|6:simularan|6:simularla|6:simularían|5:simularás|5:simulase|4:simularlos
 5439,estructural,adj,,2946:estructural|2493:estructurales
@@ -5395,6 +5399,7 @@ count,spanish,pos,flags,usage
 5279,adjunto,adj,,3855:adjunto|830:adjunta|474:adjuntos|120:adjuntas
 5279,wade,none,NOUSAGE,5279:wade
 5273,bebe,n,,3665:beba|1608:bebas
+5273,canadiense,adj,,3573:canadiense|1700:canadienses
 5272,transparente,adj,,3855:transparente|1273:transparentes|101:trasparente|43:trasparentes
 5271,filete,n,,3280:filete|1991:filetes
 5269,semestre,n,,5004:semestre|265:semestres
@@ -5618,6 +5623,7 @@ count,spanish,pos,flags,usage
 4945,Gutiérrez,prop,,4945:gutiérrez
 4945,invertido,adj,,3453:invertido|687:invertida|639:invertidos|166:invertidas
 4944,inestable,adj,,4110:inestable|834:inestables
+4943,catalán,adj,DUPLICATE,4138:catalana|805:catalanas
 4943,rosado,adj,,2305:rosado|1324:rosada|663:rosados|651:rosadas
 4941,Colorado,prop,,4941:colorado
 4941,pirámide,n,,3134:pirámide|1807:pirámides
@@ -6288,7 +6294,6 @@ count,spanish,pos,flags,usage
 4188,Aragón,prop,,4188:aragón
 4188,requerido,adj,,1736:requerido|1154:requerida|762:requeridos|536:requeridas
 4186,alias,n,,4186:alias
-4185,israelí,none,NOUSAGE,4185:israelí
 4183,wyatt,none,NOUSAGE,4183:wyatt
 4182,Esther,prop,,4182:esther
 4180,triángulo,n,,3535:triángulo|645:triángulos
@@ -6351,7 +6356,6 @@ count,spanish,pos,flags,usage
 4138,Che,prop,,4138:che
 4138,batallón,n,,3516:batallón|622:batallones
 4138,benjamin,none,NOUSAGE,4138:benjamin
-4138,catalana,none,NOUSAGE,4138:catalana
 4138,reactor,n,,2815:reactor|1323:reactores
 4136,broadway,none,NOUSAGE,4136:broadway
 4136,coordinar,v,,1742:coordinar|552:coordina|353:coordinando|159:coordinan|155:coordinará|138:coordinó|137:coordine|90:coordinarse|77:coordinaré|73:coordinen|66:coordinaba|66:coordinamos|63:coordinaremos|61:coordinarán|45:coordinaron|43:coordino|42:coordinarlo|38:coordinarnos|23:coordinaban|23:coordinara|22:coordínate|21:coordinemos|19:coordinarás|16:coordinas|16:coordines|13:coordiné|12:coordinarlos|12:coordinaría|10:coordínalo|7:coordinaste|7:coordinándose|6:coordinaran|6:coordinarla|5:coordinarme|5:coordinase|5:coordínese|4:coordinad|4:coordinándolas
@@ -6812,6 +6816,7 @@ count,spanish,pos,flags,usage
 3722,Mercurio,prop,,3722:mercurio
 3720,insólito,adj,,1891:insólito|1123:insólita|372:insólitos|334:insólitas
 3720,vacilar,v,,731:vacilar|581:vacilando|464:vacila|402:vaciló|170:vaciles|150:vacilaba|129:vacilado|120:vacilan|106:vacile|103:vacilé|93:vacilo|87:vacilas|71:vacilaron|70:vacilaría|53:vacilaré|44:vacilará|43:vacilaste|40:vacilen|36:vacilaban|35:vacilamos|29:vacilándome|25:vacilarme|18:vacilarán|18:vacilarían|14:vacilara|11:vacilada|10:vacilarte|10:vacilándote|9:vacilaremos|8:vacilarnos|8:vacilarías|7:vacilarás|7:vaciléis|5:vacilase|5:vaciláis|4:vacilarle|4:vacilarse
+3719,yanqui,adj,,1749:yanqui|1730:yankees|142:yankis|98:yanki
 3716,marge,none,NOUSAGE,3716:marge
 3716,secta,n,,2806:secta|910:sectas
 3715,joyce,none,NOUSAGE,3715:joyce
@@ -7020,7 +7025,6 @@ count,spanish,pos,flags,usage
 3577,reno,n,,2620:reno|957:renos
 3574,dwight,none,NOUSAGE,3574:dwight
 3574,yen,n,,2172:yenes|1402:yen
-3573,canadiense,none,NOUSAGE,3573:canadiense
 3573,pintada,n,,1908:pintada|1665:pintadas
 3573,preciado,adj,,1740:preciado|864:preciada|681:preciados|288:preciadas
 3571,menta,n,,3155:menta|416:mentas
@@ -7110,6 +7114,7 @@ count,spanish,pos,flags,usage
 3512,crack,n,,3437:crack|75:cracks
 3512,rociar,v,,619:rociar|316:rociado|278:rocía|274:roció|182:rociando|177:rociada|143:rociaron|116:rociamos|106:rocían|104:rocié|102:rociados|91:rociarlo|82:rocíe|73:rociadas|68:rociaba|58:rocías|57:rociaré|51:rociarlos|51:rocíalo|44:rociaste|39:rociarla|34:rociarme|29:rociarlas|27:rociaban|27:rocíen|24:rociara|24:rocíes|23:rociarle|21:rociarse|20:rociarte|20:rociará|20:rocíame|17:rocíalas|15:rociaremos|14:rocíala|13:rociándola|13:rociándolo|12:rociemos|10:rociaran|10:rocíalos|9:rociare|9:rociaría|9:rociándose|8:rociarles|7:rociarán|7:rociándolas|7:rociándolos|7:rocíale|6:rociándole|6:rociándome|5:rociarnos|4:rociaras|4:rocíate|4:rocíelo|4:rocíelos|4:rocíeme|4:rocíenlos|4:rocíense
 3512,titular,v,DUPLICATE,1135:titula|1113:titulo|424:tituló|311:titulaba|83:titularse|75:titulará|61:titulan|48:titulé|38:titularon|38:titularía|32:titule|23:titularla|19:titularlo|16:titulaban|15:titulamos|12:titulando|12:titulara|12:titularé|10:titulaste|8:titulándose|6:titularán|5:titulen|4:titularemos|4:titularme|4:titulas|4:titulase
+3511,Bosnia,prop,,3396:bosnia|115:bosnias
 3511,entretenido,adj,,2221:entretenido|739:entretenida|362:entretenidos|189:entretenidas
 3510,adolescencia,n,,3503:adolescencia|7:adolescencias
 3510,presentador,n,,2098:presentador|814:presentadora|513:presentadores|85:presentadoras
@@ -7262,7 +7267,6 @@ count,spanish,pos,flags,usage
 3399,uruguayo,adj,,1701:uruguayo|791:uruguayos|759:uruguaya|148:uruguayas
 3398,cereza,n,,1958:cereza|1440:cerezas
 3398,polly,none,NOUSAGE,3398:polly
-3396,Bosnia,prop,,3396:bosnia
 3396,absolver,v,,1151:absuelto|264:absuelve|236:absueltos|223:absolver|213:absolvió|204:absuelta|190:absuelvo|154:absolvieron|81:absuelven|74:absuelvan|67:absuelva|64:absolverá|48:absolverlo|47:absolverme|47:absolverte|39:absolviendo|37:absolverán|27:absolvieran|22:absolverle|21:absolviera|21:absueltas|20:absolvía|17:absolvería|16:absolverla|14:absuelves|13:absolveré|12:absolverlos|11:absolví|11:absuélvame|10:absolverían|9:absolvemos|7:absolverse|7:absuélveme|6:absolvían|5:absolverles|4:absolvimos|4:absolviste
 3396,beckett,none,NOUSAGE,3396:beckett
 3395,estanque,n,,2977:estanque|418:estanques
@@ -7539,7 +7543,6 @@ count,spanish,pos,flags,usage
 3202,permanencia,n,,3145:permanencia|57:permanencias
 3201,estante,n,,2003:estante|1198:estantes
 3200,enmarcar,v,,582:enmarca|481:enmarcado|408:enmarcada|341:enmarcar|248:enmarcan|206:enmarcados|183:enmarcadas|83:enmarcó|82:enmarcando|72:enmarcaba|71:enmarcarlo|53:enmarcarse|49:enmarcarla|42:enmarque|37:enmarcaban|32:enmarcaron|32:enmarqué|19:enmarcamos|19:enmarcaría|19:enmarquen|16:enmarcaré|15:enmarcará|14:enmarcarlas|13:enmarco|10:enmarcarlos|9:enmarcaste|8:enmarcaremos|8:enmarcarán|7:enmárcalo|6:enmarcarían|6:enmarques|5:enmarcándolo|4:enmarcare|4:enmarcarme|4:enmarcarte|4:enmarcas|4:enmarcase|4:enmarcándola
-3199,andaluzar,v,,1424:andaluza|1209:andaluces|566:andaluzas
 3198,informático,adj,,1859:informático|1339:informáticos
 3198,mediocre,adj,,2332:mediocre|866:mediocres
 3198,roosevelt,none,NOUSAGE,3198:roosevelt
@@ -7567,7 +7570,6 @@ count,spanish,pos,flags,usage
 3189,útero,n,,3109:útero|80:úteros
 3188,transmisor,n,,2386:transmisor|536:transmisores|113:transmisora|81:trasmisor|50:transmisoras|22:trasmisores
 3186,buey,n,,2138:buey|1048:bueyes
-3186,canario,n,,2286:canario|900:canarios
 3186,marketing,n,,2972:marketing|210:márketing|4:márquetin
 3186,percatar,v,,558:percató|525:percatarse|483:percatado|320:percaté|203:percata|186:percataron|108:percatamos|91:percate|73:percatarme|70:percatan|69:percataba|68:percato|60:percatara|55:percatarnos|43:percatándose|41:percatas|31:percataste|27:percatar|27:percatase|27:percaten|14:percatando|13:percataran|13:percatará|12:percataremos|10:percataban|10:percatarte|10:percataría|9:percates|8:percatarán|8:percatasen|6:percatemos|4:percataras|4:percatarías
 3185,pegajoso,adj,,1424:pegajoso|1069:pegajosa|376:pegajosos|316:pegajosas
@@ -7708,6 +7710,7 @@ count,spanish,pos,flags,usage
 3101,remo,n,,1820:remo|1281:remos
 3100,lomo,n,,2402:lomo|698:lomos
 3098,daga,n,,2700:daga|398:dagas
+3098,puertorriqueño,adj,,1181:puertorriqueño|980:puertorriqueños|828:puertorriqueña|109:puertorriqueñas
 3097,jefatura,n,,2889:jefatura|208:jefaturas
 3097,zarpar,v,,1029:zarpar|421:zarpó|317:zarpamos|300:zarpado|156:zarparemos|149:zarpe|131:zarpará|80:zarparon|79:zarpemos|66:zarpan|49:zarpo|48:zarpando|36:zarpara|31:zarparé|31:zarpen|29:zarpaba|29:zarpaban|28:zarparán|20:zarpé|18:zarparía|12:zarparás|10:zarpes|8:zarpaste|6:zarpáramos|5:zarpad|5:zarparan|4:zarpáis
 3096,hastings,none,NOUSAGE,3096:hastings
@@ -7840,7 +7843,6 @@ count,spanish,pos,flags,usage
 3017,finch,none,NOUSAGE,3017:finch
 3017,incumbencia,n,,3010:incumbencia|7:incumbencias
 3015,archivar,v,,582:archivar|558:archivado|211:archivados|192:archivada|183:archiva|151:archivó|145:archivadas|106:archivando|93:archive|90:archives|59:archivarlo|51:archivan|50:archivaron|47:archivé|44:archivamos|41:archivaré|39:archívalo|36:archivará|29:archivarlos|27:archivaba|27:archivarán|23:archiven|22:archivarse|22:archivas|21:archivarla|21:archivaste|17:archivara|15:archivaremos|13:archivaban|12:archívelo|11:archivemos|10:archivarlas|8:archivare|8:archívela|7:archivarme|7:archivaría|6:archivaras|6:archívalos|6:archívese|5:archivándolo|5:archívala|5:archívelos|4:archivaran
-3014,africana,n,,2138:africana|876:africanas
 3014,extradición,n,,2880:extradición|134:extradiciones
 3014,xxi,none,NOUSAGE,3014:xxi
 3013,alga,n,,2500:algas|513:alga
@@ -7856,7 +7858,6 @@ count,spanish,pos,flags,usage
 3008,cepillar,v,,382:cepillado|294:cepillar|245:cepilla|235:cepillarse|194:cepillarme|194:cepillarte|139:cepillando|110:cepíllate|107:cepillas|94:cepille|93:cepillaba|91:cepillaste|79:cepilló|73:cepillé|45:cepillada|41:cepillan|36:cepillándose|35:cepillaré|31:cepillados|31:cepillen|30:cepilladas|29:cepillarlo|25:cepillamos|25:cepillarle|22:cepillarnos|21:cepillaron|20:cepillate|20:cepilles|20:cepillándome|18:cepíllense|15:cepíllame|15:cepíllese|14:cepillarás|13:cepillarla|12:cepillándote|11:cepillara|10:cepillabas|10:cepillad|10:cepillarlos|9:cepillaras|9:cepillará|9:cepillaría|9:cepíllalo|8:cepillarías|6:cepillaban|6:cepillaos|6:cepillártelo|5:cepillarlas|5:cepillemos|5:cepillárselos|5:cepillártela|5:cepíllelo|4:cepillaran|4:cepillaremos|4:cepillarán|4:cepillándolo|4:cepillándonos|4:cepillártelos|4:cepíllale|4:cepíllatela
 3008,conversión,n,,2791:conversión|217:conversiones
 3007,Trinidad,prop,,3007:trinidad
-3006,madrileño,none,NOUSAGE,3006:madrileño
 3005,estupido,none,NOUSAGE,3005:estupido
 3005,podia,none,NOUSAGE,3005:podia
 3004,determinante,n,,2064:determinante|940:determinantes
@@ -7882,6 +7883,7 @@ count,spanish,pos,flags,usage
 2991,ciclista,n,,1788:ciclista|1203:ciclistas
 2991,il,none,NOUSAGE,2991:il
 2991,persistente,adj,,2249:persistente|742:persistentes
+2991,yanqui,n,DUPLICATE,2127:yanquis|864:yankee
 2990,textura,n,,2382:textura|608:texturas
 2988,lírico,adj,,1419:lírica|1087:lírico|298:líricos|184:líricas
 2988,obtención,n,,2975:obtención|13:obtenciones
@@ -7903,7 +7905,6 @@ count,spanish,pos,flags,usage
 2980,germen,n,,1801:gérmenes|1179:germen
 2980,rasguño,n,,2189:rasguño|791:rasguños
 2979,colmo,n,,2945:colmo|34:colmos
-2978,africano,none,NOUSAGE,2978:africano
 2978,balancear,v,,500:balancea|431:balancear|324:balanceándose|227:balanceaba|223:balanceando|200:balancearse|120:balancean|117:balanceó|94:balancéate|86:balanceaban|58:balanceas|57:balancee|46:balancearte|43:balancearme|41:balanceamos|36:balanceándome|34:balanceándote|33:balancearlo|29:balanceará|22:balancearé|22:balancees|21:balanceé|19:balancearnos|18:balanceándonos|18:balancéalo|17:balanceen|17:balancéame|16:balanceate|12:balanceara|12:balancearla|9:balancearon|9:balancearán|8:balancead|8:balanceemos|7:balanceaste|6:balancearía|6:balanceándolo|6:balancéese|5:balancearemos|5:balancéala|4:balancearlos|4:balanceábamos|4:balanceándolos|4:balancéalas
 2978,desalojar,v,,798:desalojar|315:desalojados|286:desalojado|240:desalojen|142:desalojaron|132:desalojada|103:desalojando|102:desalojadas|99:desalojó|90:desaloja|88:desaloje|81:desalojan|63:desalojarlos|56:desalojarlo|38:desalojarla|34:desalojarnos|34:desalojaré|31:desalojarán|22:desalojaran|20:desalojaba|20:desalojarme|19:desalojara|18:desalojamos|16:desalojará|14:desalojarle|13:desalojarte|12:desalojaremos|12:desalojaste|11:desalojad|11:desalojarles|9:desalojaban|9:desalojaría|8:desalojes|8:desalojé|6:desalojarlas|5:desalojarse|5:desalojas|4:desalojemos|4:desalojándolos
 2978,desfilar,v,,807:desfilar|423:desfilando|361:desfilaron|339:desfilan|183:desfila|180:desfilaban|139:desfilado|138:desfiló|109:desfilarán|97:desfilaba|36:desfilen|26:desfilará|22:desfilamos|17:desfilaran|13:desfilas|13:desfilo|12:desfilé|11:desfilaremos|11:desfilaré|8:desfilaría|8:desfilarían|7:desfilaste|5:desfilara|5:desfilemos|4:desfilasen|4:desfilábamos
@@ -7928,9 +7929,7 @@ count,spanish,pos,flags,usage
 2966,afiliado,n,,1941:afiliados|594:afiliado|233:afiliadas|198:afiliada
 2966,arcilla,n,,2619:arcilla|347:arcillas
 2966,excusar,v,,427:excúseme|354:excuse|302:excusó|236:excusarme|213:excusar|160:excusarse|105:excusan|99:excuso|87:excúsame|67:excúsenme|63:excusándose|59:excuses|58:excusadme|55:excusarte|54:excusando|52:excusaba|50:excusada|43:excusé|37:excusarnos|35:excusaron|34:excusaré|33:excusará|30:excúsenos|29:excusen|26:excusarlo|24:excusara|21:excusamos|18:excusame|16:excusarla|16:excusarle|15:excúsate|13:excusaría|13:excuséis|12:excusáis|11:excusándome|10:excusaban|8:excusadas|8:excusándote|8:excúsanos|7:excusad|7:excusaran|7:excusarán|7:excusarían|7:excusase|6:excusaremos|6:excusaste|5:excusándolo|5:excúsennos|4:excusarás|4:excusándole
-2966,ibérico,n,,1597:ibérica|902:ibérico|280:ibéricos|187:ibéricas
 2965,Xavier,prop,,2965:xavier
-2964,misionero,n,,1159:misionero|1071:misioneros|458:misionera|189:misioneras|41:misionario|30:misionarios|16:misionaria
 2963,antídoto,n,,2827:antídoto|136:antídotos
 2962,cacahuete,n,,1264:cacahuete|1235:cacahuetes|248:cacahuate|215:cacahuates
 2961,gerald,none,NOUSAGE,2961:gerald
@@ -7947,7 +7946,6 @@ count,spanish,pos,flags,usage
 2953,hackear,v,,998:hackear|522:hackeado|304:hackeó|219:hackeando|102:hackeaste|101:hackearon|99:hackeé|90:hackeada|78:hackearlo|71:hackeados|62:hackea|44:hackeamos|43:hackee|27:hackearla|24:hackeas|23:hackeara|18:hackearé|17:hackeadas|15:hackean|10:hackeaba|10:hackeen|10:hackees|9:hackearlos|9:hackearnos|8:hackearte|7:hackearme|5:hackearas|5:hackearle|5:hackeará|5:hackearía|5:hackeemos|4:hackealo|4:hackearlas
 2952,timón,n,,2876:timón|76:timones
 2952,tradicionalmente,adv,,2952:tradicionalmente
-2951,israelíes,none,NOUSAGE,2951:israelíes
 2950,manifestante,n,,2766:manifestantes|184:manifestante
 2950,manto,n,,2666:manto|284:mantos
 2949,exiliado,adj,,1443:exiliados|1248:exiliado|230:exiliada|28:exiliadas
@@ -7961,7 +7959,6 @@ count,spanish,pos,flags,usage
 2939,notorio,adj,,1251:notorio|1010:notoria|388:notorios|290:notorias
 2939,sobresaliente,adj,,1996:sobresaliente|943:sobresalientes
 2938,agotador,adj,,2097:agotador|516:agotadora|164:agotadores|161:agotadoras
-2938,catalanes,none,NOUSAGE,2938:catalanes
 2938,edwards,none,NOUSAGE,2938:edwards
 2938,lider,none,NOUSAGE,2938:lider
 2938,temeroso,adj,,1309:temeroso|797:temerosa|670:temerosos|162:temerosas
@@ -8061,7 +8058,6 @@ count,spanish,pos,flags,usage
 2878,creíble,adj,,2468:creíble|410:creíbles
 2878,lin,none,NOUSAGE,2878:lin
 2878,or,none,NOUSAGE,2878:or
-2878,peruano,none,NOUSAGE,2878:peruano
 2878,pornografía,n,,2878:pornografía
 2878,soleado,adj,,1754:soleado|671:soleada|282:soleados|171:soleadas
 2878,tribuna,n,,2390:tribuna|488:tribunas
@@ -8354,7 +8350,6 @@ count,spanish,pos,flags,usage
 2728,descontar,v,,755:descontado|339:descontar|234:descontando|154:descuenta|144:descontó|132:descontaré|119:descuentan|93:descontada|80:descontados|58:descontará|50:descontarán|49:descontaba|46:descontamos|41:descontaron|39:descontadas|38:descuente|32:descontarlo|31:descuenten|27:descontarle|26:descontaremos|19:descuéntalo|18:descontarse|17:descontaría|17:desconté|15:descontaban|15:descontarme|14:descontara|14:descuentas|12:descontaste|11:descontarlos|11:descontarte|10:descuéntame|10:descuéntelo|9:descontare|9:descontármelo|8:descontarían|6:descuentes|5:descontándose|5:descuéntamelo|4:descontarla|4:descontarnos|4:descontártelo|4:descuénteme
 2728,psicótico,adj,,1274:psicótico|730:psicótica|551:psicóticos|173:psicóticas
 2727,esponja,n,,2207:esponja|520:esponjas
-2725,africanos,none,NOUSAGE,2725:africanos
 2725,elevación,n,,2444:elevación|281:elevaciones
 2725,grifo,n,,2159:grifo|566:grifos
 2724,au,none,NOUSAGE,2724:au
@@ -8856,7 +8851,6 @@ count,spanish,pos,flags,usage
 2499,desconcertado,adj,,1447:desconcertado|633:desconcertada|351:desconcertados|68:desconcertadas
 2499,trent,none,NOUSAGE,2499:trent
 2498,lacey,none,NOUSAGE,2498:lacey
-2498,madrileña,none,NOUSAGE,2498:madrileña
 2498,principiante,n,,1439:principiante|1059:principiantes
 2497,desahogar,v,,418:desahogarse|332:desahogarme|230:desahógate|221:desahogarte|208:desahogar|121:desahogado|98:desahogada|96:desahogando|83:desahogue|71:desahoga|57:desahogó|50:desahogas|47:desahogaba|42:desahogándose|38:desahogué|35:desahogarnos|35:desahóguese|33:desahogara|32:desahogándome|28:desahogues|26:desahogan|26:desahogaste|18:desahogate|16:desahoguen|16:desahogándote|15:desahogamos|12:desahogados|11:desahogaban|10:desahogaros|10:desahogaría|9:desahogadas|9:desahogándonos|8:desahogaron|7:desahogaos|7:desahogaré|7:desahogase|5:desahogaran|5:desahogará|5:desahogábamos
 2497,indudablemente,adv,,2497:indudablemente
@@ -9209,7 +9203,6 @@ count,spanish,pos,flags,usage
 2350,exclusión,n,,2113:exclusión|237:exclusiones
 2349,superstición,n,,1463:superstición|886:supersticiones
 2349,xv,none,NOUSAGE,2349:xv
-2346,andaluz,n,,2346:andaluz
 2346,credencial,n,,1677:credenciales|669:credencial
 2346,frederick,none,NOUSAGE,2346:frederick
 2345,antojarse,v,,922:antoja|392:antoje|323:antojaba|226:antojó|109:antojan|79:antojaban|68:antojara|60:antojado|54:antojaron|25:antojen|18:antojase|16:antojarse|14:antojaría|10:antojársele|9:antojando|9:antojar|7:antojará|4:antojaran
@@ -9278,6 +9271,7 @@ count,spanish,pos,flags,usage
 2318,citación,n,,1832:citación|486:citaciones
 2318,desbordar,v,,670:desborda|333:desbordó|228:desbordan|187:desbordar|170:desbordaba|150:desbordando|120:desbordarse|111:desbordaron|79:desbordaban|48:desborden|36:desbordara|32:desbordará|30:desbordaría|29:desbordándose|23:desbordo|15:desbordaran|9:desbordarán|9:desbordas|9:desbordase|7:desbordé|6:desbordarlo|5:desbordarme|4:desbordarla|4:desbordarle|4:desbordarte
 2318,exprimir,v,,588:exprimir|310:exprimido|192:exprime|158:exprimiendo|111:exprimida|89:exprimen|67:exprimirlo|59:exprimió|45:exprima|42:exprimes|40:exprimidos|39:exprimirle|39:exprimí|37:exprimirla|35:exprimo|31:exprimidas|31:exprimirme|30:exprimimos|30:exprimía|26:exprimirlos|26:exprimiré|24:exprimirte|19:exprimirá|17:exprímelo|16:exprimirlas|15:expriman|15:exprimieron|13:exprimamos|13:exprimiremos|13:exprimirse|12:exprimirán|11:exprimirles|10:exprimiera|10:exprimiste|9:exprimirnos|9:exprimiéndome|9:exprímele|8:exprimas|8:exprimiéndolo|8:exprimían|8:exprímelos|7:exprímete|6:exprimiría|6:exprimiéndole|6:exprimiéndose|5:exprimíamos|4:exprimiéndolos|4:exprimiéndonos|4:exprimiéndote|4:exprimís
+2317,misionero,n,,1159:misionero|1071:misioneros|41:misionario|30:misionarios|16:misionaria
 2315,exhalar,v,,989:exhala|259:exhalar|236:exhale|121:exhalen|113:exhalando|102:exhaló|98:exhalaba|85:exhalan|51:exhales|46:exhalado|34:exhalo|30:exhalas|29:exhalaban|25:exhalamos|17:exhálalo|12:exhalé|10:exhalará|10:exhalaría|9:exhalaron|7:exhalara|7:exhalarlo|7:exhalá|5:exhaladas|5:exhalados|4:exhalad|4:exhalada
 2315,sincronizado,adj,,1290:sincronizado|658:sincronizados|255:sincronizada|112:sincronizadas
 2314,carroza,n,,1832:carroza|482:carrozas
@@ -9431,7 +9425,6 @@ count,spanish,pos,flags,usage
 2258,jaque,n,,2127:jaque|131:jaques
 2257,adicto,adj,DUPLICATE,2069:adicta|188:adictas
 2257,andrews,none,NOUSAGE,2257:andrews
-2257,canaria,none,NOUSAGE,2257:canaria
 2257,jonah,none,NOUSAGE,2257:jonah
 2257,ocasionalmente,adv,,2257:ocasionalmente
 2257,opio,n,,2257:opio
@@ -9827,6 +9820,7 @@ count,spanish,pos,flags,usage
 2113,diabético,adj,,965:diabético|640:diabéticos|420:diabética|88:diabéticas
 2113,pasarela,n,,1831:pasarela|282:pasarelas
 2112,bruscamente,adv,,2112:bruscamente
+2112,centroamericano,adj,,1153:centroamericanos|788:centroamericana|171:centroamericanas
 2112,clare,none,NOUSAGE,2112:clare
 2112,ganadería,n,,1907:ganadería|205:ganaderías
 2112,pastelito,n,,1059:pastelitos|1053:pastelito
@@ -9897,7 +9891,7 @@ count,spanish,pos,flags,usage
 2084,grabadora,n,,1813:grabadora|271:grabadoras
 2084,hueco,adj,DUPLICATE,1611:hueca|473:huecas
 2084,infeccioso,adj,,940:infecciosas|453:infecciosa|381:infeccioso|310:infecciosos
-2084,neoyorquino,n,,707:neoyorquino|530:neoyorquinos|434:neoyorquina|138:neoyorkino|103:neoyorquinas|87:neoyorkinos|75:neoyorkina|10:neoyorkinas
+2084,neoyorquino,adj,,707:neoyorquino|530:neoyorquinos|434:neoyorquina|138:neoyorkino|103:neoyorquinas|87:neoyorkinos|75:neoyorkina|10:neoyorkinas
 2083,cambiante,adj,,1345:cambiante|738:cambiantes
 2083,furtivo,adj,,751:furtivo|599:furtivos|536:furtiva|197:furtivas
 2083,recurrente,adj,,1320:recurrente|763:recurrentes
@@ -10110,7 +10104,6 @@ count,spanish,pos,flags,usage
 2012,congregación,n,,1801:congregación|211:congregaciones
 2012,lisiado,adj,,1300:lisiado|423:lisiados|263:lisiada|26:lisiadas
 2011,Gladys,prop,,2011:gladys
-2011,peruana,none,NOUSAGE,2011:peruana
 2011,shelley,none,NOUSAGE,2011:shelley
 2010,Montreal,prop,,1972:montreal|38:montréal
 2010,cenicero,n,,1570:cenicero|440:ceniceros
@@ -10891,6 +10884,7 @@ count,spanish,pos,flags,usage
 1784,adulterio,n,,1700:adulterio|84:adulterios
 1784,alí,none,NOUSAGE,1784:alí
 1784,estribo,n,,1332:estribos|452:estribo
+1784,ibérico,n,,1597:ibérica|187:ibéricas
 1784,lechero,adj,,880:lechero|606:lechera|200:lecheras|98:lecheros
 1784,pittsburgh,none,NOUSAGE,1784:pittsburgh
 1783,Yolanda,prop,,1783:yolanda
@@ -11223,7 +11217,6 @@ count,spanish,pos,flags,usage
 1701,tintorería,n,,1605:tintorería|96:tintorerías
 1701,triturar,v,,337:triturar|292:triturado|136:tritura|127:triturados|100:trituradas|95:triturando|92:triturada|60:trituran|58:trituró|40:trituren|33:trituraba|30:tritúralo|29:triture|26:trituramos|23:triturarlo|22:trituré|20:trituro|17:trituraré|16:trituraban|16:trituras|15:triturarla|15:triturarlos|15:trituraron|13:triturarme|13:triturará|12:triturarte|7:triturarlas|7:triturarse|7:trituraría|6:triturándolo|5:trituraste|5:tritures|4:triturase|4:triturándola|4:tritúrala
 1701,vendaje,n,,1066:vendaje|635:vendajes
-1700,canadienses,none,NOUSAGE,1700:canadienses
 1700,entrañar,v,,1127:entraña|154:entrañaba|149:entrañan|85:entrañar|43:entrañaría|21:entrañe|21:entrañen|20:entrañará|19:entrañaban|19:entrañado|16:entrañó|7:entrañada|6:entrañara|5:entraño|4:entrañadas|4:entrañando
 1700,logístico,adj,,1025:logística|447:logístico|136:logísticos|92:logísticas
 1700,reformista,adj,,1066:reformista|634:reformistas
@@ -11448,11 +11441,9 @@ count,spanish,pos,flags,usage
 1653,franquicia,n,,1235:franquicia|418:franquicias
 1653,habituar,v,,523:habituado|277:habituados|187:habituada|124:habituarse|88:habitué|57:habituarme|54:habituadas|53:habitúa|39:habitués|34:habituando|26:habitúe|22:habitúan|19:habituó|15:habituarte|14:habituarnos|13:habituar|12:habituaba|12:habituándose|11:habituaron|10:habituamos|9:habitúas|9:habitúes|8:habituaré|7:habitúen|6:habituará|6:habituándome|5:habituarán|5:habitúo|4:habituaban|4:habitúate
 1653,inmunológico,adj,,1113:inmunológico|232:inmunológica|179:inmunológicos|129:inmunológicas
-1653,peruanos,none,NOUSAGE,1653:peruanos
 1652,arañazo,n,,1029:arañazos|623:arañazo
 1652,falls,none,NOUSAGE,1652:falls
 1652,lambert,none,NOUSAGE,1652:lambert
-1652,madrileños,none,NOUSAGE,1652:madrileños
 1652,moralmente,adv,,1652:moralmente
 1652,patriotismo,n,,1640:patriotismo|12:patriotismos
 1651,descompuesto,adj,,997:descompuesto|389:descompuesta|183:descompuestos|82:descompuestas
@@ -11598,6 +11589,7 @@ count,spanish,pos,flags,usage
 1620,mobiliario,n,,1559:mobiliario|61:mobiliarios
 1620,sabelotodo,n,,1540:sabelotodo|80:sabelotodos
 1620,v.,none,NOUSAGE,1620:v.
+1619,afgano,adj,,590:afgano|565:afganos|330:afgana|134:afganas
 1619,afianzar,v,,459:afianzar|234:afianza|139:afianzó|136:afianzarse|129:afianzado|65:afianzando|56:afianzan|55:afiance|48:afianzaba|46:afianzada|29:afianzaron|24:afianzados|21:afianzará|17:afianzándose|16:afianzarnos|14:afiancen|14:afianzadas|12:afianzaban|12:afianzara|11:afianzarlo|10:afianzaría|9:afianzarme|9:afianzarán|6:afianzamos|6:afianzarla|6:afianzas|5:afiancé|5:afianzarlas|5:afianzarte|5:afianzo|4:afiancemos|4:afiances|4:afianzaran|4:afianzaremos
 1619,festividad,n,,844:festividad|775:festividades
 1619,gruñón,n,,1473:gruñón|146:gruñones
@@ -11656,6 +11648,7 @@ count,spanish,pos,flags,usage
 1608,timo,n,,1409:timo|199:timos
 1607,fragancia,n,,1344:fragancia|263:fragancias
 1607,yo-yo,none,NOUSAGE,1607:yo-yo
+1606,Josefina,prop,,1598:josefina|8:josefinas
 1606,espesor,n,,1512:espesor|94:espesores
 1606,grove,none,NOUSAGE,1606:grove
 1606,hawaii,none,NOUSAGE,1606:hawaii
@@ -11694,7 +11687,6 @@ count,spanish,pos,flags,usage
 1599,pibe,n,,977:pibe|355:pibes|213:piba|54:pibas
 1599,raso,n,,1390:raso|209:rasos
 1599,retribución,n,,1073:retribución|526:retribuciones
-1598,Josefina,prop,,1598:josefina
 1598,azucarero,adj,,706:azucarera|364:azucareros|333:azucarero|195:azucareras
 1598,macgyver,none,NOUSAGE,1598:macgyver
 1598,tracción,n,,1560:tracción|38:tracciones
@@ -11768,7 +11760,6 @@ count,spanish,pos,flags,usage
 1582,sandía,n,,1217:sandía|365:sandías
 1582,tortita,n,,1367:tortitas|215:tortita
 1581,cabildo,n,,1319:cabildo|262:cabildos
-1581,estadunidense,adj,,1010:estadunidense|571:estadunidenses
 1581,navegante,n,,886:navegante|695:navegantes
 1581,perpetuar,v,,581:perpetuar|231:perpetúa|203:perpetuarse|95:perpetúan|89:perpetuado|74:perpetuando|39:perpetúe|29:perpetuada|29:perpetuó|19:perpetuara|19:perpetúen|18:perpetuarlo|17:perpetuaba|17:perpetuarla|17:perpetuará|13:perpetuaría|12:perpetuaban|12:perpetuados|12:perpetuamos|12:perpetuaron|10:perpetuarán|8:perpetuadas|6:perpetuaran|6:perpetuándose|5:perpetúo|4:perpetuase|4:perpetúas
 1581,sigla,n,,1304:siglas|277:sigla
@@ -11806,6 +11797,7 @@ count,spanish,pos,flags,usage
 1574,Aníbal,prop,,1574:aníbal
 1574,Paulina,prop,,1563:paulina|11:paulinas
 1574,captación,n,,1505:captación|69:captaciones
+1574,complutense,n,,1569:complutense|5:complutenses
 1574,holocausto,n,,1536:holocausto|38:holocaustos
 1574,ping,n,,1552:ping|22:pings
 1574,páramo,n,,1056:páramo|518:páramos
@@ -11829,7 +11821,6 @@ count,spanish,pos,flags,usage
 1570,turbulencia,n,,969:turbulencia|601:turbulencias
 1569,antidepresivo,n,,1245:antidepresivos|324:antidepresivo
 1569,bolita,n,,913:bolitas|656:bolita
-1569,complutense,none,NOUSAGE,1569:complutense
 1569,tailandés,adj,,692:tailandés|627:tailandesa|171:tailandeses|79:tailandesas
 1568,cachorrito,n,,1026:cachorrito|432:cachorritos|93:cachorrita|17:cachorritas
 1568,esculpir,v,,300:esculpir|269:esculpido|200:esculpida|146:esculpidas|135:esculpidos|92:esculpió|83:esculpe|77:esculpiendo|33:esculpen|33:esculpía|27:esculpieron|25:esculpí|22:esculpo|14:esculpimos|12:esculpes|11:esculpirlo|11:esculpían|10:esculpa|9:esculpirla|9:esculpiría|8:esculpiera|8:esculpirme|8:esculpiré|7:esculpirá|6:esculpirás|5:esculpieran|4:esculpirlos|4:escúlpelo
@@ -12598,7 +12589,6 @@ count,spanish,pos,flags,usage
 1412,haras,none,NOUSAGE,1412:haras
 1412,intimar,v,,358:intimar|230:intimo|204:intima|132:intimado|120:intimas|97:intimando|63:intimó|42:intimamos|28:intime|19:intimaron|18:intimes|18:intimé|16:intimaba|15:intiman|8:intimaban|8:intimada|7:intimaste|7:intimate|6:intimara|6:intimemos|5:intimaría|5:intimen
 1412,savage,none,NOUSAGE,1412:savage
-1412,victoriano,adj,,670:victoriano|506:victoriana|130:victorianos|106:victorianas
 1411,burlón,adj,,626:burlón|581:burlona|130:burlones|74:burlonas
 1411,hoover,none,NOUSAGE,1411:hoover
 1411,levi,none,NOUSAGE,1411:levi
@@ -13067,6 +13057,7 @@ count,spanish,pos,flags,usage
 1326,grupal,adj,,1025:grupal|301:grupales
 1326,gástrico,adj,,505:gástrica|479:gástrico|232:gástricos|110:gástricas
 1326,lennon,none,NOUSAGE,1326:lennon
+1326,londinense,adj,,1007:londinense|319:londinenses
 1326,lumbar,adj,,1076:lumbar|250:lumbares
 1326,neville,none,NOUSAGE,1326:neville
 1325,abominable,adj,,1036:abominable|289:abominables
@@ -13399,6 +13390,7 @@ count,spanish,pos,flags,usage
 1271,militancia,n,,1234:militancia|37:militancias
 1271,nicolas,none,NOUSAGE,1271:nicolas
 1271,proyector,n,,1021:proyector|250:proyectores
+1270,asturiano,n,,864:asturiano|406:asturianos
 1270,avioneta,n,,957:avioneta|313:avionetas
 1270,naciente,adj,,1124:naciente|146:nacientes
 1270,nbc,none,NOUSAGE,1270:nbc
@@ -13977,6 +13969,7 @@ count,spanish,pos,flags,usage
 1182,anatómico,adj,,362:anatómico|351:anatómica|244:anatómicas|225:anatómicos
 1182,bethany,none,NOUSAGE,1182:bethany
 1182,gillian,none,NOUSAGE,1182:gillian
+1182,ibérico,adj,DUPLICATE,902:ibérico|280:ibéricos
 1182,inferir,v,,449:inferir|238:infiere|80:inferirse|70:inferido|46:infirió|41:infieren|35:infiero|32:infiriendo|30:inferida|26:inferimos|25:inferidas|18:inferí|17:inferidos|13:infiera|10:inferirle|10:infirieron|8:inferirá|8:infería|8:infieres|6:inferiste|4:inferirles|4:inferirlo|4:inferían
 1182,metralla,n,,1159:metralla|23:metrallas
 1182,patrono,n,,635:patrono|547:patronos
@@ -13987,7 +13980,6 @@ count,spanish,pos,flags,usage
 1181,estadísticamente,adv,,1181:estadísticamente
 1181,interfaz,n,,1028:interfaz|153:interfaces
 1181,motor,adj,DUPLICATE,662:motora|519:motoras
-1181,puertorriqueño,none,NOUSAGE,1181:puertorriqueño
 1181,subyacente,adj,,862:subyacente|319:subyacentes
 1180,Sahara,prop,,1180:sahara
 1180,artillero,n,,787:artillero|393:artilleros
@@ -14193,7 +14185,6 @@ count,spanish,pos,flags,usage
 1153,arrendamiento,n,,947:arrendamiento|206:arrendamientos
 1153,aunar,v,,342:aunar|219:aunado|147:aúna|98:aúnan|55:aunando|50:aunada|47:aunados|27:aunaron|24:aunaba|22:aunadas|19:aúne|16:aunaban|15:aunó|14:aúnen|12:aunamos|10:aunarse|7:aunará|6:aunemos|5:aunara|5:aunaran|5:aunase|4:aunaría|4:aunándose
 1153,cancer,none,NOUSAGE,1153:cancer
-1153,centroamericanos,none,NOUSAGE,1153:centroamericanos
 1153,fichado,adj,,819:fichado|170:fichados|137:fichada|27:fichadas
 1153,great,none,NOUSAGE,1153:great
 1153,halagador,adj,,895:halagador|148:halagadora|67:halagadoras|43:halagadores
@@ -15453,7 +15444,6 @@ count,spanish,pos,flags,usage
 1007,heath,none,NOUSAGE,1007:heath
 1007,indeterminado,adj,,566:indeterminado|304:indeterminada|74:indeterminados|63:indeterminadas
 1007,inducción,n,,976:inducción|31:inducciones
-1007,londinense,none,NOUSAGE,1007:londinense
 1007,napolitano,adj,,420:napolitano|322:napolitana|213:napolitanos|52:napolitanas
 1007,party,n,,950:party|57:parties
 1007,púbico,adj,,755:púbico|130:púbicos|91:púbica|31:púbicas
@@ -15553,7 +15543,7 @@ count,spanish,pos,flags,usage
 998,siobhan,none,NOUSAGE,998:siobhan
 997,Paulino,prop,,997:paulino
 997,autodestrucción,n,,997:autodestrucción
-997,centroamericano,none,NOUSAGE,997:centroamericano
+997,centroamericano,n,DUPLICATE,997:centroamericano
 997,edo,none,NOUSAGE,997:edo
 997,hendrix,none,NOUSAGE,997:hendrix
 997,llavero,n,,789:llavero|208:llaveros
@@ -15702,7 +15692,6 @@ count,spanish,pos,flags,usage
 980,liberty,none,NOUSAGE,980:liberty
 980,lúgubre,adj,,801:lúgubre|179:lúgubres
 980,pero,n,DUPLICATE,980:peros
-980,puertorriqueños,none,NOUSAGE,980:puertorriqueños
 980,turnar,v,,143:turnamos|119:turnan|93:turnaban|92:turnarnos|61:turnaremos|56:turnándose|53:turnaron|51:turnarse|40:turnado|39:turnando|34:turnábamos|26:turnar|24:turné|19:turnó|18:turna|15:turnarán|13:turnen|11:turnes|11:turnándonos|10:turnaba|9:turnada|9:turnáis|7:turnarían|6:turnaros|5:turnara|4:turnados|4:turnaran|4:turnará|4:turnémonos
 979,berg,none,NOUSAGE,979:berg
 979,desentrañar,v,,710:desentrañar|45:desentrañado|42:desentraña|34:desentrañando|24:desentrañarlo|18:desentrañó|16:desentrañan|12:desentrañe|11:desentrañarla|11:desentrañaron|9:desentrañarse|8:desentrañaba|8:desentrañara|6:desentrañada|6:desentrañados|6:desentrañaría|5:desentrañarlos|4:desentrañarlas|4:desentrañaré
@@ -16899,7 +16888,6 @@ count,spanish,pos,flags,usage
 865,topanga,none,NOUSAGE,865:topanga
 864,IRPF,n,,864:irpf
 864,Nochevieja,prop,,859:nochevieja|5:nocheviejas
-864,asturiano,n,,864:asturiano
 864,cadencia,n,,710:cadencia|154:cadencias
 864,carnegie,none,NOUSAGE,864:carnegie
 864,cloruro,n,,798:cloruro|66:cloruros
@@ -17313,7 +17301,6 @@ count,spanish,pos,flags,usage
 828,incisivo,adj,,316:incisivo|305:incisivos|161:incisiva|46:incisivas
 828,moralista,adj,,586:moralista|242:moralistas
 828,neurólogo,n,,626:neurólogo|154:neurólogos|48:neuróloga
-828,puertorriqueña,none,NOUSAGE,828:puertorriqueña
 828,qaeda,none,NOUSAGE,828:qaeda
 828,reasignar,v,,284:reasignado|94:reasignar|75:reasignada|61:reasignaron|60:reasignados|31:reasignen|25:reasignando|19:reasigne|17:reasignarte|16:reasigna|16:reasignarlo|16:reasignaré|15:reasignó|11:reasignarlos|10:reasignarme|9:reasignan|9:reasignará|9:reasigné|7:reasignara|7:reasignaran|7:reasignarán|6:reasignadas|6:reasignamos|6:reasigno|4:reasignarle|4:reasignarían|4:reasignaste
 828,sioux,n,,828:sioux
@@ -17344,6 +17331,7 @@ count,spanish,pos,flags,usage
 826,vaticinar,v,,216:vaticinó|112:vaticina|104:vaticinar|98:vaticinado|95:vaticinan|51:vaticinaba|39:vaticinaban|35:vaticinaron|21:vaticino|20:vaticinando|10:vaticinada|10:vaticiné|5:vaticinados|5:vaticinamos|5:vaticinarle
 826,willoughby,none,NOUSAGE,826:willoughby
 825,Jocelyn,prop,,825:jocelyn
+825,albanés,n,,435:albaneses|390:albanés
 825,coraza,n,,711:coraza|114:corazas
 825,cy,none,NOUSAGE,825:cy
 825,descarriar,v,,215:descarriado|192:descarriada|136:descarriados|107:descarriadas|31:descarrió|23:descarriarse|17:descarriar|17:descarría|14:descarrío|11:descarrían|9:descarriando|8:descarriaron|8:descarriaste|8:descarrié|6:descarríe|5:descarriaba|5:descarriarme|5:descarrías|4:descarriaban|4:descarríes
@@ -17587,6 +17575,7 @@ count,spanish,pos,flags,usage
 807,llorona,n,,694:llorona|113:lloronas
 807,rabbit,none,NOUSAGE,807:rabbit
 807,superintendencia,n,,779:superintendencia|28:superintendencias
+807,vienés,adj,,348:vienés|212:vienesa|199:vieneses|48:vienesas
 806,Quique,prop,,806:quique
 806,ateneo,n,,745:ateneo|61:ateneos
 806,boa,n,,635:boa|171:boas
@@ -17609,7 +17598,6 @@ count,spanish,pos,flags,usage
 805,aprestar,v,,247:apresta|139:aprestaba|114:aprestan|71:aprestó|70:aprestaban|37:aprestaron|13:aprestar|13:aprestándose|12:apreste|11:aprestamos|10:apresten|9:aprestarse|7:aprestara|7:aprestaste|6:aprestad|6:aprestábamos|6:apréstate|5:aprestando|5:aprestaran|5:aprestase|4:aprestado|4:aprestaría|4:aprestas
 805,arrear,v,,187:arreando|147:arrea|131:arrear|53:arreó|40:arreado|33:arrean|31:arreaba|25:arree|20:arrearle|17:arreaban|17:arreados|13:arreen|11:arréale|10:arrearte|10:arreas|9:arreaste|8:arrearé|8:arreé|7:arrearlo|6:arrearlas|6:arrearlos|6:arrearon|6:arrees|4:arreadas
 805,capitalización,n,,797:capitalización|8:capitalizaciones
-805,catalanas,none,NOUSAGE,805:catalanas
 805,dramatizar,v,,249:dramatizar|88:dramatices|79:dramatiza|69:dramatizando|47:dramatizada|46:dramatizado|35:dramaticemos|30:dramatizados|29:dramatizadas|23:dramatizan|21:dramatizó|18:dramatizarlo|17:dramatice|16:dramatizaba|16:dramatizas|10:dramatizo|7:dramatizaron|5:dramatizaban
 805,enfundar,v,,187:enfundado|141:enfundada|79:enfundados|65:enfunda|56:enfundadas|53:enfundó|43:enfundarse|36:enfundar|22:enfunden|20:enfundaba|20:enfunde|10:enfundad|10:enfundando|10:enfundé|7:enfundaron|6:enfúndala|5:enfundan|5:enfundara|5:enfundas|5:enfundo|4:enfundaban|4:enfundarme|4:enfundes|4:enfundándose|4:enfúndela
 805,escroto,n,,763:escroto|42:escrotos
@@ -17684,6 +17672,7 @@ count,spanish,pos,flags,usage
 800,lloroso,adj,,291:llorosos|280:llorosa|173:lloroso|56:llorosas
 800,noona,none,NOUSAGE,800:noona
 800,oda,n,,667:oda|133:odas
+800,victoriano,n,,670:victoriano|130:victorianos
 800,vivaz,adj,,587:vivaz|213:vivaces
 799,Cuéllar,prop,,799:cuéllar
 799,baekje,none,NOUSAGE,799:baekje
@@ -17849,7 +17838,6 @@ count,spanish,pos,flags,usage
 789,shen,none,NOUSAGE,789:shen
 789,viejita,n,,643:viejita|146:viejitas
 788,Heredia,prop,,788:heredia
-788,centroamericana,none,NOUSAGE,788:centroamericana
 788,chasquear,v,,251:chasquear|147:chasquea|87:chasqueó|82:chasqueando|47:chasquee|30:chasqueo|23:chasqueas|17:chasquean|15:chasqueaba|15:chasqueado|11:chasqueaban|10:chasquearé|9:chasquees|8:chasqueamos|7:chasquearon|6:chasqueados|6:chasqueé|5:chasqueada|4:chasqueará|4:chasquearía|4:chasqueen
 788,detractor,n,,741:detractores|39:detractor|8:detractora
 788,enlistar,v,,95:enlisté|85:enlistó|78:enlistado|71:enlistarse|59:enlistarme|53:enlistar|52:enlistados|39:enlista|34:enlistaste|32:enlistaron|25:enlistan|23:enlistarte|19:enliste|15:enlisto|14:enlistadas|14:enlistamos|12:enlistas|11:enlistada|10:enlistarlo|9:enlistando|9:enlistaré|8:enlistara|8:enlistarnos|5:enlisten|4:enlistarlos|4:enlistarán
@@ -17926,6 +17914,7 @@ count,spanish,pos,flags,usage
 783,bioquímico,adj,,407:bioquímico|376:bioquímicos
 783,codigo,none,NOUSAGE,783:codigo
 783,colorante,n,,409:colorante|374:colorantes
+783,escandinavo,adj,,292:escandinavos|230:escandinavo|196:escandinava|65:escandinavas
 783,escaramuza,n,,418:escaramuzas|365:escaramuza
 783,matriculado,adj,,347:matriculado|339:matriculados|72:matriculada|25:matriculadas
 783,nassau,none,NOUSAGE,783:nassau
@@ -19068,6 +19057,7 @@ count,spanish,pos,flags,usage
 702,consultoría,n,,640:consultoría|62:consultorías
 702,desmenuzar,v,,167:desmenuzado|105:desmenuzar|87:desmenuza|62:desmenuzada|48:desmenuzando|28:desmenuzadas|26:desmenuzados|23:desmenuzarlo|22:desmenuzó|21:desmenuzan|18:desmenuzarse|16:desmenuzarla|12:desmenuzaban|10:desmenuce|10:desmenuzaba|9:desmenuzamos|8:desmenuzarlos|7:desmenuzará|6:desmenuzo|5:desmenuzándola|4:desmenucen|4:desmenuzaron|4:desmenuzaré
 702,homeopático,adj,,255:homeopático|232:homeopática|149:homeopáticos|66:homeopáticas
+702,malagueño,adj,,314:malagueño|264:malagueña|86:malagueños|38:malagueñas
 702,patrice,none,NOUSAGE,702:patrice
 702,perdigón,n,,546:perdigones|156:perdigón
 702,sufragar,v,,402:sufragar|41:sufragado|40:sufragados|30:sufragó|27:sufragada|24:sufraga|22:sufragaron|19:sufragará|14:sufragadas|14:sufragan|9:sufragarán|9:sufrague|8:sufragaban|7:sufragarlo|7:sufragarse|7:sufraguen|6:sufragando|6:sufragarla|6:sufragaría|4:sufragaba
@@ -19138,6 +19128,7 @@ count,spanish,pos,flags,usage
 698,ferocidad,n,,683:ferocidad|15:ferocidades
 698,geum,none,NOUSAGE,698:geum
 698,kepler,none,NOUSAGE,698:kepler
+698,limeño,adj,,331:limeño|182:limeña|120:limeños|65:limeñas
 698,niágara,none,NOUSAGE,698:niágara
 698,rie,none,NOUSAGE,698:rie
 698,táctil,adj,,456:táctil|242:táctiles
@@ -19261,6 +19252,7 @@ count,spanish,pos,flags,usage
 690,sarcófago,n,,577:sarcófago|113:sarcófagos
 689,Campeche,prop,,689:campeche
 689,Nati,prop,,689:nati
+689,asturiano,adj,DUPLICATE,591:asturiana|98:asturianas
 689,desorientación,n,,677:desorientación|12:desorientaciones
 689,doreen,none,NOUSAGE,689:doreen
 689,ejem,interj,,689:ejem
@@ -19272,7 +19264,7 @@ count,spanish,pos,flags,usage
 689,salvaguardia,n,,363:salvaguarda|264:salvaguardia|62:salvaguardias
 689,uniformidad,n,,681:uniformidad|8:uniformidades
 688,adelaide,none,NOUSAGE,688:adelaide
-688,bosnios,none,NOUSAGE,688:bosnios
+688,bosnio,n,,688:bosnios
 688,desembolso,n,,477:desembolso|211:desembolsos
 688,escarmiento,n,,648:escarmiento|40:escarmientos
 688,esterilización,n,,648:esterilización|40:esterilizaciones
@@ -19751,6 +19743,7 @@ count,spanish,pos,flags,usage
 659,desahogo,n,,606:desahogo|53:desahogos
 659,gear,none,NOUSAGE,659:gear
 659,gramatical,adj,,383:gramatical|276:gramaticales
+659,guipuzcoano,n,,267:guipuzcoano|261:guipuzcoana|89:guipuzcoanos|42:guipuzcoanas
 659,juanjo,none,NOUSAGE,659:juanjo
 659,match,n,,635:match|24:matches
 659,meteorología,n,,659:meteorología
@@ -19930,6 +19923,7 @@ count,spanish,pos,flags,usage
 647,esposito,n,,647:esposito
 647,fria,none,NOUSAGE,647:fria
 647,heck,none,NOUSAGE,647:heck
+647,misionero,adj,DUPLICATE,458:misionera|189:misioneras
 647,paxton,none,NOUSAGE,647:paxton
 647,popularizar,v,,141:popularizó|136:popularizado|85:popularizar|47:popularizada|38:popularizaron|33:popularizarse|27:populariza|27:popularizados|20:popularizando|16:popularizan|15:popularizadas|14:popularizara|12:popularizándose|9:popularice|5:popularizaba|5:popularizará|5:popularizaría|4:popularicen|4:popularizaban|4:popularizo
 647,primigenio,adj,,267:primigenio|241:primigenia|83:primigenios|56:primigenias
@@ -19959,6 +19953,7 @@ count,spanish,pos,flags,usage
 646,troyano,n,,294:troyanos|287:troyano|38:troyana|27:troyanas
 645,Jeremías,prop,,645:jeremías
 645,Sagitario,prop,,645:sagitario
+645,Toscana,prop,,621:toscana|24:toscanas
 645,atp,none,NOUSAGE,645:atp
 645,austen,none,NOUSAGE,645:austen
 645,billings,none,NOUSAGE,645:billings
@@ -20191,7 +20186,7 @@ count,spanish,pos,flags,usage
 631,sacerdocio,n,,621:sacerdocio|10:sacerdocios
 631,zurrar,v,,103:zurrar|73:zurrado|43:zurro|32:zurrando|30:zurrarle|30:zurrarte|30:zurró|27:zurre|25:zurraba|22:zurraron|21:zurré|20:zurraré|18:zurren|16:zurran|16:zurrarme|11:zurramos|11:zurrará|11:zurraste|10:zurraría|9:zúrrale|8:zurraban|8:zurrarles|7:zurrados|6:zurrada|5:zurraran|5:zurrarla|5:zurrarán|5:zurremos|4:zurrara|4:zurrarlo|4:zurrarnos|4:zurrarse|4:zurrándole|4:zurrándose
 630,CGPJ,prop,,630:cgpj
-630,bosnio,none,NOUSAGE,630:bosnio
+630,bosnio,adj,DUPLICATE,630:bosnio
 630,calabacín,n,,374:calabacín|256:calabacines
 630,ciberespacio,n,,630:ciberespacio
 630,ensañar,v,,81:ensañó|76:ensañado|72:ensañarse|69:ensaña|59:ensañaron|47:ensañan|25:ensañaba|20:ensañas|18:ensañaré|15:ensañando|14:ensañar|14:ensañándose|13:ensañaban|13:ensañarme|13:ensañes|12:ensaño|9:ensañe|7:ensañada|7:ensañarnos|7:ensañen|6:ensañara|6:ensañarte|6:ensañaría|5:ensañaste|4:ensañados|4:ensañamos|4:ensañará|4:ensañé
@@ -20336,7 +20331,6 @@ count,spanish,pos,flags,usage
 622,tatarabuelo,n,,434:tatarabuelo|125:tatarabuela|55:tatarabuelos|8:tatarabuelas
 622,watergate,none,NOUSAGE,622:watergate
 621,Stalingrado,prop,,621:stalingrado
-621,Toscana,prop,,621:toscana
 621,adonis,n,,621:adonis
 621,beautiful,none,NOUSAGE,621:beautiful
 621,cheung,none,NOUSAGE,621:cheung
@@ -20504,6 +20498,7 @@ count,spanish,pos,flags,usage
 612,tabernero,n,,514:tabernero|63:tabernera|35:taberneros
 612,valet,n,,584:valet|28:valets
 612,versar,v,,209:versa|64:versará|62:versar|59:versó|58:versan|40:versaba|27:versarán|23:versaban|23:versen|18:versaron|8:versara|7:versando|6:versales|4:versaría|4:verses
+612,victoriano,adj,DUPLICATE,506:victoriana|106:victorianas
 612,volvera,none,NOUSAGE,612:volvera
 611,Almagro,prop,,611:almagro
 611,afirmativa,n,,521:afirmativa|90:afirmativas
@@ -20918,7 +20913,6 @@ count,spanish,pos,flags,usage
 591,PUF,n,,568:puf|23:pufs
 591,Tadeo,prop,,591:tadeo
 591,agraviar,v,,220:agraviado|124:agraviada|93:agraviados|43:agraviar|31:agravia|15:agravió|13:agraviadas|9:agraviaron|8:agraviaba|7:agraviando|6:agravias|5:agravian|5:agravié|4:agraviara|4:agraviarlos|4:agravie
-591,asturiana,none,NOUSAGE,591:asturiana
 591,caniche,n,,440:caniche|151:caniches
 591,caserón,n,,540:caserón|51:caserones
 591,cassette,none,NOUSAGE,591:cassette
@@ -20935,7 +20929,6 @@ count,spanish,pos,flags,usage
 591,trick,none,NOUSAGE,591:trick
 591,ulrich,none,NOUSAGE,591:ulrich
 591,viper,none,NOUSAGE,591:viper
-590,afgano,none,NOUSAGE,590:afgano
 590,ateniense,adj,,335:ateniense|255:atenienses
 590,babuino,n,,329:babuino|261:babuinos
 590,birlar,v,,134:birlado|101:birlar|82:birló|49:birla|33:birlé|21:birle|20:birlaron|17:birlaste|15:birlando|14:birlamos|14:birlarle|13:birlo|12:birlan|10:birlarme|8:birlas|8:birlen|6:birlaba|6:birlándole|5:birlaban|5:birlad|5:birlados|4:birlada|4:birladas|4:birlarte
@@ -21446,7 +21439,6 @@ count,spanish,pos,flags,usage
 566,zhaan,none,NOUSAGE,566:zhaan
 565,Luque,prop,,565:luque
 565,act,none,NOUSAGE,565:act
-565,afganos,none,NOUSAGE,565:afganos
 565,alcista,adj,,479:alcista|86:alcistas
 565,curador,n,,389:curador|91:curadora|74:curadores|11:curadoras
 565,decisivamente,adv,,565:decisivamente
@@ -21838,6 +21830,7 @@ count,spanish,pos,flags,usage
 545,falangista,adj,DUPLICATE,545:falangista
 545,flechazo,n,,482:flechazo|63:flechazos
 545,florido,adj,,409:florido|136:floridos
+545,gaditano,adj,,274:gaditano|153:gaditana|74:gaditanos|44:gaditanas
 545,gage,none,NOUSAGE,545:gage
 545,incubación,n,,545:incubación
 545,misticismo,n,,530:misticismo|15:misticismos
@@ -22598,6 +22591,7 @@ count,spanish,pos,flags,usage
 511,psicosocial,adj,,275:psicosocial|236:psicosociales
 511,tor,none,NOUSAGE,511:tor
 511,trajín,n,,420:trajín|91:trajines
+511,vigués,adj,,272:vigués|128:vigueses|94:viguesa|17:viguesas
 510,Jairo,prop,,510:jairo
 510,Mozambique,prop,,510:mozambique
 510,Python,prop,,510:python
@@ -22870,7 +22864,6 @@ count,spanish,pos,flags,usage
 499,loncha,n,,385:lonchas|114:loncha
 499,ltd,none,NOUSAGE,499:ltd
 499,madrigal,n,,435:madrigal|64:madrigales
-499,malayo,n,,266:malaya|126:malayo|84:malayos|23:malayas
 499,neurocirugía,n,,499:neurocirugía
 499,problemilla,n,,350:problemilla|149:problemillas
 499,refriega,n,,429:refriega|70:refriegas
@@ -22896,6 +22889,7 @@ count,spanish,pos,flags,usage
 498,gratinar,v,,108:gratinar|101:gratinado|90:gratinadas|71:gratinados|46:gratina|27:gratinada|18:gratine|15:gratínalo|8:gratínalos|5:gratinan|5:gratinando|4:gratínalas
 498,jansen,none,NOUSAGE,498:jansen
 498,maga,n,,476:maga|22:magas
+498,manchego,n,,394:manchego|104:manchegos
 498,mequetrefe,n,,429:mequetrefe|69:mequetrefes
 498,milner,none,NOUSAGE,498:milner
 498,neurotransmisor,n,,345:neurotransmisores|153:neurotransmisor
@@ -23426,6 +23420,7 @@ count,spanish,pos,flags,usage
 476,donaghy,none,NOUSAGE,476:donaghy
 476,encasillar,v,,88:encasillado|70:encasillar|47:encasillada|32:encasillarme|29:encasillados|27:encasillen|24:encasillan|23:encasillarse|17:encasilla|15:encasillarlo|11:encasilles|11:encasilló|10:encasillarte|8:encasilladas|8:encasillaron|7:encasillarla|7:encasillarnos|6:encasillamos|6:encasillando|6:encasillarlos|6:encasillé|5:encasillara|5:encasillas|4:encasillaba|4:encasille
 476,flanagan,none,NOUSAGE,476:flanagan
+476,florentino,n,,294:florentina|147:florentinos|35:florentinas
 476,fólico,adj,,469:fólico|7:fólicos
 476,habib,none,NOUSAGE,476:habib
 476,ivo,none,NOUSAGE,476:ivo
@@ -23781,7 +23776,6 @@ count,spanish,pos,flags,usage
 463,saw,none,NOUSAGE,463:saw
 463,sellers,none,NOUSAGE,463:sellers
 463,sodomía,n,,458:sodomía|5:sodomías
-463,toledano,n,,248:toledano|127:toledana|49:toledanos|39:toledanas
 463,tontamente,adv,,463:tontamente
 463,yahoo,none,NOUSAGE,463:yahoo
 462,Báez,prop,,462:báez
@@ -24092,6 +24086,7 @@ count,spanish,pos,flags,usage
 452,poppins,none,NOUSAGE,452:poppins
 452,regencia,n,,445:regencia|7:regencias
 452,reinicio,n,,446:reinicio|6:reinicios
+452,riojano,adj,,215:riojano|121:riojana|90:riojanos|26:riojanas
 452,sobradamente,adv,,452:sobradamente
 452,sonrisita,n,,379:sonrisita|73:sonrisitas
 452,tablear,v,,272:table|147:tablada|23:tables|5:tablares|5:tablate
@@ -24182,6 +24177,7 @@ count,spanish,pos,flags,usage
 449,turing,none,NOUSAGE,449:turing
 449,vinagreta,n,,435:vinagreta|14:vinagretas
 449,vw,none,NOUSAGE,449:vw
+449,zaragozano,adj,,209:zaragozano|121:zaragozana|80:zaragozanos|39:zaragozanas
 448,Acebo,prop,,448:acebo
 448,Cauca,prop,,448:cauca
 448,Sotomayor,prop,,448:sotomayor
@@ -24212,7 +24208,6 @@ count,spanish,pos,flags,usage
 448,mascarada,n,,391:mascarada|57:mascaradas
 448,mcgregor,none,NOUSAGE,448:mcgregor
 448,montague,none,NOUSAGE,448:montague
-448,peruanas,none,NOUSAGE,448:peruanas
 448,querellarse,v,,93:querellados|92:querellarse|69:querelle|55:querellado|37:querelló|31:querellará|13:querellan|11:querellar|8:querellaron|6:querellarme|6:querellarnos|6:querellarán|6:querellen|6:querello|5:querellara|4:querellaré
 448,radiológico,adj,,156:radiológica|139:radiológico|92:radiológicos|61:radiológicas
 448,rooney,none,NOUSAGE,448:rooney
@@ -24281,7 +24276,7 @@ count,spanish,pos,flags,usage
 445,Melo,prop,,445:melo
 445,Michoacán,prop,,445:michoacán
 445,Suez,prop,,445:suez
-445,berlinés,n,,190:berlinés|129:berlineses|101:berlinesa|25:berlinesas
+445,berlinés,adj,,190:berlinés|129:berlineses|101:berlinesa|25:berlinesas
 445,calhoun,none,NOUSAGE,445:calhoun
 445,camastro,n,,387:camastro|58:camastros
 445,castaña,n,,445:castaña
@@ -24382,7 +24377,7 @@ count,spanish,pos,flags,usage
 442,fervoroso,adj,,174:fervoroso|129:fervorosa|110:fervorosos|29:fervorosas
 442,flamear,v,,91:flamear|79:flameando|68:flamea|47:flameado|34:flamean|27:flameaba|19:flamee|13:flameaban|12:flameó|11:flameadas|8:flamearon|8:flameo|7:flameados|7:flameará|6:flamearán|5:flameamos
 442,frederik,none,NOUSAGE,442:frederik
-442,gaetano,none,NOUSAGE,442:gaetano
+442,gaetano,n,,442:gaetano
 442,granadero,n,,365:granaderos|77:granadero
 442,hakeem,none,NOUSAGE,442:hakeem
 442,hipertenso,adj,,183:hipertensos|160:hipertenso|62:hipertensa|37:hipertensas
@@ -24492,6 +24487,7 @@ count,spanish,pos,flags,usage
 439,suv,none,NOUSAGE,439:suv
 439,teorizar,v,,150:teorizar|62:teorizado|62:teorizó|44:teorizando|43:teoriza|24:teorizan|12:teorizaba|9:teorizada|7:teoricé|7:teorizamos|6:teorizaron|5:teorice|4:teorizara|4:teorizo
 439,trás,none,NOUSAGE,439:trás
+439,vallisoletano,adj,,191:vallisoletano|137:vallisoletana|101:vallisoletanos|10:vallisoletanas
 439,westchester,none,NOUSAGE,439:westchester
 439,ácaro,n,,353:ácaros|86:ácaro
 438,Fatah,prop,,438:fatah
@@ -24591,7 +24587,6 @@ count,spanish,pos,flags,usage
 435,Electra,prop,,435:electra
 435,abreu,none,NOUSAGE,435:abreu
 435,acuífero,n,,253:acuíferos|182:acuífero
-435,albaneses,none,NOUSAGE,435:albaneses
 435,ambicionar,v,,91:ambiciona|76:ambicionaba|50:ambicionar|44:ambiciono|43:ambicionado|30:ambicionan|21:ambicionas|13:ambicionando|13:ambicioné|12:ambicionó|11:ambicionada|8:ambicionaban|8:ambicionamos|7:ambicione|4:ambicionara|4:ambicionaron
 435,angelus,none,NOUSAGE,435:angelus
 435,bai,none,NOUSAGE,435:bai
@@ -24731,6 +24726,7 @@ count,spanish,pos,flags,usage
 431,torcuato,none,NOUSAGE,431:torcuato
 431,walking,none,NOUSAGE,431:walking
 431,woolf,none,NOUSAGE,431:woolf
+431,yucateco,adj,,158:yucatecos|123:yucateco|121:yucateca|29:yucatecas
 430,Pilato,prop,,430:pilato
 430,Rufino,prop,,430:rufino
 430,Zoila,prop,,430:zoila
