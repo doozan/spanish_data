@@ -7280,7 +7280,7 @@ count,spanish,pos,flags,usage
 3392,expresivo,adj,,1181:expresiva|1075:expresivo|647:expresivos|489:expresivas
 3390,revuelta,n,,2272:revuelta|1118:revueltas
 3389,comunismo,n,,3373:comunismo|16:comunismos
-3388,CAP,n,,3388:cap
+3388,CAP,prop,,3388:cap
 3388,Elsa,prop,,3388:elsa
 3388,burt,none,NOUSAGE,3388:burt
 3385,nobleza,n,,3373:nobleza|12:noblezas
@@ -10578,6 +10578,7 @@ count,spanish,pos,flags,usage
 1873,debra,none,NOUSAGE,1873:debra
 1873,neurótico,adj,,676:neurótica|676:neurótico|367:neuróticos|154:neuróticas
 1872,astronómico,adj,,518:astronómico|467:astronómicos|449:astronómicas|438:astronómica
+1872,sake,n,,1572:sake|278:saki|13:sakes|9:sakis
 1872,trasto,n,,1023:trastos|849:trasto
 1870,abogar,v,,510:aboga|394:abogó|216:abogar|210:abogan|117:abogando|103:abogaba|63:abogaron|49:abogaban|44:abogo|34:abogamos|32:abogue|15:abogará|15:abogaría|12:abogas|11:abogara|11:abogué|10:aboguen|8:abogaré|7:abogarán|5:aboguemos|4:abogarían
 1870,incumplir,v,,341:incumplido|334:incumplir|212:incumple|166:incumpliendo|128:incumplidas|109:incumplió|101:incumplen|75:incumplidos|66:incumpla|58:incumplan|48:incumplieron|25:incumplía|23:incumplían|22:incumples|21:incumplí|18:incumpliste|15:incumpliría|14:incumpliera|12:incumplimos|12:incumplirlas|10:incumplo|9:incumplirlo|8:incumplas|8:incumplirá|7:incumplirse|6:incumplieran|5:incumpliese|5:incumplirán|4:incumplirla|4:incumpliré|4:incumplirían
@@ -11745,7 +11746,6 @@ count,spanish,pos,flags,usage
 1585,espasmo,n,,929:espasmos|656:espasmo
 1585,lu,none,NOUSAGE,1585:lu
 1585,persuasivo,adj,,807:persuasivo|512:persuasiva|167:persuasivos|99:persuasivas
-1585,sake,n,,1572:sake|13:sakes
 1585,toreo,n,,1585:toreo
 1584,Zapata,prop,,1484:zapata|100:zapatas
 1584,angus,none,NOUSAGE,1584:angus
@@ -17640,6 +17640,7 @@ count,spanish,pos,flags,usage
 803,refrigerar,v,,224:refrigerado|176:refrigerados|125:refrigerar|117:refrigerada|51:refrigeradas|30:refrigera|15:refrigerarse|14:refrigeran|13:refrigere|12:refrigerando|8:refrigerarlo|5:refrigeramos|5:refrigeren|4:refrigeraba|4:refrigerarla
 803,senti,none,NOUSAGE,803:senti
 802,BID,prop,,802:bid
+802,McLaren,n,,802:mclaren
 802,aha,none,NOUSAGE,802:aha
 802,chloé,none,NOUSAGE,802:chloé
 802,cóndor,n,,689:cóndor|113:cóndores
@@ -17648,7 +17649,6 @@ count,spanish,pos,flags,usage
 802,estelle,none,NOUSAGE,802:estelle
 802,incredulidad,n,,802:incredulidad
 802,jodie,none,NOUSAGE,802:jodie
-802,mclaren,none,NOUSAGE,802:mclaren
 802,morfológico,adj,,235:morfológicas|194:morfológica|193:morfológico|180:morfológicos
 801,Aquino,prop,,801:aquino
 801,arístides,none,NOUSAGE,801:arístides
@@ -19203,6 +19203,7 @@ count,spanish,pos,flags,usage
 694,shyam,none,NOUSAGE,694:shyam
 694,smitty,none,NOUSAGE,694:smitty
 694,supeditar,v,,179:supeditada|149:supeditado|61:supedita|61:supeditados|53:supeditadas|52:supeditar|39:supeditarse|15:supeditan|14:supeditando|12:supeditó|10:supeditaba|9:supedite|8:supeditará|5:supeditaban|5:supeditaron|5:supeditaría|5:supeditándolo|4:supeditara|4:supeditarlo|4:supedito
+693,Rosy,prop,,693:rosy
 693,carbonato,n,,553:carbonato|140:carbonatos
 693,ene,n,,475:ene|218:enes
 693,fechoría,n,,503:fechorías|190:fechoría
@@ -19210,7 +19211,6 @@ count,spanish,pos,flags,usage
 693,incorregible,adj,,592:incorregible|101:incorregibles
 693,intranquilo,adj,,363:intranquilo|229:intranquila|85:intranquilos|16:intranquilas
 693,mecenas,n,,693:mecenas
-693,rosy,none,NOUSAGE,693:rosy
 693,sato,n,,687:sato|6:satos
 692,bohannon,none,NOUSAGE,692:bohannon
 692,chata,n,,584:chata|108:chatas
