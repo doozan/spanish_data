@@ -14,10 +14,8 @@ ifeq ($(origin .RECIPEPREFIX), undefined)
 endif
 .RECIPEPREFIX = >
 
-BASE_URL := https://dumps.wikimedia.org/other/mediawiki_content_current/enwiktionary/
-DATETAG_PRETTY := $(shell curl -s $(BASE_URL) | grep '>[0-9-]*/<' | tail -1 | cut -b 10-19)
-DATETAG := $(subst -,,$(DATETAG_PRETTY))
-
+DATETAG := $(shell curl -s https://dumps.wikimedia.org/enwiktionary/ | grep '>[0-9]*/<' | cut -b 10-17 | tail -1)
+DATETAG_PRETTY := $(shell date --date="$(DATETAG)" +%Y-%m-%d)
 
 NGRAMDATA := ../ngram_data
 NGYEAR := 1950
@@ -65,9 +63,7 @@ clean:
 
 $(BUILDDIR)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2:
 >   @echo "Making $@..."
->   TARGET_FILENAME=`curl -s $(BASE_URL)/$(DATETAG_PRETTY)/xml/bzip2/SHA256SUMS | grep -o 'enwiktionary.*.xml.bz2' | tail -1`
->   DUMP_URL=$(BASE_URL)/$(DATETAG_PRETTY)/xml/bzip2/$$TARGET_FILENAME
->   curl -s -f --retry 500 --retry-all-errors  "$$DUMP_URL" -o $@
+>   curl -s -f --retry 500 --retry-all-errors  "https://dumps.wikimedia.org/enwiktionary/$(DATETAG)/enwiktionary-$(DATETAG)-pages-articles.xml.bz2" -o $@
 
 # Modules
 
